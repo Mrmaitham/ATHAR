@@ -81,9 +81,22 @@ generated separately and composited in FFmpeg).
 
 ## Voice (ElevenLabs via Higgsfield)
 
-Status: **not yet locked**. Voice must be chosen once from
-`text2speech_v2` (`variant: elevenlabs`) presets and its `voice_id` recorded
-here before the first full voiceover pass.
+**LOCKED**: **Arthur** (male preset), chosen by ear from the built-in preview
+sample after Higgsfield's daily generation grace-period limit blocked
+generating a live narration test.
+
+- **model**: `text2speech_v2`
+- **variant**: `elevenlabs`
+- **voice_type**: `preset`
+- **voice_id**: `30fc8796-ceb6-4a66-b3a7-4a145ef7f346`
+- **Preview used for selection**: https://d1xarpci4ikg0w.cloudfront.net/audio_voice_preset/preview/080fcbab-8be3-4d60-8156-3c3040421e0f.mp3
+
+⚠️ **Pending**: a live narration sample using this voice on actual script
+text has not been generated yet (blocked by the daily grace-period limit at
+selection time). Generate one from the Baggio script's opening lines as
+soon as the limit resets or the plan is upgraded, and confirm it still
+sounds right before voicing the full episode — the preset preview and full
+narration delivery can differ.
 
 ## Narrative/structure reference
 
