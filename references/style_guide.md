@@ -73,11 +73,33 @@ that Higgsfield's dedicated character-sheet workflow explicitly disallows.
 
 ## Data-graphic scenes — Dorktown-style
 
-Status: **not yet locked** — no test render produced yet. To be defined
-before full-episode production: animated maps, timelines, and stat charts,
-Dorktown-style, generated via a to-be-chosen model/workflow (likely a
-different Higgsfield model than the portrait one, or motion-graphics
-generated separately and composited in FFmpeg).
+**LOCKED**: Version C from the 2026-09-20 test batch — `gpt_image_2_5`.
+
+- **Model**: `gpt_image_2_5`
+- **aspect_ratio**: `16:9`
+- **Output format**: PNG
+
+### Locked prompt template (data-graphic scenes)
+
+```
+Sports documentary data visualization frame, Dorktown Secret Base YouTube
+essay style, dark navy background, glowing red animated-looking line graph
+charting [WHAT IS BEING TRACKED, e.g. "a career trajectory across years" /
+"a match scoreline building over 90 minutes" / "a transfer fee climbing to
+a new record"], small abstract silhouette icons marking key moments (not
+real faces or photographs), retro Google-Sheets-chart-meets-map aesthetic,
+clean flat design with subtle grain texture, no text, no logos, no real
+photos
+```
+
+Keep every clause verbatim except the bracketed tracked-metric description
+— this is what varies per scene (goals, transfer fees, timelines, match
+scorelines, career progression, etc).
+
+### Approved reference render
+
+- Job ID: `9d3de4f8-37d4-4960-981f-d5fcbbbdddd5`
+- URL: https://d8j0ntlcm91z4.cloudfront.net/user_3GPnMIBf9MTKG0k3nXluooyuyoI/hf_20260920_015035_9d3de4f8-37d4-4960-981f-d5fcbbbdddd5.png
 
 ## Voice (ElevenLabs via Higgsfield)
 
@@ -90,13 +112,8 @@ generating a live narration test.
 - **voice_type**: `preset`
 - **voice_id**: `30fc8796-ceb6-4a66-b3a7-4a145ef7f346`
 - **Preview used for selection**: https://d1xarpci4ikg0w.cloudfront.net/audio_voice_preset/preview/080fcbab-8be3-4d60-8156-3c3040421e0f.mp3
-
-⚠️ **Pending**: a live narration sample using this voice on actual script
-text has not been generated yet (blocked by the daily grace-period limit at
-selection time). Generate one from the Baggio script's opening lines as
-soon as the limit resets or the plan is upgraded, and confirm it still
-sounds right before voicing the full episode — the preset preview and full
-narration delivery can differ.
+- **Confirmed live narration sample** (episode's actual cold-open lines):
+  https://d8j0ntlcm91z4.cloudfront.net/user_3GPnMIBf9MTKG0k3nXluooyuyoI/hf_20260920_015020_bdbd7c40-ff55-4036-a5cd-44c411694598.mp3
 
 ## Narrative/structure reference
 
