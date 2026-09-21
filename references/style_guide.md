@@ -1,105 +1,113 @@
 # BY ATHAR — Visual & Voice Style Guide
 
-Shared, channel-wide reference. Written once (per the "Step 0" one-time setup in
-`.claude/skills/youtube-studio/SKILL.md`) and reused for every episode. Update
-this file only when a deliberate channel-wide style change is decided — not
-per episode.
+Shared, channel-wide reference. Reused for every episode. Update this file
+only when a deliberate channel-wide style change is decided — not per
+episode.
+
+**⚠️ Superseded 2026-09-21**: the Roberto Baggio episode was built with
+vector-illustration portraits (`recraft_v4_1`) and Dorktown/Secret Base as
+the structure reference. After reviewing that episode, Maitham explicitly
+decided, twice, to move the channel to the Tifo-only reference and the
+duotone-photo portrait style locked below instead — including the
+"photoreal recognizable person" risk that was the original reason for
+choosing vector illustration (Maitham chose to accept that risk; the
+Maldini test render below generated successfully with no refusal). The
+full prior lock is preserved in
+`episodes/roberto-baggio-the-man-who-died-standing/PRODUCTION_LOG.md` and
+that episode's own `production/manifest.json` — it is not repeated here
+since it no longer applies to new episodes.
 
 ---
 
-## Portrait scenes — LOCKED: Tifo-style clean vector illustration
+## Reference channel — LOCKED: Tifo Football by The Athletic
 
-Source of truth: test batch generated 2026-09-20 for the Roberto Baggio
-episode. Version B (vector) was chosen as the channel standard over the
-softer "standard" cel-shaded look (Version A) and the semi-realistic
-painterly look (Version C) — closest match to Tifo Football's crisp,
-flat-color illustrated portraits.
+Sole reference for **both** narrative structure and visual style (replaces
+the previous split reference of Dorktown for structure + Tifo for visuals).
 
-- **Model**: `recraft_v4_1`
-- **model_type**: `vector`
-- **resolution**: `2k`
-- **aspect_ratio**: match the shot (`3:4` for single chest-up portraits,
-  `16:9` for wider narrative scenes)
-- **Output format**: SVG (scalable — good for crisp export at any size)
+- Channel: https://www.youtube.com/channel/UCGYYNGmyhZ_kwBF_lqqXdAQ
+- Reference episode analyzed frame-by-frame and word-by-word: "Xabi Alonso's
+  Chelsea & Tactical Diversity" (7:24 runtime, published 2026-09-21).
+- Publishing pattern (pulled via the channel's public RSS feed — direct
+  YouTube access is blocked in this environment, RSS works):
+  near-daily uploads, mixed formats (deep tactical explainers, a recurring
+  "Who's on my head?" segment, live post-match reactions, historical
+  rankings). The format BY ATHAR imitates specifically is the deep tactical
+  explainer, voice-over only, no host on camera.
 
-### Locked prompt template (portrait scenes)
+### Narrative structure (timestamps from the reference episode)
+| Part | Timing | Function |
+|---|---|---|
+| Hook | 0:00–0:39 | A direct, intellectually complex question (not dramatic/emotional) |
+| Historical context | 0:46–3:57 | Builds "why this matters now" cumulatively, event → consequence → next event |
+| Core analysis | 3:58–7:06 | Breaks the question down with concrete, connected evidence |
+| Outro | 7:07–7:24 | Channel/sponsor plug — BY ATHAR replaces this with its own bumper |
 
-Reusable skeleton — fill in the bracketed identity/wardrobe block per
-subject and per episode, keep every other clause verbatim so all portraits
-share one consistent house style:
+Rules extracted: (1) the hook is a thinking question, not a cliffhanger;
+(2) never open on the subject directly — build why it matters first; (3)
+cumulative build, no scattered trivia; (4) even pacing suited to a single
+uninterrupted voice-over, no dialogue.
 
-```
-Clean vector editorial sports illustration portrait, flat color football
-tactics show style, [SUBJECT AGE/BUILD], [FACE: jaw, nose, eyes, cheekbones,
-skin tone], [HAIR: color, style, part], calm focused expression looking
-slightly off-camera, wearing [ERA-ACCURATE KIT/OUTFIT], chest-up portrait
-(or full-body for wide shots), muted [TEAM COLOR] and cream flat background,
-bold clean outlines, minimal flat shading, consistent vector illustration
-style, no photorealistic texture, no text, no watermark, no logos
-```
+## Episode length — two approved formats (picked per episode, before writing the script)
 
-### Roberto Baggio — locked identity block (reuse across all his scenes)
+- **7–10 minutes** — matches the reference episode's own runtime exactly;
+  for narrower/lighter topics.
+- **10–20 minutes** — the reference structure (hook → context → analysis)
+  stretched with more material; for topics with enough historical/narrative
+  depth (Maitham's decision, for the deeper storytelling the channel wants).
 
-```
-Italian footballer, defined angular jaw, straight prominent nose, deep-set
-brown eyes, high cheekbones, olive skin tone, dark brown hair centrally
-parted and pulled back into a long ponytail
-```
+## Portrait scenes — LOCKED: duotone photographic cutout
 
-Vary only: age (teens at Vicenza → mid-20s at Juventus → late 30s at
-Brescia), kit/team color per era:
-- Vicenza: red-and-white
-- Fiorentina: purple, number 10
-- Juventus: black-and-white stripes, number 10
-- Italy national team: blue, number 18 (1994) / number 10 (1998)
-- AC Milan: red-and-black
-- Bologna: red-and-blue
-- Inter Milan: black-and-blue
-- Brescia: blue-and-white
-
-Editorial-illustration framing note: this is a hand-drawn/vector likeness
-for documentary commentary (same practice as Tifo Football drawing real
-managers/players), not a photoreal reproduction — keep it in this stylized
-vector form for every real person the channel covers, both for house style
-consistency and to stay clear of the "photoreal recognizable person" issue
-that Higgsfield's dedicated character-sheet workflow explicitly disallows.
-
-### Approved reference render (Baggio, Fiorentina era)
-
-- Job ID: `cd082625-4661-4f59-9583-3f16e79e82bf`
-- URL: https://d8j0ntlcm91z4.cloudfront.net/user_3GPnMIBf9MTKG0k3nXluooyuyoI/hf_20260920_005937_cd082625-4661-4f59-9583-3f16e79e82bf.svg
-
----
-
-## Data-graphic scenes — Dorktown-style
-
-**LOCKED**: Version C from the 2026-09-20 test batch — `gpt_image_2_5`.
+Replaces the earlier vector-illustration lock below. Approved 2026-09-21
+after a 3-variant test on Paolo Maldini (`gpt_image_2_5`); variant 1 chosen.
 
 - **Model**: `gpt_image_2_5`
 - **aspect_ratio**: `16:9`
 - **Output format**: PNG
 
-### Locked prompt template (data-graphic scenes)
+### Locked prompt template (portrait scenes)
 
 ```
-Sports documentary data visualization frame, Dorktown Secret Base YouTube
-essay style, dark navy background, glowing red animated-looking line graph
-charting [WHAT IS BEING TRACKED, e.g. "a career trajectory across years" /
-"a match scoreline building over 90 minutes" / "a transfer fee climbing to
-a new record"], small abstract silhouette icons marking key moments (not
-real faces or photographs), retro Google-Sheets-chart-meets-map aesthetic,
-clean flat design with subtle grain texture, no text, no logos, no real
-photos
+Sports analysis broadcast graphic: a duotone black-and-white cutout photo
+of [SUBJECT] in a highly dynamic mid-action pose ([SPECIFIC ACTION, e.g.
+"a sliding tackle", "a driving run", "a mid-air header"]), isolated with
+clean sharp edges, placed on a flat dark forest-green background fading to
+black at the edges, subtle grain texture and faint scattered light dots.
+Bottom-left corner has a bold black rectangular name-tag box with bold
+white sans-serif text reading '[NAME]'. Minimalist tactical football
+analysis video style, high contrast, cinematic documentary feel, no logos,
+no watermark, 16:9 widescreen composition, empty negative space on the
+right side for text overlay.
 ```
 
-Keep every clause verbatim except the bracketed tracked-metric description
-— this is what varies per scene (goals, transfer fees, timelines, match
-scorelines, career progression, etc).
+Vary only the subject, the specific action, and the name-tag text — every
+other clause stays verbatim so all portraits share one house look.
 
-### Approved reference render
+### Approved reference render (Paolo Maldini test, variant 1)
 
-- Job ID: `9d3de4f8-37d4-4960-981f-d5fcbbbdddd5`
-- URL: https://d8j0ntlcm91z4.cloudfront.net/user_3GPnMIBf9MTKG0k3nXluooyuyoI/hf_20260920_015035_9d3de4f8-37d4-4960-981f-d5fcbbbdddd5.png
+https://d8j0ntlcm91z4.cloudfront.net/user_3GPnMIBf9MTKG0k3nXluooyuyoI/hf_20260921_215338_694c19c4-0c8b-4763-9a68-ee739ed504d5.png
+
+## Data-graphic / tactical scenes — LOCKED: Tifo chalkboard style
+
+Replaces the earlier Dorktown line-chart style below, to match the single
+Tifo reference now used for both structure and visuals.
+
+- **Model**: `gpt_image_2_5` (or best available for clean vector-like line art)
+- **aspect_ratio**: `16:9`
+- **Output format**: PNG
+
+### Locked prompt template (tactical/data scenes)
+
+```
+Tactical football analysis chalkboard diagram, flat black background, a
+hand-drawn-style white pitch outline, colored circles representing players
+in [FORMATION/MOVEMENT BEING SHOWN], clean minimalist broadcast graphic
+style matching a tactical analysis YouTube show, no real photos, no text,
+no logos, no watermark
+```
+
+Keep every clause verbatim except the bracketed formation/movement
+description, which varies per scene (a shape, a pressing trap, a passing
+pattern, a statistical comparison rendered as simple bars/icons, etc).
 
 ## Voice (ElevenLabs via Higgsfield)
 
@@ -115,9 +123,23 @@ generating a live narration test.
 - **Confirmed live narration sample** (episode's actual cold-open lines):
   https://d8j0ntlcm91z4.cloudfront.net/user_3GPnMIBf9MTKG0k3nXluooyuyoI/hf_20260920_015020_bdbd7c40-ff55-4036-a5cd-44c411694598.mp3
 
-## Narrative/structure reference
+## Arabic subtitles — sync target
 
-Secret Base — Dorktown series (e.g. "The History of the Atlanta Falcons").
-Used for pacing, chapter structure, hook style, and target runtime
-(20–30 minutes). Content/subject matter is not used as a source — American
-football, unrelated to BY ATHAR's sports coverage.
+Per-scene sync (one cue per scene, as done for the Baggio episode) is the
+floor, not the goal. Target for new episodes: **phrase/sentence-level
+sync** — each Arabic cue timed to match its corresponding English
+phrase's actual timing window from the word-level Whisper transcript, not
+just the outer scene boundary. Word-for-word timing is not attempted
+(timing doesn't transfer 1:1 across languages), but cues should be finer
+than "one block per scene" wherever a scene's narration has more than one
+beat.
+
+## Production pipeline note
+
+The final FFmpeg assembly (concat, Ken Burns per scene, encode) for the
+Baggio episode ran inside a **Higgsfield cloud sandbox** (`sandbox_exec`),
+not this repo's local environment — local Bash/ffmpeg here cannot reach
+the Higgsfield asset CDN or handle a render job at full-episode scale.
+Use `sandbox_exec` for the real assembly step of every episode; local
+`ffmpeg` here is only for small utility tasks (e.g. extracting audio from
+a user-uploaded reference video for analysis).
