@@ -1,0 +1,6 @@
+# Rendered episode media is hosted on Higgsfield's CDN and linked from each
+# episode's PRODUCTION_LOG.md / production/manifest.json instead of being
+# committed here — these files are large, regenerable, and already have a
+# permanent hosted URL.
+episodes/*/final_video.mp4
+episodes/*/production/scenes/
