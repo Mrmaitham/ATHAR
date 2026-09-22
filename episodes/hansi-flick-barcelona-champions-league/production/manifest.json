@@ -1,7 +1,8 @@
 {
   "episode": "Is Hansi Flick Really the Man to Finally Give Barcelona Their Champions League?",
   "voice": {"model": "text2speech_v2", "variant": "elevenlabs", "voice_type": "preset", "voice_id": "30fc8796-ceb6-4a66-b3a7-4a145ef7f346"},
-  "final_video_url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GPnMIBf9MTKG0k3nXluooyuyoI/3327cf24-81de-4920-a2fd-21080cf85df6.mp4",
+  "final_video_url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GPnMIBf9MTKG0k3nXluooyuyoI/71c12f85-dd0b-4496-b2b9-4ed055a8d603.mp4",
+  "final_video_url_v8_superseded": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GPnMIBf9MTKG0k3nXluooyuyoI/3327cf24-81de-4920-a2fd-21080cf85df6.mp4",
   "final_video_url_v5_superseded": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GPnMIBf9MTKG0k3nXluooyuyoI/a1f13413-6856-4c03-88e8-90cd841ff3bc.mp4",
   "final_video_url_v4_superseded": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GPnMIBf9MTKG0k3nXluooyuyoI/5192999f-5460-4c5e-a6b8-cc2268d30e3f.mp4",
   "final_video_url_v3_superseded": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GPnMIBf9MTKG0k3nXluooyuyoI/137e7baf-69e7-49e2-aa5c-815345ec17ae.mp4",
@@ -58,7 +59,8 @@
     {
       "name": "The collapse",
       "source_scene": 10,
-      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GPnMIBf9MTKG0k3nXluooyuyoI/d8297078-f3ff-416e-a5ef-ae7bb9bcab73.mp4",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GPnMIBf9MTKG0k3nXluooyuyoI/5c6f6efe-6c33-4da2-b1ca-b0ba0db0348a.mp4",
+      "url_v2_superseded": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GPnMIBf9MTKG0k3nXluooyuyoI/d8297078-f3ff-416e-a5ef-ae7bb9bcab73.mp4",
       "url_v1_superseded": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GPnMIBf9MTKG0k3nXluooyuyoI/e44dd5db-2601-495f-b5ee-d6ea73204fd6.mp4",
       "duration_seconds": 48.6,
       "vertical": "1080x1920",
@@ -68,7 +70,8 @@
     {
       "name": "The hook",
       "source_scene": 1,
-      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GPnMIBf9MTKG0k3nXluooyuyoI/2c4e2f92-5cf3-4d4a-bf8e-b065176cf1ea.mp4",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GPnMIBf9MTKG0k3nXluooyuyoI/1cd0c5f0-37d0-4ef2-9275-e84a0efc23af.mp4",
+      "url_v2_superseded": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GPnMIBf9MTKG0k3nXluooyuyoI/2c4e2f92-5cf3-4d4a-bf8e-b065176cf1ea.mp4",
       "url_v1_superseded": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GPnMIBf9MTKG0k3nXluooyuyoI/39237217-0203-481e-9058-bcb9fe46362f.mp4",
       "duration_seconds": 40.2,
       "vertical": "1080x1920",
@@ -78,7 +81,8 @@
     {
       "name": "The diagnosis",
       "source_scenes": [8, 12],
-      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GPnMIBf9MTKG0k3nXluooyuyoI/f43f145c-e8ed-465b-92ff-12e1539f0909.mp4",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GPnMIBf9MTKG0k3nXluooyuyoI/1ba2a209-ae97-47cc-9aa8-8c0a715e698a.mp4",
+      "url_v2_superseded": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GPnMIBf9MTKG0k3nXluooyuyoI/f43f145c-e8ed-465b-92ff-12e1539f0909.mp4",
       "url_v1_superseded": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GPnMIBf9MTKG0k3nXluooyuyoI/1b16eb78-ad08-4a13-981c-fd505dc19c25.mp4",
       "duration_seconds": 111.48,
       "vertical": "1080x1920",

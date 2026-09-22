@@ -1,13 +1,17 @@
 # Production Log — Is Hansi Flick Really the Man to Finally Give Barcelona Their Champions League?
 
-## Final video (v8 — current)
+## Final video (v9 — current)
 Local: `final_video.mp4`
-Hosted: https://d2ol7oe51mr4n9.cloudfront.net/user_3GPnMIBf9MTKG0k3nXluooyuyoI/3327cf24-81de-4920-a2fd-21080cf85df6.mp4
-(v5, superseded: https://d2ol7oe51mr4n9.cloudfront.net/user_3GPnMIBf9MTKG0k3nXluooyuyoI/a1f13413-6856-4c03-88e8-90cd841ff3bc.mp4 —
+Hosted: https://d2ol7oe51mr4n9.cloudfront.net/user_3GPnMIBf9MTKG0k3nXluooyuyoI/71c12f85-dd0b-4496-b2b9-4ed055a8d603.mp4
+(v8, superseded: https://d2ol7oe51mr4n9.cloudfront.net/user_3GPnMIBf9MTKG0k3nXluooyuyoI/3327cf24-81de-4920-a2fd-21080cf85df6.mp4 —
+ v5, superseded: https://d2ol7oe51mr4n9.cloudfront.net/user_3GPnMIBf9MTKG0k3nXluooyuyoI/a1f13413-6856-4c03-88e8-90cd841ff3bc.mp4 —
  v4, superseded: https://d2ol7oe51mr4n9.cloudfront.net/user_3GPnMIBf9MTKG0k3nXluooyuyoI/5192999f-5460-4c5e-a6b8-cc2268d30e3f.mp4 —
  v3, superseded: https://d2ol7oe51mr4n9.cloudfront.net/user_3GPnMIBf9MTKG0k3nXluooyuyoI/137e7baf-69e7-49e2-aa5c-815345ec17ae.mp4 —
  v2, superseded: https://d2ol7oe51mr4n9.cloudfront.net/user_3GPnMIBf9MTKG0k3nXluooyuyoI/b99a3525-628e-4c26-9537-ecd4b6797254.mp4 —
  v1, superseded: https://d2ol7oe51mr4n9.cloudfront.net/user_3GPnMIBf9MTKG0k3nXluooyuyoI/b298f61f-0f77-4074-9546-ef20816193f6.mp4)
+
+### v8 → v9 fix: Arabic subtitles retranslated to full Modern Standard Arabic
+Maitham caught that the Arabic translation (`arabic_sentences.json`, written back in v1) mixed MSA with Kuwaiti/Gulf colloquial words (مو، وش، يقدر، اللي، بس، هالمرة، ...) inconsistently across the script. Asked for a recommendation: rewrote every sentence group in consistent fusha, on the reasoning that (1) written subtitles conventionally stay in MSA even on channels whose spoken content is dialectal, (2) MSA reaches the whole Arab-speaking audience rather than just the Gulf, and (3) it matches the channel's serious analytical tone better than colloquial phrasing. Maitham approved this direction. Kept the exact same 5,3,4,1,5,2,3,5,3,5,7,5,2,3,4,4 sentence-group counts per scene so `build_srts.py`'s proportional timing needed no changes; regenerated `subtitles_ar.srt` (61 cues, same timing as before) and re-burned it into the main video and all 3 Shorts. Also took the opportunity to properly fix the same PlayResX/PlayResY scaling issue documented below for the Shorts (see "Subtitle rendering bug fix") in the main video's own subtitle burn, which had been relying on the buggy 384x288 default happening to look acceptable at 1920x1080 — now explicitly set to `PlayResX: 1920 / PlayResY: 1080` with real-pixel style values (Fontsize 42, Outline 3, MarginV 80).
 
 ### v5 → v8 fixes (per Maitham's review — the soft-subtitle/music delivery gap, then a music-fit audition)
 1. **Arabic subtitles are now burned into the video** (v6). v5 kept them as a separate `.srt` (correct for an eventual YouTube upload, which reads sidecar caption files), but Maitham was previewing the raw video file directly — no player was loading the sidecar, so it looked like the subtitle work never happened. Re-rendered with `subtitles=subtitles_ar.srt` baked into the picture so they're visible in any player. The original soft `.srt` files are kept as-is for the actual YouTube upload (captions should stay toggleable there); the burned-in version is this delivered `final_video.mp4`.
@@ -44,7 +48,7 @@ Script was written and word-counted to land at an estimated ~10.5-11.5 min based
 ## Background music
 Added in v5, revised through v8 — see the v5→v8 fixes section above for the full story (Higgsfield has no usable standalone music model; sourced **"Gothamlicious" by Kevin MacLeod, CC BY 3.0**, from incompetech.com's own catalog; dynamic sidechain-ducked mix). Required attribution line is in `metadata.md`'s description.
 
-## Shorts (3x — done, v2 subtitle fix applied)
+## Shorts (3x — done, v3 with MSA retranslation)
 All 3 built from the pre-music v4 video (clean narration), independently mixed with the same Gothamlicious/ducking recipe, vertical 1080x1920 (blurred-background fill from the 16:9 source), Arabic subtitles burned in, ~3s vertical "BY ATHAR" bumper appended. URLs in `production/manifest.json`'s `shorts` array (superseded v1 URLs kept for reference):
 
 ### Subtitle rendering bug fix (v1→v2 of the shorts)
