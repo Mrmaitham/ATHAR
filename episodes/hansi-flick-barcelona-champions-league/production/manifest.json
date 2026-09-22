@@ -1,11 +1,19 @@
 {
   "episode": "Is Hansi Flick Really the Man to Finally Give Barcelona Their Champions League?",
   "voice": {"model": "text2speech_v2", "variant": "elevenlabs", "voice_type": "preset", "voice_id": "30fc8796-ceb6-4a66-b3a7-4a145ef7f346"},
-  "final_video_url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GPnMIBf9MTKG0k3nXluooyuyoI/5192999f-5460-4c5e-a6b8-cc2268d30e3f.mp4",
+  "final_video_url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GPnMIBf9MTKG0k3nXluooyuyoI/a1f13413-6856-4c03-88e8-90cd841ff3bc.mp4",
+  "final_video_url_v4_superseded": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GPnMIBf9MTKG0k3nXluooyuyoI/5192999f-5460-4c5e-a6b8-cc2268d30e3f.mp4",
   "final_video_url_v3_superseded": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GPnMIBf9MTKG0k3nXluooyuyoI/137e7baf-69e7-49e2-aa5c-815345ec17ae.mp4",
   "final_video_url_v2_superseded": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GPnMIBf9MTKG0k3nXluooyuyoI/b99a3525-628e-4c26-9537-ecd4b6797254.mp4",
   "final_video_url_v1_superseded": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GPnMIBf9MTKG0k3nXluooyuyoI/b298f61f-0f77-4074-9546-ef20816193f6.mp4",
   "duration_seconds": 527.736016,
+  "background_music": {
+    "track": "Interloper",
+    "artist": "Kevin MacLeod (incompetech.com)",
+    "license": "Creative Commons Attribution 3.0 (CC BY 3.0)",
+    "attribution_required_in_description": "Interloper by Kevin MacLeod (incompetech.com) — Licensed under Creative Commons: By Attribution 3.0 — https://creativecommons.org/licenses/by/3.0/",
+    "mix_note": "Looped/crossfaded to full runtime, low background level (~-18dB) under narration, 2s fade in/out, no dynamic ducking applied"
+  },
   "flick_identity_reference_image": "https://d8j0ntlcm91z4.cloudfront.net/user_3GPnMIBf9MTKG0k3nXluooyuyoI/hf_20260922_000412_8544290e-5eb1-43cb-9432-4d1115186f96.png",
   "scenes": [
     {"id": 1, "type": "portrait", "duration": 37.146122, "image_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3GPnMIBf9MTKG0k3nXluooyuyoI/hf_20260922_001443_9257b1a7-91a1-4eee-8682-994282f17975.png", "audio_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3GPnMIBf9MTKG0k3nXluooyuyoI/hf_20260921_230340_55050091-574e-4f44-b90c-ea2ea8ec8222.mp3"},

@@ -1,11 +1,15 @@
 # Production Log — Is Hansi Flick Really the Man to Finally Give Barcelona Their Champions League?
 
-## Final video (v4 — current)
+## Final video (v5 — current)
 Local: `final_video.mp4`
-Hosted: https://d2ol7oe51mr4n9.cloudfront.net/user_3GPnMIBf9MTKG0k3nXluooyuyoI/5192999f-5460-4c5e-a6b8-cc2268d30e3f.mp4
-(v3, superseded: https://d2ol7oe51mr4n9.cloudfront.net/user_3GPnMIBf9MTKG0k3nXluooyuyoI/137e7baf-69e7-49e2-aa5c-815345ec17ae.mp4 —
+Hosted: https://d2ol7oe51mr4n9.cloudfront.net/user_3GPnMIBf9MTKG0k3nXluooyuyoI/a1f13413-6856-4c03-88e8-90cd841ff3bc.mp4
+(v4, superseded: https://d2ol7oe51mr4n9.cloudfront.net/user_3GPnMIBf9MTKG0k3nXluooyuyoI/5192999f-5460-4c5e-a6b8-cc2268d30e3f.mp4 —
+ v3, superseded: https://d2ol7oe51mr4n9.cloudfront.net/user_3GPnMIBf9MTKG0k3nXluooyuyoI/137e7baf-69e7-49e2-aa5c-815345ec17ae.mp4 —
  v2, superseded: https://d2ol7oe51mr4n9.cloudfront.net/user_3GPnMIBf9MTKG0k3nXluooyuyoI/b99a3525-628e-4c26-9537-ecd4b6797254.mp4 —
  v1, superseded: https://d2ol7oe51mr4n9.cloudfront.net/user_3GPnMIBf9MTKG0k3nXluooyuyoI/b298f61f-0f77-4074-9546-ef20816193f6.mp4)
+
+### v4 → v5 fix: background music bed added
+Higgsfield's only music model (`sonilo_music`) is restricted to its internal game-generation pipeline and cannot be used standalone (confirmed again this pass). Sourced **"Interloper" by Kevin MacLeod (incompetech.com)**, licensed **CC BY 3.0**, verified via its Wikimedia Commons file page before use. Downloaded the original 320kbps MP3 directly from incompetech.com (4:22, mono track duration 262.66s). Looped it to the full 527.74s runtime using two crossfaded joins (5s triangular crossfade each) rather than a hard loop cut, then applied a 2s fade-in/out and lowered it to a background level (~-18dB, `volume=0.12`) before mixing under the existing narration audio (`amix`, `normalize=0` so narration loudness is untouched). Video stream was not re-encoded — only the audio track changed, so visual quality/timing across all scenes is byte-identical to v4. QC via `volumedetect`: overall mean -14.9dB (essentially unchanged from the -14.8dB pre-music baseline), confirming narration is not masked; the music-only bumper tail sits at -41.9dB mean, appropriately understated. **License requires attribution in the video description** — added as a required line in `metadata.md`'s description block.
 
 - 1920x1080, h264/aac, **8:47.7 runtime** (527.74s, +0.06s vs v1-v3 — see v3→v4 fix below for why) — only the visual treatment inside scenes has changed across versions, so the original subtitle timing stayed valid throughout and was never regenerated.
 

@@ -7,17 +7,19 @@ Is Hansi Flick Really the Man to Finally Give Barcelona Their Champions League?
 Hansi Flick has won Barcelona back-to-back La Liga titles. He's also lost two straight Champions League knockout ties to the exact same tactical flaw — a two-goal collapse against Inter Milan in 2025, then the same pattern, earlier, against Atlético Madrid in 2026. This is the story of how Flick built one of the most exciting attacks in Europe, why that same system keeps breaking against elite opposition, and whether a rebuilt squad — Rodri, Anthony Gordon, Karim Adeyemi — is enough to finally fix it.
 
 00:00 The real question
-00:35 Bayern, 2020: the proof he can do it
-01:05 Germany: the same coach, a different outcome
-01:55 Barcelona, July 2024
-02:20 How this Barcelona actually plays
-03:15 The Inter Milan semi-final
-04:35 Season two, the same script — earlier
-05:25 What's actually going wrong
-06:10 The summer 2026 rebuild
-07:05 Still an open question
+00:37 Bayern, 2020: the proof he can do it
+01:31 Germany: the same coach, a different outcome
+02:07 Barcelona, July 2024
+02:37 How this Barcelona actually plays
+03:36 The Inter Milan semi-final
+04:50 Season two, the same script — earlier
+05:41 What's actually going wrong
+06:48 The summer 2026 rebuild
+08:00 Still an open question
 
 If this breakdown helped you see the pattern, subscribe to BY ATHAR — more deep dives into the tactics behind the biggest stories in football are coming.
+
+Music: "Interloper" by Kevin MacLeod (incompetech.com) — Licensed under Creative Commons: By Attribution 3.0 — https://creativecommons.org/licenses/by/3.0/
 
 ## Tags
 Hansi Flick, FC Barcelona, Champions League, La Liga, football tactics, Barcelona tactics, Inter Milan, Atlético Madrid, Lamine Yamal, Pedri, Rodri, football analysis, soccer tactics, BY ATHAR
