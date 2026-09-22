@@ -1,15 +1,19 @@
 # Production Log — Is Hansi Flick Really the Man to Finally Give Barcelona Their Champions League?
 
-## Final video (v5 — current)
+## Final video (v8 — current)
 Local: `final_video.mp4`
-Hosted: https://d2ol7oe51mr4n9.cloudfront.net/user_3GPnMIBf9MTKG0k3nXluooyuyoI/a1f13413-6856-4c03-88e8-90cd841ff3bc.mp4
-(v4, superseded: https://d2ol7oe51mr4n9.cloudfront.net/user_3GPnMIBf9MTKG0k3nXluooyuyoI/5192999f-5460-4c5e-a6b8-cc2268d30e3f.mp4 —
+Hosted: https://d2ol7oe51mr4n9.cloudfront.net/user_3GPnMIBf9MTKG0k3nXluooyuyoI/3327cf24-81de-4920-a2fd-21080cf85df6.mp4
+(v5, superseded: https://d2ol7oe51mr4n9.cloudfront.net/user_3GPnMIBf9MTKG0k3nXluooyuyoI/a1f13413-6856-4c03-88e8-90cd841ff3bc.mp4 —
+ v4, superseded: https://d2ol7oe51mr4n9.cloudfront.net/user_3GPnMIBf9MTKG0k3nXluooyuyoI/5192999f-5460-4c5e-a6b8-cc2268d30e3f.mp4 —
  v3, superseded: https://d2ol7oe51mr4n9.cloudfront.net/user_3GPnMIBf9MTKG0k3nXluooyuyoI/137e7baf-69e7-49e2-aa5c-815345ec17ae.mp4 —
  v2, superseded: https://d2ol7oe51mr4n9.cloudfront.net/user_3GPnMIBf9MTKG0k3nXluooyuyoI/b99a3525-628e-4c26-9537-ecd4b6797254.mp4 —
  v1, superseded: https://d2ol7oe51mr4n9.cloudfront.net/user_3GPnMIBf9MTKG0k3nXluooyuyoI/b298f61f-0f77-4074-9546-ef20816193f6.mp4)
 
-### v4 → v5 fix: background music bed added
-Higgsfield's only music model (`sonilo_music`) is restricted to its internal game-generation pipeline and cannot be used standalone (confirmed again this pass). Sourced **"Interloper" by Kevin MacLeod (incompetech.com)**, licensed **CC BY 3.0**, verified via its Wikimedia Commons file page before use. Downloaded the original 320kbps MP3 directly from incompetech.com (4:22, mono track duration 262.66s). Looped it to the full 527.74s runtime using two crossfaded joins (5s triangular crossfade each) rather than a hard loop cut, then applied a 2s fade-in/out and lowered it to a background level (~-18dB, `volume=0.12`) before mixing under the existing narration audio (`amix`, `normalize=0` so narration loudness is untouched). Video stream was not re-encoded — only the audio track changed, so visual quality/timing across all scenes is byte-identical to v4. QC via `volumedetect`: overall mean -14.9dB (essentially unchanged from the -14.8dB pre-music baseline), confirming narration is not masked; the music-only bumper tail sits at -41.9dB mean, appropriately understated. **License requires attribution in the video description** — added as a required line in `metadata.md`'s description block.
+### v5 → v8 fixes (per Maitham's review — the soft-subtitle/music delivery gap, then a music-fit audition)
+1. **Arabic subtitles are now burned into the video** (v6). v5 kept them as a separate `.srt` (correct for an eventual YouTube upload, which reads sidecar caption files), but Maitham was previewing the raw video file directly — no player was loading the sidecar, so it looked like the subtitle work never happened. Re-rendered with `subtitles=subtitles_ar.srt` baked into the picture so they're visible in any player. The original soft `.srt` files are kept as-is for the actual YouTube upload (captions should stay toggleable there); the burned-in version is this delivered `final_video.mp4`.
+2. **Music level raised, then made dynamic** (v6→v7). The v5 mix (`volume=0.12`, ~-18dB under narration) measured correctly but was inaudible in practice — continuous narration psychoacoustically masks a constant quiet bed. v6 raised it to `volume=0.35`; still reported as inaudible. v7 rebuilt the mix with **sidechain compression** (`sidechaincompress` keyed off the narration track: threshold 0.06, ratio 12, attack 10ms, release 100ms) on top of a much higher baseline (`volume=0.55`, ~-5dB alone) — the music now genuinely ducks under speech and swells audibly in the gaps between sentences and at scene transitions, verified both numerically (`volumedetect` on isolated windows) and by ear via short sample clips sent directly to Maitham.
+3. **Track swapped from Interloper to Gothamlicious** (v7→v8, current). Once the ducked mix was clearly audible, Maitham asked whether Interloper (tense/thriller-flavored) actually fit the channel's measured analytical tone, or whether better options existed. Auditioned 3 alternatives on an identical sample segment for a fair comparison — **Impact Moderato**, **Crusade - Heavy Industry**, and **Gothamlicious** (all Kevin MacLeod, CC BY 3.0, sourced via incompetech.com's own `pieces.json` catalog for verified filenames rather than guessing track names) — and Maitham picked **Gothamlicious** ("modern cinematic tension", Epic/Dark/Driving). Rebuilt the full-length bed by crossfade-looping the 48s track 12x (3s crossfades) to cover the 527.7s runtime, same ducking recipe as v7.
+4. Video stream is untouched since v4 across all of this — only the audio mix and the subtitle burn-in changed, so visual quality/timing is otherwise identical.
 
 - 1920x1080, h264/aac, **8:47.7 runtime** (527.74s, +0.06s vs v1-v3 — see v3→v4 fix below for why) — only the visual treatment inside scenes has changed across versions, so the original subtitle timing stayed valid throughout and was never regenerated.
 
@@ -35,12 +39,23 @@ Script was written and word-counted to land at an estimated ~10.5-11.5 min based
 
 ## Captions
 - `subtitles_en.srt` and `subtitles_ar.srt` — **61 cues each**, phrase/sentence-level (not per-scene, not word-level), timed by allocating each scene's exact known duration proportionally across its sentence groups by character length. This is a step up from the Baggio episode's per-scene-only Arabic timing, per this session's style-guide update, though it is a proportional estimate rather than true per-word ASR timing (word-level ASR timing was captured via Whisper on the full mix for validation, but sentence-level text was substituted for the raw ASR transcript to avoid the proper-noun misspellings Whisper produced — "Flix" for "Flick", "Adayemi" for "Adeyemi" — the same class of error corrected by hand in the Baggio episode).
-- Both are **soft subtitle files, not burned into the video.**
+- Both files still exist as **soft, toggleable subtitles for the actual YouTube upload.** As of v6, `final_video.mp4` itself also has the Arabic track **burned into the picture** (see v5→v8 fixes above) — this was needed because Maitham was reviewing the raw file directly, where a sidecar `.srt` never renders.
 
-## Known gaps vs. the full SKILL.md checklist (not yet done)
-- **No background music bed** — same Higgsfield limitation noted in the Baggio log (its music model is restricted to the game-generation pipeline). Not sourced from elsewhere this pass.
-- **Thumbnail concept, title, description, tags, and 3 Shorts are planned in `metadata.md` but not yet rendered/cut.**
-- **Formal end-to-end QC pass**: spot-checked (audio not silent — confirmed via `volumedetect`, mean level -14.8dB, no clipping; correct 1920x1080 h264/aac stream layout; 5 of 16 scene images visually reviewed for style-guide adherence) rather than reviewed frame-by-frame across the full 8:48.
+## Background music
+Added in v5, revised through v8 — see the v5→v8 fixes section above for the full story (Higgsfield has no usable standalone music model; sourced **"Gothamlicious" by Kevin MacLeod, CC BY 3.0**, from incompetech.com's own catalog; dynamic sidechain-ducked mix). Required attribution line is in `metadata.md`'s description.
+
+## Shorts (3x — done)
+All 3 built from the pre-music v4 video (clean narration), independently mixed with the same Gothamlicious/ducking recipe, vertical 1080x1920 (blurred-background fill from the 16:9 source), Arabic subtitles burned in, ~3s vertical "BY ATHAR" bumper appended. URLs in `production/manifest.json`'s `shorts` array:
+1. **The collapse** (scene 10, 48.6s)
+2. **The hook** (scene 1, 40.2s)
+3. **The diagnosis** (scenes 8+12 concatenated, 111.5s — on the longer side for a Short, but covers the episode's full tactical argument in one piece)
+
+## Thumbnail, title, description, tags — done
+`thumbnail.jpg` in this folder; `upload/title.txt`, `upload/description.txt`, `upload/tags.txt` are copy-paste-ready for the actual YouTube upload.
+
+## Known gaps vs. the full SKILL.md checklist
+- **Formal end-to-end QC pass on v8**: the v1-v4 visual QC (frame-by-frame viewer review) still applies since the video track hasn't changed since v4; the v5-v8 audio/subtitle changes were verified via `volumedetect` on isolated windows plus direct sample clips sent to Maitham for listening, not a full re-watch of all 8:48 with the new mix.
+- **Video file size vs. 3 Shorts one-piece delivery**: all 4 video files (main + 3 shorts) live on Higgsfield's CDN per `manifest.json`, not in this repo (see root `.gitignore`) — Maitham downloads/uploads them directly from those links when ready to publish.
 
 ## Visual identity note
 This episode uses the **duotone photographic** portrait style (dark green-to-black background, dynamic-pose cutout, bold name-tag box) approved this session on a Paolo Maldini test — a deliberate change from the Baggio episode's locked vector-illustration style. See `references/style_guide.md` at repo root for the full rationale and the "photoreal recognizable person" risk Maitham chose to accept.
