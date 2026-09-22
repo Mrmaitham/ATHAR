@@ -1,14 +1,18 @@
 # Production Log — Is Hansi Flick Really the Man to Finally Give Barcelona Their Champions League?
 
-## Final video (v9 — current)
+## Final video (v10 — current)
 Local: `final_video.mp4`
-Hosted: https://d2ol7oe51mr4n9.cloudfront.net/user_3GPnMIBf9MTKG0k3nXluooyuyoI/71c12f85-dd0b-4496-b2b9-4ed055a8d603.mp4
-(v8, superseded: https://d2ol7oe51mr4n9.cloudfront.net/user_3GPnMIBf9MTKG0k3nXluooyuyoI/3327cf24-81de-4920-a2fd-21080cf85df6.mp4 —
+Hosted: https://d2ol7oe51mr4n9.cloudfront.net/user_3GPnMIBf9MTKG0k3nXluooyuyoI/cec598ca-0c21-4fe4-b11f-026428ccff93.mp4
+(v9, superseded: https://d2ol7oe51mr4n9.cloudfront.net/user_3GPnMIBf9MTKG0k3nXluooyuyoI/71c12f85-dd0b-4496-b2b9-4ed055a8d603.mp4 —
+ v8, superseded: https://d2ol7oe51mr4n9.cloudfront.net/user_3GPnMIBf9MTKG0k3nXluooyuyoI/3327cf24-81de-4920-a2fd-21080cf85df6.mp4 —
  v5, superseded: https://d2ol7oe51mr4n9.cloudfront.net/user_3GPnMIBf9MTKG0k3nXluooyuyoI/a1f13413-6856-4c03-88e8-90cd841ff3bc.mp4 —
  v4, superseded: https://d2ol7oe51mr4n9.cloudfront.net/user_3GPnMIBf9MTKG0k3nXluooyuyoI/5192999f-5460-4c5e-a6b8-cc2268d30e3f.mp4 —
  v3, superseded: https://d2ol7oe51mr4n9.cloudfront.net/user_3GPnMIBf9MTKG0k3nXluooyuyoI/137e7baf-69e7-49e2-aa5c-815345ec17ae.mp4 —
  v2, superseded: https://d2ol7oe51mr4n9.cloudfront.net/user_3GPnMIBf9MTKG0k3nXluooyuyoI/b99a3525-628e-4c26-9537-ecd4b6797254.mp4 —
  v1, superseded: https://d2ol7oe51mr4n9.cloudfront.net/user_3GPnMIBf9MTKG0k3nXluooyuyoI/b298f61f-0f77-4074-9546-ef20816193f6.mp4)
+
+### v9 → v10 fix: subtitle/name-tag overlap in portrait scenes
+Asked to review the full v9 as a viewer, I sampled frames across the whole runtime and found the burned Arabic subtitle's second line overlapping the bottom-left name-tag box ("Hansi Flick", "Bayern Munich, 2019", ...) in every portrait scene — the two elements sit at almost the same height, so a 2-line cue collides with the tag and both become harder to read. Confirmed this was specific to the main video (all 3 Shorts already had enough clearance from their own MarginV=160 in the vertical layout). Root cause: the main video's `MarginV` (80px, ~7.4% of the 1080px frame height) placed the subtitle block's bottom edge right at the top of the tag box. Fixed by raising `MarginV` to 170 in `subtitles_ar_v10.ass`, verified clean separation on both frames that showed the collision (scene 1 and scene 16) before re-rendering the full video. Only the subtitle burn changed — audio mix and every other visual are identical to v9.
 
 ### v8 → v9 fix: Arabic subtitles retranslated to full Modern Standard Arabic
 Maitham caught that the Arabic translation (`arabic_sentences.json`, written back in v1) mixed MSA with Kuwaiti/Gulf colloquial words (مو، وش، يقدر، اللي، بس، هالمرة، ...) inconsistently across the script. Asked for a recommendation: rewrote every sentence group in consistent fusha, on the reasoning that (1) written subtitles conventionally stay in MSA even on channels whose spoken content is dialectal, (2) MSA reaches the whole Arab-speaking audience rather than just the Gulf, and (3) it matches the channel's serious analytical tone better than colloquial phrasing. Maitham approved this direction. Kept the exact same 5,3,4,1,5,2,3,5,3,5,7,5,2,3,4,4 sentence-group counts per scene so `build_srts.py`'s proportional timing needed no changes; regenerated `subtitles_ar.srt` (61 cues, same timing as before) and re-burned it into the main video and all 3 Shorts. Also took the opportunity to properly fix the same PlayResX/PlayResY scaling issue documented below for the Shorts (see "Subtitle rendering bug fix") in the main video's own subtitle burn, which had been relying on the buggy 384x288 default happening to look acceptable at 1920x1080 — now explicitly set to `PlayResX: 1920 / PlayResY: 1080` with real-pixel style values (Fontsize 42, Outline 3, MarginV 80).
