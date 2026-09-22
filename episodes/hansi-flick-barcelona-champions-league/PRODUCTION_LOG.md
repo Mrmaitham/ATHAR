@@ -1,12 +1,16 @@
 # Production Log — Is Hansi Flick Really the Man to Finally Give Barcelona Their Champions League?
 
-## Final video (v3 — current)
+## Final video (v4 — current)
 Local: `final_video.mp4`
-Hosted: https://d2ol7oe51mr4n9.cloudfront.net/user_3GPnMIBf9MTKG0k3nXluooyuyoI/137e7baf-69e7-49e2-aa5c-815345ec17ae.mp4
-(v2, superseded: https://d2ol7oe51mr4n9.cloudfront.net/user_3GPnMIBf9MTKG0k3nXluooyuyoI/b99a3525-628e-4c26-9537-ecd4b6797254.mp4 —
+Hosted: https://d2ol7oe51mr4n9.cloudfront.net/user_3GPnMIBf9MTKG0k3nXluooyuyoI/5192999f-5460-4c5e-a6b8-cc2268d30e3f.mp4
+(v3, superseded: https://d2ol7oe51mr4n9.cloudfront.net/user_3GPnMIBf9MTKG0k3nXluooyuyoI/137e7baf-69e7-49e2-aa5c-815345ec17ae.mp4 —
+ v2, superseded: https://d2ol7oe51mr4n9.cloudfront.net/user_3GPnMIBf9MTKG0k3nXluooyuyoI/b99a3525-628e-4c26-9537-ecd4b6797254.mp4 —
  v1, superseded: https://d2ol7oe51mr4n9.cloudfront.net/user_3GPnMIBf9MTKG0k3nXluooyuyoI/b298f61f-0f77-4074-9546-ef20816193f6.mp4)
 
-- 1920x1080, h264/aac, **8:47.7 runtime** (527.68s) — unchanged since v1; only the visual treatment inside scenes has changed across versions, so the original subtitle timing stayed valid throughout and was never regenerated.
+- 1920x1080, h264/aac, **8:47.7 runtime** (527.74s, +0.06s vs v1-v3 — see v3→v4 fix below for why) — only the visual treatment inside scenes has changed across versions, so the original subtitle timing stayed valid throughout and was never regenerated.
+
+### v3 → v4 fix (per Maitham's request after the viewer-perspective review)
+Scene 5 (Germany) originally showed a "journey/roadmap" graphic ending in a shield/trophy icon — visually implying success, while the narration for that scene is entirely negative (2022 World Cup group-stage exit, poor 2023 form, sacked after a heavy loss to Japan). Regenerated as a proper **declining results timeline**: German national-team crest at the top, a jagged downward line through red X markers (group-stage exit, then a run of losses), ending in a red downward arrow into a broken exit door — matching the original script intent ("results timeline sliding downward") and the negative narration. Only this one scene's image changed; audio and every other scene are untouched. Spliced into the existing render via stream-copy (no full re-encode) — cut the video before/after the scene 5 window at the nearest keyframes, built a fresh ~36.4s Ken Burns clip from the new image against the *original, unchanged* scene 5 narration audio, and concatenated the three pieces. This is why total runtime is 0.06s longer than v1-v3 (keyframe-snapped cut points didn't land on the exact original scene boundary) — imperceptible, and well within the slack already inherent in the phrase-level subtitle timing.
 - 16 narrated scenes + 1 outro bumper (17 total), each scene's video length equals its narration clip's exact duration — scene/audio sync is exact by construction.
 - Voice: Arthur (ElevenLabs via Higgsfield `text2speech_v2`, locked in `references/style_guide.md` at repo root).
 - Visuals: duotone photographic cutout portraits (8 scenes, one consistent identity — see below) + Tifo-style static data-graphic scenes (5) + progressive multi-state chalkboard diagrams (3), all `gpt_image_2_5`.
