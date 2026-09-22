@@ -24,8 +24,8 @@ Music: "Interloper" by Kevin MacLeod (incompetech.com) — Licensed under Creati
 ## Tags
 Hansi Flick, FC Barcelona, Champions League, La Liga, football tactics, Barcelona tactics, Inter Milan, Atlético Madrid, Lamine Yamal, Pedri, Rodri, football analysis, soccer tactics, BY ATHAR
 
-## Thumbnail concept
-Reuse scene 1 (Flick, arms crossed, dark green-to-black background, "Hansi Flick" name-tag) with a bold overlay headline text treatment added in the thumbnail pass, e.g. "CAN HE FINALLY WIN IT?" in the empty right-side negative space — same visual identity as the video, no separate style.
+## Thumbnail
+`thumbnail.jpg` (1280x720) — done. Scene 1's portrait (Flick, arms crossed, dark green-to-black background, "Hansi Flick" name-tag) with a bold "CAN HE FINALLY WIN IT?" headline (Metropolis ExtraBold, white with black stroke) in the empty right-side space, plus a thin brand-green accent underline.
 
 ## Shorts (3x, from strongest moments)
 1. **The collapse** — scene 10 narration (San Siro, 88th minute lead to 99th-minute elimination). Highest emotional peak in the episode.
