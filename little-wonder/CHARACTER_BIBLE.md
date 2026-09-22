@@ -99,7 +99,7 @@ Reference image 2 = HOOR: 2-year-old toddler girl, curly dark hair in two small 
    - المرحلة ٢: بعد التجربة الأولى، نختار أفضل لقطة لكل شخصية ونستخدم صوتها كـ `audio_references` في كل اللقطات الجاية — يعني الصوت نفسه مصدره التوليد، بس يصير ثابت.
 5. **خطة بديلة** لو لقطة طلعت الشفايف فيها مو متطابقة: إعادة توليدها بس (مو المشهد كله).
 
-### وصف الصوت الثابت (مقترح — بانتظار موافقة ميثم)
+### وصف الصوت الثابت (معتمد من ميثم)
 
 | الشخصية | Voice description |
 |---|---|
@@ -107,8 +107,15 @@ Reference image 2 = HOOR: 2-year-old toddler girl, curly dark hair in two small 
 | ZOOZOO | clear, soft-spoken 10-year-old girl voice, calm and polite, the "big sister" tone |
 | NOONOO | bright, energetic 8-year-old girl voice, expressive and playful |
 | NADYAH | sweet, high-pitched 4-year-old girl voice, curious, slightly lisping |
-| HOOR | tiny 2-year-old toddler voice, very short words, giggly babbling |
-| MISHOO | cat sounds only (meows, purrs) — no human speech |
+| HOOR | tiny, clear 2-year-old toddler voice, short simple words, spoken clearly — no babbling |
+| MISHOO | playful, goofy cartoon cat voice, slightly raspy, funny comic timing, ends with a cheeky giggle |
+
+### دور ميشو (الكوميديا)
+
+- ميشو **عادةً** يصدر أصوات قطة بس (مواء، خرخرة).
+- في **مواقف مختارة** يتكلم — وهذي لحظات الإثارة والضحك للطفل: يعلّق بجملة مضحكة، أو يسوي شي غبي (يطيح، يلحق ذيله، يتورط بشي) ثم يضحك على نفسه.
+- عشان تبقى مميزة: **مرة إلى ثلاث مرات بالحلقة** بالكثير، وجملته قصيرة جدًا.
+- في الطلب: `MISHOO the cat talks in English, <voice description>: "..."` مع وصف الحركة الكوميدية.
 
 ---
 
