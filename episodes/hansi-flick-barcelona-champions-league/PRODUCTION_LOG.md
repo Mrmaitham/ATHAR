@@ -44,8 +44,12 @@ Script was written and word-counted to land at an estimated ~10.5-11.5 min based
 ## Background music
 Added in v5, revised through v8 — see the v5→v8 fixes section above for the full story (Higgsfield has no usable standalone music model; sourced **"Gothamlicious" by Kevin MacLeod, CC BY 3.0**, from incompetech.com's own catalog; dynamic sidechain-ducked mix). Required attribution line is in `metadata.md`'s description.
 
-## Shorts (3x — done)
-All 3 built from the pre-music v4 video (clean narration), independently mixed with the same Gothamlicious/ducking recipe, vertical 1080x1920 (blurred-background fill from the 16:9 source), Arabic subtitles burned in, ~3s vertical "BY ATHAR" bumper appended. URLs in `production/manifest.json`'s `shorts` array:
+## Shorts (3x — done, v2 subtitle fix applied)
+All 3 built from the pre-music v4 video (clean narration), independently mixed with the same Gothamlicious/ducking recipe, vertical 1080x1920 (blurred-background fill from the 16:9 source), Arabic subtitles burned in, ~3s vertical "BY ATHAR" bumper appended. URLs in `production/manifest.json`'s `shorts` array (superseded v1 URLs kept for reference):
+
+### Subtitle rendering bug fix (v1→v2 of the shorts)
+The first render of all 3 shorts used `subtitles=<file>.srt:force_style=...` directly against the plain `.srt`. FFmpeg's implicit SRT→ASS conversion defaults to the legacy `PlayResX: 384 / PlayResY: 288` script resolution, so **any explicit pixel value in `force_style` (Fontsize, MarginV, ...) gets silently rescaled by ~6.7x** to fit the real 1080x1920 canvas — this produced wildly oversized text that swallowed most of the frame, and for one style attempt (`MarginV=550`) the multiplied margin pushed the entire subtitle block off-canvas, making it invisible with no error printed. Root-caused by isolating each style parameter on a test frame and comparing output file sizes/renders. Fixed by first converting each short's `.srt` to `.ass` (`ffmpeg -i in.srt out.ass`), then patching the `[Script Info]` header to `PlayResX: 1080 / PlayResY: 1920` (the real output resolution) before rendering — with that in place, Fontsize/Margin values map 1:1 to real pixels. Final style: `DejaVu Sans`, Fontsize 40, white with a 3px black outline (`BorderStyle=1, Outline=3`, matching the main video's proven look), `Alignment=2` (bottom-center), `MarginL/R=70`, `MarginV=160` — verified to sit cleanly in the blurred padding strip below each short's visible 16:9 content band (which occupies only the vertical frame's middle ~608px), never overlapping the picture, even on the longest wrapped Arabic sentence (5 lines).
+
 1. **The collapse** (scene 10, 48.6s)
 2. **The hook** (scene 1, 40.2s)
 3. **The diagnosis** (scenes 8+12 concatenated, 111.5s — on the longer side for a Short, but covers the episode's full tactical argument in one piece)

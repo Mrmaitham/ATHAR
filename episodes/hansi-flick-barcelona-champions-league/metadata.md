@@ -30,8 +30,8 @@ Hansi Flick, FC Barcelona, Champions League, La Liga, football tactics, Barcelon
 ## Shorts (3x, from strongest moments) — done
 Vertical 1080x1920, Arabic subtitles burned in, Gothamlicious music, "BY ATHAR" bumper outro. Links also in `production/manifest.json`'s `shorts` array.
 1. **The collapse** (48.6s) — scene 10 narration (San Siro, 88th minute lead to 99th-minute elimination). Highest emotional peak in the episode.
-   https://d2ol7oe51mr4n9.cloudfront.net/user_3GPnMIBf9MTKG0k3nXluooyuyoI/e44dd5db-2601-495f-b5ee-d6ea73204fd6.mp4
+   https://d2ol7oe51mr4n9.cloudfront.net/user_3GPnMIBf9MTKG0k3nXluooyuyoI/d8297078-f3ff-416e-a5ef-ae7bb9bcab73.mp4
 2. **The hook** (40.2s) — scene 1's opening question, re-cut as a standalone vertical hook.
-   https://d2ol7oe51mr4n9.cloudfront.net/user_3GPnMIBf9MTKG0k3nXluooyuyoI/39237217-0203-481e-9058-bcb9fe46362f.mp4
+   https://d2ol7oe51mr4n9.cloudfront.net/user_3GPnMIBf9MTKG0k3nXluooyuyoI/2c4e2f92-5cf3-4d4a-bf8e-b065176cf1ea.mp4
 3. **The diagnosis** (111.5s) — scenes 8 + 12 combined (the high-line/offside-trap explanation + "they waited for exactly those gaps" line), the core analytical payoff.
-   https://d2ol7oe51mr4n9.cloudfront.net/user_3GPnMIBf9MTKG0k3nXluooyuyoI/1b16eb78-ad08-4a13-981c-fd505dc19c25.mp4
+   https://d2ol7oe51mr4n9.cloudfront.net/user_3GPnMIBf9MTKG0k3nXluooyuyoI/f43f145c-e8ed-465b-92ff-12e1539f0909.mp4
