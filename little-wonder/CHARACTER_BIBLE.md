@@ -120,6 +120,13 @@ Reference image 2 = HOOR: 2-year-old toddler girl, curly dark hair in two small 
 
 > **قصة الحلقة الأولى تدور على المقعد الأحمر** (الأيسر). المقعد الأزرق موجود في الكادر بس ما يُستخدم.
 
+**⚠️ قاعدة تجنّب غلط متكرر — ارتفاع المقعد:**
+النموذج يميل يرفع المقعد لمستوى صدر/رقبة الطفل فيطلع كأنه قلادة معلقة. في أي لقطة فيها طفل جنب المرجيحة، اكتب صراحة:
+
+> the swing seat hangs low, at the height of the child's knees, well BELOW her waist. She grips the METAL CHAIN at about her own shoulder height. The seat must NEVER be near her chest or neck and must never overlap her body or face.
+
+وكمان: **لقطة واسعة تبيّن المرجيحة كاملة من العارضة العليا للعشب**، عشان النموذج يفهم المقياس الصحيح.
+
 ---
 
 **KITCHEN** — grey-wood shaker cabinets, white marble island with four white bar stools on wooden legs, three glass globe pendant lights, stainless hood and built-in ovens, brass Arabic dallah coffee pot on a tray, window with palm trees, blue Persian runner rug.
