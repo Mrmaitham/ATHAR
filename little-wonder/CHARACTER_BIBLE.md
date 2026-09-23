@@ -132,10 +132,21 @@ that other child's face and body are OUTSIDE the frame and never seen
 | البروب | الصورة المرجعية | Higgsfield ID |
 |---|---|---|
 | THE SWING (المرجيحة) | `references/prop_swing.png` | `18515f28-acef-4426-8c80-1696ed7b6515` |
+| PANDA (دبدوب حور) | `references/prop_panda.png` | `1b64bc35-7752-4388-984a-3a850b54cb25` |
 
 **THE SWING** — ⚠️ **ترفق صورتها المرجعية في كل لقطة تظهر فيها المرجيحة**، وإلا شكلها يتغير من لقطة لأخرى.
 
 > the garden's original children's swing set: a sturdy warm natural wood A-frame with a wooden top beam, carrying TWO hanging swing seats on metal chains — one bright RED seat on the left and one bright BLUE seat on the right, both moulded curved plastic seats. Same wood tone and chains as the garden reference.
+
+**PANDA — دبدوب حور المفضل** 🐼
+
+> a small soft PANDA PLUSH TOY, a child's stuffed teddy-style panda in soft fuzzy plush fabric, clearly a sewn toy and NOT a real animal. Round chubby body, big round head, short stubby arms and legs, sitting upright. WHITE plush body, face and belly; BLACK rounded ears, BLACK oval patches around both eyes, BLACK arms and BLACK legs. Two shiny black bead eyes, a tiny stitched black nose and a small smiling stitched mouth. A soft RED ribbon bow tied at its neck. Small enough for a two-year-old to carry in both hands, about the size of a child's forearm.
+
+**قواعد استخدامه:**
+1. **ترفق صورته المرجعية في كل لقطة يظهر فيها** — نفس قاعدة المرجيحة، وإلا شكله يتغير.
+2. **هو دبدوب حور** — ما يمسكه أحد غيرها إلا في لحظة قصصية مقصودة.
+3. المقياس: **حجمه بين يدي حور الاثنتين**، ما يكون أكبر من جذعها ولا أصغر من كفها.
+4. لو ما نبيه في لقطة، اكتب صراحة `no toys, no plush, no panda anywhere in frame`.
 
 > **قصة الحلقة الأولى تدور على المقعد الأحمر** (الأيسر). المقعد الأزرق موجود في الكادر بس ما يُستخدم.
 
