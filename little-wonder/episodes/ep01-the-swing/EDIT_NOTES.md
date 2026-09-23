@@ -100,3 +100,27 @@
 ### ملاحظة مهمة
 اللقطات 12، 15، 16، 19، 20، 21 قبل 24 وما فيها أزرق — **وهذا مو تناقض**،
 لأنها كلها كادرات قريبة (كلوز أب) الأزرق ببساطة خارج الكادر فيها.
+
+## لقطة 48 — أول لقطة بالكرسيين (قرار المخرج الجديد)
+
+**v1 مرفوضة.** الأخطاء:
+1. الكادر واسع زيادة — البنات صغار وما تنقرا مشاعرهم.
+2. المكان انتقل لـ**مدخل البيت الأمامي**: ممشى مبلّط، عمود بوابة، نافورة. السبب: كتبت
+   `the villa FRONT steps` فسحب النموذج واجهة البيت الأمامية.
+3. رجع **مجسم اللعب بالزحليقة الزرقاء** (آخر ظهور له كان لقطة 13).
+
+**v2 معتمدة.** الإصلاحات:
+- شلت كلمة `front` نهائياً ووصفت المكان: `the FLAT GREEN BACK LAWN of the family garden`.
+- 🔑 **قائمة ممنوعات صريحة** بدل الاعتماد على الوصف الإيجابي وحده:
+  > `STRICTLY FORBIDDEN in this frame: no paved driveway, no stone walkway, no tiled path,
+  > no front gate, no gate pillars, no fountain, no water feature, no slide, no blue slide,
+  > no climbing frame, no play tower, no second playground structure of any kind.
+  > The ONLY play equipment anywhere in the garden is the ONE wooden swing described below.`
+- `NOT an extreme wide shot` + تحديد إن تيتة تملى معظم ارتفاع الكادر.
+
+✅ **الكرسيان (أحمر يسار + أزرق يمين) طلعوا صح من أول مرة وبالارتفاع المنخفض الصحيح** —
+صياغة الارتفاع في `CHARACTER_BIBLE.md` § ٢-أ شغالة، استخدمها كما هي في كل لقطة جاية.
+
+### تنبيه سجّلناه
+راجعت مرجع تيتة خديجة: **العباية السوداء صحيحة** (`references/char_grandma_khadija.png`).
+الشخصية بالفستان الكريمي والحجاب الأبيض في لقطات 02/14/18/19/22/39/40/44 هي **زوزو**، مو تيتة.
