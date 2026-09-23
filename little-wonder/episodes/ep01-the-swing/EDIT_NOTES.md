@@ -237,3 +237,47 @@
 **ملاحظة كادر:** الزووم استمر أكثر من المطلوب فطلّع البنتين برّا الكادر في آخر 1.5 ث،
 واللقطة تنتهي على تيتة لحالها بابتسامتها. مقبول درامياً (تنتظر ردهم) بس مو الكادر اللي صممناه.
 ⚠️ **نتيجة عملية:** لقطة 55 (نونو تفكر) لازم تبدأ من كادر أقدم فيه نونو ظاهرة، مو من آخر كادر 54.
+
+## 🔴 لقطة 53 — تكرار شخصية (أخطر خطأ واجهناه)
+
+**الخطأ اللي لقاه ميثم:** **نونو ظاهرة مرتين في نفس الكادر** —
+وحدة ظهرها في المقدمة يسار، ووحدة **واقفة في الخلفية** بنفس التيشيرت الوردي والبنطلون الأسود.
+
+**السبب الجذري:** صورة البداية (`start_image`) فيها نونو واقفة في مكان معيّن،
+وأنا وصفت لها مكاناً **مختلفاً** في المقدمة. النموذج ما اختار — **رسم الاثنين**.
+
+### 🔑 القاعدة (مهمة جداً لكل اللقطات الجاية)
+إذا غيّرت مكان شخصية عن مكانها في الـ `start_image`، **لازم** تحدد العدد الكلي صراحةً:
+
+```
+*** HOW MANY PEOPLE ARE IN THIS SHOT ***
+There are EXACTLY THREE PEOPLE in this shot and NOBODY ELSE.
+Every person is shown ONCE and ONLY ONCE.
+There is ONLY ONE girl wearing a pink t-shirt in the entire frame.
+There must NEVER be two girls in pink t-shirts, and NEVER a duplicate or second
+copy of the same girl standing anywhere in the background.
+No extra children, no background people, no bystanders.
+```
+ثم عدّد الشخصيات مرقّمة مع مكان كل وحدة بالضبط.
+
+### خطأ ثانٍ في نفس اللقطة: أثاث من العدم
+تيتة كانت قاعدة على **بوف كريمي بأرجل خشبية** ما له وجود في الحديقة،
+مع إنها في 49–52 قاعدة **على العشب مباشرة**. الصياغة اللي أصلحته:
+```
+GRANDMA IS SEATED DIRECTLY ON THE GRASS, sitting on the lawn itself with her long
+black abaya spread out flat on the grass around her. There is NO stool, NO ottoman,
+NO pouffe, NO cushion, NO chair, NO bench and NO furniture of any kind underneath her
+or anywhere in the frame. Nothing is under her except grass.
+```
+
+### لقطة 54 أعيدت أيضاً
+لأنها مبنية على آخر كادر 53، فورثت البوف. النسخة الجديدة أصلحت كمان مشكلة الزووم:
+```
+The camera must KEEP THE OVER-THE-SHOULDER TWO-SHOT FOR THE WHOLE SHOT: both girls'
+backs stay clearly inside the frame at all times and are NEVER cropped out.
+```
+
+**ملاحظة مقبولة:** نونو صارت **قاعدة** بدل واقفة من 53 وطالع. التغيير يصير أثناء حركة كاميرا كبيرة
+فما ينلاحظ، و53 و54 متسقتان مع بعض. قبلناها بدل ما نصرف توليدات إضافية.
+
+**تحقق الحوار بعد الإعادة:** 53 → مقطعان (0.35–1.7) + (2.65–3.85) = 2.55 ث. 54 → مقطعان (0.45–2.15) + (3.2–3.7) = 2.2 ث. الاثنتان نطق واحد بلا تكرار. ✅
