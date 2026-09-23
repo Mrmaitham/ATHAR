@@ -110,7 +110,7 @@
 | 50 | تيتة خديجة | تسأل بابتسامة هادية | **GRANDMA:** "Hmm. Who is having fun right now?" |
 | 51 | نونو | تنظر لتيتة ثم تنزل عيونها، ساكتة | — |
 | 52 | نادية | تهز راسها لا، بصوت واطي | **NADYAH:** "…Nobody." |
-| 53 | تيتة خديجة | تشاور على المرجيحة المعقودة | **GRANDMA:** "You both wanted it all. So you both got none." |
+| 53 | تيتة خديجة | كادر من وراء ظهر نونو ونادية وتيتة مقابلهم، تشاور بكفها خارج الكادر ناحية المرجيحة (المرجيحة مو ظاهرة) | **GRANDMA:** "You both wanted it all. So you both got none." |
 | 54 | تيتة خديجة | تميل عليهم وتسأل السؤال المفتاح | **GRANDMA:** "What if the swing could be yours… *and* hers?" |
 | 55 | نونو | تفكر، حاجباتها تتحرك | — |
 | 56 | نادية | عيونها تكبر فجأة، جتها الفكرة | **NADYAH:** "I count to ten… then it's your turn!" |
