@@ -112,6 +112,31 @@ that other child's face and body are OUTSIDE the frame and never seen
 
 ---
 
+## ٢-أ. 🔴🔵 قاعدة المرجيحة — من لقطة 48 وطالع
+
+**قرار المخرج (بعد لقطة 47): كل لقطة جاية فيها المرجيحة لازم تبيّن الكرسيين — الأحمر والأزرق.**
+السبب: نخلي الوضع النهائي مضبوط، وبالآخر إذا احتجنا تعديل نرجع نعدّل اللقطات القديمة (27–47).
+
+### التخطيط الثابت
+- الكرسي **الأحمر** على **النصف الأيسر** من الخشبة.
+- الكرسي **الأزرق** على **النصف الأيمن** من الخشبة.
+- (هذا نفس ترتيب لقطات 01 و06 و09 و10 و11 — لا تعكسه.)
+
+### ⚠️ الفخ القاتل — لا تنساه
+كل مرة أضفنا الكرسي الأزرق، النموذج **رفع الكرسي الأحمر لارتفاع الصدر** (نفس الخلل اللي صلّحناه في لقطة 6).
+**لازم** تكتب ارتفاع المقعدين صراحةً في كل لقطة:
+
+```
+- BOTH seats are exactly the SAME SIZE and hang at exactly the SAME LOW HEIGHT.
+- CRITICAL: both seats hang LOW and CLOSE TO THE GRASS, only about KNEE HIGH on an
+  eight-year-old girl. The seats are NOT at chest height, NOT at waist height and
+  NOT high up near the beam. The chains are LONG and hang straight down.
+```
+
+**المرجع البصري للارتفاع الصحيح:** `shots/sh45_sad_wide.mp4` — سلاسل مستقيمة طويلة، المقعد قريب من العشب، بدون عقدة ظاهرة.
+
+---
+
 ## ٢-ب. 📏 أبعاد ميشو — مقفولة نهائياً
 
 **المرجع المعتمد:** الكادر الأخير من `episodes/ep01-the-swing/shots/sh46_mishoo_between.mp4`
