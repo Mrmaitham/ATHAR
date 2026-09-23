@@ -39,6 +39,25 @@
 
 **⚠️ قاعدة للحلقات الجاية:** نقرر شكل البروب **قبل** أول لقطة ونثبته في كل الطلبات من البداية.
 
+## 🔑 الصياغة اللي تمنع المقعد الأزرق نهائيًا (مجرّبة في لقطة 46)
+
+النفي المجرد `There is NO BLUE SEAT` **يفشل أحيانًا** — النموذج يرجع يضيفه. الحل: **نعطيه شي ملموس يرسمه بدل الفراغ**:
+
+> `• On the LEFT HALF of the beam hangs ONE single bright RED seat on knotted chains.`
+> `• The ENTIRE RIGHT HALF of the wooden beam is COMPLETELY BARE PLAIN WOOD. Nothing at all hangs from it: no chains, no ropes, no seat of any colour. It is just empty wood with clear open air and green lawn visible underneath.`
+> `The colour blue appears ONLY on NADYAH's clothing and nowhere else.`
+
+**السبب:** النموذج ما يعرف يرسم "لا شيء"، بس يعرف يرسم "خشب عاري وهوا وعشب تحته".
+
+## 🔑 الصياغة اللي تمنع ميشو من الكبر (مجرّبة في 23 و 46)
+
+المشكلة مو في كلمة "صغير" — المشكلة في **العمق**. أي قط في مقدمة الكادر راح يكبر بالمنظور.
+
+> `MISHOO sits DEEP IN THE BACKGROUND, well BEHIND both girls and FURTHER FROM THE CAMERA than either of them. He is NOT in the foreground and NEVER walks toward the camera.`
+> `Because he is far away he looks VERY SMALL: his whole body from ears to grass is SHORTER than the width of the red swing seat, and only about one sixth as tall as NOONOO appears in frame.`
+
+**القاعدة:** اربط الحجم بـ**بروب موجود في نفس الكادر** (عرض المقعد) + **ثبّت العمق**.
+
 ## قواعد عامة استخلصناها
 
 1. **وصف الحجم**: لا تستخدم أبدًا تشبيه بفاكهة أو غرض ("بحجم شمامة") — النموذج يرسم الغرض نفسه. استخدم المقارنة مع شخصية أو بروب موجود في الكادر.
