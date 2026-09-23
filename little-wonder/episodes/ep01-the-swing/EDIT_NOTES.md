@@ -56,7 +56,11 @@
 > `MISHOO sits DEEP IN THE BACKGROUND, well BEHIND both girls and FURTHER FROM THE CAMERA than either of them. He is NOT in the foreground and NEVER walks toward the camera.`
 > `Because he is far away he looks VERY SMALL: his whole body from ears to grass is SHORTER than the width of the red swing seat, and only about one sixth as tall as NOONOO appears in frame.`
 
-**القاعدة:** اربط الحجم بـ**بروب موجود في نفس الكادر** (عرض المقعد) + **ثبّت العمق**.
+**القاعدة:** اربط الحجم بـ**بروب موجود في نفس الكادر** + **ثبّت العمق**.
+
+⚠️ **تحديث بعد لقطة 47:** "عرض المقعد" مرساة ضعيفة لأن العرض يتفوّرشن مع زاوية الكاميرا.
+المرساة الصحيحة **عمودية**: أطراف أذني ميشو القاعد = مستوى سطح المقعد الأحمر.
+الأبعاد الكاملة المقفولة صارت في `CHARACTER_BIBLE.md` § ٢-ب — **ارجع لها قبل أي لقطة فيها ميشو**.
 
 ## قواعد عامة استخلصناها
 
