@@ -108,6 +108,18 @@ Reference image 2 = HOOR: 2-year-old toddler girl, curly dark hair in two small 
 
 **LIVING ROOM** — double-height room, white L-shaped sofa with orange and green patterned cushions and green throw, carved dark wood coffee table with pink roses and brass pots, orange-cream Persian rug, white armchairs, tall garden windows, glass pendant lanterns, carved wooden wall art, dining table and kitchen behind.
 
+### الإكسسوارات الثابتة (Props)
+
+| البروب | الصورة المرجعية | Higgsfield ID |
+|---|---|---|
+| THE SWING (المرجيحة) | `references/prop_swing.png` | `94ddaf36-bf5b-42be-b607-41bd5e32d67c` |
+
+**THE SWING** — ⚠️ **ترفق صورتها المرجعية في كل لقطة تظهر فيها المرجيحة**، وإلا شكلها يتغير من لقطة لأخرى.
+
+> one single smooth warm natural wood plank seat with rounded corners, hanging from two thick pale cream twisted ropes, on a sturdy A-frame wooden swing set of the same warm natural wood, seat hanging at small-child knee height. Only one swing — no second swing, no playhouse, no slide in frame.
+
+---
+
 **KITCHEN** — grey-wood shaker cabinets, white marble island with four white bar stools on wooden legs, three glass globe pendant lights, stainless hood and built-in ovens, brass Arabic dallah coffee pot on a tray, window with palm trees, blue Persian runner rug.
 
 ---
