@@ -112,11 +112,13 @@ Reference image 2 = HOOR: 2-year-old toddler girl, curly dark hair in two small 
 
 | البروب | الصورة المرجعية | Higgsfield ID |
 |---|---|---|
-| THE SWING (المرجيحة) | `references/prop_swing.png` | `94ddaf36-bf5b-42be-b607-41bd5e32d67c` |
+| THE SWING (المرجيحة) | `references/prop_swing.png` | `18515f28-acef-4426-8c80-1696ed7b6515` |
 
 **THE SWING** — ⚠️ **ترفق صورتها المرجعية في كل لقطة تظهر فيها المرجيحة**، وإلا شكلها يتغير من لقطة لأخرى.
 
-> one single smooth warm natural wood plank seat with rounded corners, hanging from two thick pale cream twisted ropes, on a sturdy A-frame wooden swing set of the same warm natural wood, seat hanging at small-child knee height. Only one swing — no second swing, no playhouse, no slide in frame.
+> the garden's original children's swing set: a sturdy warm natural wood A-frame with a wooden top beam, carrying TWO hanging swing seats on metal chains — one bright RED seat on the left and one bright BLUE seat on the right, both moulded curved plastic seats. Same wood tone and chains as the garden reference.
+
+> **قصة الحلقة الأولى تدور على المقعد الأحمر** (الأيسر). المقعد الأزرق موجود في الكادر بس ما يُستخدم.
 
 ---
 
