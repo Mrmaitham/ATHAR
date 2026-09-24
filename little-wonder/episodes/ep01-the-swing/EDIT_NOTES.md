@@ -555,3 +555,29 @@ NO harsh sunlight on the grass, NO daytime look of any kind.
 
 🔑 **قاعدة للقطات الحوار الثنائي:** لا تكتفِ بوصف من يتكلم — **اكتب بلوك الشفايف المطبقة على الشخصية الصامتة**.
 هذا اللي يمنع الاثنين من تحريك أفواههم في نفس اللحظة.
+
+## لقطة 64 — أول لقطة بصوتين متزامنين (unison) · معتمدة من أول توليد
+
+**التحدي:** الشخصيتان تنطقان **نفس الكلمات في نفس اللحظة** — أول مرة نجربها.
+
+### 🔑 الصياغة اللي نجحت
+```
+*** SPEECH — BOTH GIRLS SPEAK TOGETHER, IN UNISON ***
+This is a UNISON line: BOTH SISTERS SAY THE SAME NUMBERS AT THE SAME TIME, together,
+like two children chanting.
+BOTH MOUTHS MOVE TOGETHER ON EVERY SINGLE NUMBER, forming the same word at the same
+moment — NOONOO's mouth and NADYAH's mouth open and close in perfect sync.
+Neither girl stays silent, and neither girl speaks alone.
+TOGETHER they chant in English, two children's voices layered over each other —
+one a bright 8-year-old voice, one a smaller excited 4-year-old voice: "..."
+```
+**المفتاح:** وصف **تزامن الأفواه** صراحةً + وصف **طبقتي الصوت** (صوت 8 سنين + صوت 4 سنين فوق بعض).
+ومنع صريح: `Neither girl stays silent, and neither girl speaks alone`.
+
+### دليلان على نجاح التزامن
+1. **بصرياً:** فحصت الوجوه في النطقات الثلاث (0.65 / 2.4 / 4.4 ث) — **الفمان مفتوحان معاً في كل مرة**.
+2. **صوتياً:** الذروة **3739** (أقل من لقطات الصوت الواحد ≈5100) لكن الوسيط **997** (أعلى بكثير من 120–260).
+   هذا توقيع **صوتين مدموجين**: الطاقة موزّعة بدل ما تكون في صوت واحد حاد.
+
+**النطقات:** ثلاثة بالضبط — 0.5–0.8 / 1.95–2.95 / 3.85–4.95.
+الثالث هو الأطول والأعلى = "TEN!" المنتصرة. ✅
