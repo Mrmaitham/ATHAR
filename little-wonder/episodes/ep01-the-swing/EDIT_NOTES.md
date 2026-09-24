@@ -679,3 +679,13 @@ one a bright 8-year-old voice, one a smaller excited 4-year-old voice: "..."
 **ما أُعيد بسبب هذا القرار:** لقطة 4 ولقطة 6 (كنت شلت منهما الأزرق تطبيقاً لخيار أ الملغى).
 
 **ملاحظة تقنية:** أول طلب للقطة 6 رجع `ip_detected` من فلتر المحتوى — إنذار كاذب. أُعيدت الصياغة بلغة أعم (`swing frame` بدل `swing set`، وبدون أسماء الشخصيات بحروف كبيرة) ونجحت.
+
+## لقطة 12 — إعادة بناء (المقعد الأزرق خارج الكادر)
+
+**ملاحظة ميثم:** المرجيحة الثانية اختفت — الكادر كان ضيّق على نادية والمقعد الأزرق برّا الكادر تماماً.
+
+**الحل:** تثبيت البداية على آخر إطار من لقطة 11 (وفيه المقعدان واضحان) + قفل الكاميرا بالكامل:
+> `BOTH SEATS STAY FULLY VISIBLE INSIDE THE FRAME for every single frame. The blue seat NEVER leaves the frame, NEVER gets cropped out.`
+> `CAMERA IS ABSOLUTELY LOCKED ON A TRIPOD: never pans, never drifts, never zooms in, never zooms out, never pushes toward the girls.`
+
+**الدرس:** منع القص (`never gets cropped out`) لازم يُكتب مع قفل الكاميرا — قفل الكاميرا وحده ما يكفي لأن النموذج يقرّب أحياناً فيطلع البروب من الكادر. الحوار والتفاصيل بقت كما هي.
