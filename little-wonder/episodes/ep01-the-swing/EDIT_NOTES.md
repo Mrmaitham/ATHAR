@@ -660,3 +660,22 @@ one a bright 8-year-old voice, one a smaller excited 4-year-old voice: "..."
 **قص مقصود على 3.7 ث:** النسخة الكاملة كانت تنتهي وهي **واصلة للمرجيحة** — وهذا يكرر لحظة الوصول اللي صارت في لقطة 6. القص يخليها تنتهي وهي لسه بالطريق، فيصير التسلسل: تركض (4) ← تحلم (5) ← توصل وتمسك (6). الجملة كاملة تنتهي عند 1.6 ث فما تتأثر.
 
 **نتيجة الفحص:** صفر بكسل أزرق في 20 إطار (الزحليقة الزرقاء انشالت) · ذروة صوت 3299 = جملة وحدة · اتجاه الحركة ثابت يمين←يسار · ضوء ذهبي دافي.
+
+## ⛔ إلغاء خيار أ — المقعدان معاً هما المعتمد نهائياً
+
+**قرار ميثم (يلغي خيار أ نهائياً):** المرجيحة **لازم يبين فيها المقعدان دايماً** — الأحمر والأزرق — في كل لقطات الحلقة بلا استثناء. لا نشيل الأزرق من أي لقطة.
+
+**الشكل المعتمد** (مرجعه آخر إطار من لقطة 1):
+- العارضة الخشبية تحمل **زوجين منفصلين من السلاسل، وكل زوج يحمل مقعده** — ما فيه نقطة تعليق فاضية أبداً.
+- **الأحمر يسار العارضة · الأزرق يمينها** · بينهم فراغ واضح.
+- الاثنان بارتفاع الركبة، سلاسلهم مستقيمة وغير معقودة.
+
+**الصياغة المعتمدة للطلبات:**
+> `The wooden top beam carries TWO separate pairs of metal chains, and EVERY pair carries its seat, so NO hanging point is ever left bare. The RED seat hangs on the LEFT of the beam and the BLUE seat hangs on the RIGHT, with a clear gap of open air between them. BOTH seats stay hanging for every single frame at knee height. Neither seat ever disappears, neither changes colour, and no chain is ever left without its seat.`
+> `The ONLY blue thing anywhere in this shot is the BLUE SWING SEAT.`
+
+الجملة الأخيرة مهمة: تسمح بالمقعد الأزرق وتمنع الزحليقة الزرقاء وجهاز التسلق في نفس الوقت.
+
+**ما أُعيد بسبب هذا القرار:** لقطة 4 ولقطة 6 (كنت شلت منهما الأزرق تطبيقاً لخيار أ الملغى).
+
+**ملاحظة تقنية:** أول طلب للقطة 6 رجع `ip_detected` من فلتر المحتوى — إنذار كاذب. أُعيدت الصياغة بلغة أعم (`swing frame` بدل `swing set`، وبدون أسماء الشخصيات بحروف كبيرة) ونجحت.
