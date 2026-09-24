@@ -336,3 +336,30 @@ ENTIRE SHOT and does NOT sit, kneel or crouch at any moment.
 
 🔑 **القاعدة المستخلصة:** إذا لازم تتغيّر وضعية شخصية بين مشهدين،
 **صوّر التغيير نفسه** بدل ما تخفيه بين القطعات. أرخص من إعادة اللقطات القديمة وأنظف بصرياً.
+
+## لقطة 55 — تكرار نونو مرة ثانية، ونفس السبب الجذري
+
+**v1 مرفوضة:** نونو ظهرت **مرتين** (وحدة في الوسط ووحدة على اليمين) = أربعة أشخاص بالكادر.
+
+**السبب:** كتبت `the camera pushes in TOWARD NOONOO so that she becomes the CENTRE of the frame`.
+نونو أصلاً على **يمين** الكادر في صورة البداية. النموذج ما حرّك الكاميرا — **رسم نسخة ثانية في الوسط**.
+
+### 🔑 القاعدة الحاسمة (ثالث مرة نقع فيها)
+> **لا تصف أبداً موقع شخصية داخل الكادر بشكل يخالف صورة البداية.**
+> لو قلت "خليها في الوسط" وهي على اليمين → يرسم اثنتين.
+> لو قلت "خليها في المقدمة" وهي في الخلف → يرسم اثنتين.
+
+**الصياغة الصحيحة:** ثبّت الترتيب من صورة البداية ولا تطلب إعادة تأطير:
+```
+THEIR POSITIONS NEVER CHANGE — left to right, the order is ALWAYS:
+GRANDMA KHADIJA on the LEFT → then NADYAH in the MIDDLE → then NOONOO on the RIGHT.
+Nobody moves to a different place in the frame. Nobody swaps sides.
+
+CAMERA: The camera is LOCKED OFF AND COMPLETELY STILL... It does NOT pan,
+does NOT reframe, does NOT orbit and does NOT re-centre on anyone.
+```
+**إذا تبي كلوز أب على شخصية، ولّد لقطة جديدة بكادرها — لا تطلب من الكاميرا تعيد التأطير عليها.**
+
+**v2 معتمدة:** ثلاثة أشخاص فقط، كاميرا ثابتة، والأداء كله في وجه نونو:
+حاجب مقطّب وعيون حزينة ← الحاجب يرتخي ← بسمة خفيفة تبدأ تطلع.
+**تحقق الصمت:** ذروة 384 مقابل 4684 في لقطة 54 (فيها حوار) = ما فيه كلام. ✅
