@@ -1,0 +1,88 @@
+# ترتيب تشغيل لقطات الحلقة 1 — المرجع الوحيد للمونتاج
+#
+# ⚠️ لا تعتمد على ترتيب أسماء الملفات. هذا الملف هو المصدر الرسمي.
+# سطر واحد لكل لقطة، بالترتيب الي تتشغّل فيه.
+#
+# استثناءات مقصودة:
+#   sh15 قبل sh14  — تبادل ترتيب معتمد من ميثم (الشد يتصاعد أول، وبعدها زوزو تنتبه)
+#   sh44a بعد sh44 — لقطة مُدرجة
+#   sh75b بعد sh75 — لقطة جسر مُدرجة
+#   sh32 ملغاة · sh62 غير موجودة
+
+sh01_garden_empty.mp4
+sh02_zoozoo_hoor_book.mp4
+sh03_hoor_points.mp4
+sh04_noonoo_runs.mp4
+sh05_noonoo_dream.mp4
+sh06_noonoo_grabs.mp4
+sh07_nadyah_sees.mp4
+sh08_nadyah_dream.mp4
+sh09_nadyah_runs.mp4
+sh10_two_girls_rope.mp4
+sh11_noonoo_first.mp4
+sh12_nadyah_always.mp4
+sh13_mishoo_watches.mp4
+sh15_noonoo_pulls.mp4
+sh14_zoozoo_notices.mp4
+sh16_nadyah_pulls.mp4
+sh17_tug_of_war.mp4
+sh18_hoor_climbs_down.mp4
+sh19_zoozoo_tries.mp4
+sh20_noonoo_my_turn.mp4
+sh21_nadyah_my_turn.mp4
+sh22_zoozoo_sits_back.mp4
+sh23_mishoo_jumps_on.mp4
+sh24_mishoo_flung.mp4
+sh25_mishoo_roses.mp4
+sh26_hoor_laughs.mp4
+sh27_still_pulling.mp4
+sh28_noonoo_let_go.mp4
+sh29_nadyah_its_mine.mp4
+sh30_final_pull.mp4
+sh31_knot_snaps.mp4
+sh33_both_oh_no.mp4
+sh34_nadyah_jumps.mp4
+sh35_nadyah_falls.mp4
+sh36_noonoo_yanks.mp4
+sh37_knot_tightens.mp4
+sh38_noonoo_gives_up.mp4
+sh39_zoozoo_speaks.mp4
+sh40_noonoo_turns_away.mp4
+sh41_nadyah_alone.mp4
+sh42_hoor_offers.mp4
+sh43_hoor_asks_why.mp4
+sh44_hoor_walks_away.mp4
+sh44a_zoozoo_hugs_hoor.mp4
+sh45_sad_wide.mp4
+sh46_mishoo_between.mp4
+sh47_empty_swing.mp4
+sh48_grandma_arrives.mp4
+sh49_grandma_sits.mp4
+sh50_grandma_question.mp4
+sh51_noonoo_looks_down.mp4
+sh52_nadyah_nobody.mp4
+sh53_grandma_both_none.mp4
+sh54_grandma_what_if.mp4
+sh55_noonoo_thinks.mp4
+sh56_nadyah_idea.mp4
+sh57_noonoo_deal.mp4
+sh58_hand_offered.mp4
+sh59_handshake.mp4
+sh60_nadyah_first_turn.mp4
+sh61_joy_push.mp4
+sh62_noonoo_counts.mp4
+sh63_nadyah_counts.mp4
+sh64_both_ten.mp4
+sh65_your_turn.mp4
+sh66_thank_you.mp4
+sh67_count_to_five.mp4
+sh68_im_flying.mp4
+sh69_family_arrives.mp4
+sh70_hoor_turn.mp4
+sh71_both_swings.mp4
+sh72_again_again.mp4
+sh73_sisters_hug.mp4
+sh74_grandma_moral.mp4
+sh75_group_hug.mp4
+sh75b_step_back.mp4
+sh76_finale.mp4
