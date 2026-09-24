@@ -689,3 +689,35 @@ one a bright 8-year-old voice, one a smaller excited 4-year-old voice: "..."
 > `CAMERA IS ABSOLUTELY LOCKED ON A TRIPOD: never pans, never drifts, never zooms in, never zooms out, never pushes toward the girls.`
 
 **الدرس:** منع القص (`never gets cropped out`) لازم يُكتب مع قفل الكاميرا — قفل الكاميرا وحده ما يكفي لأن النموذج يقرّب أحياناً فيطلع البروب من الكادر. الحوار والتفاصيل بقت كما هي.
+
+## لقطة 13 — إعادة بناء (ميشو معزول عن الحدث + شكله + الصوت)
+
+**ملاحظات ميثم الثلاث:**
+1. ميشو يظهر وخلفه المرجيحتان **فاضيتان** — نونو ونادية مو موجودين بالكادر مع إن أصواتهم موجودة.
+2. شكله طلع **قط عادي** — نبيه سمين وأحلى وأمرح.
+3. **الحوار الي دار بينهم ما كان موجود بالأصل** — المطلوب شد وشهيق وعصبية فقط، بدون كلمات.
+
+**الحل:** لقطة واسعة تجمع الاثنين — ميشو بعيد على اليسار والبنتان مستمرتان بالشد عند المرجيحة على اليمين.
+
+### 🔑 الدرس الأهم — كيف نمنع ميشو من التضخّم (ثلاث محاولات فاشلة)
+| المحاولة | ما صار |
+|---|---|
+| 1 | الكاميرا **زوّمت على ميشو** فكبر — رغم إن صورة البداية كان فيها صغير |
+| 2 | قرّبته شوي في صورة البداية → النموذج استغل القرب وكبّره أكثر |
+| 3 ✅ | رجّعته لمكانه البعيد بالضبط + **غيّرت أسلوب الطلب** |
+
+**الصياغة الي نجحت:** بدل ما نخلي ميشو بطل الوصف، نصدّر الطلب بأن **البنتين هما موضوع اللقطة**:
+> `THIS IS A LOCKED-OFF WIDE ESTABLISHING SHOT OF THE WHOLE GARDEN. The subject of the shot is THE GARDEN AND THE TWO SISTERS ARGUING AT THE SWING.`
+> `THE CAT IS A SMALL DISTANT BACKGROUND ELEMENT AND IS NOT THE FOCUS OF THIS SHOT. His size in the frame at the halfway point of the shot is exactly the same as his size in the first frame.`
+
+**القاعدة:** لما يكون ميشو في الكادر، **لا تجعله موضوع الوصف**. النموذج يعامل الموصوف أولاً كبطل ويقرّب عليه. صِفه كتفصيلة خلفية، وثبّت حجمه **في منتصف اللقطة** مو بس في أولها وآخرها.
+
+### 🔑 بلوك "بدون كلام مع أصوات مجهود"
+نفي الكلام وحده ما يكفي — لازم نعطي النموذج أصوات بديلة ملموسة يملأ فيها المساحة:
+> `THERE IS NO SPEECH ANYWHERE IN THIS SHOT. NOBODY SAYS A SINGLE WORD. No dialogue, no talking, no bickering words, no sentences, no background chatter, no music.`
+> `The ONLY sounds are: 1) the girls' EFFORT SOUNDS - sharp intakes of breath, huffing and puffing, tense frustrated breathing, small wordless sounds of exertion. These are breaths and strain only, never words. 2) the creak of the metal chains and the wooden frame. 3) ONE short soft meow. 4) quiet garden ambience.`
+
+**نتيجة الفحص:** مستوى الصوت العام نزل من **824 إلى 179** · الصوت صار **٤ نبضات قصيرة (0.2–0.3 ث)** بدل موجات كلام ممتدة. بصمة الشهقة = نبضة قصيرة، وبصمة الكلمة = موجة ممتدة 0.2–0.5 ث متصلة.
+
+### 📐 تحديث أبعاد ميشو
+شكله المعتمد في اللقطات البعيدة: جسم **مدور سمين** بكرش واضح، أرجل قصيرة، راس كبير بخدود ممتلئة، عيون كبيرة مدورة، فرو كثيف، طوق وجرس ذهبي. **ممنوع يطلع قط نحيف أو واقعي التشريح** حتى لو كان صغير في الكادر.
