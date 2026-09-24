@@ -473,3 +473,33 @@ shot. All emotion is carried by their EYES and their CLOSED-LIP SMILES only.
 
 **تحقق النسخة المعتمدة:** ذروة 664 / وسيط 256 = أمبيانس مسطّح، وفحصت شفايف نادية عند 0.9 و1.3 و1.8 و2.3 ث
 (نفس اللحظات اللي كانت تتكلم فيها) — مطبقة بابتسامة في كلها. ✅
+
+## لقطة 60 — أول رجوع للمرجيحة منذ 53
+
+**v1 مرفوضة:** الإضاءة انقلبت **نهاراً ساطعاً بسما زرقاء** بينما كل الفصل (48–59) غروب/مغرب.
+**السبب:** ولّدناها من الصفر بدون `start_image`، فما كان فيه شي يقفل وقت اليوم —
+وكتابة `warm golden sunset light` وحدها **ما كفت**، لأن مرجع الحديقة نهاري.
+
+### 🔑 قاعدة: وقت اليوم لازم يُوصف كمشهد ليلي كامل، مو كصفة إضاءة
+الصياغة اللي نجحت:
+```
+*** TIME OF DAY — THIS IS THE MOST IMPORTANT THING ***
+It is LATE EVENING, JUST AFTER SUNSET. The sun has ALREADY SET.
+The sky is a DEEP DUSKY BLUE-PURPLE TWILIGHT with soft pink clouds low on the horizon.
+It is nearly dark. The garden is lit almost entirely by ARTIFICIAL WARM LIGHT: small
+glowing golden garden lamps... and the big GLASS DOORS AND WINDOWS OF THE HOUSE GLOWING
+WARM GOLDEN from inside.
+STRICTLY FORBIDDEN: NO bright daylight, NO midday sun, NO clear bright blue daytime sky,
+NO harsh sunlight on the grass, NO daytime look of any kind.
+```
+وأضفنا **آخر كادر من لقطة 49 كـ `image_reference`** (مو start_image) — يعطي النموذج الإضاءة
+وتصميم المرجيحة الصحيحين بدون ما يقيّد الكادر. ✅ تقنية مفيدة: `image_reference` للجو، `start_image` للكادر.
+
+**v2 معتمدة:** غروب صحيح، الكرسيان (أحمر يسار + أزرق يمين) بالارتفاع المنخفض،
+نادية تركض وتقعد على الأحمر، نونو خلفها.
+
+**تحقق الصمت:** ذروة 2536 بس كلها **نبضات قصيرة 50–80 مللي** = خطوات ركض على العشب وصرير سلاسل.
+ما فيه أي ظرف متواصل 200–500 مللي = **ما فيه كلام**. ✅
+
+**ملاحظة مقبولة:** نونو تقف خلف أختها وتحضنها بدل ما تمسك ظهر المقعد بيدين.
+يقرأ كأخت كبيرة على وشك الدفع — مقبول، وأحن من الوصف الأصلي.
