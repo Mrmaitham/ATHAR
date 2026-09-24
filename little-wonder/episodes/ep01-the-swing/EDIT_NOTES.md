@@ -441,3 +441,35 @@ ffmpeg -i new.mp4 -i old.mp4 -map 0:v:0 -map 1:a:0 -c:v copy -c:a aac -shortest 
 ```
 النتيجة: ذروة 638 بدل 7930 = صمت تام. **صفر كريدت.**
 ⚠️ يشتغل فقط لما تكون اللقطتان بنفس الطول وبنفس المكان (الأمبيانس متطابق).
+
+## ⚠️ لقطة 59 — درس: كتم الصوت **ليس** حلاً لشخصية تتكلم
+
+جرّبنا نعالج كلام نادية غير المكتوب بتركيب صوت نظيف مكانه — والنتيجة كانت **أسوأ**:
+شفايفها تتحرك بلا صوت، وهذا أوضح للعين من الكلام نفسه.
+
+**البدائل اللي رفضناها ولماذا:**
+| الحل | ليش ما ينفع |
+|---|---|
+| قص أول اللقطة | يلغي الوصلة مع 58 (وهي سبب إعادة اللقطة أصلاً) |
+| إرجاع صوتها الأصلي | كلام إنجليزي **ما نعرف نصه** في محتوى أطفال — خطر غير مقبول |
+| كتم الصوت | شفايف تتحرك بلا صوت = خلل مرئي واضح |
+
+🔑 **القاعدة:** حركة الشفايف جزء من **الصورة**، وما تنحل بالصوت.
+لو الشخصية تكلمت وهي المفروض ساكتة → **إعادة توليد**، ما فيه مفر.
+
+### الصياغة اللي نجحت (انسخها لأي لقطة صامتة فيها وجوه)
+```
+*** THIS IS A COMPLETELY SILENT SHOT — NOBODY TALKS ***
+EVERY CHARACTER'S LIPS ARE SEALED SHUT FOR THE ENTIRE SHOT, from the first frame
+to the last frame.
+- <NAME>'s lips stay PRESSED TOGETHER and COMPLETELY MOTIONLESS. Her mouth NEVER
+  OPENS, not even slightly. She does NOT talk, does NOT whisper, does NOT mouth any
+  words. She only smiles with her lips CLOSED.
+There is NO lip movement, NO jaw movement and NO talking animation anywhere in this
+shot. All emotion is carried by their EYES and their CLOSED-LIP SMILES only.
+```
+**الفرق عن صياغتنا القديمة:** كنا نكتب `NOBODY SPEAKS` و`mouths stay closed` —
+وهذي وصف **للصوت**. الصياغة الجديدة تصف **الأنيميشن** نفسه (شفايف مطبقة، بلا حركة فك، بلا أنيميشن كلام).
+
+**تحقق النسخة المعتمدة:** ذروة 664 / وسيط 256 = أمبيانس مسطّح، وفحصت شفايف نادية عند 0.9 و1.3 و1.8 و2.3 ث
+(نفس اللحظات اللي كانت تتكلم فيها) — مطبقة بابتسامة في كلها. ✅
