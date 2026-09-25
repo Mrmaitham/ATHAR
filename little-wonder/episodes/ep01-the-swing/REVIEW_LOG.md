@@ -75,8 +75,8 @@
 | # | الملف | الحالة | ملاحظة ميثم |
 |---|---|---|---|
 | 41 | `sh41_nadyah_alone` | ✅ | أُعيد التوليد من آخر فريم في 40 بتصاميم المراجع — معتمد |
-| 42 | `sh42_hoor_offers` | ⏳ | |
-| 43 | `sh43_hoor_asks_why` | ⏳ | |
+| 42 | `sh42_hoor_offers` | ✅ | معتمد |
+| 43 | `sh43_hoor_asks_why` | ✅ | معتمد |
 | 44 | `sh44_hoor_walks_away` | ⏳ | |
 | 44أ | `sh44a_zoozoo_hugs_hoor` | ⏳ | |
 | 45 | `sh45_sad_wide` | ⏳ | |
