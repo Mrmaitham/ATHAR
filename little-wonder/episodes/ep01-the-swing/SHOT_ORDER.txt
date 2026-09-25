@@ -13,7 +13,7 @@
 #   sh34 · sh35 · sh36 · sh37 · sh38 ملغاة — قرار ميثم
 #   sh45 ملغاة — قرار ميثم
 #   sh47 ملغاة — قرار ميثم
-#   sh32 ملغاة · sh62 غير موجودة
+#   sh32 ملغاة
 
 sh01_garden_empty.mp4
 sh02_zoozoo_hoor_book.mp4
