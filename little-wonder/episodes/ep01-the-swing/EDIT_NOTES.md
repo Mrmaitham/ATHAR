@@ -758,3 +758,21 @@ one a bright 8-year-old voice, one a smaller excited 4-year-old voice: "..."
 **ليش صار أقوى:** الصرختان تتلاحقان بدون فاصل فيتصاعد التوتر، وبعدها تجي لقطة زوزو الصامتة كـ**ردّ فعل على الاثنتين معاً** ومتنفّس بعد الذروة، بدل ما تقطع بينهما.
 
 هذي الخطوة الثانية بعد التبادل الأول. الترتيب محفوظ في `SHOT_ORDER.txt` وأسماء الملفات ما تغيّرت.
+
+## دمج اللقطتين 20 و21 في لقطة واحدة (قرار ميثم)
+
+**الطلب:** ندمجهما كحوار واحد، بزاوية أبعد تبيّن المرجيحتين.
+
+**التنفيذ:** صورة بداية مولّدة بكادر أوسع (المرجيحة كاملة من العشب لفوق العارضة، والبنتان بكامل أجسامهما)، ثم فيديو واحد فيه الجملتان بالتتابع:
+> **NOONOO:** "It's my turn!"  ←  **NADYAH:** "No, mine!"
+
+**صياغة الحوار بين متحدثَين في لقطة واحدة** (جديدة — نستخدمها لاحقاً):
+> `FIRST, in the opening second, the OLDER GIRL IN THE PINK T-SHIRT on the LEFT shouts: "..." While she speaks, HER mouth moves and matches those words. The girl in blue keeps her mouth SHUT during this line.`
+> `THEN, immediately after, in the middle of the shot, the YOUNGER GIRL IN THE BLUE OUTFIT on the RIGHT snaps back: "..." While she speaks, HER mouth moves... The girl in pink keeps her mouth SHUT during this line.`
+> `The two lines do NOT overlap. They come one after the other. Each line is said ONCE and NEVER repeated.`
+
+**المفتاح:** تحديد **من يسكت** أثناء كل جملة، وتحديد **موضع الجملة زمنياً** (أول ثانية / منتصف اللقطة)، ونفي التداخل صراحة.
+
+**نتيجة الفحص:** المقعدان ظاهران في كل إطار · دفعتان صوتيتان منفصلتان بينهما سكوت (تطابق جملتين متتاليتين غير متداخلتين) وسكوت تام بعد 3.75 ث · الكاميرا ثابتة · 5.09 ث.
+
+**عدد لقطات الحلقة صار 76** (كان 77). `sh21` محذوف والملغيات الآن: 21 · 32 · و62 غير موجودة أصلاً.

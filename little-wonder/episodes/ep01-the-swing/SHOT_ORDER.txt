@@ -8,6 +8,7 @@
 #     (نونو تصرخ ← نادية ترد ← زوزو ترفع راسها، فيصير انتباهها رد فعل على الصرختين)
 #   sh44a بعد sh44 — لقطة مُدرجة
 #   sh75b بعد sh75 — لقطة جسر مُدرجة
+#   sh21 ملغاة — دُمجت داخل sh20 (الجملتان في لقطة واحدة)
 #   sh32 ملغاة · sh62 غير موجودة
 
 sh01_garden_empty.mp4
@@ -30,7 +31,6 @@ sh17_tug_of_war.mp4
 sh18_hoor_climbs_down.mp4
 sh19_zoozoo_tries.mp4
 sh20_noonoo_my_turn.mp4
-sh21_nadyah_my_turn.mp4
 sh22_zoozoo_sits_back.mp4
 sh23_mishoo_jumps_on.mp4
 sh24_mishoo_flung.mp4
