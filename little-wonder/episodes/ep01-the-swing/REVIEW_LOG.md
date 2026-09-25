@@ -45,7 +45,7 @@
 | 23 | `sh23_mishoo_jumps_on` | ✅ معتمد | — |
 | 24 | `sh24_mishoo_flung` | ✅ معتمد | — |
 | 25 | `sh25_mishoo_roses` | ✅ معتمد | — |
-| 26 | `sh26_hoor_laughs` | ⏳ | |
+| 26 | `sh26_hoor_laughs` | ✅ معتمد (أُعيد) | لقطة بعيدة تجمع حور بمكانها من 22 وميشو بوضعيته من 25 · تشاور عليه وتضحك |
 | 27 | `sh27_still_pulling` | ⏳ | |
 | 28 | `sh28_noonoo_let_go` | ⏳ | |
 | 29 | `sh29_nadyah_its_mine` | ⏳ | |
