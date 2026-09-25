@@ -80,7 +80,7 @@
 | 44 | `sh44_hoor_walks_away` | ✅ | معتمد |
 | 44أ | `sh44a_zoozoo_hugs_hoor` | ✅ | معتمد |
 | 45 | `sh45_sad_wide` | ⛔ | ملغى — قرار ميثم |
-| 46 | `sh46_mishoo_between` | ⏳ | |
+| 46 | `sh46_mishoo_between` | ✅ | أُعيد التوليد من آخر فريم في 41 · حُذف ميشو · المرجيحتان موجودتان — معتمد |
 | 47 | `sh47_empty_swing` | ⏳ | |
 | 48 | `sh48_grandma_arrives` | ⏳ | أول ظهور لتيتة · تدرّج لوني مختلف عن جيرانها |
 | 49 | `sh49_grandma_sits` | ⏳ | |
