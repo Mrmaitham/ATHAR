@@ -4,7 +4,8 @@
 # سطر واحد لكل لقطة، بالترتيب الي تتشغّل فيه.
 #
 # استثناءات مقصودة:
-#   sh15 قبل sh14  — تبادل ترتيب معتمد من ميثم (الشد يتصاعد أول، وبعدها زوزو تنتبه)
+#   ترتيب الخلاف: sh15 ثم sh16 ثم sh14 — معتمد من ميثم
+#     (نونو تصرخ ← نادية ترد ← زوزو ترفع راسها، فيصير انتباهها رد فعل على الصرختين)
 #   sh44a بعد sh44 — لقطة مُدرجة
 #   sh75b بعد sh75 — لقطة جسر مُدرجة
 #   sh32 ملغاة · sh62 غير موجودة
@@ -23,8 +24,8 @@ sh11_noonoo_first.mp4
 sh12_nadyah_always.mp4
 sh13_mishoo_watches.mp4
 sh15_noonoo_pulls.mp4
-sh14_zoozoo_notices.mp4
 sh16_nadyah_pulls.mp4
+sh14_zoozoo_notices.mp4
 sh17_tug_of_war.mp4
 sh18_hoor_climbs_down.mp4
 sh19_zoozoo_tries.mp4
