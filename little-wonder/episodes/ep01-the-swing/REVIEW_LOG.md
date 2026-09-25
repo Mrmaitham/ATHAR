@@ -100,5 +100,7 @@
 | 56 | `sh56_nadyah_idea` | ✅ | معتمد |
 | 57 | `sh57_noonoo_deal` | ✅ | معتمد |
 | 58 | `sh58_hand_offered` | ✅ | معتمد |
-| 59 | `sh59_handshake` | ⏳ | |
-| 60 | `sh60_nadyah_first_turn` | ⏳ | |
+| 59 | `sh59_handshake` | ✅ | معتمد |
+| 60 | `sh60_nadyah_first_turn` | ✅ | معتمد |
+
+**خلاصة الدفعة السادسة:** 51 → 60 معتمدة كلها بدون إعادة توليد ولا إلغاء.
