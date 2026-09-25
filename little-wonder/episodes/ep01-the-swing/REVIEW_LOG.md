@@ -98,7 +98,7 @@
 | 54 | `sh54_grandma_what_if` | ✅ | معتمد |
 | 55 | `sh55_noonoo_thinks` | ✅ | معتمد |
 | 56 | `sh56_nadyah_idea` | ✅ | معتمد |
-| 57 | `sh57_noonoo_deal` | ⏳ | |
-| 58 | `sh58_hand_offered` | ⏳ | |
+| 57 | `sh57_noonoo_deal` | ✅ | معتمد |
+| 58 | `sh58_hand_offered` | ✅ | معتمد |
 | 59 | `sh59_handshake` | ⏳ | |
 | 60 | `sh60_nadyah_first_turn` | ⏳ | |
