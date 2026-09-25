@@ -77,8 +77,8 @@
 | 41 | `sh41_nadyah_alone` | ✅ | أُعيد التوليد من آخر فريم في 40 بتصاميم المراجع — معتمد |
 | 42 | `sh42_hoor_offers` | ✅ | معتمد |
 | 43 | `sh43_hoor_asks_why` | ✅ | معتمد |
-| 44 | `sh44_hoor_walks_away` | ⏳ | |
-| 44أ | `sh44a_zoozoo_hugs_hoor` | ⏳ | |
+| 44 | `sh44_hoor_walks_away` | ✅ | معتمد |
+| 44أ | `sh44a_zoozoo_hugs_hoor` | ✅ | معتمد |
 | 45 | `sh45_sad_wide` | ⏳ | |
 | 46 | `sh46_mishoo_between` | ⏳ | |
 | 47 | `sh47_empty_swing` | ⏳ | |
