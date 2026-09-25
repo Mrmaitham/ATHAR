@@ -9,6 +9,7 @@
 #   sh44a بعد sh44 — لقطة مُدرجة
 #   sh75b بعد sh75 — لقطة جسر مُدرجة
 #   sh21 ملغاة — دُمجت داخل sh20 (الجملتان في لقطة واحدة)
+#   sh27 ملغاة — قرار ميثم
 #   sh32 ملغاة · sh62 غير موجودة
 
 sh01_garden_empty.mp4
@@ -36,7 +37,6 @@ sh23_mishoo_jumps_on.mp4
 sh24_mishoo_flung.mp4
 sh25_mishoo_roses.mp4
 sh26_hoor_laughs.mp4
-sh27_still_pulling.mp4
 sh28_noonoo_let_go.mp4
 sh29_nadyah_its_mine.mp4
 sh30_final_pull.mp4
