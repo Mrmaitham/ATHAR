@@ -10,7 +10,7 @@
 #   sh75b بعد sh75 — لقطة جسر مُدرجة
 #   sh21 ملغاة — دُمجت داخل sh20 (الجملتان في لقطة واحدة)
 #   sh27 ملغاة — قرار ميثم
-#   sh34 · sh35 · sh36 · sh37 ملغاة — قرار ميثم
+#   sh34 · sh35 · sh36 · sh37 · sh38 ملغاة — قرار ميثم
 #   sh32 ملغاة · sh62 غير موجودة
 
 sh01_garden_empty.mp4
@@ -43,7 +43,6 @@ sh29_nadyah_its_mine.mp4
 sh30_final_pull.mp4
 sh31_knot_snaps.mp4
 sh33_both_oh_no.mp4
-sh38_noonoo_gives_up.mp4
 sh39_zoozoo_speaks.mp4
 sh40_noonoo_turns_away.mp4
 sh41_nadyah_alone.mp4
