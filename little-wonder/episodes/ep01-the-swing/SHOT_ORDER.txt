@@ -11,6 +11,7 @@
 #   sh21 ملغاة — دُمجت داخل sh20 (الجملتان في لقطة واحدة)
 #   sh27 ملغاة — قرار ميثم
 #   sh34 · sh35 · sh36 · sh37 · sh38 ملغاة — قرار ميثم
+#   sh45 ملغاة — قرار ميثم
 #   sh32 ملغاة · sh62 غير موجودة
 
 sh01_garden_empty.mp4
@@ -50,7 +51,6 @@ sh42_hoor_offers.mp4
 sh43_hoor_asks_why.mp4
 sh44_hoor_walks_away.mp4
 sh44a_zoozoo_hugs_hoor.mp4
-sh45_sad_wide.mp4
 sh46_mishoo_between.mp4
 sh47_empty_swing.mp4
 sh48_grandma_arrives.mp4
