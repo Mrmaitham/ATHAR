@@ -114,8 +114,10 @@
 | 63 | `sh63_nadyah_counts` | ✅ | معتمد |
 | 64 | `sh64_both_ten` | ✅ | معتمد |
 | 65 | `sh65_your_turn` | ✅ | معتمد |
-| 66 | `sh66_thank_you` | ⏳ | |
-| 67 | `sh67_count_to_five` | ⏳ | |
-| 68 | `sh68_im_flying` | ⏳ | |
-| 69 | `sh69_family_arrives` | ⏳ | |
-| 70 | `sh70_hoor_turn` | ⏳ | |
+| 66 | `sh66_thank_you` | ✅ | معتمد |
+| 67 | `sh67_count_to_five` | ✅ | معتمد |
+| 68 | `sh68_im_flying` | ✅ | معتمد |
+| 69 | `sh69_family_arrives` | ✅ | معتمد |
+| 70 | `sh70_hoor_turn` | ✅ | معتمد |
+
+**خلاصة الدفعة السابعة:** 61 → 70 معتمدة كلها بدون إعادة توليد ولا إلغاء.
