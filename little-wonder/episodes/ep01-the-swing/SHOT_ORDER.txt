@@ -6,7 +6,7 @@
 # استثناءات مقصودة:
 #   ترتيب الخلاف: sh15 ثم sh16 ثم sh17 ثم sh14 — معتمد من ميثم
 #     (نونو تصرخ ← نادية ترد ← شد الحبل ← زوزو ترفع راسها على الشد نفسه)
-#   sh44a بعد sh44 — لقطة مُدرجة
+#   sh44a ثم sh44b بعد sh44 — لقطتان مُدرجتان
 #   sh75b بعد sh75 — لقطة جسر مُدرجة
 #   sh21 ملغاة — دُمجت داخل sh20 (الجملتان في لقطة واحدة)
 #   sh27 ملغاة — قرار ميثم
@@ -52,6 +52,7 @@ sh42_hoor_offers.mp4
 sh43_hoor_asks_why.mp4
 sh44_hoor_walks_away.mp4
 sh44a_zoozoo_hugs_hoor.mp4
+sh44b_hoor_answers.mp4
 sh46_mishoo_between.mp4
 sh48_grandma_arrives.mp4
 sh49_grandma_sits.mp4
