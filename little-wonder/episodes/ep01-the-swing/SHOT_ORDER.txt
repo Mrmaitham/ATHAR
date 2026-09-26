@@ -6,6 +6,7 @@
 # استثناءات مقصودة:
 #   ترتيب الخلاف: sh15 ثم sh16 ثم sh17 ثم sh14 — معتمد من ميثم
 #     (نونو تصرخ ← نادية ترد ← شد الحبل ← زوزو ترفع راسها على الشد نفسه)
+#   sh19b بعد sh19 — لقطة مُدرجة (زوزو تكمل جملتها)
 #   sh44a ثم sh44b بعد sh44 — لقطتان مُدرجتان
 #   sh75b بعد sh75 — لقطة جسر مُدرجة
 #   sh21 ملغاة — دُمجت داخل sh20 (الجملتان في لقطة واحدة)
@@ -34,6 +35,7 @@ sh17_tug_of_war.mp4
 sh14_zoozoo_notices.mp4
 sh18_hoor_climbs_down.mp4
 sh19_zoozoo_tries.mp4
+sh19b_zoozoo_finishes.mp4
 sh20_noonoo_my_turn.mp4
 sh22_zoozoo_sits_back.mp4
 sh23_mishoo_jumps_on.mp4
