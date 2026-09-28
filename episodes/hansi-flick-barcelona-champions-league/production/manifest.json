@@ -66,7 +66,19 @@
       "duration_seconds": 48.6,
       "vertical": "1080x1920",
       "arabic_subtitles_burned_in": true,
-      "background_music": "Gothamlicious (same mix recipe as main video)"
+      "background_music": "Gothamlicious (same mix recipe as main video)",
+      "motion_graphics_edit": {
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GPnMIBf9MTKG0k3nXluooyuyoI/8084f2fe-615f-4458-99a6-27a53708f7c9.mp4",
+        "description": "Same base cut with an animated scoreboard/timeline graphics package burned on top (top safe-zone, above the video content and below-frame subtitles): intro context card, live '88’ — 3-2' scoreboard, tension tick, red goal-flash cards for Acerbi (90+3’, 3-3) and Frattesi (99’, 4-3), and a final maroon aggregate-reveal card (4-3 / agg. 7-6). Built with libass/ASS (BorderStyle=3 opaque-box lower-thirds, \\fad + \\t scale pop-in animation) rather than ffmpeg drawtext, because drawtext cannot shape Arabic text correctly. All hyphenated scorelines (3-2, 3-3, 4-3, 7-6) are wrapped in Unicode LRI/PDI isolate marks to force correct left-to-right numeral order inside the surrounding RTL Arabic — without this, bidi reordering flips them (e.g. 7-6 renders as 6-7), which is what the plain burned-in narration subtitles on this same clip still do.",
+        "beats": [
+          {"t": "0.3-7.0", "text": "نصف نهائي دوري أبطال أوروبا — الإياب خارج الأرض: برشلونة متأخر بهدفين"},
+          {"t": "7.9-17.6", "text": "الدقيقة 88 — برشلونة 3-2 إنتر ميلان — على أعتاب النهائي"},
+          {"t": "22.1-26.7", "text": "90+3’ أتشيربي — التعادل 3-3 (أحمر)"},
+          {"t": "27.1-34.2", "text": "99’ فراتيزي — إنتر يتقدم 4-3 (أحمر)"},
+          {"t": "34.8-45.3", "text": "النتيجة النهائية 4-3 — المجموع 7-6 — برشلونة خارج (مارون)"}
+        ],
+        "size_mb": 14.6
+      }
     },
     {
       "name": "The hook",

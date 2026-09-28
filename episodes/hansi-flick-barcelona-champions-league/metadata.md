@@ -35,3 +35,7 @@ Vertical 1080x1920, Arabic subtitles burned in, Gothamlicious music, "BY ATHAR" 
    https://d2ol7oe51mr4n9.cloudfront.net/user_3GPnMIBf9MTKG0k3nXluooyuyoI/1cd0c5f0-37d0-4ef2-9275-e84a0efc23af.mp4
 3. **The diagnosis** (111.5s) — scenes 8 + 12 combined (the high-line/offside-trap explanation + "they waited for exactly those gaps" line), the core analytical payoff.
    https://d2ol7oe51mr4n9.cloudfront.net/user_3GPnMIBf9MTKG0k3nXluooyuyoI/1ba2a209-ae97-47cc-9aa8-8c0a715e698a.mp4
+
+### Bonus: "The collapse" — motion graphics edit
+Same Short as #1 above, with an animated scoreboard/timeline graphics package (88' lead → equalizer → winner → final aggregate) burned on top. Use this version instead of #1 if you want the graphics-driven cut.
+https://d2ol7oe51mr4n9.cloudfront.net/user_3GPnMIBf9MTKG0k3nXluooyuyoI/8084f2fe-615f-4458-99a6-27a53708f7c9.mp4
