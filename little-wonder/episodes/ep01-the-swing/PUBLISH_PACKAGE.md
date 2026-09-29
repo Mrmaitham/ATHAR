@@ -95,7 +95,7 @@ little wonder, little wonder cartoon, kids cartoon, cartoon for kids, taking tur
 | Title & description language | English |
 | Captions | لا شي حالياً (قرارك) |
 | Playlist | أنشئ قائمة **"Little Wonder — Full Episodes"** وحط الحلقة فيها |
-| End screen | آخر 10 ثواني (الأوترو): زر Subscribe + فيديو مقترح (لما تنزل الحلقة الثانية) |
+| End screen / Cards | غير متاحة لفيديوهات "Made for kids" — تنتجاوز |
 | License | Standard YouTube License |
 | Visibility | ارفعها **Private** أول، راجعها على يوتيوب، وبعدين **Schedule** |
 
