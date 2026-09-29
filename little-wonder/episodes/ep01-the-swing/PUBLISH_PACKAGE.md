@@ -126,5 +126,5 @@ little wonder, little wonder cartoon, kids cartoon, cartoon for kids, taking tur
 ## الخطوات الجاية (تنتظر موافقتك)
 
 1. ~~اختيار العنوان~~ ✅ (أ)
-2. ~~فكرة الصورة المصغّرة~~ ✅ (1) "MY TURN!" — التوليد قيد التنفيذ (6.5 كريدت مصروفة).
+2. ~~فكرة الصورة المصغّرة~~ ✅ (1) `EP01_thumbnail.jpg` 1280×720 — نونو ونادية يتجاذبون المقعد، الشعار الأصلي و"MY TURN!" مركّبين بالمونتاج (6.5 كريدت). الصورة الخام: `edit_assets/thumbnail_raw.png`.
 3. ~~تجهيز الـ Short~~ ✅ `shorts/EP01_short_mishoo_oops.mp4` — 18.4 ث، 1080×1920، اللقطات 23→26 كاملة بدون قص (خلفية مغبّشة من نفس اللقطة)، الشعار فوق، "Mishoo's Big Oops!" تحت، و"Full episode on the channel" بآخر 4 ثواني، صوت أصلي.
