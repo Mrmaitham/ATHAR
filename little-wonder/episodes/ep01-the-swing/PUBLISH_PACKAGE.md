@@ -13,7 +13,7 @@
 | ب | Who Gets the Swing First? 🤔 \| Little Wonder \| Sharing Story for Kids | سؤال يثير فضول الطفل والأهل |
 | ج | المرجيحة 🌈 \| الأعجوبة الصغيرة – الحلقة ١ \| The Swing \| Little Wonder | لو تبي العنوان يوصل للجمهور العربي بالبحث |
 
-**ترشيحي: (أ)** — الحوار إنجليزي، فالعنوان الإنجليزي يوصل لأكبر جمهور، والعربي نحطه بأول سطر بالوصف.
+✅ **المعتمد (ميثم): (أ)** — `The Swing 🌈 Taking Turns Is More Fun! | Little Wonder Ep 1 | Kids Cartoon`
 
 ---
 
@@ -125,6 +125,6 @@ little wonder, little wonder cartoon, kids cartoon, cartoon for kids, taking tur
 
 ## الخطوات الجاية (تنتظر موافقتك)
 
-1. اختيار العنوان (أ / ب / ج).
+1. ~~اختيار العنوان~~ ✅ (أ)
 2. اختيار فكرة الصورة المصغّرة (1 / 2 / 3) والموافقة على **6.5 كريدت**.
 3. تجهيز الـ Short (مونتاج بس، بدون كريدت).
