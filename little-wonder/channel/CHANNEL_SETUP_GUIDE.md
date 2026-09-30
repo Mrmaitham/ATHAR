@@ -16,11 +16,7 @@
 2. اضغط صورة الحساب (فوق يمين) ← **Settings** ← **Add or manage your channel(s)** ← **Create a channel**.
    (لو طلع لك "Create a channel" على طول من القائمة، اختاره.)
 3. **Channel name:** `Little Wonder`
-4. **Handle** (اسم المستخدم @) — جرّب بالترتيب، أول واحد متاح:
-   1. `@LittleWonderKids`
-   2. `@LittleWonderStories`
-   3. `@LittleWonderFamily`
-   4. `@LittleWonderTV`
+4. **Handle:** ✅ `@LittleWonderByAthar` (المعتمد — الأسماء العامة كلها محجوزة)
 5. اضغط **Create**.
 
 ### ٣. توثيق القناة بالجوال (مهم جداً)
