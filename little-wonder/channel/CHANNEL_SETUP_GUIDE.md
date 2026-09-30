@@ -46,7 +46,7 @@
 
 **Description** (انسخه كامل):
 ```
-🌈 Welcome to Little Wonder!
+⭐ Welcome to Little Wonder!
 
 Join Zoozoo, Noonoo, Nadyah, little Hoor, wise Grandma Khadija and Mishoo the cat on everyday adventures full of laughs, big feelings and little lessons — sharing, taking turns, kindness and family love.
 
@@ -57,7 +57,7 @@ Little hearts… BIG WONDERS! 💛
 
 —
 
-🌈 أهلاً فيكم في الأعجوبة الصغيرة!
+⭐ أهلاً فيكم في الأعجوبة الصغيرة!
 زوزو ونونو ونادية وحور الصغيرة، مع تيتة خديجة والقطو ميشو، في مغامرات يومية مليانة ضحك ودروس صغيرة: المشاركة، الدور، اللطف، وحب العائلة.
 ✨ حلقة جديدة كل جمعة!
 ```
@@ -139,7 +139,7 @@ Studio ← **Content** ← **Playlists** ← **New playlist**:
 
 | القائمة | الوصف |
 |---|---|
-| `Little Wonder — Full Episodes` | Every Little Wonder episode in order. New episode every Friday! 🌈 |
+| `Little Wonder — Full Episodes` | Every Little Wonder episode in order. New episode every Friday! ⭐ |
 | `Little Wonder — Fun Moments` | Short funny and sweet moments from Little Wonder. |
 
 Visibility: **Public**.
@@ -151,7 +151,7 @@ Visibility: **Public**.
 Studio ← **Create** (فوق يمين) ← **Upload videos** ← اختار ملف الحلقة الكاملة.
 
 ### الشاشة ١: Details
-- **Title:** من `PUBLISH_PACKAGE.md` (للحلقة الأولى: `The Swing 🌈 Taking Turns Is More Fun! | Little Wonder Ep 1 | Kids Cartoon`)
+- **Title:** من `PUBLISH_PACKAGE.md` (للحلقة الأولى: `The Swing ⭐ Taking Turns Is More Fun! | Little Wonder Ep 1 | Kids Cartoon`)
 - **Description:** الصق وصف الحلقة (فيه الفصول) **فوق** الوصف الثابت.
 - **Thumbnail:** Upload ← `EP01_thumbnail.jpg`
 - **Playlists:** Little Wonder — Full Episodes
@@ -181,7 +181,7 @@ Studio ← **Create** (فوق يمين) ← **Upload videos** ← اختار م�
 | الخانة | القيمة |
 |---|---|
 | Title | عنوان الشورت + `| Little Wonder` مثال: `Mishoo's Big Oops! 😹 \| Little Wonder` |
-| Description | سطر واحد + `Full episode on the channel! 🌈 #Shorts #LittleWonder` |
+| Description | سطر واحد + `Full episode on the channel! ⭐ #Shorts #LittleWonder` |
 | Playlist | Little Wonder — Fun Moments |
 | Audience | Made for kids |
 | Altered content | Yes |

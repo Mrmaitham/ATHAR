@@ -9,18 +9,18 @@
 
 | # | العنوان (يُكتب في يوتيوب) | ليش |
 |---|---|---|
-| **أ** ⭐ | **The Swing 🌈 Taking Turns Is More Fun! \| Little Wonder Ep 1 \| Kids Cartoon** | الدرس واضح من العنوان، واسم السلسلة والرقم ثابتين لكل حلقة |
+| **أ** ⭐ | **The Swing ⭐ Taking Turns Is More Fun! \| Little Wonder Ep 1 \| Kids Cartoon** | الدرس واضح من العنوان، واسم السلسلة والرقم ثابتين لكل حلقة |
 | ب | Who Gets the Swing First? 🤔 \| Little Wonder \| Sharing Story for Kids | سؤال يثير فضول الطفل والأهل |
-| ج | المرجيحة 🌈 \| الأعجوبة الصغيرة – الحلقة ١ \| The Swing \| Little Wonder | لو تبي العنوان يوصل للجمهور العربي بالبحث |
+| ج | المرجيحة ⭐ \| الأعجوبة الصغيرة – الحلقة ١ \| The Swing \| Little Wonder | لو تبي العنوان يوصل للجمهور العربي بالبحث |
 
-✅ **المعتمد (ميثم): (أ)** — `The Swing 🌈 Taking Turns Is More Fun! | Little Wonder Ep 1 | Kids Cartoon`
+✅ **المعتمد (ميثم): (أ)** — `The Swing ⭐ Taking Turns Is More Fun! | Little Wonder Ep 1 | Kids Cartoon`
 
 ---
 
 ## ٢. الوصف (انسخه كما هو)
 
 ```
-🌈 نونو ونادية يبون المرجيحة بنفس اللحظة… وكل وحدة تبي تكون الأولى! شنو بيصير لما يتجاذبون الحبل؟ وشلون تساعدهم تيتة خديجة يلاقون الحل؟
+⭐ نونو ونادية يبون المرجيحة بنفس اللحظة… وكل وحدة تبي تكون الأولى! شنو بيصير لما يتجاذبون الحبل؟ وشلون تساعدهم تيتة خديجة يلاقون الحل؟
 Noonoo and Nadyah both want the swing at the very same moment — and neither wants to wait! When the tug-of-war goes wrong, Grandma Khadija helps them discover something wonderful: taking turns makes the fun last twice as long.
 
 💛 Lesson of the day: When we take turns, the fun lasts twice as long.
@@ -114,7 +114,7 @@ little wonder, little wonder cartoon, kids cartoon, cartoon for kids, taking tur
 
 **بوست ترويجي (إنستغرام / واتساب):**
 ```
-🌈 الحلقة الأولى من Little Wonder وصلت!
+⭐ الحلقة الأولى من Little Wonder وصلت!
 نونو ونادية يبون المرجيحة بنفس الوقت… مين بتكون الأولى؟ 🤔
 شوفوا شلون تيتة خديجة تعلمهم إن الدور يخلي الوناسة أطول 💛
 📺 الحين على يوتيوب — الرابط بالبايو
