@@ -156,3 +156,17 @@ little wonder, little wonder cartoon, kids cartoon, cartoon for kids, taking tur
 | `EP01_short_big_wonders.mp4` | درس تيتة والنهاية (74→76) | 24 ث |
 
 **الإيقاع:** 3 شورتس بالأسبوع (أحد / ثلاثاء / خميس) الساعة 5 العصر بتوقيت الخليج، والحلقة كل جمعة 9 الصبح. بعد أسبوعين نراجع أرقام الشورتس ونعدّل.
+
+---
+
+## ٨. ما تم نشره على يوتيوب ✅
+
+| الموعد (GMT+3) | الفيديو | العنوان |
+|---|---|---|
+| الخميس 1 أكتوبر — 5:00 PM | Short 1 | Meet the Little Wonder Family! ⭐ \| Little Wonder |
+| **الجمعة 2 أكتوبر — 9:00 AM** | **الحلقة** (`6w2Kzg3FToY`) | The Swing ⭐ Taking Turns Is More Fun! \| Little Wonder Ep 1 \| Kids Cartoon |
+| الأحد 4 أكتوبر — 5:00 PM | Short 2 | Mishoo's Big Oops! 😹 \| Little Wonder |
+| الثلاثاء 6 أكتوبر — 5:00 PM | Short 3 | "MY TURN!" 😤 Who Gets the Swing? \| Little Wonder |
+| الخميس 8 أكتوبر — 5:00 PM | Short 4 | "I'm Flying!" ⭐ Taking Turns Is Fun! \| Little Wonder |
+
+الشورتس كلها: Playlist = Fun Moments · Made for kids · Altered content = Yes. وصف الشورت: سطر + `Full episode "The Swing" on the channel! ⭐` + `#Shorts #LittleWonder #KidsCartoon #الأعجوبة_الصغيرة`.
