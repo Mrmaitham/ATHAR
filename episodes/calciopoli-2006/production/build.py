@@ -51,7 +51,19 @@ def build_scene(s):
         modes = [(i + k) % 4 for k in range(len(imgs))]
     seg_d = dur / len(imgs); segs = []
     for k, (im, m) in enumerate(zip(imgs, modes)):
-        sp = f"segs/{sid}_{k}.mp4"; kb(im, sp, seg_d, m); segs.append(sp)
+        sp = f"segs/{sid}_{k}.mp4"
+        clip = "clips/" + os.path.basename(im).replace(".png", ".mp4")
+        if os.path.exists(clip):
+            src = float(subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration",
+                                        "-of", "csv=p=0", clip], capture_output=True, text=True).stdout)
+            slow = min(2.0, max(1.0, seg_d / src))
+            run(["ffmpeg", "-y", "-v", "error", "-i", clip, "-vf",
+                 f"setpts={slow:.3f}*PTS,scale=1920:1080:force_original_aspect_ratio=increase,crop=1920:1080,"
+                 f"fps={FPS},tpad=stop_mode=clone:stop_duration={seg_d:.3f},format=yuv420p",
+                 "-an", "-t", f"{seg_d:.3f}", "-c:v", "libx264", "-preset", "veryfast", "-crf", "18", sp])
+        else:
+            kb(im, sp, seg_d, m)
+        segs.append(sp)
     lst = f"segs/{sid}.txt"
     open(lst, "w").write("".join(f"file '{os.path.basename(p)}'\n" for p in segs))
     vid = f"segs/{sid}_v.mp4"

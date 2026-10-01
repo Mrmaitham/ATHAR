@@ -8,3 +8,6 @@ episodes/*/production/overlays/
 episodes/*/production/*.mp4
 episodes/*/production/sheet_*.jpg
 episodes/*/production/test_*.jpg
+episodes/*/production/build.log
+episodes/*/production/clips/
+episodes/*/production/thumb*_raw.png
