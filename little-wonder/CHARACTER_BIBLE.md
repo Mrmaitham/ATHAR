@@ -210,6 +210,13 @@ than one third.
 |---|---|---|
 | THE SWING (المرجيحة) | `references/prop_swing.png` | `18515f28-acef-4426-8c80-1696ed7b6515` |
 | PANDA (دبدوب حور) | `references/prop_panda.png` | `1b64bc35-7752-4388-984a-3a850b54cb25` |
+| VASE (فازة تيتة — الحلقة 2) | `references/prop_vase.png` | `6c992823-7379-49a9-b8e4-712aa63dbeeb` |
+| GOLD VASE (الفازة بعد الإصلاح) | `references/prop_vase_gold.png` | `bf720cc4-74c9-4f19-80eb-9bf2e0b2c703` |
+| BALL (كورة نادية) | `references/prop_ball.png` | `6b1a0387-be35-42b2-a2f3-14cf2b40aef9` |
+| MAGNIFIER (مكبّرة نونو) | `references/prop_magnifier.png` | `50d8b476-0ff6-4418-956a-991522e4dca0` |
+| GOLD PAINT (ألوان زوزو الذهبية) | `references/prop_gold_paint.png` | `5db03704-da96-4c58-9ed1-d732c5558aa1` |
+
+**VASE** — antique blue-and-white porcelain vase: round full belly, slim neck with slightly flared lip, small round foot; glossy white with four large stylized cobalt-blue roses and a few leafy vines, solid blue band at rim and foot; holds pink roses. Soft 3D cartoon style.
 
 **THE SWING** — ⚠️ **ترفق صورتها المرجعية في كل لقطة تظهر فيها المرجيحة**، وإلا شكلها يتغير من لقطة لأخرى.
 
