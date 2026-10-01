@@ -7,7 +7,67 @@ per episode.
 
 ---
 
-## Portrait scenes — LOCKED: Tifo-style clean vector illustration
+## ⚠️ Channel visual standard changed — 2026-10-01
+
+The channel moved to the cinematic-documentary format documented in
+`references/documentary_format.md` (copied from the Wake Island reference
+film). The sections below marked **ARCHIVED** (Tifo vector portraits,
+Dorktown data-graphics) were the standard for the Roberto Baggio episode only
+and are kept for reference — do not use them for new episodes.
+
+## Narrative scenes — painterly cinematic (PENDING test batch)
+
+Status: **not locked yet.** Before the first new-format episode, generate a
+test batch of 3 candidates (e.g. Nano Banana / GPT Image / Seedream via
+`models_explore(action:'recommend')`) on the same 3 test shots (wide stadium
+scene, close-up of a real player, crowd/era street scene), let Maitham pick,
+then record model + parameters here and mark LOCKED.
+
+### Prompt template (narrative scenes)
+
+```
+Cinematic digital oil painting, historical documentary still, [SCENE: who,
+where, what is happening], [ERA: year, place, era-accurate clothing, kits,
+stadium, equipment, vehicles], dramatic [LIGHT: dawn / golden hour /
+floodlights / firelight / overcast], muted teal and amber palette, visible
+painterly brushstrokes, rich detail, [SHOT: wide establishing / medium group
+/ close-up face], 16:9, no text, no logos, no watermark, not photorealistic
+```
+
+Optional per-episode art direction (from the Brief), appended verbatim, e.g.
+`in the style of Rembrandt chiaroscuro lighting`.
+
+### Prompt template (antique maps)
+
+```
+Antique parchment map, aged paper texture, hand-drawn coastlines and
+borders, watercolor teal sea, ornate compass rose and decorative cartouche
+frames, [REGION / CITY / STADIUM LAYOUT], [optional: red arrows showing
+MOVEMENT], vintage cartography style, 16:9, no modern text, no logos
+```
+
+Place labels are added in FFmpeg as overlays, not generated in the image.
+
+### Overlay system (rendered as PNG with PIL, composited in FFmpeg)
+
+| Token | Value (initial — confirm on first episode) |
+|---|---|
+| Navy (cards background) | `#1F2A3A` |
+| Gold (accents, numbers, subtitles) | `#E8A317` |
+| Black (name boxes) | `#111111` |
+| White (titles, names) | `#FFFFFF` |
+| Title / quote font | Playfair Display (serif; italic for quotes) |
+| Name / number font | Montserrat Bold |
+
+Elements and layout: see `documentary_format.md` §4.
+
+### Thumbnail
+
+Cinematic semi-realistic climax image + two words, each in its own box
+(top-left): word 1 black text on orange/gold box, word 2 white text on black
+box with orange border. Two variants per episode.
+
+## Portrait scenes — ARCHIVED (Baggio episode): Tifo-style clean vector illustration
 
 Source of truth: test batch generated 2026-09-20 for the Roberto Baggio
 episode. Version B (vector) was chosen as the channel standard over the
@@ -71,7 +131,7 @@ that Higgsfield's dedicated character-sheet workflow explicitly disallows.
 
 ---
 
-## Data-graphic scenes — Dorktown-style
+## Data-graphic scenes — ARCHIVED (Baggio episode): Dorktown-style
 
 **LOCKED**: Version C from the 2026-09-20 test batch — `gpt_image_2_5`.
 
@@ -117,7 +177,9 @@ generating a live narration test.
 
 ## Narrative/structure reference
 
-Secret Base — Dorktown series (e.g. "The History of the Atlanta Falcons").
+Current: `references/documentary_format.md` (cold open → 6–8 chapters →
+"The Price/Legacy"; ~137 wpm). Secret Base / Dorktown remains a tonal
+reference for sports storytelling and a source to search for outliers.
 Used for pacing, chapter structure, hook style, and target runtime
 (20–30 minutes). Content/subject matter is not used as a source — American
 football, unrelated to BY ATHAR's sports coverage.
