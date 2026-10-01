@@ -15,13 +15,48 @@ film). The sections below marked **ARCHIVED** (Tifo vector portraits,
 Dorktown data-graphics) were the standard for the Roberto Baggio episode only
 and are kept for reference — do not use them for new episodes.
 
-## Narrative scenes — painterly cinematic (PENDING test batch)
+## Narrative scenes — painterly cinematic — LOCKED 2026-10-01
 
-Status: **not locked yet.** Before the first new-format episode, generate a
-test batch of 3 candidates (e.g. Nano Banana / GPT Image / Seedream via
-`models_explore(action:'recommend')`) on the same 3 test shots (wide stadium
-scene, close-up of a real player, crowd/era street scene), let Maitham pick,
-then record model + parameters here and mark LOCKED.
+Chosen by Maitham from a 3-model test (Calciopoli episode,
+`episodes/calciopoli-2006/style_test/comparison.jpg`):
+
+- **Model**: `gpt_image_2_5`, `quality: high`, `resolution: 2k`, `aspect_ratio: 16:9`
+- **Cost**: 2.75 credits / image (Oct 2026)
+- Rejected: Nano Banana (digital poster look, letterboxing, false NSFW
+  refusals), Cinema Studio 2.5 (too photographic).
+
+### Real people — "signature features" rule (decided 2026-10-01)
+GPT Image will not copy a real person's exact face from a reference photo
+(it turns the subject away). So real people are drawn by **signature
+features** + an on-screen name tag, never by face-matching:
+hairstyle, glasses, build, kit number, armband, props (cigar, phone),
+clothing. Write the features from verified photos; keep one identity block
+per person per episode and reuse it verbatim.
+
+Example (Luciano Moggi, from photos supplied by Maitham):
+`heavyset Italian football executive in his late sixties: bald crown with
+short dark hair at the sides, thin rimless glasses, tanned face, a cigar in
+his mouth, dark suit and tie` (later years: camel overcoat with sheepskin
+collar).
+
+### Prompt rules learned on the first episode
+- Never write "alternate composition / closer framing on faces, hands and
+  details" — the model returns a **collage**. Use: `Single continuous image,
+  not a collage: a close-up shot of …` and end every prompt with
+  `single image, no panels, no text, no logos, not photorealistic`.
+- Name the country of courtrooms/offices and say `Italian tricolour flag
+  only` (otherwise US flags appear).
+- State kit numbers explicitly (Grosso #3, Cannavaro #5, Del Piero #7 Italy /
+  #10 Juventus).
+- Short tail keeps style consistent: `Muted teal-amber palette, cinematic
+  light, painterly brushstrokes, period detail`.
+
+### Climax clips (Tier B)
+- **Model**: `kling3_0`, `mode: std`, `sound: off`, 5 s, image-to-video from
+  the scene's own painting (`start_image` = image job id), prompt ends with
+  `keep the oil painting style`. Cost 7.5 credits / clip.
+- If Higgsfield answers with a preset recommendation instead of a job, resend
+  with `declined_preset_id`.
 
 ### Prompt template (narrative scenes)
 
