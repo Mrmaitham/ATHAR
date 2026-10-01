@@ -35,7 +35,9 @@ Deliverables: film + 2 thumbnails + CTR title + description + chapters + 5 short
 - Living people (Moggi, Giraudo, referees, executives): state only what
   courts decided or what was published, and attribute everything else
   ("according to the intercepts", "prosecutors alleged").
-- The Gianluca Pessotto fall (June 2006): mention only briefly and
+- The Gianluca Pessotto fall (June 2006): DECIDED 2026-10-01 — left out of
+  the film (living person, not charged, no source links it to the scandal).
+  Original note: mention only briefly and
   respectfully if at all; no depiction.
 - Criminal outcomes: say "time-barred" / "statute of limitations", never
   "acquitted" unless a court said so.

@@ -132,9 +132,6 @@ S039 · PAINT · Moggi leaving a stadium by a back door in light rain · OVL quo
 S040 · PAINT · players celebrating on the pitch, a lone figure walking away in the background
 > A title celebrated on the pitch… and a director leaving through the back door.
 
-S041 · PAINT · empty corridor at Juventus headquarters, morning light, a bouquet of flowers, no people
-> In late June, the club was struck by a painful human tragedy, when Gianluca Pessotto, a former player and the club's new team manager, fell from a window of the club's headquarters. Pessotto survived. But it revealed the weight of pressure everyone inside Juventus was living under.
-
 S042 · PAINT · Italian team bus on a German motorway at dusk
 > And through all of this… the players had to travel to Germany. For the World Cup.
 
