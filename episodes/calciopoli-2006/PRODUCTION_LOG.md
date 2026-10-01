@@ -31,6 +31,15 @@ Reviewed all 162 images against the script and facts.
 - Text: S047 on-screen quote now matches the narration ("They have killed my soul.").
 - Fix cost: 5 images × 2.75 + 1 clip × 7.5 = 21.25 credits.
 
+## Character pass (from Maitham's reference photos)
+Signature features written from the photos; approved tests first, then the rest.
+- Del Piero: I0801, I0812, I0821, I0822, I0851 (+ new clip), I0852.
+- Lippi (glasses, silver hair, cigar, blue Italy polo): I0541, I0542, I0631, I0632, I0633.
+- Cannavaro (buzz cut, forearm tattoos, wide smile): I0041 (+ new clip), I0791, I0792.
+- Old versions kept in `production/images_excluded/old_characters/` and `clips_excluded/old_characters/`.
+- Cost: 14 images × 2.75 + 2 clips × 7.5 = 53.5 credits.
+- Moggi was already done from his photos in the first pass.
+
 ## Known issues
 - No background music. A licensed track is still needed.
 - Real people are drawn by signature features, not exact likeness.
