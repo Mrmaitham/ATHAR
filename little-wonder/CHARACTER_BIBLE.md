@@ -102,7 +102,7 @@ that other child's face and body are OUTSIDE the frame and never seen
 > 8-year-old girl, very long wavy black hair, brown eyes, oversized pink t-shirt with a lilac butterfly print, gold coin necklace, small earrings, black cargo pants with side pockets, white sneakers with a black side stripe
 
 **NADYAH**
-> 4-year-old girl, dark hair in a low ponytail with loose strands, big brown eyes, blue sleeveless collarless long vest with pockets, white top, blue cuffed shorts, gold heart necklace, white velcro sneakers with three black side stripes
+> 4-year-old girl, dark hair in ONE single low ponytail at the back of her head (never two pigtails) with loose strands, big brown eyes, blue sleeveless collarless long vest with pockets, white top, blue cuffed shorts, gold heart necklace, white velcro sneakers with three black side stripes
 
 **HOOR**
 > 2-year-old toddler girl, the smallest, curly dark hair in two small buns with cream polka-dot bows, big brown eyes, pink sleeveless blazer vest, white top, pink cuffed shorts, gold heart necklace, black velcro sneakers with white side stripes
