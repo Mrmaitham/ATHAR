@@ -1,1 +1,10 @@
 episodes/*/style_test/*.png
+episodes/*/production/images/
+episodes/*/production/audio/
+episodes/*/production/segs/
+episodes/*/production/scenes_mp4/
+episodes/*/production/cards/
+episodes/*/production/overlays/
+episodes/*/production/*.mp4
+episodes/*/production/sheet_*.jpg
+episodes/*/production/test_*.jpg

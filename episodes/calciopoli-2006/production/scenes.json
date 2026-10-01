@@ -1,0 +1,1054 @@
+[
+ {
+  "id": "S001",
+  "type": "PAINT",
+  "visual": "Berlin Olympiastadion at night, floodlit, blue crowd, wide",
+  "overlay": [],
+  "narration": "Berlin. The ninth of July, 2006. The World Cup final.",
+  "dur": 5.56,
+  "n_images": 1
+ },
+ {
+  "id": "S002",
+  "type": "PAINT",
+  "visual": "an Italian player walking alone toward the penalty spot, seen from behind",
+  "overlay": [],
+  "narration": "Penalties. Italy against France. Four Italian kicks. Four goals. And now Fabio Grosso steps up to take the fifth.",
+  "dur": 10.37,
+  "n_images": 2
+ },
+ {
+  "id": "S003",
+  "type": "CLIP",
+  "visual": "ball hits the net, goalkeeper on the ground",
+  "overlay": [
+   "number \"5–3 · penalties\""
+  ],
+  "narration": "He scores. Italy are champions of the world, for the fourth time in their history.",
+  "dur": 5.88,
+  "n_images": 1
+ },
+ {
+  "id": "S004",
+  "type": "PAINT",
+  "visual": "Cannavaro lifting the golden trophy under fireworks and confetti",
+  "overlay": [],
+  "narration": "Their captain, Fabio Cannavaro, lifts the trophy into the Berlin sky.",
+  "dur": 5.88,
+  "n_images": 1
+ },
+ {
+  "id": "S005",
+  "type": "PAINT",
+  "visual": "close-ups of celebrating players, joy and exhaustion",
+  "overlay": [],
+  "narration": "Behind him celebrate Gianluigi Buffon, Alessandro Del Piero, Mauro Camoranesi and Gianluca Zambrotta.",
+  "dur": 9.09,
+  "n_images": 2
+ },
+ {
+  "id": "S006",
+  "type": "PAINT",
+  "visual": "the same players, the black-and-white Juventus crest faintly reflected in a puddle on the pitch",
+  "overlay": [],
+  "narration": "Five of these world champions play for the same club. Juventus.",
+  "dur": 4.44,
+  "n_images": 1
+ },
+ {
+  "id": "S007",
+  "type": "PAINT",
+  "visual": "dark courtroom in Rome, stacked files, a single lamp",
+  "overlay": [],
+  "narration": "But more than a thousand kilometres away, in Rome, a tribunal is preparing a verdict that will send their club down to the second division.",
+  "dur": 9.56,
+  "n_images": 2
+ },
+ {
+  "id": "S008",
+  "type": "PAINT",
+  "visual": "empty judges' bench, morning light through tall windows",
+  "overlay": [],
+  "narration": "Just five days after the greatest night in modern Italian football came one of its darkest.",
+  "dur": 6.92,
+  "n_images": 1
+ },
+ {
+  "id": "S009",
+  "type": "PAINT",
+  "visual": "an old mobile phone on a wooden desk, cigarette smoke",
+  "overlay": [],
+  "narration": "This is the story of the summer Italian football was crowned… and convicted. This is the story of Calciopoli.",
+  "dur": 10.19,
+  "n_images": 2
+ },
+ {
+  "id": "S010",
+  "type": "CARD",
+  "visual": "title card",
+  "overlay": [
+   "\"CALCIOPOLI · The Summer Italian Football Was Convicted and Crowned\""
+  ],
+  "narration": "",
+  "dur": 4.0,
+  "n_images": 0
+ },
+ {
+  "id": "S011",
+  "type": "CARD",
+  "visual": "\"The Most Powerful Man in Italy · Chapter I · 1994–2004\"",
+  "overlay": [],
+  "narration": "",
+  "dur": 4.0,
+  "n_images": 0
+ },
+ {
+  "id": "S012",
+  "type": "PAINT",
+  "visual": "grand office in Turin, heavy curtains, a man in his sixties behind a desk with several phones",
+  "overlay": [
+   "name \"Luciano Moggi · Juventus General Manager\""
+  ],
+  "narration": "In 1994, Juventus appointed a new general manager. He had never been a star player, or a famous coach.",
+  "dur": 8.05,
+  "n_images": 2
+ },
+ {
+  "id": "S013",
+  "type": "PAINT",
+  "visual": "1960s small Italian railway station, a young worker in uniform",
+  "overlay": [],
+  "narration": "He had started out working at a railway station, then became a talent scout, and climbed all the way to the top of Italy's most famous club. His name was Luciano Moggi.",
+  "dur": 12.04,
+  "n_images": 2
+ },
+ {
+  "id": "S014",
+  "type": "PAINT",
+  "visual": "Moggi on the phone, surrounded by notebooks of names",
+  "overlay": [],
+  "narration": "Moggi had a rare gift. He knew everyone. Agents, coaches, journalists, club presidents… and referees.",
+  "dur": 8.83,
+  "n_images": 2
+ },
+ {
+  "id": "S015",
+  "type": "PAINT",
+  "visual": "three men in suits in a stadium tunnel, long shadows",
+  "overlay": [
+   "name \"Antonio Giraudo · CEO\""
+  ],
+  "narration": "With chief executive Antonio Giraudo and former club legend Roberto Bettega, Moggi formed what the Italian press called the Triade. Three men running the biggest club in the country.",
+  "dur": 14.84,
+  "n_images": 2
+ },
+ {
+  "id": "S016",
+  "type": "PAINT",
+  "visual": "Juventus trophy cabinet, spotlights on league trophies",
+  "overlay": [],
+  "narration": "The results were spectacular. League titles, Champions League finals, and transfers that made Juventus the club everyone feared.",
+  "dur": 9.48,
+  "n_images": 2
+ },
+ {
+  "id": "S017",
+  "type": "PAINT",
+  "visual": "packed Serie A stadium, a referee raising a card",
+  "overlay": [],
+  "narration": "But in Italian football, one question echoed in every café and on every TV talk show. Who chooses the referees?",
+  "dur": 9.17,
+  "n_images": 2
+ },
+ {
+  "id": "S018",
+  "type": "PAINT",
+  "visual": "formal federation meeting room, two older men studying a list",
+  "overlay": [
+   "names \"Paolo Bergamo · Pierluigi Pairetto · Referee Designators\""
+  ],
+  "narration": "At the time, two men were responsible for assigning referees to Serie A matches: Paolo Bergamo and Pierluigi Pairetto. Every week, they decided who would officiate which game.",
+  "dur": 13.56,
+  "n_images": 2
+ },
+ {
+  "id": "S019",
+  "type": "PAINT",
+  "visual": "close-up of a hand placing a name card on a fixture board",
+  "overlay": [],
+  "narration": "And in a league where titles could be decided by a single point, the choice of a referee could mean everything.",
+  "dur": 7.16,
+  "n_images": 1
+ },
+ {
+  "id": "S020",
+  "type": "MAP",
+  "visual": "southern Italy, Reggio Calabria marked",
+  "overlay": [
+   "place \"Reggio Calabria · 6 November 2004\""
+  ],
+  "narration": "On the sixth of November 2004, Juventus lost 2–1 away to Reggina, a small club from the far south of Italy. The referee was Gianluca Paparesta.",
+  "dur": 12.67,
+  "n_images": 2
+ },
+ {
+  "id": "S021",
+  "type": "PAINT",
+  "visual": "Reggina players celebrating in light rain",
+  "overlay": [],
+  "narration": "It was a famous upset. But the real story happened after the final whistle.",
+  "dur": 5.25,
+  "n_images": 1
+ },
+ {
+  "id": "S022",
+  "type": "PAINT",
+  "visual": "dressing-room corridor, a closed wooden door, a metal key in a suited man's hand, no face",
+  "overlay": [
+   "quote \"I locked him in and took the key.\" — according to an intercepted call"
+  ],
+  "narration": "Two years later, Italians would hear a recording of Moggi boasting about what he did after that match. That he had berated the referee… then locked him in his dressing room and walked off with the key.",
+  "dur": 14.11,
+  "n_images": 2
+ },
+ {
+  "id": "S023",
+  "type": "PAINT",
+  "visual": "the key on a desk under lamplight",
+  "overlay": [],
+  "narration": "And the strangest part? Moggi did not say it to a friend. He said it to Maria Grazia Fazi, the secretary of the referees' commission itself.",
+  "dur": 10.11,
+  "n_images": 2
+ },
+ {
+  "id": "S024",
+  "type": "PAINT",
+  "visual": "a secretary's desk with a phone and a referees' fixture list, empty chair",
+  "overlay": [],
+  "narration": "Moggi later called it just a joke. A court in Reggio Calabria closed the investigation, ruling it had been nothing more than a boast. But the recording survived, and became one of the most infamous moments of the whole affair.",
+  "dur": 16.04,
+  "n_images": 3
+ },
+ {
+  "id": "S025",
+  "type": "PAINT",
+  "visual": "silhouette of a man listening through headphones in a dark room",
+  "overlay": [],
+  "narration": "What Moggi did not know at the time was that someone was listening.",
+  "dur": 3.71,
+  "n_images": 1
+ },
+ {
+  "id": "S026",
+  "type": "CARD",
+  "visual": "\"The Phones Were Listening · Chapter II · 2004–2006\"",
+  "overlay": [],
+  "narration": "",
+  "dur": 4.0,
+  "n_images": 0
+ },
+ {
+  "id": "S027",
+  "type": "PAINT",
+  "visual": "prosecutors' listening room, reel recorders turning, a man in headphones",
+  "overlay": [],
+  "narration": "The story did not begin with referees. It began with a completely different investigation.",
+  "dur": 7.08,
+  "n_images": 1
+ },
+ {
+  "id": "S028",
+  "type": "MAP",
+  "visual": "Italy, Turin then Naples, arrow between them",
+  "overlay": [],
+  "narration": "In Turin, prosecutors were looking into Juventus, and into a players' agency called GEA World, run by Moggi's son. Between August and September 2004, phones began to be tapped.",
+  "dur": 14.52,
+  "n_images": 2
+ },
+ {
+  "id": "S029",
+  "type": "PAINT",
+  "visual": "Naples prosecutors' office, hundreds of files, two young prosecutors reading transcripts",
+  "overlay": [],
+  "narration": "The files were later taken up by prosecutors in Naples. And there, the case became something much bigger.",
+  "dur": 7.55,
+  "n_images": 1
+ },
+ {
+  "id": "S030",
+  "type": "PAINT",
+  "visual": "wall of paper transcripts connected with red string",
+  "overlay": [],
+  "narration": "What investigators found was not one phone call. It was a network. Club executives, referee designators and federation officials, talking to each other, again and again.",
+  "dur": 12.67,
+  "n_images": 2
+ },
+ {
+  "id": "S031",
+  "type": "PAINT",
+  "visual": "a hand taking a small SIM card from a box, faded Swiss flag on the packaging",
+  "overlay": [
+   "number \"5 · foreign SIM cards\""
+  ],
+  "narration": "When Moggi suspected his phones might be monitored, he turned to a solution: foreign SIM cards, bought in the Swiss border town of Chiasso, and handed to the people he needed to talk to.",
+  "dur": 12.75,
+  "n_images": 2
+ },
+ {
+  "id": "S032",
+  "type": "MAP",
+  "visual": "Italian–Swiss border, Chiasso marked",
+  "overlay": [],
+  "narration": "Moggi would later say the cards were only for keeping transfers secret, and that they had been the club's idea, not his. Either way, they were not enough.",
+  "dur": 10.11,
+  "n_images": 2
+ },
+ {
+  "id": "S033",
+  "type": "MAP",
+  "visual": "Italy with five red points: Turin, Milan, Florence, Rome, Reggio Calabria",
+  "overlay": [
+   "list \"Juventus · AC Milan · Fiorentina · Lazio · Reggina\""
+  ],
+  "narration": "The investigation did not stop at Juventus. Names from Milan, Fiorentina, Lazio and Reggina appeared in the recordings.",
+  "dur": 8.36,
+  "n_images": 2
+ },
+ {
+  "id": "S034",
+  "type": "CARD",
+  "visual": "",
+  "overlay": [
+   "number \"41 · people investigated in Naples\""
+  ],
+  "narration": "In total, magistrates in Naples investigated forty-one people.",
+  "dur": 5.25,
+  "n_images": 0
+ },
+ {
+  "id": "S035",
+  "type": "PAINT",
+  "visual": "Rome newsstand at morning, old men reading papers in shock, huge headlines (no legible text)",
+  "overlay": [
+   "date \"May 2006\""
+  ],
+  "narration": "Then, in May 2006, everything exploded. Italian newspapers began publishing the transcripts. Page after page. Name after name.",
+  "dur": 11.89,
+  "n_images": 2
+ },
+ {
+  "id": "S036",
+  "type": "PAINT",
+  "visual": "a café, men leaning over a newspaper, espresso cups",
+  "overlay": [],
+  "narration": "Italians read, in the officials' own words, how referees were discussed… and how things were arranged.",
+  "dur": 7.81,
+  "n_images": 1
+ },
+ {
+  "id": "S037",
+  "type": "CARD",
+  "visual": "",
+  "overlay": [
+   "number \"~100,000 · intercepted conversations\""
+  ],
+  "narration": "This was not one phone call, or ten. The investigations covered tens of thousands of recorded conversations. And what was published was enough to shake an entire country.",
+  "dur": 11.81,
+  "n_images": 0
+ },
+ {
+  "id": "S038",
+  "type": "PAINT",
+  "visual": "Italian TV studio of the 2000s, debate table, a screen showing a replay",
+  "overlay": [
+   "name \"Il Processo di Biscardi · Italy's most-watched football talk show\""
+  ],
+  "narration": "But according to the recordings, Moggi's influence did not stop at referees. It reached television.",
+  "dur": 7.0,
+  "n_images": 1
+ },
+ {
+  "id": "S039",
+  "type": "PAINT",
+  "visual": "a replay frozen on a studio monitor, an analyst pointing with a pen",
+  "overlay": [],
+  "narration": "In December 2004, Juventus beat Bologna 1–0 in a match full of refereeing controversy. The calls later showed Moggi talking to Fabio Baldas, the former referee who analysed replays on Italy's most famous football show. The aim, according to investigators: to present the replays in a way that would not expose the referee's mistakes in Juventus's favour.",
+  "dur": 26.91,
+  "n_images": 4
+ },
+ {
+  "id": "S040",
+  "type": "PAINT",
+  "visual": "white-haired host behind a studio desk, the studio lights going dark",
+  "overlay": [],
+  "narration": "The show's host, Aldo Biscardi, was suspended from journalism for six months.",
+  "dur": 5.8,
+  "n_images": 1
+ },
+ {
+  "id": "S041",
+  "type": "PAINT",
+  "visual": "Milan office, a man on the phone, window overlooking San Siro",
+  "overlay": [
+   "name \"Leonardo Meani · AC Milan referee liaison\""
+  ],
+  "narration": "And it was not only Juventus. At Milan, Leonardo Meani was the man in charge of relations with referees. The recordings revealed his interest in one assistant referee in particular: Claudio Puglisi.",
+  "dur": 14.29,
+  "n_images": 2
+ },
+ {
+  "id": "S042",
+  "type": "PAINT",
+  "visual": "two older officials at a desk covered in fixture sheets",
+  "overlay": [
+   "quote \"There was some pressure, so we put Puglisi on Milan–Chievo.\" — Paolo Bergamo, according to published intercepts"
+  ],
+  "narration": "In one call, the designator Paolo Bergamo explained to Pairetto why Puglisi had been assigned to Milan against Chievo. \"There was some pressure,\" he said.",
+  "dur": 12.83,
+  "n_images": 2
+ },
+ {
+  "id": "S043",
+  "type": "PAINT",
+  "visual": "executive office, a man in a sharp suit on the phone, Milan pennant behind",
+  "overlay": [
+   "name \"Adriano Galliani · AC Milan CEO & Lega Calcio President\""
+  ],
+  "narration": "And in May 2005, Meani asked Adriano Galliani, Milan's chief executive and, at the same time, president of the league itself, to back Puglisi. Galliani's reply: \"Sure, that's fine.\"",
+  "dur": 14.29,
+  "n_images": 2
+ },
+ {
+  "id": "S044",
+  "type": "PAINT",
+  "visual": "man leaving the federation building through a crowd of photographers",
+  "overlay": [],
+  "narration": "On the eighth of May, the president of the Italian Football Federation, Franco Carraro, resigned.",
+  "dur": 6.69,
+  "n_images": 1
+ },
+ {
+  "id": "S045",
+  "type": "PAINT",
+  "visual": "empty boardroom, chairs pushed back",
+  "overlay": [],
+  "narration": "On the eleventh of May, the entire Juventus board resigned.",
+  "dur": 4.44,
+  "n_images": 1
+ },
+ {
+  "id": "S046",
+  "type": "PAINT",
+  "visual": "Juventus players lifting the league trophy, the crowd's faces uneasy",
+  "overlay": [
+   "date \"14 May 2006\""
+  ],
+  "narration": "And on the fourteenth of May, Juventus won the league title, for the second season in a row.",
+  "dur": 6.35,
+  "n_images": 1
+ },
+ {
+  "id": "S047",
+  "type": "PAINT",
+  "visual": "Moggi leaving a stadium by a back door in light rain",
+  "overlay": [
+   "quote \"My soul has been killed.\" — Luciano Moggi, May 2006"
+  ],
+  "narration": "That same day, Luciano Moggi resigned, with a line Italians would never forget. \"They have killed my soul.\"",
+  "dur": 8.67,
+  "n_images": 2
+ },
+ {
+  "id": "S048",
+  "type": "PAINT",
+  "visual": "pink sports newspaper front page on a café table, an espresso cup",
+  "overlay": [
+   "quote \"Juve win their 29th title… or not?\" — La Gazzetta dello Sport, May 2006"
+  ],
+  "narration": "The next morning, La Gazzetta dello Sport put it on its front page. \"Juve win their 29th title… or not?\"",
+  "dur": 9.56,
+  "n_images": 2
+ },
+ {
+  "id": "S049",
+  "type": "PAINT",
+  "visual": "players celebrating on the pitch, a lone figure walking away in the background",
+  "overlay": [],
+  "narration": "A title celebrated on the pitch… and a director leaving through the back door.",
+  "dur": 5.07,
+  "n_images": 1
+ },
+ {
+  "id": "S050",
+  "type": "PAINT",
+  "visual": "Italian team bus on a German motorway at dusk",
+  "overlay": [],
+  "narration": "And through all of this… the players had to travel to Germany. For the World Cup.",
+  "dur": 5.8,
+  "n_images": 1
+ },
+ {
+  "id": "S051",
+  "type": "CARD",
+  "visual": "\"Berlin · Chapter III · June–July 2006\"",
+  "overlay": [],
+  "narration": "",
+  "dur": 4.0,
+  "n_images": 0
+ },
+ {
+  "id": "S052",
+  "type": "MAP",
+  "visual": "Germany, Italy's route: Hanover → Kaiserslautern → Hamburg → Dortmund → Berlin",
+  "overlay": [],
+  "narration": "Italy arrived in Germany in the middle of a storm. At home, news from the courts was taking up more space than news about the team.",
+  "dur": 9.33,
+  "n_images": 2
+ },
+ {
+  "id": "S053",
+  "type": "PAINT",
+  "visual": "Italian team arriving at a hotel, dozens of journalists",
+  "overlay": [],
+  "narration": "Many expected this team to collapse. How could players focus on a World Cup while their clubs waited for a verdict that could ruin them?",
+  "dur": 8.75,
+  "n_images": 2
+ },
+ {
+  "id": "S054",
+  "type": "PAINT",
+  "visual": "dressing room, white-haired coach in his late fifties speaking to seated players, warm light",
+  "overlay": [
+   "name \"Marcello Lippi · Italy Coach\""
+  ],
+  "narration": "Coach Marcello Lippi, a man who had spent years in charge of Juventus, decided to turn the pressure into fuel. The message was simple. The whole world is against us. Let's prove them wrong.",
+  "dur": 13.32,
+  "n_images": 2
+ },
+ {
+  "id": "S055",
+  "type": "PAINT",
+  "visual": "blue-shirted defenders blocking a shot, Buffon diving behind them",
+  "overlay": [],
+  "narration": "And match after match, Italy kept going. A defence that would not break, led by Cannavaro, with Buffon behind him.",
+  "dur": 8.67,
+  "n_images": 2
+ },
+ {
+  "id": "S056",
+  "type": "PAINT",
+  "visual": "Dortmund at night, blue players celebrating",
+  "overlay": [
+   "number \"2–0 · Italy vs Germany · semi-final\""
+  ],
+  "narration": "In the semi-final, they knocked out the hosts, Germany, in Dortmund, with two goals in the final minutes of extra time.",
+  "dur": 7.97,
+  "n_images": 1
+ },
+ {
+  "id": "S057",
+  "type": "PAINT",
+  "visual": "Berlin Olympiastadion exterior at golden sunset",
+  "overlay": [],
+  "narration": "And in the final, France. Zidane's France.",
+  "dur": 3.87,
+  "n_images": 1
+ },
+ {
+  "id": "S058",
+  "type": "PAINT",
+  "visual": "a bald French player and an Italian defender face to face, referee running toward them, no violence shown",
+  "overlay": [],
+  "narration": "A match remembered forever for Zinedine Zidane's headbutt on Marco Materazzi, and the red card in the last game of his career.",
+  "dur": 9.8,
+  "n_images": 2
+ },
+ {
+  "id": "S059",
+  "type": "PAINT",
+  "visual": "goalkeepers and players lined up in the centre circle, arms linked",
+  "overlay": [],
+  "narration": "Then came penalties. Pirlo. Materazzi. De Rossi. Then Del Piero, the Juventus captain, scored the fourth.",
+  "dur": 9.33,
+  "n_images": 2
+ },
+ {
+  "id": "S060",
+  "type": "CLIP",
+  "visual": "ball striking the crossbar",
+  "overlay": [
+   "name \"David Trezeguet · France — and Juventus\""
+  ],
+  "narration": "And the twist? The only penalty missed all night belonged to David Trezeguet. France's striker… and a Juventus player. His shot hit the crossbar.",
+  "dur": 11.47,
+  "n_images": 2
+ },
+ {
+  "id": "S061",
+  "type": "PAINT",
+  "visual": "Cannavaro lifting the trophy, same moment as S004 from a different angle",
+  "overlay": [],
+  "narration": "Italy were world champions.",
+  "dur": 2.59,
+  "n_images": 1
+ },
+ {
+  "id": "S062",
+  "type": "PAINT",
+  "visual": "Rome at night, streets flooded with flags and fireworks",
+  "overlay": [],
+  "narration": "In Rome, millions poured into the streets.",
+  "dur": 3.4,
+  "n_images": 1
+ },
+ {
+  "id": "S063",
+  "type": "PAINT",
+  "visual": "press conference, white-haired coach, tired expression",
+  "overlay": [
+   "date \"12 July 2006 · Lippi resigns\""
+  ],
+  "narration": "Three days after the final, Marcello Lippi stunned everyone. He resigned as national coach. Lippi himself was not under investigation, but his son Davide was, over his work at the GEA agency. Lippi said he felt that he and his son had been attacked personally.",
+  "dur": 21.32,
+  "n_images": 3
+ },
+ {
+  "id": "S064",
+  "type": "PAINT",
+  "visual": "a single newspaper blowing across an empty celebration square at dawn",
+  "overlay": [],
+  "narration": "Two days later… the news arrived from Rome.",
+  "dur": 3.55,
+  "n_images": 1
+ },
+ {
+  "id": "S065",
+  "type": "CARD",
+  "visual": "\"The Verdict · Chapter IV · July 2006\"",
+  "overlay": [],
+  "narration": "",
+  "dur": 4.0,
+  "n_images": 0
+ },
+ {
+  "id": "S066",
+  "type": "PAINT",
+  "visual": "sports tribunal in Rome, long table, stern judges, microphones",
+  "overlay": [
+   "date \"14 July 2006\""
+  ],
+  "narration": "On the fourteenth of July 2006, five days after Berlin, the sports tribunal delivered its verdict.",
+  "dur": 7.89,
+  "n_images": 1
+ },
+ {
+  "id": "S067",
+  "type": "CARD",
+  "visual": "",
+  "overlay": [
+   "big number \"SERIE B · −30 points\""
+  ],
+  "narration": "Juventus: relegated to Serie B for the first time in their history, with a thirty-point penalty, and stripped of the 2005 and 2006 league titles.",
+  "dur": 11.89,
+  "n_images": 0
+ },
+ {
+  "id": "S068",
+  "type": "PAINT",
+  "visual": "club presidents leaving the tribunal under flashbulbs",
+  "overlay": [],
+  "narration": "Fiorentina and Lazio: relegated too. Milan and Reggina: points deductions.",
+  "dur": 7.16,
+  "n_images": 1
+ },
+ {
+  "id": "S069",
+  "type": "PAINT",
+  "visual": "elegant businessman leaving a prosecutor's office, reporters around him",
+  "overlay": [
+   "name \"Diego Della Valle · Fiorentina owner\""
+  ],
+  "narration": "Fiorentina's owner, Diego Della Valle, rejected the accusations outright. \"The truth is that Fiorentina was the victim of these things… and has absolutely nothing to do with all this.\"",
+  "dur": 13.09,
+  "n_images": 2
+ },
+ {
+  "id": "S070",
+  "type": "PAINT",
+  "visual": "Juventus fans outside the club offices, lowered flags, angry faces",
+  "overlay": [],
+  "narration": "The shock was enormous. And the appeals began immediately.",
+  "dur": 4.91,
+  "n_images": 1
+ },
+ {
+  "id": "S071",
+  "type": "CARD",
+  "visual": "list \"Final penalties for 2006–07: Juventus — Serie B, −9 · Fiorentina — −15 · Reggina — −11 · AC Milan — −8 · Lazio — −3\"",
+  "overlay": [],
+  "narration": "After two rounds of appeals, the punishments were softened. Fiorentina and Lazio stayed in Serie A with point deductions. In October, Juventus's penalty was cut to nine points… but the relegation stood. And the titles were gone.",
+  "dur": 18.44,
+  "n_images": 0
+ },
+ {
+  "id": "S072",
+  "type": "PAINT",
+  "visual": "an official document stamped with a red seal",
+  "overlay": [
+   "date \"26 July 2006 · 2005–06 title assigned to Inter\""
+  ],
+  "narration": "The 2005 title was left without a champion. The 2006 title went to the team that had finished third: Inter Milan.",
+  "dur": 10.37,
+  "n_images": 2
+ },
+ {
+  "id": "S073",
+  "type": "PAINT",
+  "visual": "elegant older man with glasses in a grand law office",
+  "overlay": [
+   "name \"Guido Rossi · FIGC Extraordinary Commissioner, 2006\""
+  ],
+  "narration": "The decision was taken by Guido Rossi, the lawyer appointed to run the federation after the scandal, together with a panel of three experts. The problem? Rossi had once sat on Inter's board of directors.",
+  "dur": 15.23,
+  "n_images": 2
+ },
+ {
+  "id": "S074",
+  "type": "PAINT",
+  "visual": "Juventus fans' banner in an empty stand (no legible text), dusk",
+  "overlay": [],
+  "narration": "For Juventus fans, that detail alone made the decision suspicious forever. Even the former federation president, Franco Carraro, later said the title should have been taken away… but not given to anyone.",
+  "dur": 15.07,
+  "n_images": 2
+ },
+ {
+  "id": "S075",
+  "type": "PAINT",
+  "visual": "Inter president in a dark suit in a trophy room, blue-and-black flag",
+  "overlay": [
+   "quote \"The 2006 Scudetto — I feel it is mine.\" — Massimo Moratti"
+  ],
+  "narration": "Inter's president, Massimo Moratti, put it simply. \"The 2006 title… I feel it is mine.\"",
+  "dur": 8.05,
+  "n_images": 2
+ },
+ {
+  "id": "S076",
+  "type": "PAINT",
+  "visual": "Moggi alone in a dim office, faint window light",
+  "overlay": [
+   "name \"Luciano Moggi · banned from football\""
+  ],
+  "narration": "Moggi and Giraudo were banned from football for five years. A ban that would later become a lifetime ban.",
+  "dur": 8.12,
+  "n_images": 2
+ },
+ {
+  "id": "S077",
+  "type": "PAINT",
+  "visual": "empty Juventus dressing room, shirts hanging, cold light",
+  "overlay": [],
+  "narration": "And now, the world champions had to decide. Would they stay with their club in the second division?",
+  "dur": 6.84,
+  "n_images": 1
+ },
+ {
+  "id": "S078",
+  "type": "CARD",
+  "visual": "\"Serie B · Chapter V · 2006–2007\"",
+  "overlay": [],
+  "narration": "",
+  "dur": 4.0,
+  "n_images": 0
+ },
+ {
+  "id": "S079",
+  "type": "PAINT",
+  "visual": "press conference, a tall dark-haired defender announcing a move, many cameras",
+  "overlay": [
+   "number \"Ballon d'Or 2006 · Fabio Cannavaro\""
+  ],
+  "narration": "Some left. Cannavaro, captain of the world champions, joined Real Madrid, and at the end of the year he won the Ballon d'Or. Zambrotta left for Barcelona. Ibrahimović and Vieira went to Inter.",
+  "dur": 15.23,
+  "n_images": 2
+ },
+ {
+  "id": "S080",
+  "type": "PAINT",
+  "visual": "Buffon, Del Piero, Nedvěd and Trezeguet standing together on the pitch, heroic group portrait",
+  "overlay": [],
+  "narration": "But others stayed. Buffon, the best goalkeeper in the world. Del Piero, the club captain. Nedvěd, the 2003 Ballon d'Or winner. And Trezeguet, the man who had missed in Berlin.",
+  "dur": 15.49,
+  "n_images": 2
+ },
+ {
+  "id": "S081",
+  "type": "PAINT",
+  "visual": "Del Piero alone in an empty stadium at dusk, looking at the stands",
+  "overlay": [
+   "quote \"A true gentleman never leaves his lady.\" — attributed to Alessandro Del Piero"
+  ],
+  "narration": "Asked why he stayed, Del Piero is credited with a line that became legend. \"A true gentleman never leaves his lady.\" And the play on words was intentional. In Italy, Juventus are known as the Old Lady.",
+  "dur": 14.92,
+  "n_images": 2
+ },
+ {
+  "id": "S082",
+  "type": "PAINT",
+  "visual": "Del Piero, older, in a calm interview setting, warm light",
+  "overlay": [
+   "quote \"I don't care. We won everything, and we're going to come back to win everything again.\" — Alessandro Del Piero, 2024"
+  ],
+  "narration": "Eighteen years later, Del Piero told the story himself. \"When the owner called me, I said: don't need to ask me. I'm going to stay. I know what's going on… maybe we get relegated to the third division. And I said: I don't care. We won everything, and we're going to come back to win everything again.\"",
+  "dur": 19.8,
+  "n_images": 3
+ },
+ {
+  "id": "S083",
+  "type": "MAP",
+  "visual": "Italy, Rimini marked",
+  "overlay": [
+   "place \"Rimini · 9 September 2006\""
+  ],
+  "narration": "On the ninth of September 2006, Juventus played their first ever match in Serie B. Away, in Rimini. It finished 1–1.",
+  "dur": 11.65,
+  "n_images": 2
+ },
+ {
+  "id": "S084",
+  "type": "PAINT",
+  "visual": "small stadium, half-full stands, Juventus players on a modest pitch",
+  "overlay": [],
+  "narration": "World champions… in stadiums that held fewer than ten thousand people.",
+  "dur": 5.07,
+  "n_images": 1
+ },
+ {
+  "id": "S085",
+  "type": "PAINT",
+  "visual": "Del Piero celebrating a goal in the rain at a small ground",
+  "overlay": [
+   "number \"20 goals · Del Piero, Serie B top scorer 2006–07\""
+  ],
+  "narration": "But the team did not break. They started the season nine points behind, and finished it in first place. Del Piero was the league's top scorer with twenty goals. Juventus went straight back up.",
+  "dur": 14.29,
+  "n_images": 2
+ },
+ {
+  "id": "S086",
+  "type": "PAINT",
+  "visual": "Athens Olympic Stadium, Milan players in red and black lifting the Champions League trophy",
+  "overlay": [
+   "date \"23 May 2007 · Milan — Champions of Europe\""
+  ],
+  "narration": "And the biggest twist of all: Milan, one of the punished clubs, who started their season eight points down and had to play a qualifying round at the end of August… won the Champions League in Athens in May 2007, with two goals from Filippo Inzaghi against Liverpool.",
+  "dur": 19.07,
+  "n_images": 3
+ },
+ {
+  "id": "S087",
+  "type": "CARD",
+  "visual": "\"Unfinished Business · Chapter VI · 2006–today\"",
+  "overlay": [],
+  "narration": "",
+  "dur": 4.0,
+  "n_images": 0
+ },
+ {
+  "id": "S088",
+  "type": "PAINT",
+  "visual": "criminal courtroom in Naples, colder and more formal, huge files",
+  "overlay": [],
+  "narration": "The football courts had delivered their verdict. The criminal courts were another story.",
+  "dur": 5.64,
+  "n_images": 1
+ },
+ {
+  "id": "S089",
+  "type": "CARD",
+  "visual": "list \"Moggi — the criminal case: 2011 — 5 years 4 months (Naples) · 2013 — reduced to 2 years 4 months (appeal) · 2015 — time-barred (Court of Cassation)\"",
+  "overlay": [],
+  "narration": "In 2011, a court in Naples sentenced Moggi to five years and four months in prison. On appeal in 2013, it was cut to two years and four months. And in March 2015, Italy's highest court ended the case… because the legal time limit had run out.",
+  "dur": 20.27,
+  "n_images": 0
+ },
+ {
+  "id": "S090",
+  "type": "PAINT",
+  "visual": "Moggi, older, walking out of a courthouse, no crowd",
+  "overlay": [],
+  "narration": "Moggi never went to prison. But his lifetime ban from football remained.",
+  "dur": 5.56,
+  "n_images": 1
+ },
+ {
+  "id": "S091",
+  "type": "PAINT",
+  "visual": "a referee's black kit folded on a courtroom bench",
+  "overlay": [
+   "name \"Massimo De Santis · the only referee convicted\""
+  ],
+  "narration": "Of all the referees whose names appeared in the case, only one was finally convicted: Massimo De Santis.",
+  "dur": 7.89,
+  "n_images": 1
+ },
+ {
+  "id": "S092",
+  "type": "PAINT",
+  "visual": "Court of Cassation in Rome, marble columns, a thick stamped file",
+  "overlay": [
+   "date \"9 September 2015 · Court of Cassation — written reasons\""
+  ],
+  "narration": "But even after the case had expired, Italy's highest court published its written reasons in September 2015. And its words were harsh.",
+  "dur": 10.68,
+  "n_images": 2
+ },
+ {
+  "id": "S093",
+  "type": "CARD",
+  "visual": "",
+  "overlay": [
+   "quote \"The creator of an illicit system to condition the matches of the 2004–05 championship.\" — Court of Cassation, 2015"
+  ],
+  "narration": "It described Moggi as \"the creator of an illicit system to condition the matches of the 2004–2005 championship.\" And it wrote: \"More than power, we must speak of an overwhelming power, extending even to journalism and television.\"",
+  "dur": 17.79,
+  "n_images": 0
+ },
+ {
+  "id": "S094",
+  "type": "PAINT",
+  "visual": "an old tape recorder being played in a courtroom, lawyers listening intently",
+  "overlay": [
+   "date \"2010\""
+  ],
+  "narration": "Then, in 2010, came a surprise. During the trial, Moggi's defence produced recordings that had not been used in 2006. Calls between executives from other clubs, including Inter, and the referee designators.",
+  "dur": 15.65,
+  "n_images": 2
+ },
+ {
+  "id": "S095",
+  "type": "FRAME",
+  "visual": "portrait of an elderly gentleman in a gold frame on a wall",
+  "overlay": [
+   "name \"Giacinto Facchetti · Inter President (died September 2006)\"",
+   "quote \"Tell the coach to stay calm.\" — Paolo Bergamo to Giacinto Facchetti, Feb 2005, per published transcripts"
+  ],
+  "narration": "In one call, in February 2005, Facchetti tells Bergamo the name of the next referee for Inter's match. Bergamo replies: \"Tell the coach to stay calm.\"",
+  "dur": 11.65,
+  "n_images": 2
+ },
+ {
+  "id": "S096",
+  "type": "PAINT",
+  "visual": "warm dinner table in an Italian home, a fish dish, two wine glasses, two empty chairs",
+  "overlay": [],
+  "narration": "In another, Bergamo invites him to dinner at his home. \"We'll eat something together… a little fish… something simple, between friends.\"",
+  "dur": 9.87,
+  "n_images": 2
+ },
+ {
+  "id": "S097",
+  "type": "PAINT",
+  "visual": "the dinner table now dark and empty, candle burnt out",
+  "overlay": [],
+  "narration": "Were these innocent calls? Or the same thing Moggi had done? That is exactly the question no court ever answered.",
+  "dur": 8.12,
+  "n_images": 2
+ },
+ {
+  "id": "S098",
+  "type": "PAINT",
+  "visual": "Moggi, older, in a TV interview, studio light",
+  "overlay": [
+   "quote \"Everyone talked to the designators.\" — Luciano Moggi's defence"
+  ],
+  "narration": "Moggi summed up his defence in one sentence. \"If I call a designator to complain, and the rules allow it… and everyone else who called more than me and asked for favours is left out… then what I did, which is not a crime, becomes a crime.\"",
+  "dur": 18.91,
+  "n_images": 3
+ },
+ {
+  "id": "S099",
+  "type": "PAINT",
+  "visual": "federation archive, rows of files",
+  "overlay": [],
+  "narration": "In 2011, federation prosecutor Stefano Palazzi wrote that Inter could have been charged with breaking the rules of sporting fairness. But the facts were already time-barred. And Inter's president at the time, Giacinto Facchetti, had died in September 2006, unable to defend himself.",
+  "dur": 21.63,
+  "n_images": 3
+ },
+ {
+  "id": "S100",
+  "type": "PAINT",
+  "visual": "federation council room, a vote by raised hands",
+  "overlay": [
+   "quote \"I would have wished for Inter to have renounced the statute of limitations.\" — Giancarlo Abete, FIGC President, 2011"
+  ],
+  "narration": "On the eighteenth of July 2011, Juventus asked the federation to take the 2006 title away from Inter. The federation's council declared it had no power to do so. Its president, Giancarlo Abete, said he wished Inter had given up its right to the statute of limitations. They did not. The title stayed where it was.",
+  "dur": 24.84,
+  "n_images": 4
+ },
+ {
+  "id": "S101",
+  "type": "CARD",
+  "visual": "",
+  "overlay": [
+   "number \"~€444 million · damages claimed by Juventus — rejected 2016, appeal withdrawn 2023\""
+  ],
+  "narration": "Juventus went to the administrative courts, claiming around four hundred and forty-four million euros in damages. In 2016, the claim was rejected. In 2023, seventeen years after the scandal, Juventus withdrew its last appeal.",
+  "dur": 17.4,
+  "n_images": 0
+ },
+ {
+  "id": "S102",
+  "type": "PAINT",
+  "visual": "empty Italian stadium at sunset, giant screen switched off",
+  "overlay": [],
+  "narration": "",
+  "dur": 4.0,
+  "n_images": 1
+ },
+ {
+  "id": "S103",
+  "type": "PAINT",
+  "visual": "Turin today, modern stadium, fans in black and white, calm wide shot",
+  "overlay": [],
+  "narration": "Twenty years have passed since the summer of 2006. And in Italian cafés, the same old question is still being asked. Who chooses the referees?",
+  "dur": 11.47,
+  "n_images": 2
+ },
+ {
+  "id": "S104",
+  "type": "PAINT",
+  "visual": "split composition: Cannavaro lifting the World Cup / a court file",
+  "overlay": [],
+  "narration": "For Juventus fans, Calciopoli was an injustice. For their rivals, it was justice that came too late. And for the courts, most of the cases ended not with acquittal, and not with final conviction… but simply with time running out.",
+  "dur": 17.95,
+  "n_images": 3
+ },
+ {
+  "id": "S105",
+  "type": "PAINT",
+  "visual": "back in Berlin: the golden trophy alone on a podium, stadium lights slowly fading",
+  "overlay": [],
+  "narration": "But one thing is beyond dispute. In a single summer, Italy lifted the World Cup… and brought down its greatest club.",
+  "dur": 8.83,
+  "n_images": 2
+ },
+ {
+  "id": "S106",
+  "type": "PAINT",
+  "visual": "the old phone on the desk from S009, the smoke gone, dust settled",
+  "overlay": [],
+  "narration": "And in Italian football, nothing was ever quite the same after that summer. Thank you for watching.",
+  "dur": 7.08,
+  "n_images": 1
+ },
+ {
+  "id": "S107",
+  "type": "CARD",
+  "visual": "BY ATHAR end card",
+  "overlay": [],
+  "narration": "",
+  "dur": 4.0,
+  "n_images": 0
+ }
+]
