@@ -11,3 +11,4 @@ episodes/*/production/test_*.jpg
 episodes/*/production/build.log
 episodes/*/production/clips/
 episodes/*/production/thumb*_raw.png
+episodes/*/preview_*.mp4
