@@ -15,3 +15,6 @@ episodes/*/preview_*.mp4
 episodes/*/production/images_excluded/
 episodes/*/production/clips_excluded/
 *.log
+episodes/*/review_parts/
+episodes/*/shorts/*.mp4
+episodes/*/production/scenes_list.txt
