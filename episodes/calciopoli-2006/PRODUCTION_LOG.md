@@ -24,9 +24,13 @@ Media is gitignored; re-download it from the URLs in `img_urls.json`, `audio_man
 - Starting balance 6,579.8 → 5,857.35 after production: **~722 credits**.
 - Images ~180 × 2.75 · TTS ~98 × 0.45 · Kling 12 × 7.5 · tests and regenerations make up the rest.
 
+## QC pass (1 Oct 2026)
+Reviewed all 162 images against the script and facts.
+- Regenerated: I0141, I0142 (Moggi's office showed Rome's dome — now Turin with the Mole Antonelliana), I0381 (TV studio showed a Berlusconi-like face), I0861, I0862 (Milan wore their all-white away kit in the 2007 Athens final, not red and black). New Kling clip for I0861.
+- Dropped (moved to `production/images_excluded/`): I0022 (captain's armband on #3), I0231, I0243 (Florence skyline in Rome scenes), I0431 (Inter-coloured pennant in Galliani's office), I0601 + clip (Trezeguet wore #20, not #12), I0802 (wrong Juventus shirt numbers), I0952 (portrait didn't look like Facchetti), I0982 (Moggi drawn with full hair).
+- Text: S047 on-screen quote now matches the narration ("They have killed my soul.").
+- Fix cost: 5 images × 2.75 + 1 clip × 7.5 = 21.25 credits.
+
 ## Known issues
 - No background music. A licensed track is still needed.
-- I0022: the captain's armband sits on #3.
-- I0141/I0142: the Rome dome is visible from an office meant to be in Turin.
-- I0952: the framed portrait doesn't look like Facchetti.
-- Clip I0611: the Trezeguet kit number is not his real 2006 number.
+- Real people are drawn by signature features, not exact likeness.

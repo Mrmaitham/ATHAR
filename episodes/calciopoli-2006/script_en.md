@@ -150,7 +150,7 @@ S045 · PAINT · empty boardroom, chairs pushed back
 S046 · PAINT · Juventus players lifting the league trophy, the crowd's faces uneasy · OVL date "14 May 2006"
 > And on the fourteenth of May, Juventus won the league title, for the second season in a row.
 
-S047 · PAINT · Moggi leaving a stadium by a back door in light rain · OVL quote "My soul has been killed." — Luciano Moggi, May 2006
+S047 · PAINT · Moggi leaving a stadium by a back door in light rain · OVL quote "They have killed my soul." — Luciano Moggi, May 2006
 > That same day, Luciano Moggi resigned, with a line Italians would never forget. "They have killed my soul."
 
 S048 · PAINT · pink sports newspaper front page on a café table, an espresso cup · OVL quote "Juve win their 29th title… or not?" — La Gazzetta dello Sport, May 2006
