@@ -14,3 +14,4 @@ episodes/*/production/thumb*_raw.png
 episodes/*/preview_*.mp4
 episodes/*/production/images_excluded/
 episodes/*/production/clips_excluded/
+*.log
