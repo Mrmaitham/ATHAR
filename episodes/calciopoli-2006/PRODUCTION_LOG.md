@@ -40,6 +40,14 @@ Signature features written from the photos; approved tests first, then the rest.
 - Cost: 14 images × 2.75 + 2 clips × 7.5 = 53.5 credits.
 - Moggi was already done from his photos in the first pass.
 
+## Character pass 2 (reference links from Maitham)
+- Bergamo (bald, white sides, rimless glasses, striped shirt): I0181, I0182, I0421, I0422.
+- Pairetto (only a 1980s refereeing photo — aged to 53): I0181, I0182, I0421.
+- Bettega (white hair swept back, camel coat): I0151, I0152.
+- Buffon (slicked-back dark hair, grey 2006 kit): I0552.
+- Giraudo: no photo available, kept as a generic grey-haired executive.
+- Cost: 7 images × 2.75 = 19.25 credits (including 3 tests).
+
 ## Known issues
 - No background music. A licensed track is still needed.
 - Real people are drawn by signature features, not exact likeness.
