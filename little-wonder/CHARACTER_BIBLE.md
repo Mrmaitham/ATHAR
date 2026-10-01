@@ -92,7 +92,7 @@ that other child's face and body are OUTSIDE the frame and never seen
 
 ### الوصف الإنجليزي الثابت (انسخه حرفيًا)
 
-**GRANDMA KHADIJA**
+**GRANDMA KHADIJA** — بالحوار الإنجليزي ينادونها **"Grandma"** دايماً.
 > elderly grandmother, the tallest, warm smile with wrinkles, brown eyes, black hijab wrapped around head and neck, long loose black abaya with subtle black embroidery down the front and on the wide sleeves, black shoes
 
 **ZOOZOO**
