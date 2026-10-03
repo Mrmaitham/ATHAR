@@ -134,9 +134,9 @@ Full episode "The Swing" on YouTube ⭐ (link in bio)
 
 ## ✅ قائمة المهام
 
-- [ ] حساب إنستغرام + تحويله لـ Creator
+- [x] حساب إنستغرام + تحويله لـ Creator (@thelittlewondershow)
 - [ ] حساب تيك توك + تحويله لـ Business
 - [ ] الصورة + الـ Bio + الرابط بالحسابين
 - [ ] فلتر التعليقات شغال بالحسابين
-- [ ] أول بوست: Meet the Family + Pin
+- [x] أول ريل إنستغرام: Meet the Family (3 أكتوبر)
 - [ ] إرسال اليوزرات لتحديث يوتيوب
