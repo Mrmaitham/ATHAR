@@ -66,7 +66,9 @@
 
 | مرجع | `references/loc_living_room_lights_off_v2.png` | `56c30e99-6ae8-4864-994d-34bb6544ecd1` | ✅ معتمدة (ميثم) | آخر فريم 25 والليتات مطفية — بداية 26 وكل اللي بعدها |
 
-| مرجع (فاضي) | `references/loc_living_room_lights_off_empty.png` | `8050aafb-5da7-4072-ac84-601e2d91a94a` | ⏳ بانتظار الاعتماد | نفس مرجع v2 بدون حور وميشو، الليتات مطفية — نضيف الشخصيات عليها بعدين |
+| مرجع (فاضي) | `references/loc_living_room_lights_off_empty.png` | `8050aafb-5da7-4072-ac84-601e2d91a94a` | ✅ معتمدة (ميثم) | نفس مرجع v2 بدون حور وميشو، الليتات مطفية — نضيف الشخصيات عليها بعدين |
+
+| مرجع v3 | `references/loc_living_room_lights_off_v3.png` | `344ed148-f4fc-4dac-be60-aa0eee51ddc5` | ⏳ بانتظار الاعتماد | الصالة الفاضية + حور وميشو بنفس وقفة آخر فريم 25b، الليتات مطفية |
 
 | 25b | `shots/shot25b.mp4` | `70649d00-f34e-455b-b23c-d96df6668d98` | ⏳ بانتظار الاعتماد | صوت زوزو من بعيد "I'll turn off the lights!"؛ حور تطالع فوق — بعده ذوبان لصورة الليتات المطفية (معاينة: qc/lights_off_transition_preview.mp4) |
 
