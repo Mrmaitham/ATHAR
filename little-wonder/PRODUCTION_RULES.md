@@ -60,7 +60,7 @@
    - **الفازة وحدة بس بالبيت** — نكتب "There is only ONE vase in the whole house".
    - **تيتة ما تغمز أبداً** (الـ Character Bible).
    - **الأغراض (الكورة وغيرها) من صورها المرجعية**، وحجمها ينكتب بالأمر.
-   - **الإضاءة بالحلقة 2 من لقطة 25 وطالع (قرار ميثم):** زوزو سكرت الليتات — كل أمر يكتب "ALL ceiling lights, spotlights, pendant lamps and wall lamps are OFF; the only light is warm golden afternoon sunlight from the windows". أي لقطة ترجع فيها الليتات تنرفض.
+   - **الإضاءة بالحلقة 2 من لقطة 25 وطالع (قرار ميثم):** زوزو سكرت الليتات — كل أمر يكتب "ALL ceiling lights, spotlights, pendant lamps and wall lamps are OFF; the only light is warm golden afternoon sunlight from the windows". أي لقطة ترجع فيها الليتات تنرفض. **مرجع الإضاءة المعتمد:** `references/loc_living_room_lights_off.png` (Higgsfield job `8c630228-dc6f-476b-94e9-04d18bd927e7`) — ينرفق بكل لقطة من 25 وطالع.
 
 ---
 
