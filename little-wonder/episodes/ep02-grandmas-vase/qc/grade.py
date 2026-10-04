@@ -19,7 +19,10 @@ for n in sys.argv[1:]:
     f=f"shots/shot{n}.mp4"; d=dur(f)
     g=[[gam(fr(f,t)[:50,:,c].ravel(),TARGET[c]) for c in range(3)] for t in (0,d-0.15)]
     e=lambda c,ch:f"255*(1-pow(1-{ch}(X,Y)/255,{g[0][c]:.4f}+({g[1][c]-g[0][c]:.4f})*min(T/{d:.3f},1)))"
-    vf=f"geq=r='{e(0,'r')}':g='{e(1,'g')}':b='{e(2,'b')}',format=yuv420p"
+    # de-rainbow: in the ceiling band (top 32%), any pixel bluer than red = streak -> pull it back to the warm ceiling tone
+    cond="lt(Y,H*0.32)*gt(r(X,Y),110)*(gt(b(X,Y),r(X,Y)*0.9)+gt(g(X,Y),r(X,Y)*0.95))"
+    dr=f"geq=r='r(X,Y)':g='if({cond},r(X,Y)*0.80,g(X,Y))':b='if({cond},r(X,Y)*0.63,b(X,Y))'"
+    vf=f"format=rgb24,{dr},geq=r='{e(0,'r')}':g='{e(1,'g')}':b='{e(2,'b')}',format=yuv420p"
     out=f"shots_graded/shot{n}.mp4"
     subprocess.run(["ffmpeg","-y","-v","error","-i",f,"-vf",vf,"-c:v","libx264","-profile:v","high","-crf","18","-c:a","copy","-movflags","+faststart",out],check=True)
     print(n,"k start",np.round(g[0],3),"end",np.round(g[1],3))
