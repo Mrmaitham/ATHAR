@@ -22,6 +22,14 @@ def band(x,ss):
     r=np.frombuffer(subprocess.run(a,capture_output=True).stdout,np.uint8).reshape(90,160,3).astype(float)
     return r[:25].reshape(-1,3).mean(0).round(0).tolist()
 print("light (ceiling RGB, target ~[175,140,108]): start",band(f,0),"end",band(f,-0.15))
+def glare(x,ss):
+    a=["ffmpeg","-v","error"]+(["-sseof",str(ss)] if ss<0 else ["-ss",str(ss)])+["-i",x,"-frames:v","1","-vf","scale=320:180","-f","rawvideo","-pix_fmt","rgb24","-"]
+    r=np.frombuffer(subprocess.run(a,capture_output=True).stdout,np.uint8).reshape(180,320,3).astype(float)[:50]
+    mx=r.max(2);mn=r.min(2);sat=(mx-mn)/(mx+1)
+    # hue spread: blue/purple pixels on a warm ceiling = rainbow streaks
+    cool=((r[:,:,2]>r[:,:,0])&(mx>120)).mean()*100
+    return round(float(np.abs(np.diff(r.mean(2),axis=1)).mean()),2), round(cool,2)
+print("ceiling streaks (edge, %cool px) [anchor ~ low]: start",glare(f,0),"end",glare(f,-0.15))
 print("diff:",round(abs(g(prev)-g(f,0)).mean(),2))
 raw=subprocess.run(["ffmpeg","-v","error","-i",f,"-ac","1","-ar","16000","-f","s16le","-"],capture_output=True).stdout
 x=np.frombuffer(raw,np.int16).astype(float)
