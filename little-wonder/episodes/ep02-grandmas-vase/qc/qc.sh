@@ -17,6 +17,11 @@ f,prev=sys.argv[1],sys.argv[2]
 def g(x,ss=None):
     a=["ffmpeg","-v","error"]+(["-ss",str(ss)] if ss is not None else [])+["-i",x,"-frames:v","1","-vf","scale=64:36,format=gray","-f","rawvideo","-"]
     return np.frombuffer(subprocess.run(a,capture_output=True).stdout,np.uint8).astype(float)
+def band(x,ss):
+    a=["ffmpeg","-v","error"]+(["-sseof",str(ss)] if ss<0 else ["-ss",str(ss)])+["-i",x,"-frames:v","1","-vf","scale=160:90","-f","rawvideo","-pix_fmt","rgb24","-"]
+    r=np.frombuffer(subprocess.run(a,capture_output=True).stdout,np.uint8).reshape(90,160,3).astype(float)
+    return r[:25].reshape(-1,3).mean(0).round(0).tolist()
+print("light (ceiling RGB, target ~[175,140,108]): start",band(f,0),"end",band(f,-0.15))
 print("diff:",round(abs(g(prev)-g(f,0)).mean(),2))
 raw=subprocess.run(["ffmpeg","-v","error","-i",f,"-ac","1","-ar","16000","-f","s16le","-"],capture_output=True).stdout
 x=np.frombuffer(raw,np.int16).astype(float)
