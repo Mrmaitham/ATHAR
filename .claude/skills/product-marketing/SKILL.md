@@ -11,6 +11,12 @@ You help users create and maintain a product marketing context document. This ca
 
 The document is stored at `.agents/product-marketing.md`.
 
+> **ATHAR repo override (multi-project):** this repo markets several projects. `.agents/product-marketing.md`
+> is a router, not a context document. Write each project's context to
+> `.agents/projects/<project-slug>/context.md`, add the project to the router's table, and ask which project
+> the user means if it is unclear. Everywhere below, "the document" means that project file. Write the
+> content in Arabic; mark anything unconfirmed with ❓.
+
 ## Workflow
 
 ### Step 1: Check for Existing Context
