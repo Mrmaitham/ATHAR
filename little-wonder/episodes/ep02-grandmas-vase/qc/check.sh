@@ -23,6 +23,6 @@ for t in (0.3,2.5,-0.2):
     im=np.frombuffer(b,np.uint8).reshape(720,1280,3).astype(float)[330:520,890:1090].reshape(-1,3)
     L=im.mean(1);d=im[(L<90)&(L>15)]
     if len(d)<200: print("abaya t",t,": not in box");continue
-    m=d.mean(0);ok=m[0]<=65 and m[0]-m[2]<=30
+    m=d.mean(0);ok=m[0]<=55 and m[0]-m[2]<=22
     print("abaya t",t,m.round().astype(int).tolist(),"OK" if ok else "!! BROWN DRIFT — reject")
 PY
