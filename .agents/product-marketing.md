@@ -8,6 +8,7 @@ Each project has its own folder:
 | Project | Context file |
 |---|---|
 | Little Wonder (الأعجوبة الصغيرة) — English-language kids' animated series on YouTube (global audience, Arab touch) | `.agents/projects/little-wonder/context.md` |
+| أثر (ATHAR brand) — Kuwaiti luxury fragrance brand; phase 1 = car-shaped car air fresheners. **Not** the BY ATHAR YouTube channel. | `.agents/projects/athar-brand/context.md` |
 
 Shared knowledge for every project (Gulf/Arabic market, platforms, seasons) lives in `.agents/shared/`.
 
