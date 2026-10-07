@@ -1,5 +1,7 @@
 # Product Marketing Context — multi-project router
 
+The marketing agent for this repo is `media-agent` (`.claude/agents/media-agent.md`).
+
 This repository markets **several projects**, so there is no single context document here.
 Each project has its own folder:
 
