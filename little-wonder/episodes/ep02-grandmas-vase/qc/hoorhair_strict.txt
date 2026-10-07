@@ -1,0 +1,2 @@
+# shot  R  B  t:x:y (FULL-RES head centre; x=-1 → Hoor hidden, leave frames untouched) — strict mode for crowded shots
+53 90 300 0.0:585:320 0.18:625:325 0.22:650:325 0.27:640:325 0.30:-1:-1
