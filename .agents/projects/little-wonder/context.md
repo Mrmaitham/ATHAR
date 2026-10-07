@@ -42,7 +42,13 @@
 
 **الهدف الحالي:** الانتشار والوصول للجمهور (قبل الربح).
 
-**القناة:** [@TheLittleWonderShow](https://www.youtube.com/@TheLittleWonderShow) — منشورة.
+**الحسابات (نفس اليوزر بكل المنصات):**
+
+| المنصة | اليوزر | المتابعين |
+|---|---|---|
+| يوتيوب | [@TheLittleWonderShow](https://www.youtube.com/@TheLittleWonderShow) | 9 (2026-10-07) |
+| إنستقرام | @thelittlewondershow | ❓ |
+| تيك توك | @thelittlewondershow | ❓ |
 
 **الحلقات المنشورة:**
 
