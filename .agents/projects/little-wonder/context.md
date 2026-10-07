@@ -96,7 +96,7 @@
 
 **الشخصيات (ثابتة — من الـ character bible):**
 
-**التهجئة الإنجليزية المعتمدة:** Zozo ❓ • Noonoo • Nadyah • Hoor ❓ • Grandma Khadija • Mishoo
+**التهجئة الإنجليزية المعتمدة:** Zoozoo • Noonoo • Nadyah • Hoor • Grandma Khadija • Mishoo
 
 الأطفال الأربعة كلهم بنات (مرتبين من الأكبر للأصغر):
 
