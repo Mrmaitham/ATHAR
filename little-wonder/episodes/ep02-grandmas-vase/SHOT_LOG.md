@@ -100,6 +100,7 @@
 
 | 58 (حجم v2) | `shots/shot58.mp4` | `29bfeb23-4816-4ec4-aa15-7e04bd4da47e` | 🔎 فحصي ✅ | أول=آخر فريم (`7d919ce1` آخر 57) بدون مراجع · الكادر ثابت وميشو مدوّر بنفس الحجم · "Oh, Mishoo... maybe you should sit on your cushion for a while?" · العباية [29,24,25] ✅ |
 | 58 (حجم v1) ❌ | `shots/_rejected/shot58_size_v1_shrinks.mp4` | `5a0becf8-d284-4cc0-ba4b-a3fef7af083a` | ❌ (فحصي لاحقاً): الكاميرا رجعت لورا وميشو صغر لقطوة نحيفة بآخر اللقطة → تنعاد بأول=آخر فريم | |
+| 59 (حجم v2) | `shots/_rejected/shot59_size_v2_giant_front.mp4` | `3acf82a0-1f6b-4bfa-88ec-3c56599f8ff0` | ❌ (فحصي): نفس المشكلة — ميشو يمشي قدام البنات ويكبر · القرار: 59 لقطة ثابتة (ميشو يقعد مكانه حزين "Mew...") بدل المشي | |
 | 59 (حجم v1) | `shots/_rejected/shot59_size_v1_giant_front.mp4` | `d7d3950c-96c6-4288-86f5-7a5b2d146c54` | ❌ (فحصي): ميشو مشى قدام الكاميرا وكبر وايد (آخر فريم بدون قط `end_59_nocat.png` من gpt `e93dcfcf…`) | |
 | 58 (حجم v1, ملغية) | `shots/shot58.mp4` | `5a0becf8-d284-4cc0-ba4b-a3fef7af083a` | 🔎 فحصي ✅ | من آخر فريم 57 (`7d919ce1`) · 7 ث · "Oh, Mishoo... maybe you should sit on your cushion for a while?" (medium.en) · ميشو بنفس الحجم · العباية [31,24,25] ✅ |
 | 57 (حجم) | `shots/shot57.mp4` | `92c74f31-846e-4728-8848-a716f985c5aa` | 🔎 فحصي ✅ | من آخر فريم 56 (`efc5cf8d`) · "Bad kitty!" · ميشو بنفس الحجم · العباية [30,24,24] ✅ |
