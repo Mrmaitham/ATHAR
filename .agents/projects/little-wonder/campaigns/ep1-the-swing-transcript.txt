@@ -1,39 +1,44 @@
-[   5.2-  42.7] The wonder starts today and she leaves the way
-[  42.7-  43.7] A butterfly
-[  43.7-  74.7] The fly so want to touch a cloud
-[  74.7-  90.7] Got here first
-[  90.7-  92.4] You always first
-[  92.4-  94.4] You always get it first
-[  94.4- 128.3] Let go, Nadia
-[ 128.3- 131.0] Wait, maybe you could take turns
-[ 131.0- 132.2] One, then the other
-[ 132.8- 137.0] Turn
-[ 137.0- 156.6] No, no, mine
-[ 156.6- 158.6] Oops
-[ 158.6- 190.4] Oh, no
-[ 190.4- 207.8] When you both pull, it only gets tighter
-[ 207.8- 209.8] Want it?
-[ 209.8- 221.6] Why not?
-[ 221.6- 222.8] What's wrong?
-[ 222.8- 224.2] Why are you sad?
-[ 224.2- 229.6] Nunu didn't want my flower
-[ 229.6- 231.6] I know a cure for sad faces
-[ 240.1- 246.9] Come on, say sorry and play together
-[ 246.9- 249.2] Maybe grandma knows what to do
-[ 249.3- 272.8] Who is having fun right now?
-[ 272.8- 274.0] Nobody
-[ 275.2- 277.3] You both wanted it all
-[ 277.3- 279.6] So you both got none
-[ 279.6- 282.9] What if the swing could be yours
-[ 282.9- 284.3] And hers?
-[ 284.3- 296.8] If I count to ten, then it's your turn
-[ 296.8- 298.1] Deal
-[ 298.1- 299.6] And you go first
-[ 299.6- 304.4] Now it's ready
-[ 304.4- 343.9] One, two, three, four, five, six, seven, eight, nine, ten
-[ 343.9- 345.9] Your turn
-[ 345.9- 350.5] Thank you, Nadia
-[ 350.5- 357.5] One, two, three, four, five
-[ 366.1- 369.3] Now it's your turn, Hoor
-[ 369.3- 397.3] When we take turns, the fun lasts twice as long
-[ 397.3- 399.3] Nunu
+# الحلقة 1 (The Swing) — تفريغ كامل • 2026-10-09
+# faster-whisper medium.en بدون VAD (النسخة القديمة كانت تحذف جمل). العد 5:24 = 1–10 بس (مؤكد كلمة كلمة؛ "11–18" خطأ تفريغ). الأسماء بالتهجئة المعتمدة.
+
+[0:02.0] Hey, hey, come and play. Little wonder starts today.
+[0:07.1] Zoozoo's kind, she leads the way. Noonoo's got ideas to play.
+[0:11.7] Nadyah asks a hundred why's. Little Hoor waves up so high.
+[0:16.1] Grandma Khadija, warm and wise. Mishoo the cat with big round eyes.
+[0:24.4] Little wonder, little wonder Every day's a brand new wonder
+[0:54.2] Hahaha! I want to fly so high!
+[1:07.4] Ahh! The swing!
+[1:11.0] I want to touch a cloud!
+[1:26.5] but I got here first you always first you always get it first let go Nadyah
+[1:44.5] No! No! You let go!
+[2:04.3] Wait! Maybe you could take turns? One, then the other?
+[2:14.5] It's my turn!
+[2:17.2] No, no, mine!
+[2:33.5] Oops!
+[2:38.3] Kitty fall!
+[2:43.7] Let's go!
+[2:51.3] It's mine!
+[3:04.6] Oh no.
+[3:10.4] When you both pull, it only gets tighter.
+[3:26.5] Want it?
+[3:29.3] Why not?
+[3:41.3] What's wrong? Why are you sad?
+[3:44.6] Noonoo didn't want my flower.
+[3:49.6] I know a cure for sad faces.
+[3:59.2] Come on, say sorry and play together?
+[4:06.5] Maybe grandma knows what to do.
+[4:19.5] Who is having fun right now?
+[4:33.2] Nobody.
+[4:34.8] You both wanted it all, so you both got none. What if the swing could be yours, and hers?
+[4:51.4] I count to ten, then it's your turn! Deal. And you go first.
+[5:01.9] Ta-da! Now it's ready!
+[5:24.2] One, two, three, four, five, six, seven, eight, nine, ten!
+[5:42.1] Your turn.
+[5:46.3] Thank you, Nadyah.
+[5:50.8] 1, 2, 3, 4, 5!
+[5:59.7] I'm flying!
+[6:07.3] Now it's your turn, Hoor.
+[6:19.5] Again, again, again!
+[6:31.7] When we take turns, the fun lasts twice as long.
+[6:36.9] No, no.
+[6:44.5] Little hearts, big wonders!

@@ -11,3 +11,4 @@
 - 2026-10-09: سكريبت الحلقة 2 (Grandma's Old Vase — الصدق) بـ `.agents/projects/little-wonder/episodes/ep02-grandmas-old-vase-script.md` — مراجعة 2: زوزو تطلع قبل التحقيق (ما تسكت وميشو ينعاقب)، "Golden paint" بدل "Real gold"، غرا بالإصلاح. ميثم يعتمد السكريبت لقطة لقطة ويحب القرارات مكتوبة جنب اللقطة ("قرار ميثم").
 - 2026-10-09: الحلقة 1 كاملة بـ Drive `1VjMxXHpFVcP4tDNlWgeqX9KVL2tFFyll` (gdown بالـ ID). صوتها −21.7 LUFS (واطي) → الحلقات الجاية −14 LUFS. زوزو = البنت اللي بالحجاب (مؤكد من الحلقة).
 - 2026-10-09: ميثم **لغى سكريبت الفازة** — الحلقة 2 تنكتب من الصفر. الأفكار الثلاث بـ episodes/ep02-ideas.md. المرجيحة الملتفة بالحلقة 1 جزء من القصة، مو خطأ.
+- 2026-10-09: **درس:** فلتر VAD بـ faster-whisper حذف جمل كثيرة من الحلقة 1 (منها الختام). فرّغ دايمًا بـ vad_filter=False + condition_on_previous_text=False، وافحص آخر 30 ث صورة بصورة. ختام كل حلقة: "Little hearts, big wonders!" + رفع الإيدين.
