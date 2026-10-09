@@ -16,3 +16,4 @@
 | المشهد | الملف | job | ملاحظات |
 |---|---|---|---|
 | 11 | `shots/shot11.mp4` | `b692efea-c4cf-4aa3-a5ba-387c50279824` | ✅ معتمد (ميثم) — نادية "Who gave it to you, Grandma?" (2.8–4.6 ث) · مرجع صوت نادية من 03 · القديم `_v1_old/shot11.mp4` |
+| 12 | `shots/shot12.mp4` | `c0a3b0ce-fd2a-4a1c-a1b0-920dc5e654cf` | ✅ معتمد (ميثم) — تيتة "Ahh… that's a story for another day." (1.0–4.7 ث) · بدون غمزة · مرجع صوت تيتة من 04 · القديم `_v1_old/shot12.mp4` |
