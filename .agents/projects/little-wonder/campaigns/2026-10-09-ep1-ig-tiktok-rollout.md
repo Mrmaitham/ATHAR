@@ -3,9 +3,21 @@
 **التاريخ:** 2026-10-09 • **قرار ميثم:** ننشر محتوى الحلقة 1 (منشور بيوتيوب بس) على إنستقرام وتيك توك لين تنزل الحلقة 2 وشورتساتها.
 **يحل محل** جدول الأسبوع الأول بـ `2026-10-07-ig-tiktok-launch.md` (قسم 5) لين نزول الحلقة 2.
 
-## الملفات المفحوصة
-- الحلقة 1 كاملة: Higgsfield media `e165f269-fcd6-4158-9c86-a14a2c41d184` — 7:04 د، 1280×720 (أفقي)، 24 fps، فيها صوت.
-- شورتسات الحلقة 1 (MY TURN! • Mishoo's Big Oops • الثالث): **مو مرفوعة** على Higgsfield — عند ميثم بالجهاز. (الشورتسات الطولية المرفوعة بـ Higgsfield كلها BY ATHAR، مو Little Wonder.)
+## الملفات المفحوصة (2026-10-09)
+- الحلقة 1 كاملة: Higgsfield media `e165f269-fcd6-4158-9c86-a14a2c41d184` — 7:04 د، 1280×720، فيها صوت.
+- 4 شورتسات من ميثم (Google Drive، مجلد "Little Wonder ep 1"): كلها 1080×1920، 24fps، فيها صوت، نفس القالب (شعار فوق • اللقطة بالنص • العنوان تحت • "Full episode on the channel" بالنهاية).
+
+| الملف | المدة | العنوان على الشاشة | الصوت |
+|---|---|---|---|
+| EP01_short_meet_the_family | 34 ث | Meet the Little Wonder Family! (+ أسماء: Noonoo، Hoor، Grandma Khadija) | أغنية المقدمة (عالي −17.5 dB) |
+| EP01_short_my_turn | 20 ث | My Turn! No, MINE! | "But I got here first!" "You always get it first!" "Let go, Nadyah!" |
+| EP01_short_mishoo_oops | 18 ث | Mishoo's Big Oops! | "Oops" |
+| EP01_short_im_flying | 17 ث | I'm Flying! | "Now it's your turn, Hoor." (واطي −27 dB) |
+
+**ملاحظات الفحص:**
+- "Full episode on the channel" بالفيديو = واضحة بيوتيوب، بس بإنستقرام وتيك توك "the channel" ما تعني شي → الكابشن لازم يقول YouTube + اسم القناة.
+- العنوان السفلي (~70% من الطول) قريب من منطقة كابشن تيك توك — يبان، بس "Full episode on the channel" ممكن ينغطى. ما يحتاج تعديل.
+- صوت "I'm Flying" أوطى من الباقي بـ ~10 dB. للشورتسات الجاية: نوحّد الصوت.
 
 ## مواقف الحلقة (من تفريغ الحوار)
 | الوقت | اللحظة |
@@ -20,23 +32,29 @@
 | 4:45–5:50 | "If I count to ten, then it's your turn" "Deal" ← العد لين 10 ← "Thank you, Nadyah" |
 | 6:06–6:37 | "Now it's your turn, Hoor" ← "When we take turns, the fun lasts twice as long" |
 
-## الجدول (7:30 م كل يوم • إنستقرام Reels + تيك توك بنفس الوقت)
+## الجدول (إنستقرام Reels + تيك توك بنفس الوقت)
 
-| # | اليوم | المقطع | المصدر |
-|---|---|---|---|
-| 1 | الجمعة 9 (الليلة) 📌 | "MY TURN!" 🛝 Who Gets the Swing? | شورت جاهز (عند ميثم) |
-| 2 | السبت 10 | Mishoo's Big Oops! 😹 | شورت جاهز |
-| 3 | الأحد 11 | الشورت الثالث | شورت جاهز (❓ اسمه) |
-| 4 | الإثنين 12 📌 | "Who is having fun right now?" — حكمة تيتة (4:09–4:45) | نقصّه من الحلقة |
-| 5 | الثلاثاء 13 | "If I count to ten…" — الحل (4:45–5:50، مختصر) | نقصّه من الحلقة |
-| 6 | الأربعاء 14 📌 | "The fun lasts twice as long" — النهاية (6:06–6:37) | نقصّه من الحلقة |
+| # | اليوم | المقطع |
+|---|---|---|
+| 1 | الجمعة 9 — **الليلة** 📌 | Meet the Little Wonder Family |
+| 2 | السبت 10، 7:30 م 📌 | My Turn! No, MINE! |
+| 3 | الأحد 11، 7:30 م | Mishoo's Big Oops! |
+| 4 | الإثنين 12، 7:30 م 📌 | I'm Flying! |
+| 5+ | من الثلاثاء 13 لين نزول الحلقة 2 | مقاطع نقصّها من الحلقة: حكمة تيتة (4:09–4:45) • العد لين 10 (4:45–5:50) |
 
-- أول ما تنزل الحلقة 2 بيوتيوب: إعلانها + شورتساتها ياخذون مكان مقاطع الحلقة 1.
-- المقاطع المقصوصة من الحلقة أفقية → نخليها 1080×1920 بخلفية مغبّشة من نفس اللقطة + عنوان فوق (مجاني، ffmpeg).
+أول ما تنزل الحلقة 2: إعلانها + شورتساتها ياخذون المكان.
 
 ## الكابشنات
 
-**1 — MY TURN!**
+**1 — Meet the Family**
+```
+Meet the Little Wonder family 💛
+Four sisters, a wise grandma, and Mishoo the cat who can't stay out of trouble.
+Full episodes every Friday on YouTube: TheLittleWonderShow
+#LittleWonder #KidsCartoon #FamilyTime #KidsAnimation #KidsLearning
+```
+
+**2 — My Turn! No, MINE!**
 ```
 "I got here first!" "You ALWAYS get it first!" 🛝
 Sound familiar? 😅 Watch how Grandma Khadija helps the sisters share the swing.
@@ -44,41 +62,30 @@ Full episode on YouTube: TheLittleWonderShow
 #LittleWonder #KidsCartoon #TakingTurns #Sharing #ToddlerMom
 ```
 
-**2 — Mishoo's Big Oops**
+**3 — Mishoo's Big Oops!**
 ```
 Mishoo had one job… 😹
-Meet Mishoo, the cat who can't stay out of trouble.
 Full episode on YouTube: TheLittleWonderShow
 #LittleWonder #KidsCartoon #FunnyCat #KidsAnimation #FamilyTime
 ```
 
-**3 — الشورت الثالث:** ❓ نكتبه بعد ما نعرف محتواه.
+**4 — I'm Flying!**
+```
+"Now it's your turn, Hoor." 🛝💛
+When we take turns, the fun lasts twice as long.
+Full episode on YouTube: TheLittleWonderShow
+#LittleWonder #KidsCartoon #TakingTurns #Kindness #ToddlerMom
+```
 
-**4 — حكمة تيتة**
+**5 — حكمة تيتة (مقطع من الحلقة)**
 ```
 "Who is having fun right now?" "…Nobody." 💛
 "You both wanted it all, so you both got none."
-Grandma Khadija's wisdom for every sibling fight.
 Full episode on YouTube: TheLittleWonderShow
 #LittleWonder #KidsCartoon #Sharing #ParentingTips #KidsLearning
 ```
 
-**5 — العد لين 10**
-```
-"If I count to ten, then it's your turn." "Deal!" 🤝
-A simple trick for the next swing fight at your house.
-Full episode on YouTube: TheLittleWonderShow
-#LittleWonder #KidsCartoon #TakingTurns #ToddlerMom #KidsLearning
-```
-
-**6 — النهاية**
-```
-"When we take turns, the fun lasts twice as long." 🛝💛
-Full episode on YouTube: TheLittleWonderShow
-#LittleWonder #KidsCartoon #TakingTurns #Kindness #FamilyTime
-```
-
 ## قواعد
 - نفس المقطع بنفس الوقت على إنستقرام وتيك توك.
-- 📌 ثبّت: 1 (الليلة) ثم 4 و6 → 3 تثبيتات بكل منصة.
+- 📌 ثبّت: 1 و2 و4 → 3 تثبيتات بكل منصة.
 - ما نذكر الـ AI بالكابشن. إذا أحد سأل، نجاوب بصراحة.
