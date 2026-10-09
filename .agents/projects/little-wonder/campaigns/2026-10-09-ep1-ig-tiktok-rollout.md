@@ -39,7 +39,7 @@
 
 | # | الوقت | المقطع |
 |---|---|---|
-| 1 | الجمعة 9 — الحين (الصبح) 📌 | Meet the Little Wonder Family |
+| 1 | الجمعة 9 — الصبح 📌 | Meet the Little Wonder Family ✅ نزل إنستقرام + تيك توك |
 | 2 | الجمعة 9 — 7:30 م 📌 | My Turn! No, MINE! |
 | 3 | السبت 10 — 1:00 ظ | Mishoo's Big Oops! |
 | 4 | السبت 10 — 7:30 م 📌 | I'm Flying! |
