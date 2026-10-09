@@ -17,3 +17,14 @@
 - 2026-10-09: صور مرجع الحلقة 2 (1–10) معتمدة بـ episodes/ep02-refs/ (≈33 كريدت). Higgsfield job IDs: زاوية 7cd09641 · أصيصين 423119cf · أدوات f127785c · Day5 c184b23a · Day7 e24b1516 · لوحة فاضية 86693aa6 · 6 نجوم bc276e00 · نونو 252962b5 · نادية 5f79237f · حور b6a89a52. زوزو/تيتة/ميشو: الصور الأصلية (media 2e1e9118 / f7f818c8 / dd84ad18 — رفع 07:06 قد ينتهي). موديل الفيديو: seedance_2_0_mini (720p، 1 كريدت/ث).
 - 2026-10-09: مشهد التجربة (20–24b) نجح. عينات الأصوات من الحلقة 1 (Higgsfield audio): نونو 4de3fa9f (v2 — الأولى 33df6e08 فيها 'I want to fly so high' وانرفضت ip_detected) · نادية 53593716 · زوزو 780a10f3 · حور ab035a53 · تيتة a582f3fb. زوزو صورة a221b97a. Higgsfield يقترح preset 'IN THE DARK' ويرفض الإرسال → حط declined_preset_id 24bae836-2c4a-48e0-89b6-49fcc0b21612. ip_detected ينرد الكريدت.
 - 2026-10-09: **درس كبير:** ميثم رفض الفصل الأول (انتقالات غلط، أغراض تختفي). القاعدة الآن: كل لقطة 5–8 ث بالكثير، وبداية كل لقطة = آخر إطار من اللي قبلها (start_image)، واللقطات القريبة بحركة كاميرا مو قطع. يوم جديد يبدأ من Anchor ثابت + كرت Day. أفحص الانتقال (آخر إطار ↔ أول إطار) مو بس اللقطة لحالها، وأولّد السلسلة لقطة لقطة.
+
+## Ep2 production lessons (2026-10-09)
+- Returning from a close-up to the wide set: pass the last accepted WIDE end frame as image_reference (not A1/A2 anchors) — anchors cause hard cuts / set collapse when composition differs.
+- Close-ups without a set ref drift to a generic suburban yellow house; add the wide frame as ref.
+- Never pass pots_named ref before the signs exist (signs appear early); never write "plain wooden sign" (signs vanish).
+- Name signs tend to grow a fake sprout at the stick base — say "absolutely no sprout/leaf/green".
+- Duplicate toddlers happen on pans to a bench — say "ONLY ONE toddler", prefer pull-back to wide.
+- Grandma/Zoozoo crouch unless told "STANDING upright the whole time, never crouching".
+- lastframe.sh now auto-detects hard cuts (scene>0.3); trim before the cut if the line is complete.
+- ip_detected is refunded; rewording ("3D animated" instead of "Pixar-style") passes.
+- Ep1 intro song = 0:00–0:33.8; outro = 413.5s→end; chant backup audio at 407.3–413.1s.

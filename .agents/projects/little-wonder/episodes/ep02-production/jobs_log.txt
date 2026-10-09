@@ -152,3 +152,54 @@
 # OK += 60 (DAY 5 CHAIN 42-60 COMPLETE)
 # OK += 17r2 ; uploaded e17=c36d2f86-6f6d-4b98-a024-5f1f4edc25e2
 18 7bc56dfb-4ff6-4092-a307-4498c0af35d9 gen
+# REJECT 18 (Sprouty sign vanished)
+18r c56223e1-17d6-4482-b6ba-a714cc331d83 gen
+# OK += 18r ; uploaded e18=3cb7bb20-f3dd-45bc-992b-ef4a01136501
+19 135fc4b0-e905-40a7-837a-ad23c24e03cf gen
+# OK += 19 ; uploaded e19=05e3ed77-3968-4c11-bc5c-8ffe6f6b94a9
+20 411cbe19-cb03-491a-a0c9-991b16cd1237 gen
+# OK += 20 (trimmed to 3.0s before hard cut at 3.04) ; uploaded e20=69c98ea2-7085-4ed6-9152-c8ec4937dc35
+21 d7f34443-b388-4f09-84eb-bf4ece33d7c3 gen
+# REJECT 21 (Noonoo turned into blue vest twin)
+21r 8bd7663a-3bce-42a6-a5c2-2032eb90a519 gen
+# OK += 21r ; uploaded e21=b4883b6e-da0e-4b3d-82a0-8f19b460f333
+22 03cfce3a-cb79-4123-9155-94ed34d35e0a gen
+# REJECT 22 (two Hoors, suburban bg)
+22r d5a44e6d-391b-4eb3-b6fa-23e9261cc852 gen
+# REJECT 22r (stand gone, different house)
+22r2 c7677fa7-c440-46bd-ab6c-17f20df4c3b6 gen (A2 ref)
+# REJECT 22r2 (Baby pot missing). Lesson: use the last accepted WIDE end frame (e20) as image_reference to return to wide
+22r3 855108bc-55d1-41de-94bc-1c3fc500d5b7 gen (e20 ref)
+# OK += 22r3 ; uploaded e22=bdf52ef3-3f12-4bd6-90cf-8303e705290a (WIDE ref for Day1 rest)
+23 cc5af188-af5e-4dc6-a72e-402951a06e0e gen
+# REJECT 23 (sprouts at base of both signs)
+23r a88bc9bd-7f81-4aa5-b110-69914d3395cd gen
+# OK += 23r ; uploaded e23=980907eb-394d-4c7b-b548-c58e85344324
+24 fca16860-181a-4513-bc26-a887664aa8ed gen
+# OK += 24 ; uploaded e24=0d897909-408c-4dae-a5a9-20c2ae5b7392
+25 a8cb6aa2-b51d-48dd-b8b7-1b22952a3961 gen
+# OK += 25 (minor: sprout-like leaf at sign base) ; uploaded e25=0b3697b0-a016-41b7-a6a3-86c84c8050a1
+26 d487c8c9-f547-4115-8e2a-3f3ca107d401 gen
+# REJECT 26 (sign became blank stick, suburban bg). Lesson: never write 'plain wooden sign'
+26r 6f0bcaf7-f1b7-41a0-931a-a84db51c6732 gen
+# OK += 26r ; uploaded e26=7ad66a62-f5e8-41b1-8b82-6e132d518e9c
+27 2ff5b7f4-0133-4ec8-bbf0-252f32ecefc6 gen
+# OK += 27 ; uploaded e27=1ecc952f-d145-45fc-836f-909a2410437f
+28 a14924a2-fb4d-41da-8d30-aab594e43cda gen
+# 28 ip_detected (refunded) -> plain wording
+28r 02cd951d-3c3a-4d43-90ff-35e4e5944a82 gen
+# OK += 28r ; uploaded e28=e6fd1fa0-8480-4613-921c-d0eaaab8ee33
+29 a27d7779-41b4-41bf-bd51-8b4d7516bd24 gen
+# OK += 29 ; uploaded e29=560a2b01-f90f-4651-ad81-4682f50624a7
+30 6c2970a3-0baa-4221-82ab-d29ebd4442ba gen
+# OK += 30 ; uploaded e30=57230d05-673d-4140-af5c-53d70fb226f0
+31 25b4f823-766d-432e-84f5-e558f7f266d7 gen
+# OK += 31 ; uploaded e31=ed35ffb3-25d2-4ebf-845f-5b6318bd8aff
+32 466dbbcd-4fc1-4bd4-830d-856b6a4521fb gen
+# OK += 32 (bg house differs slightly) ; uploaded e32=1255f97b-419c-4d8f-af0b-47948785facd
+33 c3fb720b-3cdb-4ca5-8ff4-d6fdc90c2520 gen
+# OK += 33 ; uploaded e33=1165fd1d-ff18-478c-ba86-5c8dba8b8b42
+34 5a0de64f-138d-4ed0-9dcf-260e0a8ccd87 gen
+# OK += 34 ; uploaded e34=7af72771-b55a-42b2-a1a9-d3f4b7d47b33
+35 706ad38b-7f27-4305-9553-d73d879c6612 gen
+# OK += 35 -- ALL 73 SHOTS COMPLETE 11:59
