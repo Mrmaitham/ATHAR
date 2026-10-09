@@ -116,9 +116,9 @@
 ### 5 — السبت 10 أكتوبر، 7:30 م • 😹 Meet Mishoo
 
 - **المقطع:** الشورت الموجود "Mishoo's Big Oops!" (19 ث).
-- **نص الشاشة:** `Meet Mishoo. Trouble follows her everywhere 😹`
+- **نص الشاشة:** `Meet Mishoo. Trouble follows him everywhere 😹`
 - **الكابشن:**
-  > This is Mishoo. She means well. She really does.
+  > This is Mishoo. He means well. He really does.
 - **هاشتاقات:** `#LittleWonder #KidsCartoon #KidsAnimation #FamilyTime #KidsLearning`
 
 ### 6 — الأحد 11 أكتوبر، 7:30 م • 👋 Meet Zoozoo

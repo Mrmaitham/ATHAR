@@ -302,7 +302,7 @@ model: inherit
 | نادية | 4 سنوات | مرحة، تسأل كثير، تحاول تساعد، تحب اللعب |
 | حور | سنتين | مرحة وفضولية (الاسم "حور" فقط — مو "حور الصغيرة") |
 | تيتة خديجة | الجدة | الحكيمة: تنصح وتحل المشاكل لو صارت بين الأطفال، وتقول حكمة كل حلقة، وأحيانًا تحكي لهم قصص |
-| ميشو | القطة | مشاغبة، تسوي مشاهد مضحكة |
+| ميشو | القطو (ذكر — he/his، تأكيد ميثم 2026-10-09) | مشاغب، يسوي مشاهد مضحكة |
 
 **ملاحظة تسويقية:** مدى الأعمار (سنتين إلى 10) يخلّي كل طفل مشاهد يلاقي شخصية قريبة من عمره —
 الصغار يشوفون نفسهم في حور ونادية، والأكبر في نونو وزوزو.
@@ -773,9 +773,9 @@ Full episode on YouTube: TheLittleWonderShow
 ### 5 — السبت 10 أكتوبر، 7:30 م • 😹 Meet Mishoo
 
 - **المقطع:** الشورت الموجود "Mishoo's Big Oops!" (19 ث).
-- **نص الشاشة:** `Meet Mishoo. Trouble follows her everywhere 😹`
+- **نص الشاشة:** `Meet Mishoo. Trouble follows him everywhere 😹`
 - **الكابشن:**
-  > This is Mishoo. She means well. She really does.
+  > This is Mishoo. He means well. He really does.
 - **هاشتاقات:** `#LittleWonder #KidsCartoon #KidsAnimation #FamilyTime #KidsLearning`
 
 ### 6 — الأحد 11 أكتوبر، 7:30 م • 👋 Meet Zoozoo
