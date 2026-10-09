@@ -1,0 +1,154 @@
+# shot job_id status
+1 621d081d-9d3d-4e9a-a082-9d44c65a997f gen
+36 cba54ed4-e32b-460e-9ac3-6ee6cea81e48 gen
+38 66b6ec28-2e3e-4371-890f-2ad9f53e24fa gen
+39 a1db4edf-0e42-442b-80d2-47af1def30dd gen
+42 ef9175bc-591a-4ba0-8217-83e58966eba4 gen
+61 3551fd0a-5e90-4fbd-8394-3cae6fc372f2 gen
+62 766dd53b-a7d8-4379-9277-933c8445c5e6 gen
+66 6f1812a3-03f8-495b-aeaf-e8d8c81c7655 gen
+67 ad6a0099-b8aa-47bb-a453-3df8203284d2 gen
+# --- status 08:31: OK = 1 38 62 66 67 ; rejected first takes: 36(dup Nadyah) 39(dug grass) 42(sprout in Sprouty) 61(sprout+board lifted)
+61r 645bcc05-7c66-480b-b783-142b31892ffd gen
+2 38c803e8-c5cd-407f-be09-ed935805fa94 gen
+63 763fe08a-bf28-450f-aa78-b4ea1c46b3f5 gen
+68 c6fbc93c-e842-42dd-824b-2db676782410 gen
+36r 6ec3668a-6ea6-41ca-8c53-4e84b79a61f8 gen
+39r 0791b345-10c5-4fd6-b5ed-f1c9eaa63156 gen
+42r c297cd0d-6ccc-41a7-ab5c-e4f821f8c54b gen
+# uploaded end frames: e01=540a7b68-6e9b-42e9-a51d-a3f78cf50bc0 e62=20fbe7a8-22b6-40ac-aea4-7650c529ba99 e67=6786f8e3-ee00-404b-8efa-6b21452e9a7a
+# 08:36 OK += 42r 61r 63 68 ; 39r rejected (copied props image) -> 39r2
+43 dc463ab6-3b1a-44b3-a1bb-466f95668123 gen
+64 7263469b-123e-4e22-b6f6-0ea6b4d5f630 gen
+69 b0c5a4d1-0106-413f-995e-d2e7f8945232 gen
+39r2 3618e88c-5975-4c77-839c-3fdfcbcf2f11 gen
+# uploaded: e42=d0d40b78-3869-4dcf-b53d-02e6cce10ed6 e63=22aa1dab-7917-4860-949f-97af88b8ff53 e68=608dae14-994b-42ad-bbbd-a4a33a86e9de
+# RULE: never pass props sheet f127785c as reference (model copies the whole scene). Avoid word "Sprouty" when pot must be bare.
+# 08:38 OK += 2 36r
+3 511011b0-abe4-4f79-abcd-007e13b27781 gen
+37 ad08dc5e-6b10-41c6-871e-77973f2b6ad7 gen
+# uploaded: e02=2d713f58-01ab-4686-ba27-af7c7329e848 e36=dedab26e-bf80-47fa-8783-5bedff4d4077
+# 08:43 OK += 43r 64 ; 69 rejected(stool) -> 69r ; 39 3rd rejected(grass) -> 39r3 (hands)
+43r 085303e5-68d7-431f-b833-b455e5204dc4 OK
+69r 68be49b3-284e-4dd3-8d89-4175a0fda73c gen
+39r3 edcdd374-c397-478d-a859-81901bd1a523 gen
+44 158e06cf-aad3-4ae7-8488-08512dad428c gen
+65 10e47280-5484-45e0-bda5-cf2d1a7c1e93 gen
+# uploaded: e43=e8706ca9-55c2-4659-89fc-e698bfeba0ff e64=956c7363-2836-489e-83f5-caa128501457
+# 08:45 OK += 37 69r ; 3 rejected (Zoozoo missing) -> 3r
+70 abf065c3-ad63-4a87-a51e-ceb371b5f2f3 gen
+3r cfcd79c1-6ab1-40bc-b4fc-11e0cc805e26 gen
+# uploaded: e69=cf9e4703-5f67-4e0c-a82e-6568fa9b11be
+# ACCEPTED so far: 1 2 36 37 38 42 43 61 62 63 64 66 67 68 69
+# 08:47 OK += 39r3 44
+40 19b247a0-906c-4029-a44d-2747344afe89 gen
+45 625ab62f-0003-4e7b-82fc-be92430c00cc gen
+# uploaded: e39=78872584-1316-4f67-b36f-5c4deff36c50 e44=6c935ef1-3209-4f6c-a317-495a1aad2b5e
+# 08:49 OK += 65 70
+71 e7870a5f-9de4-440a-bcfa-82af9fb4bfc2 gen
+# uploaded: e70=deb4d873-0cfe-4323-953e-450d3e0faa54
+4 3d77634c-5645-4703-a939-abd4fa8b72c4 gen
+# 08:51 OK += 3r2 (Zoozoo enters in shot 4 instead; script updated). uploaded e03=a1cf0fc3-e339-4beb-93aa-498abcf7c73f
+# 08:53 OK += 40 45
+41 6ce218e9-15dd-4cb7-8ec5-af7b453491d1 gen
+46 d0e6a083-8954-49c9-994d-e6774333e150 gen
+# uploaded: e40=afed8855-aa94-45ae-89e6-50dd1b9df1d5 e45=d7833caf-2e1a-4144-9f5a-b869664078c0
+# 08:55 rejected: 71 (2 grandmas), 4 (stutter "some something")
+71r c5a62add-1e58-4017-b589-6e05d54bcdf9 gen
+4r bb1479cd-914d-4491-b57a-71345f59ae7c gen
+# NOTE: shot 72 must now have Grandma walk in from the right (she is not in 71r)
+# 08:58 OK += 41 46
+47 f150d1ac-353d-4e37-8c52-2b7eb8435612 gen
+# uploaded: e46=de6b53e8-4af4-4ac8-9859-7439e2259ef9
+# 09:00 OK += 4r 71r
+5 dbd417d4-0c23-4d01-b351-9fcab616d790 gen
+72 da49600d-f7ae-4be0-b8dc-616333203387 gen
+# uploaded: e04=1bfb0149-7501-47b0-9d84-df19681d385a e71=4ef53948-f8d6-43ac-aa5a-1d52fdb761d7
+# ACCEPTED: 1 2 3 4 36 37 38 39 40 41 42 43 44 45 46 61 62 63 64 65 66 67 68 69 70 71
+48 b7fc3c0c-016e-4838-ad99-008615c5ff3b
+# 09:05 OK += 5 (trimmed to 2.9s -> s05t.mp4, extra "Missed you!" cut) 72
+# uploaded: e05(trimmed)=e7914cbe-ef48-4520-ae3a-3f2f45416ab8 e72=a22f1a71-7250-4aef-be15-407cd48c011a
+6 45905321-d8e2-42a5-8b04-86ddcdcff26d gen
+73 eccb9870-4686-439b-9194-1107d7ecbb11 gen
+# uploaded: e48=b20e2bd1-f2ae-44f2-ba02-dcc81f05bb57 ; OK += 48
+# OK += 6 ; uploaded e06=a44fb466-bb54-4a6c-8488-b4e02465e4c3
+49 d9593492-d17f-4801-ae19-dc0b6ca2f752 gen
+7 6554e030-b119-46ac-830e-3d390a3cfb31 gen
+# 73 ip_detected (refunded) -> retry plain wording no refs
+# OK += 49 ; uploaded e49=f0a0c1db-2cf7-41ab-988e-fbf642ce192a
+50 6574ef34-9556-4524-8d0f-21758640175d gen
+73r 9c4a1a2a-baad-4e05-b01c-64ab2b201a44 gen
+# OK += 7 ; uploaded e07=86323b93-ab62-49ea-a328-d3305aeaf002
+8 59ee8275-7df6-4b1c-8984-cc12430d9e16 gen
+# REJECT 50 (Grandma speaks, no pan) 73r (off-model girls, garbled chant)
+50r c38a7005-036d-4b74-99ad-62b76a05366c gen
+73r2 3a66f5f0-3286-4525-ac2a-a25b6635e618 gen
+# OK += 8 ; uploaded e08=ebf21fba-2506-49b0-93a5-5445b85aa687
+9 44347d98-ab00-4717-ad02-811ff3631b62 gen
+# OK += 50r 73r2 (FINAL SHOT DONE) ; uploaded e50=c53a18e2-d7aa-49a1-a10c-9d61c6e93297
+51 ca9bf4df-d584-43ac-9a72-f65bc69a9bac gen
+# OK += 9 ; uploaded e09=7a1a20ee-f82c-4778-abbb-4187dd0596a9
+10 2b11958b-7cbe-4b78-a149-b1acdc4eb4d8 gen
+# OK += 51 ; uploaded e51=8a5d1d30-7c03-4bc5-840e-638ba5402a1a
+52 97ec0829-3b73-4ded-b99f-584f3cf54494 gen
+# REJECT 10 (Nadyah drifted to adult face)
+10r 51e30643-2d0f-4747-82e1-a16e131e9746 gen
+# REJECT 52 (Grandma crouching)
+52r ded427f5-e334-497b-b58c-19355d793e10 gen
+# OK += 10r ; uploaded e10=34315722-ae54-4cad-8e84-7fa091f75f82
+11 8509cb7d-461a-4eee-a3e6-907c6172390d gen
+# OK += 52r ; uploaded e52=6d3d112a-5b83-4990-9c87-d76e38137677
+53 e6cb418a-eb97-409e-ae59-c2a6673ecc65 gen
+# REJECT 11 (duplicate Hoor, Noonoo on wrong pot)
+11r f855459c-3ca5-49fc-bd79-0cf669781ce8 gen
+# OK += 53 ; uploaded e53=8fcd77df-d4df-4f11-99fd-58688f1030b5
+54 7b2a0692-daaf-4cb9-9022-11a36bc6d11b gen
+# OK += 11r ; uploaded e11=22f91a4c-b9b9-4fd6-80d0-b488d91b5206
+12 2375aa5a-c78b-404f-a7c5-f5606995bd72 gen
+# REJECT 54 (Zoozoo crouching, sprout in hands)
+54r 3fc014e3-a42b-4e15-8606-2ac67e61ca3c gen
+# REJECT 12 (left pot vanished, soil on table)
+12r 046a4962-fb42-49c9-8d45-f0155b9b0c45 gen (used pots_named ref - watch for sticks)
+# OK += 54r ; uploaded e54=8c4a15fa-1535-4441-b512-fb3378784a1f
+55 b0e649ec-6855-480c-a50a-46ac952f9560 gen
+# REJECT 12r (Sprouty stick appeared + sprout) - lesson: never pass pots_named ref before shot 16
+12r2 cc91c196-73d2-42e1-a1c2-5c16914edae1 gen
+# REJECT 55 (yellow suburban house, grandma hair showing)
+55r b896adfb-4f01-4b16-8494-82a64f5f4a56 gen
+# OK += 12r2 ; uploaded e12=71495fd3-8bad-4baa-8956-6c8438af3ea7
+13 3601c350-c8ce-4697-83ca-dfc6a3d87f51 gen
+# REJECT 55r + 54r (yellow suburban house drift began in 54r)
+54r2 35ca6397-eca8-41a9-9ea3-b40bd6197b1a gen (A3 set ref)
+# REJECT 13 (sprout grows from 3.5s)
+13r 1abbf77f-e078-4159-8df7-7b7c033977f9 gen
+# OK += 54r2 ; uploaded e54=d9579ac9-af4e-4a59-baf2-c6962b6bcae8
+55r2 dc40a78d-cb68-4e38-a21a-29cbfb992af7 gen
+# OK += 13r 55r2 ; uploaded e13=14d124d2-23f2-4449-96c3-e3161c95c2e2
+14 3040cbfd-1226-481c-87d7-46fa63b1abb0 gen (first submit timed out, not created)
+# uploaded e55=46cf2f15-eeb0-4f1f-a7b3-43dacd62f91b
+56 ff648a8c-5837-4279-9bf4-4364eb33aaef gen
+# OK += 14 ; uploaded e14=e5caa030-7dd9-4b67-b6f5-961e0a3a55d9
+15 edee66da-89e8-42e3-88a4-5ae2ba61c8f4 gen
+# OK += 56 ; uploaded e56=50a2c7bf-f1e9-4902-9fde-1c473b2b5ca8
+57 375349de-096b-4e9b-9639-cc72588f8283 gen
+# OK += 15 ; uploaded e15=b61fb83d-7620-40dd-881a-2c0c8e3a9d62
+16 d0d95959-4887-47ec-86a0-515c811f3bb0 gen
+# REJECT 57 (sprout in right pot)
+57r 8e229654-4dc7-4756-a3e9-3b5108eb0a01 gen
+# REJECT 16 (2 Nadyahs, yellow house, misspelled stick) - lesson: always include villa set ref when camera reframes
+16r 61b731ac-2784-45c1-bed3-b9926207a254 gen
+# OK += 57r ; uploaded e57=723362c0-01da-41df-88ed-84ca16d1b05f
+58 bcd5036a-1f14-4f68-84fa-60baebe50a49 gen
+# OK += 16r ; uploaded e16=e41259c7-3237-4ccc-97ed-e5937ecaa241
+17 250467d8-223b-4746-b1c9-5dd57e587fc4 gen
+# OK += 58 (Noonoo got the star instead of Nadyah - 59 adapted: Noonoo hands it to Nadyah) ; uploaded e58=c1666aac-5de4-4294-8c51-b33918da8f96
+59 0ced18bc-f323-46da-80b2-ef25299c3635 gen
+# REJECT 17 (hard cut to A1 image at 4.0s; A1 ref causes collapse when start frame differs)
+17r 23145f7a-3e0f-4505-8acf-5cf99a1c3d1b gen
+# OK += 59 (Noonoo sticks star; Nadyah hair drifted lighter in 56-59 - mention) ; uploaded e59=edc9bb3f-aded-40ba-b61c-decd222964ff
+60 0b843483-2b38-4979-a6ba-f0daf2f9046c gen
+# REJECT 17r (two Hoors, split stand)
+17r2 ee1bb779-4bce-4c07-8ca2-da6ed276b56c gen
+# OK += 60 (DAY 5 CHAIN 42-60 COMPLETE)
+# OK += 17r2 ; uploaded e17=c36d2f86-6f6d-4b98-a024-5f1f4edc25e2
+18 7bc56dfb-4ff6-4092-a307-4498c0af35d9 gen
