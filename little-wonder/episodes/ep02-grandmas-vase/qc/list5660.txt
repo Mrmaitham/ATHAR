@@ -1,0 +1,6 @@
+file '../shots_graded/shot56.mp4'
+file '../shots_graded/shot57.mp4'
+file '../shots_graded/shot58.mp4'
+file '../shots_graded/shot59.mp4'
+file '../shots_graded/shot59b.mp4'
+file '../shots_graded/shot60.mp4'
