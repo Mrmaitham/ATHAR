@@ -71,7 +71,7 @@
 |---|---|---|
 | يوتيوب | [@TheLittleWonderShow](https://www.youtube.com/@TheLittleWonderShow) | 9 (2026-10-07) |
 | إنستقرام | @thelittlewondershow | 0 متابع • منشور واحد (2026-10-07) |
-| تيك توك | @thelittlewondershow | 0 — الحساب موجود، ما نزل عليه شي للحين |
+| تيك توك | @thelittlewondershow | 0 (2026-10-09) — ✅ جهز: صورة LW + الاسم `Little Wonder الأعجوبة الصغيرة` + البايو (سطرين). ربط يوتيوب: ❓ |
 
 **الحلقات المنشورة:**
 
