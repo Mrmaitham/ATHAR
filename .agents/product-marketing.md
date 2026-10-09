@@ -1,6 +1,10 @@
 # Product Marketing Context — multi-project router
 
-The marketing agent for this repo is `media-agent` (`.claude/agents/media-agent.md`).
+Each project has its own marketing agent (decided 2026-10-09, one agent = one project):
+- أثر → `athar-agent` (`.claude/agents/athar-agent.md`)
+- Little Wonder → `littlewonder-agent` (`.claude/agents/littlewonder-agent.md`)
+
+Use a separate chat/session per project.
 
 This repository markets **several projects**, so there is no single context document here.
 Each project has its own folder:
