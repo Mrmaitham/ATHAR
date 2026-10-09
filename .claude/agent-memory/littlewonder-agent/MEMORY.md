@@ -9,3 +9,4 @@
 - whisper (faster-whisper small) يفرّغ حوار الحلقات بدقة كافية — مفيد لاختيار لحظات الشورتس.
 - 2026-10-09: **ميشو ذكر** (he/his/him) — تأكيد ميثم. صحّحت كابشنات خطة الإطلاق ("She means well" ← "He means well").
 - 2026-10-09: سكريبت الحلقة 2 (Grandma's Old Vase — الصدق) بـ `.agents/projects/little-wonder/episodes/ep02-grandmas-old-vase-script.md` — مراجعة 2: زوزو تطلع قبل التحقيق (ما تسكت وميشو ينعاقب)، "Golden paint" بدل "Real gold"، غرا بالإصلاح. ميثم يعتمد السكريبت لقطة لقطة ويحب القرارات مكتوبة جنب اللقطة ("قرار ميثم").
+- 2026-10-09: الحلقة 1 كاملة بـ Drive `1VjMxXHpFVcP4tDNlWgeqX9KVL2tFFyll` (gdown بالـ ID). صوتها −21.7 LUFS (واطي) → الحلقات الجاية −14 LUFS. زوزو = البنت اللي بالحجاب (مؤكد من الحلقة).
