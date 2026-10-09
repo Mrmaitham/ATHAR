@@ -1,7 +1,7 @@
 #!/bin/bash
 # Review cut: shots 1-10 with approved fixes for 3,4,5, shot number burned in
 C=/home/user/lw_chain; X=/home/user/lw_fix; F=/usr/share/fonts/opentype/inter/Inter-ExtraBold.otf
-L=($C/s01.mp4 $C/s02.mp4 $X/s03fix.mp4 $X/s04fix.mp4 $X/s05fix_t.mp4 $C/s06.mp4 $C/s07.mp4 $C/s08.mp4 $C/s09.mp4 $C/s10.mp4)
+L=($C/s01.mp4 $C/s02.mp4 $X/s03fix.mp4 $X/s04fix.mp4 $X/s05fix_t.mp4 $X/s06fix2.mp4 $X/s07fix.mp4 $X/s08fix.mp4 $X/s09fix2.mp4 $X/s10fix.mp4)
 args=(); f=""; cat=""
 for i in "${!L[@]}"; do
   args+=(-i "${L[$i]}")
