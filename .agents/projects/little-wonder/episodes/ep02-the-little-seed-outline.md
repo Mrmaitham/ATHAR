@@ -1,5 +1,7 @@
 # الحلقة 2 — The Little Seed 🌱 • المخطط (Beats) • مسودة 1 — 2026-10-09
 
+> ⚠️ **تحديث 2026-10-09:** ميثم غيّر الأزواج: **زوزو + حور (أصيص Baby، الصابرين)** · **نونو + نادية (أصيص Sprouty، المستعجلين)**. المرجع المعتمد هو السكريبت `ep02-the-little-seed-script.md` (مسودة 2).
+
 **العنوان:** `The Little Seed ⭐ Good Things Take Time! | Little Wonder Ep 2 | Kids Cartoon`
 **القيمة:** الصبر — الأشياء الحلوة تحتاج وقت، والاستعجال يرجّعنا للبداية.
 **الحكمة:** *"Good things grow when we wait."*
