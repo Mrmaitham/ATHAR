@@ -15,5 +15,6 @@
 ## اعتمادات الإنتاج v2
 | المشهد | الملف | job | ملاحظات |
 |---|---|---|---|
-| 11 | `shots/shot11.mp4` | `b692efea-c4cf-4aa3-a5ba-387c50279824` | ✅ معتمد (ميثم) — نادية "Who gave it to you, Grandma?" (2.8–4.6 ث) · مرجع صوت نادية من 03 · القديم `_v1_old/shot11.mp4` |
-| 12 | `shots/shot12.mp4` | `c0a3b0ce-fd2a-4a1c-a1b0-920dc5e654cf` | ✅ معتمد (ميثم) — تيتة "Ahh… that's a story for another day." (1.0–4.7 ث) · بدون غمزة · مرجع صوت تيتة من 04 · القديم `_v1_old/shot12.mp4` |
+| 11 (v1 ❌ فيونكات وردية) | `_rejected/shot11_v2_v1_pinkbows.mp4` | `b692efea-c4cf-4aa3-a5ba-387c50279824` | ✅ معتمد (ميثم) — نادية "Who gave it to you, Grandma?" (2.8–4.6 ث) · مرجع صوت نادية من 03 · القديم `_v1_old/shot11.mp4` |
+| 12 (v1 ❌ فيونكات وردية) | `_rejected/shot12_v2_v1_pinkbows.mp4` | `c0a3b0ce-fd2a-4a1c-a1b0-920dc5e654cf` | ✅ معتمد (ميثم) — تيتة "Ahh… that's a story for another day." (1.0–4.7 ث) · بدون غمزة · مرجع صوت تيتة من 04 · القديم `_v1_old/shot12.mp4` |
+| 11 | `shots/shot11.mp4` | `1c2b0ee7-b585-4640-9752-66c8efa7d584` | ✅ معتمد (ميثم) — مراجع شخصيات من 10 · فيونكات كريمية · كلمة زيادة 1.8–2.6 ث انكتمت |
