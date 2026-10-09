@@ -51,7 +51,7 @@
 **1 — Meet the Family**
 ```
 Meet the Little Wonder family 💛
-Four sisters, a wise grandma, and Mishoo the cat who can't stay out of trouble.
+Two pairs of sisters, their wise Grandma Khadija, and Mishoo the cat who can't stay out of trouble.
 Full episodes every Friday on YouTube: TheLittleWonderShow
 #LittleWonder #KidsCartoon #FamilyTime #KidsAnimation #KidsLearning
 ```
@@ -59,7 +59,7 @@ Full episodes every Friday on YouTube: TheLittleWonderShow
 **2 — My Turn! No, MINE!**
 ```
 "I got here first!" "You ALWAYS get it first!" 🛝
-Sound familiar? 😅 Watch how Grandma Khadija helps the sisters share the swing.
+Sound familiar? 😅 Watch how Grandma Khadija helps the girls share the swing.
 Full episode on YouTube: TheLittleWonderShow
 #LittleWonder #KidsCartoon #TakingTurns #Sharing #ToddlerMom
 ```

@@ -85,7 +85,7 @@
 - **المقطع (15–20 ث):** لقطة سريعة لكل شخصية (2–3 ث لكل وحدة) مع اسمها على الشاشة.
 - **نص الشاشة أول 3 ثواني:** `Meet the Little Wonder family 💛`
 - **الكابشن:**
-  > Four sisters, one wise grandma, and a cat who can't stay out of trouble. Meet Zoozoo, Noonoo, Nadyah, Hoor, Grandma Khadija and Mishoo. New episode every Friday on YouTube.
+  > Two pairs of sisters, one wise grandma, and a cat who can't stay out of trouble. Meet Zoozoo, Noonoo, Nadyah, Hoor, Grandma Khadija and Mishoo. New episode every Friday on YouTube.
 - **هاشتاقات:** `#LittleWonder #KidsCartoon #FamilyTime #KidsAnimation #KidsLearning`
 
 ### 2 — الجمعة 9 أكتوبر، 9:00 ص • 🎬 الحلقة 2 نزلت
@@ -123,10 +123,10 @@
 
 ### 6 — الأحد 11 أكتوبر، 7:30 م • 👋 Meet Zoozoo
 
-- **المقطع:** زوزو تعلّم أو تلعب مع خواتها.
+- **المقطع:** زوزو تعلّم أو تلعب مع البنات.
 - **نص الشاشة:** `Zoozoo, 10. The big sister who always has a plan`
 - **الكابشن:**
-  > Zoozoo is the oldest. She loves teaching her little sisters new games, even when they don't want to listen.
+  > Zoozoo is the oldest. She loves teaching the little ones new games, even when they don't want to listen.
 - **هاشتاقات:** `#LittleWonder #KidsCartoon #Kindness #FamilyTime #KidsAnimation`
 
 ### 7 — الإثنين 12 أكتوبر، 7:30 م • 💛 حكمة تيتة: The Swing 📌
@@ -150,12 +150,12 @@
 - **المقطع:** موقف الإغراء من الحلقة 2.
 - **نص الشاشة / الكابشن:** ❓ (بعد قصة الحلقة 2)
 
-### 10 — الأربعاء 14 أكتوبر، 7:30 م • 👋 Which sister is your child?
+### 10 — الأربعاء 14 أكتوبر، 7:30 م • 👋 Which girl is your child?
 
 - **المقطع (10–15 ث):** البنات الأربع بلقطة وحدة وكل وحدة يطلع اسمها وصفتها.
 - **نص الشاشة:** `Zoozoo the wise • Noonoo the giggly • Nadyah the curious helper • Hoor the little explorer`
 - **الكابشن:**
-  > Every home has one of each. Which sister is most like your little one? Tell us in the comments.
+  > Every home has one of each. Which girl is most like your little one? Tell us in the comments.
 - **هاشتاقات:** `#LittleWonder #KidsCartoon #ToddlerMom #FamilyTime #KidsAnimation`
 - ملاحظة: التعليقات مقفلة على يوتيوب (Made for Kids)، فالسؤال يشتغل على إنستقرام وتيك توك بس.
 
