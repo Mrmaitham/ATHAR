@@ -2,7 +2,7 @@
 # Ep2 v2 review cut: approved shots, frozen starts trimmed, shot number burned in
 V=/home/user/lw_v2; F=/usr/share/fonts/opentype/inter/Inter-ExtraBold.otf
 # shot:file:trim_start_seconds
-LIST="1:s01:0.0 2:s02:0.3 3:s03:0.6 4:s04:0.4 5:s05b:0.5 6:s06:0.2 7:s07:0.15 8:s08:0.7 9:s09:0.6"
+LIST="1:s01:0.0 2:s02:0.3 3:s03:0.6 4:s04:0.4 5:s05b:0.5 6:s06:0.2 7:s07:0.15 8:s08:0.7 9:s09b:0.0 10:s10d:0.3 11:s11c:0.0 12:s12f:0.2 13:s13:0.0"
 args=(); f=""; cat=""; i=0
 for e in $LIST; do IFS=: read n file t <<< "$e"
   args+=(-ss "$t" -i "$V/$file.mp4")
