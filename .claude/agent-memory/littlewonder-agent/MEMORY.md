@@ -47,3 +47,4 @@
 - Nadyah outfit (ref 09): SOFT LIGHT CORNFLOWER-BLUE smooth cotton vest + matching shorts. "denim" → denim vest drift; "royal blue" → too dark (Ep2 16v3 rejected). Approved wording in Ep2 l16.
 - Before any batch redo: inspect existing shots per character vs refs and report first (user: "افحص قبل الاعاده").
 - Handoff lesson (Ep2 22): a handoff to a girl standing BEHIND/beyond another girl lands between them and the model duplicates the prop (both hold one). Only hand props to the ADJACENT person. Small props tend to vanish late in a shot → trim the shot where props are still clearly held. Speech stutter in one take can be fixed by swapping in the clean audio from another take with the same timing (adelay to align).
+- Prop morph lesson (Ep2 24): a girl holding pen + plain stick → model turns the stick into a clipboard/board. Give the pen only right before drawing, in the same shot as the drawing.
