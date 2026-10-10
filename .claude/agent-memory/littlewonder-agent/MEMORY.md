@@ -41,3 +41,4 @@
 - Seeds must be drawn plain brown with NO green tip; nothing sprouts on planting day.
 - Lighting ramp (user, Ep2 v2 shot 23+): sky band red level = 135 at shot 23, then raise gradually each shot (~+1.5) back up to 142 and hold. Tool: lw_tools/rampgrade.py (full-frame match to previous shot + uniform scale to sky target). Plain sky-only grading breaks on camera moves.
 - Never describe a "plant drawing/doodle" on props: the video model turns it into a real seedling. Use a red heart on a flat wooden label.
+- User rule: no push-ins that drop characters out of frame - in group scenes keep a LOCKED WIDE camera so everyone stays visible.
