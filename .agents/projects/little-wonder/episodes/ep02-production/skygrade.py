@@ -12,5 +12,5 @@ first, last, mean = band[0].mean(0), band[-1].mean(0), band.mean((0, 1))
 k = tgt / mean
 print(f"sky first={first.round()} last={last.round()} mean={mean.round()} gain={k.round(4)}")
 subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", src, "-vf",
-                f"colorchannelmixer=rr={k[0]:.4f}:gg={k[1]:.4f}:bb={k[2]:.4f}",
-                "-c:v", "libx264", "-crf", "18", "-c:a", "copy", dst], check=True)
+                f"colorchannelmixer=rr={k[0]:.4f}:gg={k[1]:.4f}:bb={k[2]:.4f},format=yuv420p",
+                "-c:v", "libx264", "-crf", "18", "-movflags", "+faststart", "-c:a", "copy", dst], check=True)
