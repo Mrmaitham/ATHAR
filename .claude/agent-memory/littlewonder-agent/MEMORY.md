@@ -39,3 +39,5 @@
 - حور (المرجع): كعكتين مجعدة وعلى كل وحدة **فيونكة كريمي بنقط سودا صغيرة** — مو مشابك لؤلؤ ذهبية (وصفي القديم كان غلط).
 - Rule (user, Ep2 v2): every finished shot is sent MERGED with the previous approved shot (prev + new) so the user can follow continuity. Also keep morning light/sun time constant within a scene (use empty-garden ref 7e9f45d5 for light lock).
 - Seeds must be drawn plain brown with NO green tip; nothing sprouts on planting day.
+- Lighting ramp (user, Ep2 v2 shot 23+): sky band red level = 135 at shot 23, then raise gradually each shot (~+1.5) back up to 142 and hold. Tool: lw_tools/rampgrade.py (full-frame match to previous shot + uniform scale to sky target). Plain sky-only grading breaks on camera moves.
+- Never describe a "plant drawing/doodle" on props: the video model turns it into a real seedling. Use a red heart on a flat wooden label.
