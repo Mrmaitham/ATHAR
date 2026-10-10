@@ -37,3 +37,5 @@
 - **قبل إرسال أي فيديو لميثم:** فحص الأشكال إلزامي — قص كل شخصية من أول/نص/آخر صورة وقارنها بصورة المرجع (الشعر، اللون، الملابس، الإكسسوارات). أي فرق أذكره بوضوح قبل ما أرسل.
 - نادية (المرجع): شعر أسود غامق، فرق بالنص، مسحوب لورا **ذيل حصان واحد واطي ورا الراس**، بدون غرة وبدون ضفيرتين. الموقع يميل يحولها لشعر بني بغرة وضفيرتين — لازم أكتبها صريح بكل لقطة.
 - حور (المرجع): كعكتين مجعدة وعلى كل وحدة **فيونكة كريمي بنقط سودا صغيرة** — مو مشابك لؤلؤ ذهبية (وصفي القديم كان غلط).
+- Rule (user, Ep2 v2): every finished shot is sent MERGED with the previous approved shot (prev + new) so the user can follow continuity. Also keep morning light/sun time constant within a scene (use empty-garden ref 7e9f45d5 for light lock).
+- Seeds must be drawn plain brown with NO green tip; nothing sprouts on planting day.
