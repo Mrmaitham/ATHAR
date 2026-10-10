@@ -43,3 +43,4 @@
 - Never describe a "plant drawing/doodle" on props: the video model turns it into a real seedling. Use a red heart on a flat wooden label.
 - User rule: no push-ins that drop characters out of frame - in group scenes keep a LOCKED WIDE camera so everyone stays visible.
 - KEY LESSON (shot 25): never write "no sprout / no seedling / nothing green" - negatives make the video model ADD the plant. Describe soil positively only: "filled to the rim with smooth, flat, dark brown soil with a plain even surface, like freshly patted earth". This fixed it first try.
+- Look drift fix (Ep2 shots 26-31): ALWAYS attach every on-screen girl's reference + full character block in the prompt (Noonoo = very dark BLACK long wavy hair, WHITE sneakers; drifted to brown curly + pink shoes when her ref was omitted). If drift already in start frame, fix it with a gpt_image_2_5 edit of the start frame first.
