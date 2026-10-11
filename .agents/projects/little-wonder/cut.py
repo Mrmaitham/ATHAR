@@ -3,6 +3,9 @@
 # optional --num : burn shot numbers top-left. Single-pass graph, yuv420p, 48k aac, loudnorm.
 import sys, subprocess
 a = sys.argv[1:]; num = "--num" in a; a = [x for x in a if x != "--num"]
+LB = None
+for x in list(a):
+    if x.startswith("--labels="): LB = x.split("=",1)[1].split(","); a.remove(x)
 out, rest = a[0], a[1:]
 clips, ds = [], []
 for x in rest:
@@ -14,7 +17,8 @@ D = [dur(c) for c in clips]
 inp = sum([["-i", c] for c in clips], [])
 f = []
 for i in range(len(clips)):
-    lab = f",drawtext=text='{i+1}':x=20:y=16:fontsize=40:fontcolor=white:borderw=3:bordercolor=black" if num else ""
+    t_ = (LB[i] if LB else str(i+1)) if num else ""
+    lab = f",drawtext=text='{t_}':x=20:y=16:fontsize=40:fontcolor=white:borderw=3:bordercolor=black" if (num and t_) else ""
     f.append(f"[{i}:v]scale=1280:720,fps=24,setsar=1,format=yuv420p,settb=AVTB{lab}[v{i}];[{i}:a]aresample=48000,aformat=channel_layouts=stereo,asetpts=PTS-STARTPTS[a{i}]")
 v, au, t = "v0", "a0", D[0]
 for i in range(1, len(clips)):
