@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
-# usage: unglow.py IN.mp4 OUT.mp4 "t:x:y,t:x:y,..."   (lantern centre keypoints, 1280x720 coords)
+# usage: unglow.py IN.mp4 OUT.mp4 "t:x:y,t:x:y,..." [--glass]   (lantern centre keypoints, 1280x720 coords)
 # Removes the warm wall-wash of a lit wall lantern: tracks the dark lantern, flattens the
 # smooth illumination on its panel to the unlit panel level, keeps texture. Audio copied.
 import sys, subprocess, numpy as np
 from PIL import Image, ImageFilter
 inp, out, kp = sys.argv[1], sys.argv[2], sys.argv[3]
+GLASS = "--glass" in sys.argv
 KP = sorted(tuple(map(float, k.split(":"))) for k in kp.split(","))
 HW, HH, FE, REF = 70, 140, 10, 118   # region half-width, half-height, pad, ref offset below lantern
 RX, RY, RYOFF = 46, 88, 12          # elliptical mask radii, vertical offset
@@ -28,6 +29,12 @@ def fix(fr, t):
     lum = win.mean(2); ys, xs = np.nonzero(lum < 75)
     if len(xs) > 40: ex, ey = x0+xs.mean(), max(0,y0)+ys.mean()
     cx, cy = int(round(ex)), int(round(ey))
+    if GLASS:  # paint lit (warm, bright) lantern glass back to dark unlit metal/glass
+        gx0, gx1, gy0, gy1 = cx-24, cx+24, cy-42, cy+34
+        g = fr[gy0:gy1, gx0:gx1].astype(np.float32)
+        warm = g[..., 0]-g[..., 2]; lum = g.mean(2)
+        a = (np.clip((warm-30)/35, 0, 1)*np.clip((lum-80)/40, 0, 1))[..., None]
+        fr[gy0:gy1, gx0:gx1] = np.clip(g*(1-a)+np.array([46, 46, 52])*a, 0, 255).astype(np.uint8)
     bx0, bx1 = max(0, cx-HW-FE-10), min(W, cx+HW+FE+10)
     by0, by1 = max(0, cy-HH-FE-10), min(H, cy+HH+FE+10)
     reg = fr[by0:by1, bx0:bx1].astype(np.float32)
