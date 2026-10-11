@@ -52,3 +52,4 @@
 - Do NOT attach the master family image as a video image_reference: it caused a hard cut into the master group pose at ~4.8s (Ep2 26). Use master only for the start-frame image edit; videos get individual refs.
 - Repeat lesson (Ep2 29/31): the model often repeats a short line twice in a 7s shot. Write the line once and keep 5s duration for short lines, or trim / replace the repeat with ambience.
 - EP02 lesson (shot 34): leaning poses hide heights and the model then shrinks a character when she stands (Noonoo became shorter than Nadyah). Always add a HEIGHT LOCK line (Noonoo ~Zoozoo height > Nadyah > Hoor smallest) and compare heights vs the master ref when characters stand; fix via start-frame image edit.
+- EP02 lesson: colorchannelmixer outputs yuv444p (High 4:4:4) which phones cannot play; always add -pix_fmt yuv420p (+ -ar 48000) on deliverables.
