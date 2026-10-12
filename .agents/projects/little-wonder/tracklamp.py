@@ -10,7 +10,7 @@ fps = eval(subprocess.run(["ffprobe","-v","error","-select_streams","v","-show_e
 dec = subprocess.Popen(["ffmpeg","-v","error","-i",inp,"-f","rawvideo","-pix_fmt","rgb24","-"], stdout=subprocess.PIPE)
 enc = subprocess.Popen(["ffmpeg","-v","error","-y","-f","rawvideo","-pix_fmt","rgb24","-s",f"{W}x{H}","-r",str(fps),"-i","-","-i",inp,
     "-map","0:v","-map","1:a?","-c:v","libx264","-crf","17","-pix_fmt","yuv420p","-profile:v","high","-movflags","+faststart","-c:a","aac","-ar","48000",out], stdin=subprocess.PIPE)
-R0 = 34  # glow radius at frame 0
+R0 = int(os.environ.get('R0', 34))  # glow radius at frame 0
 n = 0; log = []; V = [[0.0, 0.0] for _ in L]
 def warm(fr):
     f = fr.astype(np.float32); return f.mean(2) + 0.6*(f[..., 0]-f[..., 2])
@@ -43,7 +43,7 @@ while True:
         notdark = np.clip((lum-70)/30, 0, 1)[..., None]   # never touch hair/dark metal
         reg = reg - fall*notdark*excess*(reg/np.maximum(lum[..., None], 1))*0.95
         glass = (d < 0.22)[..., None] & (lum[..., None] > wl)
-        reg = np.where(glass, reg*0.55, reg)
+        if not os.environ.get('NOGLASS'): reg = np.where(glass, reg*0.55, reg)
         fr[b0:b1, a0:a1] = np.clip(reg, 0, 255).astype(np.uint8)
     enc.stdin.write(fr.tobytes()); n += 1
 enc.stdin.close(); enc.wait(); print("frames", n, "lost", len(log), "final", L)

@@ -15,7 +15,7 @@ while True:
     if len(b) < W*H*3: break
     fr = np.frombuffer(b, np.uint8).reshape(H, W, 3).copy()
     dx, dy = T[min(n, len(T)-1)]
-    for (x, y, r) in P:
+    for (x, y, r) in (P if int(os.environ.get('F0', 0)) <= n < int(os.environ.get('F1', 10**9)) else []):
         cx, cy = int(round(x+dx)), int(round(y+dy)); R = int(r*1.6)
         a0, a1, b0, b1 = max(cx-R, 0), min(cx+R+1, W), max(cy-R, 0), min(cy+R+1, H)
         if a1-a0 < 4 or b1-b0 < 4: continue
