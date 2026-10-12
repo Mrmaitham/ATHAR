@@ -2,7 +2,7 @@
 # usage: spot.py IN.mp4 OUT.mp4 seed_x seed_y [seed=last|first]
 # Removes a lit ceiling downlight (small bright ellipse ~18x9) and its soft wash: tracks the blob
 # frame-to-frame from the seed frame, fills it from its surrounding ring, softens the warm pool below.
-import sys, subprocess, numpy as np
+import sys, os, subprocess, numpy as np
 inp, out, sx, sy = sys.argv[1], sys.argv[2], int(sys.argv[3]), int(sys.argv[4])
 seed = sys.argv[5] if len(sys.argv) > 5 else "last"
 W, H = 1280, 720
@@ -40,7 +40,7 @@ enc = subprocess.Popen(["ffmpeg","-v","error","-y","-f","rawvideo","-pix_fmt","r
 ST = np.clip((S-TH)/10, 0, 1); ST = np.convolve(np.pad(ST, 4, mode='edge'), np.ones(9)/9, 'valid')
 for i, fr in enumerate(F):
     cx, cy = map(int, np.round(P[i]))
-    if ST[i] > 0.02:   # only where a lit blob is actually present
+    if ST[i] > 0.02 and int(os.environ.get('F0', 0)) <= i < int(os.environ.get('F1', 10**9)):   # only where a lit blob is present (optional frame window F0..F1)
         reg = fr[cy-26:cy+27, cx-40:cx+41].astype(np.float32)
         lum = reg.mean(2)
         keep = np.clip((lum-110)/40, 0, 1)[..., None]          # protect dark subjects (hijab etc.)
