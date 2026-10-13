@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# usage: bgswap.py START.png EDIT.png OUT.png [far_q=0.45]
+# usage: [NOALIGN=1] bgswap.py START.png EDIT.png OUT.png [far_q=0.45]
 # Keep START's foreground (characters, cat, bench, pots, lawn) pixel-identical and take only the far background
 # (house, sky, trees behind) from EDIT. EDIT is first aligned to START on the lower (foreground) half, then a
 # depth mask (Depth-Anything-V2) from START decides near/far, softened and feathered.
@@ -21,7 +21,10 @@ for sc in np.arange(0.94, 1.061, 0.01):
         for ty in range(-32, 33, 4):
             e = np.abs(warp4(e4, sc, tx, ty) - s4)[lo].mean()
             if best is None or e < best[0]: best = (e, sc, tx, ty)
-_, sc, tx, ty = best; E = np.asarray(warp(E0, sc, tx, ty), np.float32); s = np.asarray(S, np.float32)
+_, sc, tx, ty = best
+import os
+if os.environ.get('NOALIGN') == '1': sc, tx, ty = 1.0, 0, 0     # same camera: skip alignment
+E = np.asarray(warp(E0, sc, tx, ty), np.float32); s = np.asarray(S, np.float32)
 d = depth(S); t = np.quantile(d, Q)
 m = np.clip((d - t) / 0.08, 0, 1)                       # 1 = near (keep START)
 m[int(H*0.80):] = 1                                      # lowest band is always foreground lawn
