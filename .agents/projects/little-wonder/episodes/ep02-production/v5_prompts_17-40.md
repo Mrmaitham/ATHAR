@@ -11,156 +11,156 @@ ACTION: Grandma stands between the girls and the low wooden bench. Leaning forwa
 DIALOGUE: only Grandma speaks, once: "Down here, so little hands can reach." Nobody else says any words (laughs or gasps without words are fine).
 RULES: one continuous shot, no cuts, no scene change. Continue exactly from the first frame: same people, same positions, same sizes, same clothes and hair; nobody changes identity, no extra or duplicate characters, nobody appears from nowhere or vanishes (characters only enter or leave by walking in or out of frame). The modern cream-stone house (glass balconies, wood slat screens, single dark-brown front door, mosaic column), the garden, the low wooden bench and props stay exactly as in the first frame and never morph. Nobody walks through the bench. Nothing green grows in the clay pots (plain brown soil). Bright sunny daytime: every lamp, ceiling downlight, wall light and interior light is OFF.
 CHARACTER REFERENCE (identity, clothes, ages and relative heights - the family already appears in the first frame and must keep looking exactly like that):
-- Grandma (Teta Khadija): elderly woman, black abaya and black hijab, NO glasses, the tallest. She is always on her feet: she never sits, kneels or squats; to reach low she only leans forward at the waist with straight legs.
+- Grandma (Teta Khadija): elderly woman, black abaya and black hijab, NO glasses, NO necklace, NO pendant, NO jewelry (plain black abaya), the tallest. She is always on her feet: she never sits, kneels or squats; to reach low she only leans forward at the waist with straight legs.
 - Zoozoo: the eldest girl (about 10), white hijab, long cream lace coat, white trousers, small gold necklace; the tallest girl (up to Grandma's shoulder). She never kneels or squats.
 - Noonoo: girl about 8, very long wavy black hair worn loose, pink T-shirt with a lilac butterfly, black cargo trousers, white sneakers; almost as tall as Zoozoo.
 - Nadyah: girl about 6, dark hair in ONE ponytail, royal-blue vest over a white T-shirt, royal-blue shorts, white sneakers; a head shorter than Noonoo.
 - Hoor: toddler about 2, curly dark hair with two small buns, pink vest, white top, pink shorts, black shoes; the smallest.
-- Mishoo: fluffy grey-and-white cat with a gold collar bell; makes only cat sounds, never speaks.
+- Mishoo: fluffy grey-and-white cat with a gold collar bell; a cat who talks ONLY when this shot gives him a line (small, funny, slightly grumpy voice, mouth moves like a cartoon cat); otherwise he makes only cat sounds.
 ```
 
 ## Shot 18
 ```
 3D animated kids cartoon in the exact style of the first frame.
 CAMERA: on a tripod, no zoom, no pan, no tilt; the framing stays identical to the first frame for the whole shot.
-ACTION: In the first frame, from left to right: Zoozoo holding the yellow trowel, Hoor at the LEFT pot, Noonoo behind Hoor, Grandma standing behind the pots, Mishoo sitting between the two pots, and Nadyah standing just right of the RIGHT pot; everyone keeps these places. Zoozoo steps next to the LEFT pot on the grass and, standing and leaning forward at the waist, digs a small hole in the LEFT pot's soil with the yellow trowel, lifts out a little soil, then lays the trowel on the grass. Hoor drops her white bean seed into the hole and pats the soil with both little hands. The others watch.
+ACTION: In the first frame, from left to right: Zoozoo holding the yellow trowel, Hoor at the LEFT pot, Noonoo behind Hoor, Grandma standing behind the pots, Mishoo sitting between the two pots, and Nadyah standing just right of the RIGHT pot; everyone keeps these places. Zoozoo steps next to the LEFT pot on the grass and, standing and leaning forward at the waist, digs a small hole in the LEFT pot's soil with the yellow trowel, lifts out a little soil, then lays the trowel on the grass. Hoor, staying at the LEFT pot the whole time (she never goes to the right pot), drops her white bean seed into the hole and then pats the LEFT pot's soil with both little hands three times while saying the line. Mishoo stays sitting between the pots, visible the whole shot. The others watch.
 DIALOGUE: only Hoor speaks, once: "Pat, pat, pat!" Nobody else says any words (laughs or gasps without words are fine).
 RULES: one continuous shot, no cuts, no scene change. Continue exactly from the first frame: same people, same positions, same sizes, same clothes and hair; nobody changes identity, no extra or duplicate characters, nobody appears from nowhere or vanishes (characters only enter or leave by walking in or out of frame). The modern cream-stone house (glass balconies, wood slat screens, single dark-brown front door, mosaic column), the garden, the low wooden bench and props stay exactly as in the first frame and never morph. Nobody walks through the bench. Nothing green grows in the clay pots (plain brown soil). Bright sunny daytime: every lamp, ceiling downlight, wall light and interior light is OFF.
 CHARACTER REFERENCE (identity, clothes, ages and relative heights - the family already appears in the first frame and must keep looking exactly like that):
-- Grandma (Teta Khadija): elderly woman, black abaya and black hijab, NO glasses, the tallest. She is always on her feet: she never sits, kneels or squats; to reach low she only leans forward at the waist with straight legs.
+- Grandma (Teta Khadija): elderly woman, black abaya and black hijab, NO glasses, NO necklace, NO pendant, NO jewelry (plain black abaya), the tallest. She is always on her feet: she never sits, kneels or squats; to reach low she only leans forward at the waist with straight legs.
 - Zoozoo: the eldest girl (about 10), white hijab, long cream lace coat, white trousers, small gold necklace; the tallest girl (up to Grandma's shoulder). She never kneels or squats.
 - Noonoo: girl about 8, very long wavy black hair worn loose, pink T-shirt with a lilac butterfly, black cargo trousers, white sneakers; almost as tall as Zoozoo.
 - Nadyah: girl about 6, dark hair in ONE ponytail, royal-blue vest over a white T-shirt, royal-blue shorts, white sneakers; a head shorter than Noonoo.
 - Hoor: toddler about 2, curly dark hair with two small buns, pink vest, white top, pink shorts, black shoes; the smallest.
-- Mishoo: fluffy grey-and-white cat with a gold collar bell; makes only cat sounds, never speaks.
+- Mishoo: fluffy grey-and-white cat with a gold collar bell; a cat who talks ONLY when this shot gives him a line (small, funny, slightly grumpy voice, mouth moves like a cartoon cat); otherwise he makes only cat sounds.
 ```
 
 ## Shot 19
 ```
 3D animated kids cartoon in the exact style of the first frame.
 CAMERA: on a tripod, no zoom, no pan, no tilt; the framing stays identical to the first frame for the whole shot.
-ACTION: Grandma gives Nadyah one white bean seed; Nadyah puts it into the RIGHT pot's soil; Noonoo quickly covers it with soil using both hands and then throws both arms up proudly. Zoozoo and Hoor stay at the left pot.
+ACTION: In the first frame, from left to right: Zoozoo, Hoor at the LEFT pot, Noonoo behind Hoor, Grandma standing behind the pots, Mishoo sitting between the two pots, Nadyah just right of the RIGHT pot. Grandma, standing, drops one white bean seed into Nadyah's hand; Nadyah pushes it into the RIGHT pot's soil. Noonoo walks behind Mishoo to the RIGHT pot, quickly covers the seed with soil using both hands (standing, leaning at the waist) and then throws both arms up proudly. Zoozoo and Hoor stay at the LEFT pot; Mishoo stays sitting and visible.
 DIALOGUE: only Noonoo speaks, once: "Done! Super fast!" Nobody else says any words (laughs or gasps without words are fine).
 RULES: one continuous shot, no cuts, no scene change. Continue exactly from the first frame: same people, same positions, same sizes, same clothes and hair; nobody changes identity, no extra or duplicate characters, nobody appears from nowhere or vanishes (characters only enter or leave by walking in or out of frame). The modern cream-stone house (glass balconies, wood slat screens, single dark-brown front door, mosaic column), the garden, the low wooden bench and props stay exactly as in the first frame and never morph. Nobody walks through the bench. Nothing green grows in the clay pots (plain brown soil). Bright sunny daytime: every lamp, ceiling downlight, wall light and interior light is OFF.
 CHARACTER REFERENCE (identity, clothes, ages and relative heights - the family already appears in the first frame and must keep looking exactly like that):
-- Grandma (Teta Khadija): elderly woman, black abaya and black hijab, NO glasses, the tallest. She is always on her feet: she never sits, kneels or squats; to reach low she only leans forward at the waist with straight legs.
+- Grandma (Teta Khadija): elderly woman, black abaya and black hijab, NO glasses, NO necklace, NO pendant, NO jewelry (plain black abaya), the tallest. She is always on her feet: she never sits, kneels or squats; to reach low she only leans forward at the waist with straight legs.
 - Zoozoo: the eldest girl (about 10), white hijab, long cream lace coat, white trousers, small gold necklace; the tallest girl (up to Grandma's shoulder). She never kneels or squats.
 - Noonoo: girl about 8, very long wavy black hair worn loose, pink T-shirt with a lilac butterfly, black cargo trousers, white sneakers; almost as tall as Zoozoo.
 - Nadyah: girl about 6, dark hair in ONE ponytail, royal-blue vest over a white T-shirt, royal-blue shorts, white sneakers; a head shorter than Noonoo.
 - Hoor: toddler about 2, curly dark hair with two small buns, pink vest, white top, pink shorts, black shoes; the smallest.
-- Mishoo: fluffy grey-and-white cat with a gold collar bell; makes only cat sounds, never speaks.
+- Mishoo: fluffy grey-and-white cat with a gold collar bell; a cat who talks ONLY when this shot gives him a line (small, funny, slightly grumpy voice, mouth moves like a cartoon cat); otherwise he makes only cat sounds.
 ```
 
 ## Shot 20
 ```
 3D animated kids cartoon in the exact style of the first frame.
 CAMERA: on a tripod, no zoom, no pan, no tilt; the framing stays identical to the first frame for the whole shot.
-ACTION: Grandma (standing) picks up a small green watering can from the grass and hands it to Hoor. Hoor waters the LEFT pot with great enthusiasm, swings the can and the water arc splashes Mishoo the cat, who jumps up with a loud yowl. The girls giggle with hands on their mouths.
-DIALOGUE: no words at all (only giggles, footsteps, birdsong and cat sounds if described).
+ACTION: In the first frame, from left to right: Zoozoo, Hoor at the LEFT pot, Grandma standing behind the pots, Mishoo sitting between the two pots, Nadyah and Noonoo at the RIGHT pot. Grandma, standing, reaches to the low bench behind her and brings a small green watering can, and hands it to Hoor, then lets go completely and steps back with empty hands. Hoor holds the green can by herself with both little hands and waters the LEFT pot with big enthusiasm (Grandma never holds the can while watering); Hoor swings the can and the stream of water splashes Mishoo, who jumps up in surprise, lands back on his paws, wet, and looks up at Hoor and says his line. The girls giggle with their hands over their mouths. Everyone stays in their places and visible.
+DIALOGUE: only Mishoo speaks, once: "Hey! I'm not a plant!" Nobody else says any words (laughs or gasps without words are fine).
 RULES: one continuous shot, no cuts, no scene change. Continue exactly from the first frame: same people, same positions, same sizes, same clothes and hair; nobody changes identity, no extra or duplicate characters, nobody appears from nowhere or vanishes (characters only enter or leave by walking in or out of frame). The modern cream-stone house (glass balconies, wood slat screens, single dark-brown front door, mosaic column), the garden, the low wooden bench and props stay exactly as in the first frame and never morph. Nobody walks through the bench. Nothing green grows in the clay pots (plain brown soil). Bright sunny daytime: every lamp, ceiling downlight, wall light and interior light is OFF.
 CHARACTER REFERENCE (identity, clothes, ages and relative heights - the family already appears in the first frame and must keep looking exactly like that):
-- Grandma (Teta Khadija): elderly woman, black abaya and black hijab, NO glasses, the tallest. She is always on her feet: she never sits, kneels or squats; to reach low she only leans forward at the waist with straight legs.
+- Grandma (Teta Khadija): elderly woman, black abaya and black hijab, NO glasses, NO necklace, NO pendant, NO jewelry (plain black abaya), the tallest. She is always on her feet: she never sits, kneels or squats; to reach low she only leans forward at the waist with straight legs.
 - Zoozoo: the eldest girl (about 10), white hijab, long cream lace coat, white trousers, small gold necklace; the tallest girl (up to Grandma's shoulder). She never kneels or squats.
 - Noonoo: girl about 8, very long wavy black hair worn loose, pink T-shirt with a lilac butterfly, black cargo trousers, white sneakers; almost as tall as Zoozoo.
 - Nadyah: girl about 6, dark hair in ONE ponytail, royal-blue vest over a white T-shirt, royal-blue shorts, white sneakers; a head shorter than Noonoo.
 - Hoor: toddler about 2, curly dark hair with two small buns, pink vest, white top, pink shorts, black shoes; the smallest.
-- Mishoo: fluffy grey-and-white cat with a gold collar bell; makes only cat sounds, never speaks.
+- Mishoo: fluffy grey-and-white cat with a gold collar bell; a cat who talks ONLY when this shot gives him a line (small, funny, slightly grumpy voice, mouth moves like a cartoon cat); otherwise he makes only cat sounds.
 ```
 
 ## Shot 21
 ```
 3D animated kids cartoon in the exact style of the first frame.
 CAMERA: on a tripod, no zoom, no pan, no tilt; the framing stays identical to the first frame for the whole shot.
-ACTION: Wet Mishoo walks a few steps, shakes his fur, puffs up into a fluffy ball and gives a grumpy look, then a grumpy meow. The girls giggle softly.
+ACTION: In the first frame, from left to right: Zoozoo, Hoor holding the green watering can at the LEFT pot, Grandma standing behind the pots, wet Mishoo between the two pots, Nadyah and Noonoo at the RIGHT pot; the people keep these places. Wet Mishoo walks a few steps forward in front of the pots, stops, shakes his whole body so water drops fly, his fur puffs up into a big fluffy ball, and he gives a grumpy look and a grumpy meow. The girls giggle softly. Nothing else changes.
 DIALOGUE: no words at all (only giggles, footsteps, birdsong and cat sounds if described).
 RULES: one continuous shot, no cuts, no scene change. Continue exactly from the first frame: same people, same positions, same sizes, same clothes and hair; nobody changes identity, no extra or duplicate characters, nobody appears from nowhere or vanishes (characters only enter or leave by walking in or out of frame). The modern cream-stone house (glass balconies, wood slat screens, single dark-brown front door, mosaic column), the garden, the low wooden bench and props stay exactly as in the first frame and never morph. Nobody walks through the bench. Nothing green grows in the clay pots (plain brown soil). Bright sunny daytime: every lamp, ceiling downlight, wall light and interior light is OFF.
 CHARACTER REFERENCE (identity, clothes, ages and relative heights - the family already appears in the first frame and must keep looking exactly like that):
-- Grandma (Teta Khadija): elderly woman, black abaya and black hijab, NO glasses, the tallest. She is always on her feet: she never sits, kneels or squats; to reach low she only leans forward at the waist with straight legs.
+- Grandma (Teta Khadija): elderly woman, black abaya and black hijab, NO glasses, NO necklace, NO pendant, NO jewelry (plain black abaya), the tallest. She is always on her feet: she never sits, kneels or squats; to reach low she only leans forward at the waist with straight legs.
 - Zoozoo: the eldest girl (about 10), white hijab, long cream lace coat, white trousers, small gold necklace; the tallest girl (up to Grandma's shoulder). She never kneels or squats.
 - Noonoo: girl about 8, very long wavy black hair worn loose, pink T-shirt with a lilac butterfly, black cargo trousers, white sneakers; almost as tall as Zoozoo.
 - Nadyah: girl about 6, dark hair in ONE ponytail, royal-blue vest over a white T-shirt, royal-blue shorts, white sneakers; a head shorter than Noonoo.
 - Hoor: toddler about 2, curly dark hair with two small buns, pink vest, white top, pink shorts, black shoes; the smallest.
-- Mishoo: fluffy grey-and-white cat with a gold collar bell; makes only cat sounds, never speaks.
+- Mishoo: fluffy grey-and-white cat with a gold collar bell; a cat who talks ONLY when this shot gives him a line (small, funny, slightly grumpy voice, mouth moves like a cartoon cat); otherwise he makes only cat sounds.
 ```
 
 ## Shot 22
 ```
 3D animated kids cartoon in the exact style of the first frame.
 CAMERA: on a tripod, no zoom, no pan, no tilt; the framing stays identical to the first frame for the whole shot.
-ACTION: Mishoo walks out of frame at the right edge. Grandma gives Noonoo a flat wooden plant sign on a stick and a marker; Noonoo writes on it and pushes the stick into the RIGHT pot, then reads it proudly.
+ACTION: In the first frame, from left to right: Zoozoo, Hoor holding the green watering can at the LEFT pot, Grandma standing behind the pots, fluffy Mishoo in front of the RIGHT pot, Nadyah and Noonoo at the RIGHT pot. Mishoo turns and walks off out of the frame at the RIGHT edge. Grandma, standing, picks up from the low bench behind her a small flat wooden plant sign on a stick and a black marker and gives them to Noonoo. Noonoo writes on the sign, then pushes the stick down into the soil INSIDE the RIGHT clay pot (not into the ground) so the sign stands upright in the pot, and reads it proudly. IMPORTANT: 'Sprouty' is only the name they give the pot; the seed is buried and has NOT sprouted: both clay pots show only bare, flat brown soil, with no plant, no seedling, no stem and no leaves at any moment. Everyone else stays in place.
 DIALOGUE: only Noonoo speaks, once: "I'll call ours... Sprouty!" Nobody else says any words (laughs or gasps without words are fine).
 RULES: one continuous shot, no cuts, no scene change. Continue exactly from the first frame: same people, same positions, same sizes, same clothes and hair; nobody changes identity, no extra or duplicate characters, nobody appears from nowhere or vanishes (characters only enter or leave by walking in or out of frame). The modern cream-stone house (glass balconies, wood slat screens, single dark-brown front door, mosaic column), the garden, the low wooden bench and props stay exactly as in the first frame and never morph. Nobody walks through the bench. Nothing green grows in the clay pots (plain brown soil). Bright sunny daytime: every lamp, ceiling downlight, wall light and interior light is OFF.
 CHARACTER REFERENCE (identity, clothes, ages and relative heights - the family already appears in the first frame and must keep looking exactly like that):
-- Grandma (Teta Khadija): elderly woman, black abaya and black hijab, NO glasses, the tallest. She is always on her feet: she never sits, kneels or squats; to reach low she only leans forward at the waist with straight legs.
+- Grandma (Teta Khadija): elderly woman, black abaya and black hijab, NO glasses, NO necklace, NO pendant, NO jewelry (plain black abaya), the tallest. She is always on her feet: she never sits, kneels or squats; to reach low she only leans forward at the waist with straight legs.
 - Zoozoo: the eldest girl (about 10), white hijab, long cream lace coat, white trousers, small gold necklace; the tallest girl (up to Grandma's shoulder). She never kneels or squats.
 - Noonoo: girl about 8, very long wavy black hair worn loose, pink T-shirt with a lilac butterfly, black cargo trousers, white sneakers; almost as tall as Zoozoo.
 - Nadyah: girl about 6, dark hair in ONE ponytail, royal-blue vest over a white T-shirt, royal-blue shorts, white sneakers; a head shorter than Noonoo.
 - Hoor: toddler about 2, curly dark hair with two small buns, pink vest, white top, pink shorts, black shoes; the smallest.
-- Mishoo: fluffy grey-and-white cat with a gold collar bell; makes only cat sounds, never speaks.
+- Mishoo: fluffy grey-and-white cat with a gold collar bell; a cat who talks ONLY when this shot gives him a line (small, funny, slightly grumpy voice, mouth moves like a cartoon cat); otherwise he makes only cat sounds.
 ```
 
 ## Shot 23
 ```
 3D animated kids cartoon in the exact style of the first frame.
 CAMERA: on a tripod, no zoom, no pan, no tilt; the framing stays identical to the first frame for the whole shot.
-ACTION: Grandma gives Zoozoo a second flat wooden plant sign and the marker. Zoozoo turns to Hoor with a smile, holding the sign.
+ACTION: In the first frame, from left to right: Zoozoo, Hoor holding the green watering can at the LEFT pot, Grandma standing behind the pots, Nadyah and Noonoo at the RIGHT pot, which has the wooden sign reading Sprouty standing in its soil (the sign stays exactly as it is). Grandma, standing, gives Zoozoo a second, blank flat wooden plant sign on a stick and the black marker. Zoozoo holds them, bends a little at the waist toward Hoor (standing, never kneeling), smiles and asks her. Hoor looks up, thinking, finger on her chin. Both pots show only bare brown soil, no plant. Everyone stays in place.
 DIALOGUE: only Zoozoo speaks, once: "What should we call ours, Hoor?" Nobody else says any words (laughs or gasps without words are fine).
 RULES: one continuous shot, no cuts, no scene change. Continue exactly from the first frame: same people, same positions, same sizes, same clothes and hair; nobody changes identity, no extra or duplicate characters, nobody appears from nowhere or vanishes (characters only enter or leave by walking in or out of frame). The modern cream-stone house (glass balconies, wood slat screens, single dark-brown front door, mosaic column), the garden, the low wooden bench and props stay exactly as in the first frame and never morph. Nobody walks through the bench. Nothing green grows in the clay pots (plain brown soil). Bright sunny daytime: every lamp, ceiling downlight, wall light and interior light is OFF.
 CHARACTER REFERENCE (identity, clothes, ages and relative heights - the family already appears in the first frame and must keep looking exactly like that):
-- Grandma (Teta Khadija): elderly woman, black abaya and black hijab, NO glasses, the tallest. She is always on her feet: she never sits, kneels or squats; to reach low she only leans forward at the waist with straight legs.
+- Grandma (Teta Khadija): elderly woman, black abaya and black hijab, NO glasses, NO necklace, NO pendant, NO jewelry (plain black abaya), the tallest. She is always on her feet: she never sits, kneels or squats; to reach low she only leans forward at the waist with straight legs.
 - Zoozoo: the eldest girl (about 10), white hijab, long cream lace coat, white trousers, small gold necklace; the tallest girl (up to Grandma's shoulder). She never kneels or squats.
 - Noonoo: girl about 8, very long wavy black hair worn loose, pink T-shirt with a lilac butterfly, black cargo trousers, white sneakers; almost as tall as Zoozoo.
 - Nadyah: girl about 6, dark hair in ONE ponytail, royal-blue vest over a white T-shirt, royal-blue shorts, white sneakers; a head shorter than Noonoo.
 - Hoor: toddler about 2, curly dark hair with two small buns, pink vest, white top, pink shorts, black shoes; the smallest.
-- Mishoo: fluffy grey-and-white cat with a gold collar bell; makes only cat sounds, never speaks.
+- Mishoo: fluffy grey-and-white cat with a gold collar bell; a cat who talks ONLY when this shot gives him a line (small, funny, slightly grumpy voice, mouth moves like a cartoon cat); otherwise he makes only cat sounds.
 ```
 
 ## Shot 24
 ```
 3D animated kids cartoon in the exact style of the first frame.
 CAMERA: on a tripod, no zoom, no pan, no tilt; the framing stays identical to the first frame for the whole shot.
-ACTION: Hoor puts the watering can down, quickly hugs the LEFT pot and lets go. Zoozoo (standing, leaning at the waist) writes 'Baby' and a small heart on the sign and pushes it into the back of the LEFT pot; the sign stays upright; Hoor claps.
+ACTION: In the first frame, from left to right: Zoozoo holding a black marker, Hoor with the green watering can at the LEFT pot, Grandma standing behind the pots, Nadyah and Noonoo at the RIGHT pot, which has the wooden sign reading Sprouty in its soil (it stays exactly as it is). Hoor sets the watering can down on the grass, quickly hugs the LEFT pot with both arms and lets go, beaming. Grandma, standing, hands Zoozoo a blank flat wooden plant sign on a stick. Zoozoo (standing, leaning at the waist, never kneeling) writes the word Baby and a small red heart on it and pushes the stick into the soil INSIDE the LEFT pot so the sign stands upright; Hoor claps. Both pots show only bare brown soil, no plant.
 DIALOGUE: only Hoor speaks, once: "Baby!" Nobody else says any words (laughs or gasps without words are fine).
 RULES: one continuous shot, no cuts, no scene change. Continue exactly from the first frame: same people, same positions, same sizes, same clothes and hair; nobody changes identity, no extra or duplicate characters, nobody appears from nowhere or vanishes (characters only enter or leave by walking in or out of frame). The modern cream-stone house (glass balconies, wood slat screens, single dark-brown front door, mosaic column), the garden, the low wooden bench and props stay exactly as in the first frame and never morph. Nobody walks through the bench. Nothing green grows in the clay pots (plain brown soil). Bright sunny daytime: every lamp, ceiling downlight, wall light and interior light is OFF.
 CHARACTER REFERENCE (identity, clothes, ages and relative heights - the family already appears in the first frame and must keep looking exactly like that):
-- Grandma (Teta Khadija): elderly woman, black abaya and black hijab, NO glasses, the tallest. She is always on her feet: she never sits, kneels or squats; to reach low she only leans forward at the waist with straight legs.
+- Grandma (Teta Khadija): elderly woman, black abaya and black hijab, NO glasses, NO necklace, NO pendant, NO jewelry (plain black abaya), the tallest. She is always on her feet: she never sits, kneels or squats; to reach low she only leans forward at the waist with straight legs.
 - Zoozoo: the eldest girl (about 10), white hijab, long cream lace coat, white trousers, small gold necklace; the tallest girl (up to Grandma's shoulder). She never kneels or squats.
 - Noonoo: girl about 8, very long wavy black hair worn loose, pink T-shirt with a lilac butterfly, black cargo trousers, white sneakers; almost as tall as Zoozoo.
 - Nadyah: girl about 6, dark hair in ONE ponytail, royal-blue vest over a white T-shirt, royal-blue shorts, white sneakers; a head shorter than Noonoo.
 - Hoor: toddler about 2, curly dark hair with two small buns, pink vest, white top, pink shorts, black shoes; the smallest.
-- Mishoo: fluffy grey-and-white cat with a gold collar bell; makes only cat sounds, never speaks.
+- Mishoo: fluffy grey-and-white cat with a gold collar bell; a cat who talks ONLY when this shot gives him a line (small, funny, slightly grumpy voice, mouth moves like a cartoon cat); otherwise he makes only cat sounds.
 ```
 
 ## Shot 25
 ```
 3D animated kids cartoon in the exact style of the first frame.
 CAMERA: on a tripod, no zoom, no pan, no tilt; the framing stays identical to the first frame for the whole shot.
-ACTION: Grandma points up to the sky with a smile, then walks to the right behind the girls toward the house and leaves the frame at the right edge; the girls wave to her. Both signs stay in their pots.
+ACTION: In the first frame, from left to right: Zoozoo, Hoor at the LEFT pot (wooden sign Baby with a heart in its soil), Grandma standing behind the pots, Nadyah and Noonoo at the RIGHT pot (wooden sign Sprouty in its soil); both signs stay exactly as they are. Grandma, standing upright, points up to the sunny sky with a warm smile while she speaks, then turns and walks to the right behind the girls toward the house and leaves the frame at the RIGHT edge. The girls wave goodbye to her and stay at their pots. Both pots show only bare brown soil, no plant.
 DIALOGUE: only Grandma speaks, once: "Now it needs water, sun... and time." Nobody else says any words (laughs or gasps without words are fine).
 RULES: one continuous shot, no cuts, no scene change. Continue exactly from the first frame: same people, same positions, same sizes, same clothes and hair; nobody changes identity, no extra or duplicate characters, nobody appears from nowhere or vanishes (characters only enter or leave by walking in or out of frame). The modern cream-stone house (glass balconies, wood slat screens, single dark-brown front door, mosaic column), the garden, the low wooden bench and props stay exactly as in the first frame and never morph. Nobody walks through the bench. Nothing green grows in the clay pots (plain brown soil). Bright sunny daytime: every lamp, ceiling downlight, wall light and interior light is OFF.
 CHARACTER REFERENCE (identity, clothes, ages and relative heights - the family already appears in the first frame and must keep looking exactly like that):
-- Grandma (Teta Khadija): elderly woman, black abaya and black hijab, NO glasses, the tallest. She is always on her feet: she never sits, kneels or squats; to reach low she only leans forward at the waist with straight legs.
+- Grandma (Teta Khadija): elderly woman, black abaya and black hijab, NO glasses, NO necklace, NO pendant, NO jewelry (plain black abaya), the tallest. She is always on her feet: she never sits, kneels or squats; to reach low she only leans forward at the waist with straight legs.
 - Zoozoo: the eldest girl (about 10), white hijab, long cream lace coat, white trousers, small gold necklace; the tallest girl (up to Grandma's shoulder). She never kneels or squats.
 - Noonoo: girl about 8, very long wavy black hair worn loose, pink T-shirt with a lilac butterfly, black cargo trousers, white sneakers; almost as tall as Zoozoo.
 - Nadyah: girl about 6, dark hair in ONE ponytail, royal-blue vest over a white T-shirt, royal-blue shorts, white sneakers; a head shorter than Noonoo.
 - Hoor: toddler about 2, curly dark hair with two small buns, pink vest, white top, pink shorts, black shoes; the smallest.
-- Mishoo: fluffy grey-and-white cat with a gold collar bell; makes only cat sounds, never speaks.
+- Mishoo: fluffy grey-and-white cat with a gold collar bell; a cat who talks ONLY when this shot gives him a line (small, funny, slightly grumpy voice, mouth moves like a cartoon cat); otherwise he makes only cat sounds.
 ```
 
 ## Shot 26
 ```
 3D animated kids cartoon in the exact style of the first frame.
 CAMERA: on a tripod, no zoom, no pan, no tilt; the framing stays identical to the first frame for the whole shot.
-ACTION: Zoozoo and Hoor walk off hand in hand out of the frame at the LEFT edge. Noonoo and Nadyah stand behind the RIGHT pot (Sprouty), lean forward with chins in their hands and stare at the soil, waiting. Nobody touches the soil.
+ACTION: In the first frame, from left to right: Zoozoo, Hoor at the LEFT pot (sign Baby with a heart), Nadyah at the RIGHT pot (sign Sprouty), Noonoo; Mishoo the cat sits at the bottom left. Zoozoo takes Hoor by the hand and the two of them walk off together out of the frame at the LEFT edge (walking around the front of the left pot, never through it). Noonoo and Nadyah stay at the RIGHT pot (Sprouty), lean forward with their chins in their hands and stare at the soil, waiting. Mishoo stays sitting. Nobody touches the soil; both signs and both pots stay exactly where they are with bare brown soil.
 DIALOGUE: no words at all (only giggles, footsteps, birdsong and cat sounds if described).
 RULES: one continuous shot, no cuts, no scene change. Continue exactly from the first frame: same people, same positions, same sizes, same clothes and hair; nobody changes identity, no extra or duplicate characters, nobody appears from nowhere or vanishes (characters only enter or leave by walking in or out of frame). The modern cream-stone house (glass balconies, wood slat screens, single dark-brown front door, mosaic column), the garden, the low wooden bench and props stay exactly as in the first frame and never morph. Nobody walks through the bench. Nothing green grows in the clay pots (plain brown soil). Bright sunny daytime: every lamp, ceiling downlight, wall light and interior light is OFF.
 CHARACTER REFERENCE (identity, clothes, ages and relative heights - the family already appears in the first frame and must keep looking exactly like that):
-- Grandma (Teta Khadija): elderly woman, black abaya and black hijab, NO glasses, the tallest. She is always on her feet: she never sits, kneels or squats; to reach low she only leans forward at the waist with straight legs.
+- Grandma (Teta Khadija): elderly woman, black abaya and black hijab, NO glasses, NO necklace, NO pendant, NO jewelry (plain black abaya), the tallest. She is always on her feet: she never sits, kneels or squats; to reach low she only leans forward at the waist with straight legs.
 - Zoozoo: the eldest girl (about 10), white hijab, long cream lace coat, white trousers, small gold necklace; the tallest girl (up to Grandma's shoulder). She never kneels or squats.
 - Noonoo: girl about 8, very long wavy black hair worn loose, pink T-shirt with a lilac butterfly, black cargo trousers, white sneakers; almost as tall as Zoozoo.
 - Nadyah: girl about 6, dark hair in ONE ponytail, royal-blue vest over a white T-shirt, royal-blue shorts, white sneakers; a head shorter than Noonoo.
 - Hoor: toddler about 2, curly dark hair with two small buns, pink vest, white top, pink shorts, black shoes; the smallest.
-- Mishoo: fluffy grey-and-white cat with a gold collar bell; makes only cat sounds, never speaks.
+- Mishoo: fluffy grey-and-white cat with a gold collar bell; a cat who talks ONLY when this shot gives him a line (small, funny, slightly grumpy voice, mouth moves like a cartoon cat); otherwise he makes only cat sounds.
 ```
 
 ## Shot 27
@@ -171,12 +171,12 @@ ACTION: Noonoo and Nadyah lean over the RIGHT pot with chins in their hands, sta
 DIALOGUE: only Nadyah speaks, once: "Is it growing yet?" Nobody else says any words (laughs or gasps without words are fine).
 RULES: one continuous shot, no cuts, no scene change. Continue exactly from the first frame: same people, same positions, same sizes, same clothes and hair; nobody changes identity, no extra or duplicate characters, nobody appears from nowhere or vanishes (characters only enter or leave by walking in or out of frame). The modern cream-stone house (glass balconies, wood slat screens, single dark-brown front door, mosaic column), the garden, the low wooden bench and props stay exactly as in the first frame and never morph. Nobody walks through the bench. Nothing green grows in the clay pots (plain brown soil). Bright sunny daytime: every lamp, ceiling downlight, wall light and interior light is OFF.
 CHARACTER REFERENCE (identity, clothes, ages and relative heights - the family already appears in the first frame and must keep looking exactly like that):
-- Grandma (Teta Khadija): elderly woman, black abaya and black hijab, NO glasses, the tallest. She is always on her feet: she never sits, kneels or squats; to reach low she only leans forward at the waist with straight legs.
+- Grandma (Teta Khadija): elderly woman, black abaya and black hijab, NO glasses, NO necklace, NO pendant, NO jewelry (plain black abaya), the tallest. She is always on her feet: she never sits, kneels or squats; to reach low she only leans forward at the waist with straight legs.
 - Zoozoo: the eldest girl (about 10), white hijab, long cream lace coat, white trousers, small gold necklace; the tallest girl (up to Grandma's shoulder). She never kneels or squats.
 - Noonoo: girl about 8, very long wavy black hair worn loose, pink T-shirt with a lilac butterfly, black cargo trousers, white sneakers; almost as tall as Zoozoo.
 - Nadyah: girl about 6, dark hair in ONE ponytail, royal-blue vest over a white T-shirt, royal-blue shorts, white sneakers; a head shorter than Noonoo.
 - Hoor: toddler about 2, curly dark hair with two small buns, pink vest, white top, pink shorts, black shoes; the smallest.
-- Mishoo: fluffy grey-and-white cat with a gold collar bell; makes only cat sounds, never speaks.
+- Mishoo: fluffy grey-and-white cat with a gold collar bell; a cat who talks ONLY when this shot gives him a line (small, funny, slightly grumpy voice, mouth moves like a cartoon cat); otherwise he makes only cat sounds.
 ```
 
 ## Shot 28
@@ -187,12 +187,12 @@ ACTION: On the stone bench under the palm tree, Zoozoo sits reading a picture bo
 DIALOGUE: only Zoozoo speaks, once: "Haha, Nadyah, we just planted it!" Nobody else says any words (laughs or gasps without words are fine).
 RULES: one continuous shot, no cuts, no scene change. Continue exactly from the first frame: same people, same positions, same sizes, same clothes and hair; nobody changes identity, no extra or duplicate characters, nobody appears from nowhere or vanishes (characters only enter or leave by walking in or out of frame). The modern cream-stone house (glass balconies, wood slat screens, single dark-brown front door, mosaic column), the garden, the low wooden bench and props stay exactly as in the first frame and never morph. Nobody walks through the bench. Nothing green grows in the clay pots (plain brown soil). Bright sunny daytime: every lamp, ceiling downlight, wall light and interior light is OFF.
 CHARACTER REFERENCE (identity, clothes, ages and relative heights - the family already appears in the first frame and must keep looking exactly like that):
-- Grandma (Teta Khadija): elderly woman, black abaya and black hijab, NO glasses, the tallest. She is always on her feet: she never sits, kneels or squats; to reach low she only leans forward at the waist with straight legs.
+- Grandma (Teta Khadija): elderly woman, black abaya and black hijab, NO glasses, NO necklace, NO pendant, NO jewelry (plain black abaya), the tallest. She is always on her feet: she never sits, kneels or squats; to reach low she only leans forward at the waist with straight legs.
 - Zoozoo: the eldest girl (about 10), white hijab, long cream lace coat, white trousers, small gold necklace; the tallest girl (up to Grandma's shoulder). She never kneels or squats.
 - Noonoo: girl about 8, very long wavy black hair worn loose, pink T-shirt with a lilac butterfly, black cargo trousers, white sneakers; almost as tall as Zoozoo.
 - Nadyah: girl about 6, dark hair in ONE ponytail, royal-blue vest over a white T-shirt, royal-blue shorts, white sneakers; a head shorter than Noonoo.
 - Hoor: toddler about 2, curly dark hair with two small buns, pink vest, white top, pink shorts, black shoes; the smallest.
-- Mishoo: fluffy grey-and-white cat with a gold collar bell; makes only cat sounds, never speaks.
+- Mishoo: fluffy grey-and-white cat with a gold collar bell; a cat who talks ONLY when this shot gives him a line (small, funny, slightly grumpy voice, mouth moves like a cartoon cat); otherwise he makes only cat sounds.
 ```
 
 ## Shot 29
@@ -203,12 +203,12 @@ ACTION: Noonoo taps the side of the RIGHT pot gently; Nadyah watches.
 DIALOGUE: only Noonoo speaks, once: "Is it growing yet?" Nobody else says any words (laughs or gasps without words are fine).
 RULES: one continuous shot, no cuts, no scene change. Continue exactly from the first frame: same people, same positions, same sizes, same clothes and hair; nobody changes identity, no extra or duplicate characters, nobody appears from nowhere or vanishes (characters only enter or leave by walking in or out of frame). The modern cream-stone house (glass balconies, wood slat screens, single dark-brown front door, mosaic column), the garden, the low wooden bench and props stay exactly as in the first frame and never morph. Nobody walks through the bench. Nothing green grows in the clay pots (plain brown soil). Bright sunny daytime: every lamp, ceiling downlight, wall light and interior light is OFF.
 CHARACTER REFERENCE (identity, clothes, ages and relative heights - the family already appears in the first frame and must keep looking exactly like that):
-- Grandma (Teta Khadija): elderly woman, black abaya and black hijab, NO glasses, the tallest. She is always on her feet: she never sits, kneels or squats; to reach low she only leans forward at the waist with straight legs.
+- Grandma (Teta Khadija): elderly woman, black abaya and black hijab, NO glasses, NO necklace, NO pendant, NO jewelry (plain black abaya), the tallest. She is always on her feet: she never sits, kneels or squats; to reach low she only leans forward at the waist with straight legs.
 - Zoozoo: the eldest girl (about 10), white hijab, long cream lace coat, white trousers, small gold necklace; the tallest girl (up to Grandma's shoulder). She never kneels or squats.
 - Noonoo: girl about 8, very long wavy black hair worn loose, pink T-shirt with a lilac butterfly, black cargo trousers, white sneakers; almost as tall as Zoozoo.
 - Nadyah: girl about 6, dark hair in ONE ponytail, royal-blue vest over a white T-shirt, royal-blue shorts, white sneakers; a head shorter than Noonoo.
 - Hoor: toddler about 2, curly dark hair with two small buns, pink vest, white top, pink shorts, black shoes; the smallest.
-- Mishoo: fluffy grey-and-white cat with a gold collar bell; makes only cat sounds, never speaks.
+- Mishoo: fluffy grey-and-white cat with a gold collar bell; a cat who talks ONLY when this shot gives him a line (small, funny, slightly grumpy voice, mouth moves like a cartoon cat); otherwise he makes only cat sounds.
 ```
 
 ## Shot 30
@@ -219,12 +219,12 @@ ACTION: Hoor walks from the stone bench to the LEFT pot (Baby) and reaches for t
 DIALOGUE: only Zoozoo speaks, once: "Shhh... Baby is sleeping. Let's let her rest." Nobody else says any words (laughs or gasps without words are fine).
 RULES: one continuous shot, no cuts, no scene change. Continue exactly from the first frame: same people, same positions, same sizes, same clothes and hair; nobody changes identity, no extra or duplicate characters, nobody appears from nowhere or vanishes (characters only enter or leave by walking in or out of frame). The modern cream-stone house (glass balconies, wood slat screens, single dark-brown front door, mosaic column), the garden, the low wooden bench and props stay exactly as in the first frame and never morph. Nobody walks through the bench. Nothing green grows in the clay pots (plain brown soil). Bright sunny daytime: every lamp, ceiling downlight, wall light and interior light is OFF.
 CHARACTER REFERENCE (identity, clothes, ages and relative heights - the family already appears in the first frame and must keep looking exactly like that):
-- Grandma (Teta Khadija): elderly woman, black abaya and black hijab, NO glasses, the tallest. She is always on her feet: she never sits, kneels or squats; to reach low she only leans forward at the waist with straight legs.
+- Grandma (Teta Khadija): elderly woman, black abaya and black hijab, NO glasses, NO necklace, NO pendant, NO jewelry (plain black abaya), the tallest. She is always on her feet: she never sits, kneels or squats; to reach low she only leans forward at the waist with straight legs.
 - Zoozoo: the eldest girl (about 10), white hijab, long cream lace coat, white trousers, small gold necklace; the tallest girl (up to Grandma's shoulder). She never kneels or squats.
 - Noonoo: girl about 8, very long wavy black hair worn loose, pink T-shirt with a lilac butterfly, black cargo trousers, white sneakers; almost as tall as Zoozoo.
 - Nadyah: girl about 6, dark hair in ONE ponytail, royal-blue vest over a white T-shirt, royal-blue shorts, white sneakers; a head shorter than Noonoo.
 - Hoor: toddler about 2, curly dark hair with two small buns, pink vest, white top, pink shorts, black shoes; the smallest.
-- Mishoo: fluffy grey-and-white cat with a gold collar bell; makes only cat sounds, never speaks.
+- Mishoo: fluffy grey-and-white cat with a gold collar bell; a cat who talks ONLY when this shot gives him a line (small, funny, slightly grumpy voice, mouth moves like a cartoon cat); otherwise he makes only cat sounds.
 ```
 
 ## Shot 31
@@ -235,12 +235,12 @@ ACTION: Hoor puts one finger on her lips and whispers, looking at the LEFT pot; 
 DIALOGUE: only Hoor speaks, once: "Shhh... Baby sleeping!" Nobody else says any words (laughs or gasps without words are fine).
 RULES: one continuous shot, no cuts, no scene change. Continue exactly from the first frame: same people, same positions, same sizes, same clothes and hair; nobody changes identity, no extra or duplicate characters, nobody appears from nowhere or vanishes (characters only enter or leave by walking in or out of frame). The modern cream-stone house (glass balconies, wood slat screens, single dark-brown front door, mosaic column), the garden, the low wooden bench and props stay exactly as in the first frame and never morph. Nobody walks through the bench. Nothing green grows in the clay pots (plain brown soil). Bright sunny daytime: every lamp, ceiling downlight, wall light and interior light is OFF.
 CHARACTER REFERENCE (identity, clothes, ages and relative heights - the family already appears in the first frame and must keep looking exactly like that):
-- Grandma (Teta Khadija): elderly woman, black abaya and black hijab, NO glasses, the tallest. She is always on her feet: she never sits, kneels or squats; to reach low she only leans forward at the waist with straight legs.
+- Grandma (Teta Khadija): elderly woman, black abaya and black hijab, NO glasses, NO necklace, NO pendant, NO jewelry (plain black abaya), the tallest. She is always on her feet: she never sits, kneels or squats; to reach low she only leans forward at the waist with straight legs.
 - Zoozoo: the eldest girl (about 10), white hijab, long cream lace coat, white trousers, small gold necklace; the tallest girl (up to Grandma's shoulder). She never kneels or squats.
 - Noonoo: girl about 8, very long wavy black hair worn loose, pink T-shirt with a lilac butterfly, black cargo trousers, white sneakers; almost as tall as Zoozoo.
 - Nadyah: girl about 6, dark hair in ONE ponytail, royal-blue vest over a white T-shirt, royal-blue shorts, white sneakers; a head shorter than Noonoo.
 - Hoor: toddler about 2, curly dark hair with two small buns, pink vest, white top, pink shorts, black shoes; the smallest.
-- Mishoo: fluffy grey-and-white cat with a gold collar bell; makes only cat sounds, never speaks.
+- Mishoo: fluffy grey-and-white cat with a gold collar bell; a cat who talks ONLY when this shot gives him a line (small, funny, slightly grumpy voice, mouth moves like a cartoon cat); otherwise he makes only cat sounds.
 ```
 
 ## Shot 32
@@ -251,12 +251,12 @@ ACTION: Nadyah presses both hands on her cheeks, impatient; Noonoo watches.
 DIALOGUE: only Nadyah speaks, once: "Why is it taking SO long?" Nobody else says any words (laughs or gasps without words are fine).
 RULES: one continuous shot, no cuts, no scene change. Continue exactly from the first frame: same people, same positions, same sizes, same clothes and hair; nobody changes identity, no extra or duplicate characters, nobody appears from nowhere or vanishes (characters only enter or leave by walking in or out of frame). The modern cream-stone house (glass balconies, wood slat screens, single dark-brown front door, mosaic column), the garden, the low wooden bench and props stay exactly as in the first frame and never morph. Nobody walks through the bench. Nothing green grows in the clay pots (plain brown soil). Bright sunny daytime: every lamp, ceiling downlight, wall light and interior light is OFF.
 CHARACTER REFERENCE (identity, clothes, ages and relative heights - the family already appears in the first frame and must keep looking exactly like that):
-- Grandma (Teta Khadija): elderly woman, black abaya and black hijab, NO glasses, the tallest. She is always on her feet: she never sits, kneels or squats; to reach low she only leans forward at the waist with straight legs.
+- Grandma (Teta Khadija): elderly woman, black abaya and black hijab, NO glasses, NO necklace, NO pendant, NO jewelry (plain black abaya), the tallest. She is always on her feet: she never sits, kneels or squats; to reach low she only leans forward at the waist with straight legs.
 - Zoozoo: the eldest girl (about 10), white hijab, long cream lace coat, white trousers, small gold necklace; the tallest girl (up to Grandma's shoulder). She never kneels or squats.
 - Noonoo: girl about 8, very long wavy black hair worn loose, pink T-shirt with a lilac butterfly, black cargo trousers, white sneakers; almost as tall as Zoozoo.
 - Nadyah: girl about 6, dark hair in ONE ponytail, royal-blue vest over a white T-shirt, royal-blue shorts, white sneakers; a head shorter than Noonoo.
 - Hoor: toddler about 2, curly dark hair with two small buns, pink vest, white top, pink shorts, black shoes; the smallest.
-- Mishoo: fluffy grey-and-white cat with a gold collar bell; makes only cat sounds, never speaks.
+- Mishoo: fluffy grey-and-white cat with a gold collar bell; a cat who talks ONLY when this shot gives him a line (small, funny, slightly grumpy voice, mouth moves like a cartoon cat); otherwise he makes only cat sounds.
 ```
 
 ## Shot 33
@@ -267,12 +267,12 @@ ACTION: Noonoo raises one finger with an idea, reaches out of frame at the left 
 DIALOGUE: only Noonoo speaks, once: "I have an idea! Just one little look..." Nobody else says any words (laughs or gasps without words are fine).
 RULES: one continuous shot, no cuts, no scene change. Continue exactly from the first frame: same people, same positions, same sizes, same clothes and hair; nobody changes identity, no extra or duplicate characters, nobody appears from nowhere or vanishes (characters only enter or leave by walking in or out of frame). The modern cream-stone house (glass balconies, wood slat screens, single dark-brown front door, mosaic column), the garden, the low wooden bench and props stay exactly as in the first frame and never morph. Nobody walks through the bench. Nothing green grows in the clay pots (plain brown soil). Bright sunny daytime: every lamp, ceiling downlight, wall light and interior light is OFF.
 CHARACTER REFERENCE (identity, clothes, ages and relative heights - the family already appears in the first frame and must keep looking exactly like that):
-- Grandma (Teta Khadija): elderly woman, black abaya and black hijab, NO glasses, the tallest. She is always on her feet: she never sits, kneels or squats; to reach low she only leans forward at the waist with straight legs.
+- Grandma (Teta Khadija): elderly woman, black abaya and black hijab, NO glasses, NO necklace, NO pendant, NO jewelry (plain black abaya), the tallest. She is always on her feet: she never sits, kneels or squats; to reach low she only leans forward at the waist with straight legs.
 - Zoozoo: the eldest girl (about 10), white hijab, long cream lace coat, white trousers, small gold necklace; the tallest girl (up to Grandma's shoulder). She never kneels or squats.
 - Noonoo: girl about 8, very long wavy black hair worn loose, pink T-shirt with a lilac butterfly, black cargo trousers, white sneakers; almost as tall as Zoozoo.
 - Nadyah: girl about 6, dark hair in ONE ponytail, royal-blue vest over a white T-shirt, royal-blue shorts, white sneakers; a head shorter than Noonoo.
 - Hoor: toddler about 2, curly dark hair with two small buns, pink vest, white top, pink shorts, black shoes; the smallest.
-- Mishoo: fluffy grey-and-white cat with a gold collar bell; makes only cat sounds, never speaks.
+- Mishoo: fluffy grey-and-white cat with a gold collar bell; a cat who talks ONLY when this shot gives him a line (small, funny, slightly grumpy voice, mouth moves like a cartoon cat); otherwise he makes only cat sounds.
 ```
 
 ## Shot 34
@@ -283,12 +283,12 @@ ACTION: The seed lies in the soil, still just a seed, nothing green. Nadyah's vo
 DIALOGUE: only Nadyah speaks, once: "Still a seed!" Nobody else says any words (laughs or gasps without words are fine).
 RULES: one continuous shot, no cuts, no scene change. Continue exactly from the first frame: same people, same positions, same sizes, same clothes and hair; nobody changes identity, no extra or duplicate characters, nobody appears from nowhere or vanishes (characters only enter or leave by walking in or out of frame). The modern cream-stone house (glass balconies, wood slat screens, single dark-brown front door, mosaic column), the garden, the low wooden bench and props stay exactly as in the first frame and never morph. Nobody walks through the bench. Nothing green grows in the clay pots (plain brown soil). Bright sunny daytime: every lamp, ceiling downlight, wall light and interior light is OFF.
 CHARACTER REFERENCE (identity, clothes, ages and relative heights - the family already appears in the first frame and must keep looking exactly like that):
-- Grandma (Teta Khadija): elderly woman, black abaya and black hijab, NO glasses, the tallest. She is always on her feet: she never sits, kneels or squats; to reach low she only leans forward at the waist with straight legs.
+- Grandma (Teta Khadija): elderly woman, black abaya and black hijab, NO glasses, NO necklace, NO pendant, NO jewelry (plain black abaya), the tallest. She is always on her feet: she never sits, kneels or squats; to reach low she only leans forward at the waist with straight legs.
 - Zoozoo: the eldest girl (about 10), white hijab, long cream lace coat, white trousers, small gold necklace; the tallest girl (up to Grandma's shoulder). She never kneels or squats.
 - Noonoo: girl about 8, very long wavy black hair worn loose, pink T-shirt with a lilac butterfly, black cargo trousers, white sneakers; almost as tall as Zoozoo.
 - Nadyah: girl about 6, dark hair in ONE ponytail, royal-blue vest over a white T-shirt, royal-blue shorts, white sneakers; a head shorter than Noonoo.
 - Hoor: toddler about 2, curly dark hair with two small buns, pink vest, white top, pink shorts, black shoes; the smallest.
-- Mishoo: fluffy grey-and-white cat with a gold collar bell; makes only cat sounds, never speaks.
+- Mishoo: fluffy grey-and-white cat with a gold collar bell; a cat who talks ONLY when this shot gives him a line (small, funny, slightly grumpy voice, mouth moves like a cartoon cat); otherwise he makes only cat sounds.
 ```
 
 ## Shot 35
@@ -299,12 +299,12 @@ ACTION: Zoozoo walks in from the left edge and stands beside them, leaning forwa
 DIALOGUE: only Zoozoo speaks, once: "Maybe it needs some rest?" Nobody else says any words (laughs or gasps without words are fine).
 RULES: one continuous shot, no cuts, no scene change. Continue exactly from the first frame: same people, same positions, same sizes, same clothes and hair; nobody changes identity, no extra or duplicate characters, nobody appears from nowhere or vanishes (characters only enter or leave by walking in or out of frame). The modern cream-stone house (glass balconies, wood slat screens, single dark-brown front door, mosaic column), the garden, the low wooden bench and props stay exactly as in the first frame and never morph. Nobody walks through the bench. Nothing green grows in the clay pots (plain brown soil). Bright sunny daytime: every lamp, ceiling downlight, wall light and interior light is OFF.
 CHARACTER REFERENCE (identity, clothes, ages and relative heights - the family already appears in the first frame and must keep looking exactly like that):
-- Grandma (Teta Khadija): elderly woman, black abaya and black hijab, NO glasses, the tallest. She is always on her feet: she never sits, kneels or squats; to reach low she only leans forward at the waist with straight legs.
+- Grandma (Teta Khadija): elderly woman, black abaya and black hijab, NO glasses, NO necklace, NO pendant, NO jewelry (plain black abaya), the tallest. She is always on her feet: she never sits, kneels or squats; to reach low she only leans forward at the waist with straight legs.
 - Zoozoo: the eldest girl (about 10), white hijab, long cream lace coat, white trousers, small gold necklace; the tallest girl (up to Grandma's shoulder). She never kneels or squats.
 - Noonoo: girl about 8, very long wavy black hair worn loose, pink T-shirt with a lilac butterfly, black cargo trousers, white sneakers; almost as tall as Zoozoo.
 - Nadyah: girl about 6, dark hair in ONE ponytail, royal-blue vest over a white T-shirt, royal-blue shorts, white sneakers; a head shorter than Noonoo.
 - Hoor: toddler about 2, curly dark hair with two small buns, pink vest, white top, pink shorts, black shoes; the smallest.
-- Mishoo: fluffy grey-and-white cat with a gold collar bell; makes only cat sounds, never speaks.
+- Mishoo: fluffy grey-and-white cat with a gold collar bell; a cat who talks ONLY when this shot gives him a line (small, funny, slightly grumpy voice, mouth moves like a cartoon cat); otherwise he makes only cat sounds.
 ```
 
 ## Shot 36
@@ -315,12 +315,12 @@ ACTION: Noonoo covers the seed again with the trowel, lays the trowel down and p
 DIALOGUE: only Noonoo speaks, once: "Okay, one more look tomorrow!" Nobody else says any words (laughs or gasps without words are fine).
 RULES: one continuous shot, no cuts, no scene change. Continue exactly from the first frame: same people, same positions, same sizes, same clothes and hair; nobody changes identity, no extra or duplicate characters, nobody appears from nowhere or vanishes (characters only enter or leave by walking in or out of frame). The modern cream-stone house (glass balconies, wood slat screens, single dark-brown front door, mosaic column), the garden, the low wooden bench and props stay exactly as in the first frame and never morph. Nobody walks through the bench. Nothing green grows in the clay pots (plain brown soil). Bright sunny daytime: every lamp, ceiling downlight, wall light and interior light is OFF.
 CHARACTER REFERENCE (identity, clothes, ages and relative heights - the family already appears in the first frame and must keep looking exactly like that):
-- Grandma (Teta Khadija): elderly woman, black abaya and black hijab, NO glasses, the tallest. She is always on her feet: she never sits, kneels or squats; to reach low she only leans forward at the waist with straight legs.
+- Grandma (Teta Khadija): elderly woman, black abaya and black hijab, NO glasses, NO necklace, NO pendant, NO jewelry (plain black abaya), the tallest. She is always on her feet: she never sits, kneels or squats; to reach low she only leans forward at the waist with straight legs.
 - Zoozoo: the eldest girl (about 10), white hijab, long cream lace coat, white trousers, small gold necklace; the tallest girl (up to Grandma's shoulder). She never kneels or squats.
 - Noonoo: girl about 8, very long wavy black hair worn loose, pink T-shirt with a lilac butterfly, black cargo trousers, white sneakers; almost as tall as Zoozoo.
 - Nadyah: girl about 6, dark hair in ONE ponytail, royal-blue vest over a white T-shirt, royal-blue shorts, white sneakers; a head shorter than Noonoo.
 - Hoor: toddler about 2, curly dark hair with two small buns, pink vest, white top, pink shorts, black shoes; the smallest.
-- Mishoo: fluffy grey-and-white cat with a gold collar bell; makes only cat sounds, never speaks.
+- Mishoo: fluffy grey-and-white cat with a gold collar bell; a cat who talks ONLY when this shot gives him a line (small, funny, slightly grumpy voice, mouth moves like a cartoon cat); otherwise he makes only cat sounds.
 ```
 
 ## Shot 37
@@ -328,15 +328,15 @@ CHARACTER REFERENCE (identity, clothes, ages and relative heights - the family a
 3D animated kids cartoon in the exact style of the first frame.
 CAMERA: tilt down and pan to the RIGHT from the girls to a pink rose bed at the edge of the garden; no cut.
 ACTION: Mishoo the cat sits by the pink rose bed, tilts his head curiously and stares at the soil.
-DIALOGUE: no words at all (only giggles, footsteps, birdsong and cat sounds if described).
+DIALOGUE: only Mishoo speaks, once: "Hmm? What's under here?" Nobody else says any words (laughs or gasps without words are fine).
 RULES: one continuous shot, no cuts, no scene change. Continue exactly from the first frame: same people, same positions, same sizes, same clothes and hair; nobody changes identity, no extra or duplicate characters, nobody appears from nowhere or vanishes (characters only enter or leave by walking in or out of frame). The modern cream-stone house (glass balconies, wood slat screens, single dark-brown front door, mosaic column), the garden, the low wooden bench and props stay exactly as in the first frame and never morph. Nobody walks through the bench. Nothing green grows in the clay pots (plain brown soil). Bright sunny daytime: every lamp, ceiling downlight, wall light and interior light is OFF.
 CHARACTER REFERENCE (identity, clothes, ages and relative heights - the family already appears in the first frame and must keep looking exactly like that):
-- Grandma (Teta Khadija): elderly woman, black abaya and black hijab, NO glasses, the tallest. She is always on her feet: she never sits, kneels or squats; to reach low she only leans forward at the waist with straight legs.
+- Grandma (Teta Khadija): elderly woman, black abaya and black hijab, NO glasses, NO necklace, NO pendant, NO jewelry (plain black abaya), the tallest. She is always on her feet: she never sits, kneels or squats; to reach low she only leans forward at the waist with straight legs.
 - Zoozoo: the eldest girl (about 10), white hijab, long cream lace coat, white trousers, small gold necklace; the tallest girl (up to Grandma's shoulder). She never kneels or squats.
 - Noonoo: girl about 8, very long wavy black hair worn loose, pink T-shirt with a lilac butterfly, black cargo trousers, white sneakers; almost as tall as Zoozoo.
 - Nadyah: girl about 6, dark hair in ONE ponytail, royal-blue vest over a white T-shirt, royal-blue shorts, white sneakers; a head shorter than Noonoo.
 - Hoor: toddler about 2, curly dark hair with two small buns, pink vest, white top, pink shorts, black shoes; the smallest.
-- Mishoo: fluffy grey-and-white cat with a gold collar bell; makes only cat sounds, never speaks.
+- Mishoo: fluffy grey-and-white cat with a gold collar bell; a cat who talks ONLY when this shot gives him a line (small, funny, slightly grumpy voice, mouth moves like a cartoon cat); otherwise he makes only cat sounds.
 ```
 
 ## Shot 38
@@ -347,42 +347,42 @@ ACTION: Mishoo pounces into the rose bed and digs hole after hole; soil and pink
 DIALOGUE: no words at all (only giggles, footsteps, birdsong and cat sounds if described).
 RULES: one continuous shot, no cuts, no scene change. Continue exactly from the first frame: same people, same positions, same sizes, same clothes and hair; nobody changes identity, no extra or duplicate characters, nobody appears from nowhere or vanishes (characters only enter or leave by walking in or out of frame). The modern cream-stone house (glass balconies, wood slat screens, single dark-brown front door, mosaic column), the garden, the low wooden bench and props stay exactly as in the first frame and never morph. Nobody walks through the bench. Nothing green grows in the clay pots (plain brown soil). Bright sunny daytime: every lamp, ceiling downlight, wall light and interior light is OFF.
 CHARACTER REFERENCE (identity, clothes, ages and relative heights - the family already appears in the first frame and must keep looking exactly like that):
-- Grandma (Teta Khadija): elderly woman, black abaya and black hijab, NO glasses, the tallest. She is always on her feet: she never sits, kneels or squats; to reach low she only leans forward at the waist with straight legs.
+- Grandma (Teta Khadija): elderly woman, black abaya and black hijab, NO glasses, NO necklace, NO pendant, NO jewelry (plain black abaya), the tallest. She is always on her feet: she never sits, kneels or squats; to reach low she only leans forward at the waist with straight legs.
 - Zoozoo: the eldest girl (about 10), white hijab, long cream lace coat, white trousers, small gold necklace; the tallest girl (up to Grandma's shoulder). She never kneels or squats.
 - Noonoo: girl about 8, very long wavy black hair worn loose, pink T-shirt with a lilac butterfly, black cargo trousers, white sneakers; almost as tall as Zoozoo.
 - Nadyah: girl about 6, dark hair in ONE ponytail, royal-blue vest over a white T-shirt, royal-blue shorts, white sneakers; a head shorter than Noonoo.
 - Hoor: toddler about 2, curly dark hair with two small buns, pink vest, white top, pink shorts, black shoes; the smallest.
-- Mishoo: fluffy grey-and-white cat with a gold collar bell; makes only cat sounds, never speaks.
+- Mishoo: fluffy grey-and-white cat with a gold collar bell; a cat who talks ONLY when this shot gives him a line (small, funny, slightly grumpy voice, mouth moves like a cartoon cat); otherwise he makes only cat sounds.
 ```
 
 ## Shot 39
 ```
 3D animated kids cartoon in the exact style of the first frame.
 CAMERA: on a tripod, no zoom, no pan, no tilt; the framing stays identical to the first frame for the whole shot.
-ACTION: Mishoo tugs and pulls ONE mint-green slipper out of the hole (with soil on it) and sits proudly holding it in his mouth. Only a muffled cat sound.
-DIALOGUE: no words at all (only giggles, footsteps, birdsong and cat sounds if described).
+ACTION: Mishoo tugs and pulls ONE olive-green slipper out of the hole (with soil on it) and drops it on the grass in front of him, puts one paw on it and sits up proudly.
+DIALOGUE: only Mishoo speaks, once: "Look what I found!" Nobody else says any words (laughs or gasps without words are fine).
 RULES: one continuous shot, no cuts, no scene change. Continue exactly from the first frame: same people, same positions, same sizes, same clothes and hair; nobody changes identity, no extra or duplicate characters, nobody appears from nowhere or vanishes (characters only enter or leave by walking in or out of frame). The modern cream-stone house (glass balconies, wood slat screens, single dark-brown front door, mosaic column), the garden, the low wooden bench and props stay exactly as in the first frame and never morph. Nobody walks through the bench. Nothing green grows in the clay pots (plain brown soil). Bright sunny daytime: every lamp, ceiling downlight, wall light and interior light is OFF.
 CHARACTER REFERENCE (identity, clothes, ages and relative heights - the family already appears in the first frame and must keep looking exactly like that):
-- Grandma (Teta Khadija): elderly woman, black abaya and black hijab, NO glasses, the tallest. She is always on her feet: she never sits, kneels or squats; to reach low she only leans forward at the waist with straight legs.
+- Grandma (Teta Khadija): elderly woman, black abaya and black hijab, NO glasses, NO necklace, NO pendant, NO jewelry (plain black abaya), the tallest. She is always on her feet: she never sits, kneels or squats; to reach low she only leans forward at the waist with straight legs.
 - Zoozoo: the eldest girl (about 10), white hijab, long cream lace coat, white trousers, small gold necklace; the tallest girl (up to Grandma's shoulder). She never kneels or squats.
 - Noonoo: girl about 8, very long wavy black hair worn loose, pink T-shirt with a lilac butterfly, black cargo trousers, white sneakers; almost as tall as Zoozoo.
 - Nadyah: girl about 6, dark hair in ONE ponytail, royal-blue vest over a white T-shirt, royal-blue shorts, white sneakers; a head shorter than Noonoo.
 - Hoor: toddler about 2, curly dark hair with two small buns, pink vest, white top, pink shorts, black shoes; the smallest.
-- Mishoo: fluffy grey-and-white cat with a gold collar bell; makes only cat sounds, never speaks.
+- Mishoo: fluffy grey-and-white cat with a gold collar bell; a cat who talks ONLY when this shot gives him a line (small, funny, slightly grumpy voice, mouth moves like a cartoon cat); otherwise he makes only cat sounds.
 ```
 
 ## Shot 40
 ```
 3D animated kids cartoon in the exact style of the first frame.
 CAMERA: one smooth pan to the right and up from Mishoo to the house's front door; no cut.
-ACTION: Grandma stands on the front step, standing upright, wearing ONE mint-green slipper on one foot and none on the other, one hand on her hip, looking at the cat.
+ACTION: Grandma stands on the front step, standing upright, wearing ONE olive-green slipper on one foot and none on the other, one hand on her hip, looking at the cat.
 DIALOGUE: only Grandma speaks, once: "Mishoo... is that my slipper?" Nobody else says any words (laughs or gasps without words are fine).
 RULES: one continuous shot, no cuts, no scene change. Continue exactly from the first frame: same people, same positions, same sizes, same clothes and hair; nobody changes identity, no extra or duplicate characters, nobody appears from nowhere or vanishes (characters only enter or leave by walking in or out of frame). The modern cream-stone house (glass balconies, wood slat screens, single dark-brown front door, mosaic column), the garden, the low wooden bench and props stay exactly as in the first frame and never morph. Nobody walks through the bench. Nothing green grows in the clay pots (plain brown soil). Bright sunny daytime: every lamp, ceiling downlight, wall light and interior light is OFF.
 CHARACTER REFERENCE (identity, clothes, ages and relative heights - the family already appears in the first frame and must keep looking exactly like that):
-- Grandma (Teta Khadija): elderly woman, black abaya and black hijab, NO glasses, the tallest. She is always on her feet: she never sits, kneels or squats; to reach low she only leans forward at the waist with straight legs.
+- Grandma (Teta Khadija): elderly woman, black abaya and black hijab, NO glasses, NO necklace, NO pendant, NO jewelry (plain black abaya), the tallest. She is always on her feet: she never sits, kneels or squats; to reach low she only leans forward at the waist with straight legs.
 - Zoozoo: the eldest girl (about 10), white hijab, long cream lace coat, white trousers, small gold necklace; the tallest girl (up to Grandma's shoulder). She never kneels or squats.
 - Noonoo: girl about 8, very long wavy black hair worn loose, pink T-shirt with a lilac butterfly, black cargo trousers, white sneakers; almost as tall as Zoozoo.
 - Nadyah: girl about 6, dark hair in ONE ponytail, royal-blue vest over a white T-shirt, royal-blue shorts, white sneakers; a head shorter than Noonoo.
 - Hoor: toddler about 2, curly dark hair with two small buns, pink vest, white top, pink shorts, black shoes; the smallest.
-- Mishoo: fluffy grey-and-white cat with a gold collar bell; makes only cat sounds, never speaks.
+- Mishoo: fluffy grey-and-white cat with a gold collar bell; a cat who talks ONLY when this shot gives him a line (small, funny, slightly grumpy voice, mouth moves like a cartoon cat); otherwise he makes only cat sounds.
 ```
