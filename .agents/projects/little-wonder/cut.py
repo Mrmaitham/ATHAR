@@ -12,14 +12,14 @@ for x in rest:
     if x.endswith(".mp4"): clips.append(x)
     else: ds.append(float(x))
 while len(ds) < len(clips)-1: ds.append(0.0)
-dur = lambda f: float(subprocess.run(["ffprobe","-v","error","-show_entries","format=duration","-of","csv=p=0",f],capture_output=True,text=True).stdout)
+dur = lambda f: float(subprocess.run(["ffprobe","-v","error","-select_streams","v:0","-show_entries","stream=duration","-of","csv=p=0",f],capture_output=True,text=True).stdout.split()[0])  # video length; audio is fitted to it
 D = [dur(c) for c in clips]
 inp = sum([["-i", c] for c in clips], [])
 f = []
 for i in range(len(clips)):
     t_ = (LB[i] if LB else str(i+1)) if num else ""
     lab = f",drawtext=text='{t_}':x=20:y=16:fontsize=40:fontcolor=white:borderw=3:bordercolor=black" if (num and t_) else ""
-    f.append(f"[{i}:v]scale=1280:720,fps=24,setsar=1,format=yuv420p,settb=AVTB{lab}[v{i}];[{i}:a]aresample=48000,aformat=channel_layouts=stereo,asetpts=PTS-STARTPTS[a{i}]")
+    f.append(f"[{i}:v]scale=1280:720,fps=24,setsar=1,format=yuv420p,settb=AVTB{lab}[v{i}];[{i}:a]aresample=48000,aformat=channel_layouts=stereo,asetpts=PTS-STARTPTS,apad,atrim=0:{D[i]:.4f}[a{i}]")
 v, au, t = "v0", "a0", D[0]
 for i in range(1, len(clips)):
     d = ds[i-1]
