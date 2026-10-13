@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# usage: [FWD=1] lampoff.py IN.mp4 OUT.mp4 x y r [x y r ...]   (positions in the LAST frame, or the FIRST with FWD=1)
+# usage: [FWD=1 | MID=frame] lampoff.py IN.mp4 OUT.mp4 x y r [x y r ...]   (positions in the LAST frame, or the FIRST with FWD=1)
 # Switches lit lamps off without camera tracking: each lamp is followed by itself, frame by frame from the last frame
 # backwards (a lamp moves at most 4 px per frame; if it is hidden the estimate is kept). In every frame the compact
 # bright warm/white blob at the lamp is filled with the colour of the ring around it (slightly darker = unlit glass).
@@ -19,14 +19,17 @@ def blob(fr, x, y, r, S):
     Y, X = np.mgrid[y0:y1, x0:x1]; w[(np.abs(X-x) > S) | (np.abs(Y-y) > S)] = 0
     if w.max() < 22: return None
     yy, xx = np.unravel_index(np.argmax(w), w.shape); return int(X[yy, xx]), int(Y[yy, xx])
-# 1) follow each lamp backwards from the last frame (FWD=1: forwards from the FIRST frame, positions given for frame 0)
-import os; FWD = os.environ.get('FWD') == '1'; order = range(N) if FWD else range(N-1, -1, -1); i0 = 0 if FWD else N-1
-P = np.zeros((N, len(L), 2), int); cur = [(x, y) for x, y, r in L]
-for i in order:
-    for k, (x, y, r) in enumerate(L):
-        b = blob(F[i], cur[k][0], cur[k][1], r, 4 if i != i0 else 8)
-        if b: cur[k] = b
-        P[i, k] = cur[k]
+# 1) follow each lamp from a seed frame: the last (default), the first (FWD=1) or any frame (MID=index), both ways
+import os
+i0 = int(os.environ['MID']) if 'MID' in os.environ else (0 if os.environ.get('FWD') == '1' else N-1)
+P = np.zeros((N, len(L), 2), int)
+for order in (range(i0, N), range(i0, -1, -1)):
+    cur = [(x, y) for x, y, r in L]
+    for i in order:
+        for k, (x, y, r) in enumerate(L):
+            b = blob(F[i], cur[k][0], cur[k][1], r, 4 if i != i0 else 8)
+            if b: cur[k] = b
+            P[i, k] = cur[k]
 # 2) unlight
 for i in range(N):
     fr = F[i]
