@@ -38,8 +38,8 @@ SHOTS = {
  36: (None, "Noonoo covers the seed again with the trowel, lays the trowel down and pats the soil gently with her hand.", "Noonoo", "Okay, one more look tomorrow!"),
  37: ("CAMERA: tilt down and pan to the RIGHT from the girls to a pink rose bed at the edge of the garden; no cut.", "Mishoo the cat sits by the pink rose bed, tilts his head curiously and stares at the soil.", None, None),
  38: (None, "Mishoo pounces into the rose bed and digs hole after hole; soil and pink petals fly; he ends with a petal on his head and soil on his nose, staring into the last hole. Only cat chirps.", None, None),
- 39: (None, "Mishoo tugs and pulls ONE mint-green slipper out of the hole (with soil on it) and sits proudly holding it in his mouth. Only a muffled cat sound.", None, None),
- 40: ("CAMERA: one smooth pan to the right and up from Mishoo to the house's front door; no cut.", "Grandma stands on the front step, standing upright, wearing ONE mint-green slipper on one foot and none on the other, one hand on her hip, looking at the cat.", "Grandma", "Mishoo... is that my slipper?"),
+ 39: (None, "Mishoo tugs and pulls ONE olive-green slipper out of the hole (with soil on it) and sits proudly holding it in his mouth. Only a muffled cat sound.", None, None),
+ 40: ("CAMERA: one smooth pan to the right and up from Mishoo to the house's front door; no cut.", "Grandma stands on the front step, standing upright, wearing ONE olive-green slipper on one foot and none on the other, one hand on her hip, looking at the cat.", "Grandma", "Mishoo... is that my slipper?"),
 }
 if __name__ == '__main__':
     if sys.argv[1] == 'md':

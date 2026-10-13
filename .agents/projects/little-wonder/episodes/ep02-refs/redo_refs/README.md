@@ -14,3 +14,9 @@
 - A1.png is NOT a house-colour reference any more (warmer tone, lamps on). Layout only.
 - 00_start_of_shot10.png — exact last frame of approved shot 9 (start of the redo).
 - 03 family heights, 04–09 character sheets.
+
+## APPROVED SET (user, 2026-10-13) — the only references for the whole episode
+00b house (day, flat roof, lamps off) · 12 planting spot · 03 family heights · 04 Zoozoo · 05 Hoor · 06 Nadyah · 07 Noonoo ·
+08 Grandma · 09 Mishoo · 13_props_APPROVED (kraft seed bag + white/brown beans, light-green watering can, yellow trowel,
+OLIVE-green slippers) · 14_pots_signs_APPROVED (terracotta pots; sign "Baby" in multicolour crayon letters + pink heart under it;
+sign "Sprouty" in multicolour letters + yellow sun under it).
