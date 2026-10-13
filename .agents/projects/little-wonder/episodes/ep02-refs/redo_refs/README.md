@@ -1,4 +1,6 @@
 # Ep02 redo references (shots 10–80)
+- **00b_HOUSE_DAY_APPROVED.png** — APPROVED by user (2026-10-13): the main house in episode style, daytime, every light OFF. Use as the house reference for every shot.
+- **12_planting_spot_marked.png** — where the bench + 2 pots sit: left lawn, in front of the lounge sofas, beside the central path (door + mosaic column behind, to the right).
 - **00_HOUSE_MAIN_REFERENCE_full.png** — THE MAIN HOUSE REFERENCE from the user (2026-10-13): full modern 3-storey villa seen from
   afar. Cream stone boxes, glass balconies with plants, vertical dark-wood slat screens, tall central glass stairwell with
   chandelier, dark-brown front door at the centre, mosaic column right of the door, black metal gate + pillars with wall lamps,
