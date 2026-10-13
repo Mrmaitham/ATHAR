@@ -1,0 +1,52 @@
+#!/usr/bin/env python3
+# usage: prompts.py N   -> prints the full Seedance prompt for shot N (English), built from the fixed bible + rules.
+# usage: prompts.py md  -> writes all prompts as Markdown (for the repo).
+import sys
+BIBLE = """CHARACTER REFERENCE: the second image is the family reference sheet. Use it ONLY for identity, faces, clothes, ages and relative heights (ignore its lighting and background). The family must look exactly like it:
+- Grandma (Teta Khadija): elderly woman, black abaya and black hijab, NO glasses, the tallest. She is always on her feet: she never sits, kneels or squats; to reach low she only leans forward at the waist with straight legs.
+- Zoozoo: the eldest girl (about 10), white hijab, long cream lace coat, white trousers, small gold necklace; the tallest girl (up to Grandma's shoulder). She never kneels or squats.
+- Noonoo: girl about 8, very long wavy black hair worn loose, pink T-shirt with a lilac butterfly, black cargo trousers, white sneakers; almost as tall as Zoozoo.
+- Nadyah: girl about 6, dark hair in ONE ponytail, royal-blue vest over a white T-shirt, royal-blue shorts, white sneakers; a head shorter than Noonoo.
+- Hoor: toddler about 2, curly dark hair with two small buns, pink vest, white top, pink shorts, black shoes; the smallest.
+- Mishoo: fluffy grey-and-white cat with a gold collar bell; makes only cat sounds, never speaks."""
+RULES = """RULES: one continuous shot, no cuts, no scene change. Continue exactly from the first frame: same people, same positions, same sizes, same clothes and hair; nobody changes identity, no extra or duplicate characters, nobody appears from nowhere or vanishes (characters only enter or leave by walking in or out of frame). The modern cream-stone house (glass balconies, wood slat screens, single dark-brown front door, mosaic column), the garden, the low wooden bench and props stay exactly as in the first frame and never morph. Nobody walks through the bench. Nothing green grows in the clay pots (plain brown soil). Bright sunny daytime: every lamp, ceiling downlight, wall light and interior light is OFF."""
+LOCK = "CAMERA: on a tripod, no zoom, no pan, no tilt; the framing stays identical to the first frame for the whole shot."
+def P(cam, action, speaker, line):
+    talk = (f'DIALOGUE: only {speaker} speaks, once: "{line}" Nobody else says any words (laughs or gasps without words are fine).'
+            if line else "DIALOGUE: no words at all (only giggles, footsteps, birdsong and cat sounds if described).")
+    return "3D animated kids cartoon in the exact style of the first frame.\n" + (cam or LOCK) + "\nACTION: " + action + "\n" + talk + "\n" + RULES + "\n" + BIBLE
+SHOTS = {
+ 17: (None, "Grandma stands between the girls and the low wooden bench. Leaning forward at the waist with straight legs, she lifts the left clay pot from the bench and sets it on the grass in front of the bench, then lifts the right clay pot down beside it, and straightens up smiling. Zoozoo holds the yellow trowel, Hoor holds the seed; the girls watch happily and stay where they are; Nadyah stays fully visible on the right; Mishoo sits.", "Grandma", "Down here, so little hands can reach."),
+ 18: (None, "Zoozoo, standing and leaning forward at the waist, digs a small hole in the LEFT pot's soil with the yellow trowel, lifts out a little soil, then lays the trowel on the grass. Hoor drops her white bean seed into the hole and pats the soil with both little hands. The others watch.", "Hoor", "Pat, pat, pat!"),
+ 19: (None, "Grandma gives Nadyah one white bean seed; Nadyah puts it into the RIGHT pot's soil; Noonoo quickly covers it with soil using both hands and then throws both arms up proudly. Zoozoo and Hoor stay at the left pot.", "Noonoo", "Done! Super fast!"),
+ 20: (None, "Grandma (standing) picks up a small green watering can from the grass and hands it to Hoor. Hoor waters the LEFT pot with great enthusiasm, swings the can and the water arc splashes Mishoo the cat, who jumps up with a loud yowl. The girls giggle with hands on their mouths.", None, None),
+ 21: (None, "Wet Mishoo walks a few steps, shakes his fur, puffs up into a fluffy ball and gives a grumpy look, then a grumpy meow. The girls giggle softly.", None, None),
+ 22: (None, "Mishoo walks out of frame at the right edge. Grandma gives Noonoo a flat wooden plant sign on a stick and a marker; Noonoo writes on it and pushes the stick into the RIGHT pot, then reads it proudly.", "Noonoo", "I'll call ours... Sprouty!"),
+ 23: (None, "Grandma gives Zoozoo a second flat wooden plant sign and the marker. Zoozoo turns to Hoor with a smile, holding the sign.", "Zoozoo", "What should we call ours, Hoor?"),
+ 24: (None, "Hoor puts the watering can down, quickly hugs the LEFT pot and lets go. Zoozoo (standing, leaning at the waist) writes 'Baby' and a small heart on the sign and pushes it into the back of the LEFT pot; the sign stays upright; Hoor claps.", "Hoor", "Baby!"),
+ 25: (None, "Grandma points up to the sky with a smile, then walks to the right behind the girls toward the house and leaves the frame at the right edge; the girls wave to her. Both signs stay in their pots.", "Grandma", "Now it needs water, sun... and time."),
+ 26: (None, "Zoozoo and Hoor walk off hand in hand out of the frame at the LEFT edge. Noonoo and Nadyah stand behind the RIGHT pot (Sprouty), lean forward with chins in their hands and stare at the soil, waiting. Nobody touches the soil.", None, None),
+ 27: ("CAMERA: one slow smooth push-in toward Noonoo and Nadyah at the RIGHT pot; no cut.", "Noonoo and Nadyah lean over the RIGHT pot with chins in their hands, staring at the plain soil. Nadyah asks hopefully.", "Nadyah", "Is it growing yet?"),
+ 28: ("CAMERA: one smooth pan to the LEFT across the garden, ending on a stone bench under the palm tree; no cut.", "On the stone bench under the palm tree, Zoozoo sits reading a picture book to Hoor; Zoozoo looks up to the right and laughs.", "Zoozoo", "Haha, Nadyah, we just planted it!"),
+ 29: ("CAMERA: one smooth pan back to the RIGHT, ending on Noonoo and Nadyah at the RIGHT pot; no cut.", "Noonoo taps the side of the RIGHT pot gently; Nadyah watches.", "Noonoo", "Is it growing yet?"),
+ 30: ("CAMERA: slow pull-back and slight pan left to a wider view showing both pots and both signs; no cut.", "Hoor walks from the stone bench to the LEFT pot (Baby) and reaches for the soil; Zoozoo, standing and leaning at the waist, gently holds Hoor's hand back.", "Zoozoo", "Shhh... Baby is sleeping. Let's let her rest."),
+ 31: (None, "Hoor puts one finger on her lips and whispers, looking at the LEFT pot; Zoozoo smiles.", "Hoor", "Shhh... Baby sleeping!"),
+ 32: ("CAMERA: smooth pan to the RIGHT and small push-in to Noonoo and Nadyah at the RIGHT pot; no cut.", "Nadyah presses both hands on her cheeks, impatient; Noonoo watches.", "Nadyah", "Why is it taking SO long?"),
+ 33: (None, "Noonoo raises one finger with an idea, reaches out of frame at the left and comes back with the yellow trowel, then gently digs into the RIGHT pot until the white bean seed shows.", "Noonoo", "I have an idea! Just one little look..."),
+ 34: ("CAMERA: slow tilt down and push-in into the small hole in the RIGHT pot: close-up of the plain white bean seed in brown soil; no cut.", "The seed lies in the soil, still just a seed, nothing green. Nadyah's voice comes from off-screen.", "Nadyah", "Still a seed!"),
+ 35: ("CAMERA: slow pull-back from the seed close-up to a medium shot of Noonoo and Nadyah at the RIGHT pot; no cut.", "Zoozoo walks in from the left edge and stands beside them, leaning forward with her hands on her knees (standing, never kneeling).", "Zoozoo", "Maybe it needs some rest?"),
+ 36: (None, "Noonoo covers the seed again with the trowel, lays the trowel down and pats the soil gently with her hand.", "Noonoo", "Okay, one more look tomorrow!"),
+ 37: ("CAMERA: tilt down and pan to the RIGHT from the girls to a pink rose bed at the edge of the garden; no cut.", "Mishoo the cat sits by the pink rose bed, tilts his head curiously and stares at the soil.", None, None),
+ 38: (None, "Mishoo pounces into the rose bed and digs hole after hole; soil and pink petals fly; he ends with a petal on his head and soil on his nose, staring into the last hole. Only cat chirps.", None, None),
+ 39: (None, "Mishoo tugs and pulls ONE mint-green slipper out of the hole (with soil on it) and sits proudly holding it in his mouth. Only a muffled cat sound.", None, None),
+ 40: ("CAMERA: one smooth pan to the right and up from Mishoo to the house's front door; no cut.", "Grandma stands on the front step, standing upright, wearing ONE mint-green slipper on one foot and none on the other, one hand on her hip, looking at the cat.", "Grandma", "Mishoo... is that my slipper?"),
+}
+if __name__ == '__main__':
+    if sys.argv[1] == 'md':
+        out = ["# Ep02 v5 — full Seedance prompts, shots 17-40", "", "Every shot: Seedance 2.0 Mini, 16:9, 720p, audio on, ONE take; start image = last frame of the previous approved shot;",
+               "image reference = redo_refs/03_family_heights.png (identity/heights only); speaker voice as audio reference.", ""]
+        for n in sorted(SHOTS):
+            out += [f"## Shot {n}", "```", P(*SHOTS[n]), "```", ""]
+        open(sys.argv[2], 'w').write("\n".join(out)); print("wrote", sys.argv[2])
+    else:
+        print(P(*SHOTS[int(sys.argv[1])]))
