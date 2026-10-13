@@ -2,7 +2,7 @@
 # usage: prompts.py N   -> prints the full Seedance prompt for shot N (English), built from the fixed bible + rules.
 # usage: prompts.py md  -> writes all prompts as Markdown (for the repo).
 import sys
-BIBLE = """CHARACTER REFERENCE: the second image is the family reference sheet. Use it ONLY for identity, faces, clothes, ages and relative heights (ignore its lighting and background). The family must look exactly like it:
+BIBLE = """CHARACTER REFERENCE (identity, clothes, ages and relative heights - the family already appears in the first frame and must keep looking exactly like that):
 - Grandma (Teta Khadija): elderly woman, black abaya and black hijab, NO glasses, the tallest. She is always on her feet: she never sits, kneels or squats; to reach low she only leans forward at the waist with straight legs.
 - Zoozoo: the eldest girl (about 10), white hijab, long cream lace coat, white trousers, small gold necklace; the tallest girl (up to Grandma's shoulder). She never kneels or squats.
 - Noonoo: girl about 8, very long wavy black hair worn loose, pink T-shirt with a lilac butterfly, black cargo trousers, white sneakers; almost as tall as Zoozoo.
@@ -44,7 +44,7 @@ SHOTS = {
 if __name__ == '__main__':
     if sys.argv[1] == 'md':
         out = ["# Ep02 v5 — full Seedance prompts, shots 17-40", "", "Every shot: Seedance 2.0 Mini, 16:9, 720p, audio on, ONE take; start image = last frame of the previous approved shot;",
-               "image reference = redo_refs/03_family_heights.png (identity/heights only); speaker voice as audio reference.", ""]
+               "text character bible from redo_refs/03_family_heights.png in every prompt (attaching the sheet as an image made frame 0 re-layout, so it is checked in QA instead); speaker voice as audio reference.", ""]
         for n in sorted(SHOTS):
             out += [f"## Shot {n}", "```", P(*SHOTS[n]), "```", ""]
         open(sys.argv[2], 'w').write("\n".join(out)); print("wrote", sys.argv[2])
