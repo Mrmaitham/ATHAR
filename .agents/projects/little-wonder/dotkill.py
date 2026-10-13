@@ -23,7 +23,7 @@ while True:
         m = ((lum - bg) > 22) & (lum > 200)
         m8 = (m*255).astype(np.uint8)
         small = f(m8, ImageFilter.BoxBlur(6)) < 255*0.35          # blob covers < 35% of its 13x13 neighbourhood
-        light = f(l8, ImageFilter.MinFilter(13)) > 105             # no dark pixel (eye, hair, hijab) nearby
+        light = f(l8, ImageFilter.MinFilter(13)) > 70             # no dark pixel (eye, hair, hijab) nearby
         m = m & small & light
         if not m.any(): continue
         mm = f((m*255).astype(np.uint8), ImageFilter.MaxFilter(5)); mm = np.asarray(Image.fromarray(mm.astype(np.uint8)).filter(ImageFilter.GaussianBlur(2.5)), np.float32)/255
