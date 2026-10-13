@@ -1,4 +1,10 @@
 # Ep02 redo references (shots 10–80)
+- **00_HOUSE_MAIN_REFERENCE_full.png** — THE MAIN HOUSE REFERENCE from the user (2026-10-13): full modern 3-storey villa seen from
+  afar. Cream stone boxes, glass balconies with plants, vertical dark-wood slat screens, tall central glass stairwell with
+  chandelier, dark-brown front door at the centre, mosaic column right of the door, black metal gate + pillars with wall lamps,
+  central paved path with low bollard lights, lounge sofas left, swing set + wooden playhouse with blue slide right, wall waterfall
+  far left, date palms both sides. Reference is at dusk with lights ON — the episode is DAYTIME, so every lamp stays OFF.
+  Close/medium shots show only its ground floor (door, glass doors, mosaic column), as in 01_HOUSE_MASTER_shot4.png.
 - **01_HOUSE_MASTER_shot4.png** — THE house for the whole episode (user decision 2026-10-13): colours, materials and look
   of the villa exactly as in approved shot 4 (ivory/cream stone facade, flat roof with dark cornice, large glass windows
   with white curtains, dark-brown wooden door, grey-blue mosaic column right of the door, white steps + paved path right,
