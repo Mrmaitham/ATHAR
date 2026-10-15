@@ -54,7 +54,8 @@ tg = telegram.Telegram(os.getenv("TELEGRAM_BOT_TOKEN", ""), os.getenv("TELEGRAM_
 ADMIN_DIGESTS = os.getenv("ADMIN_DIGESTS", "1") != "0"   # ملخص 8 الصبح + 9 بالليل
 MAX_WA_CHARS = 4000
 
-claude = anthropic.Anthropic()
+# BB_ANTHROPIC_KEY أولًا: جلسات Claude Code تحجب ANTHROPIC_API_KEY من البيئة
+claude = anthropic.Anthropic(api_key=os.getenv("BB_ANTHROPIC_KEY") or os.getenv("ANTHROPIC_API_KEY"))
 store = Store(DB_PATH)
 
 

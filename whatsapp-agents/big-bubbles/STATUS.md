@@ -10,7 +10,8 @@
   + مفتاح API بدون انتهاء.
 
 ## ⏭️ الخطوة الجاية
-1. ميثم يضيف `ANTHROPIC_API_KEY` في إعدادات بيئة الجلسة ويفتح جلسة جديدة.
+1. ميثم يضيف المفتاح في Environment variables باسم **`BB_ANTHROPIC_KEY`** (مو ANTHROPIC_API_KEY —
+   جلسات Claude Code تحجب هالاسم) ويفتح جلسة جديدة. app.py يقرا BB_ANTHROPIC_KEY أولًا.
 2. اختبار حي مع Claude الحقيقي: `cd whatsapp-agents/big-bubbles && python app.py --chat`
    ومرّر السيناريوهات في tests/conversations.md (ميثم يلعب دور العميل). صلّح الردود.
 3. Meta (واتساب) + Railway + ربط التليقرام — الخطوات في SETUP.md.
