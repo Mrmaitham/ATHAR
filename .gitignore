@@ -1,0 +1,5 @@
+
+# WhatsApp agents — secrets & runtime data
+.env
+*.db
+__pycache__/
