@@ -1,0 +1,323 @@
+{
+ "مدينة الكويت": [
+  "Kuwait City",
+  "Capital",
+  "Al Asimah"
+ ],
+ "شرق": [
+  "Sharq"
+ ],
+ "المرقاب": [
+  "Mirqab"
+ ],
+ "القبلة": [
+  "Qibla"
+ ],
+ "دسمان": [
+  "Dasman"
+ ],
+ "بنيد القار": [
+  "Bneid Al-Gar",
+  "Bneid Al Qar"
+ ],
+ "الدسمة": [
+  "Dasma"
+ ],
+ "الشويخ": [
+  "Shuwaikh"
+ ],
+ "الشامية": [
+  "Shamiya",
+  "Shamiyah"
+ ],
+ "الدعية": [
+  "Daiya",
+  "Daeya"
+ ],
+ "المنصورية": [
+  "Mansouriya",
+  "Mansuriya"
+ ],
+ "القادسية": [
+  "Qadsiya",
+  "Qadisiya"
+ ],
+ "الفيحاء": [
+  "Faiha"
+ ],
+ "النزهة": [
+  "Nuzha"
+ ],
+ "كيفان": [
+  "Kaifan"
+ ],
+ "الروضة": [
+  "Rawda",
+  "Rawdah"
+ ],
+ "العديلية": [
+  "Adailiya"
+ ],
+ "الخالدية": [
+  "Khaldiya"
+ ],
+ "اليرموك": [
+  "Yarmouk"
+ ],
+ "الصليبخات": [
+  "Sulaibikhat"
+ ],
+ "الدوحة": [
+  "Doha"
+ ],
+ "غرناطة": [
+  "Granada"
+ ],
+ "القيروان": [
+  "Qairawan",
+  "Qairowan"
+ ],
+ "حولي": [
+  "Hawally",
+  "Hawalli"
+ ],
+ "السالمية": [
+  "Salmiya",
+  "Salmiyah"
+ ],
+ "الشعب": [
+  "Shaab"
+ ],
+ "الجابرية": [
+  "Jabriya",
+  "Jabriyah"
+ ],
+ "الرميثية": [
+  "Rumaithiya"
+ ],
+ "بيان": [
+  "Bayan"
+ ],
+ "مشرف": [
+  "Mishref"
+ ],
+ "سلوى": [
+  "Salwa"
+ ],
+ "البدع": [
+  "Bidaa",
+  "Bida"
+ ],
+ "مبارك العبدالله": [
+  "Mubarak Al-Abdullah",
+  "West Mishref"
+ ],
+ "السرة": [
+  "Surra"
+ ],
+ "قرطبة": [
+  "Qurtuba",
+  "Cordoba"
+ ],
+ "السلام": [
+  "Salam"
+ ],
+ "حطين": [
+  "Hittin",
+  "Hateen"
+ ],
+ "الشهداء": [
+  "Shuhada"
+ ],
+ "الصديق": [
+  "Siddiq",
+  "Al-Siddeeq"
+ ],
+ "الزهراء": [
+  "Zahra"
+ ],
+ "الفروانية": [
+  "Farwaniya",
+  "Farwaniyah"
+ ],
+ "خيطان": [
+  "Khaitan"
+ ],
+ "الأندلس": [
+  "Andalous",
+  "Andalus"
+ ],
+ "الرابية": [
+  "Rabiya"
+ ],
+ "الرحاب": [
+  "Rehab"
+ ],
+ "العارضية": [
+  "Ardiya",
+  "Ardiyah"
+ ],
+ "الرقعي": [
+  "Riggae",
+  "Reggai"
+ ],
+ "العمرية": [
+  "Omariya"
+ ],
+ "الفردوس": [
+  "Firdous"
+ ],
+ "إشبيلية": [
+  "Ishbiliya",
+  "Ishbiliyah"
+ ],
+ "الضجيج": [
+  "Dajeej",
+  "Al Dajeej"
+ ],
+ "جليب الشيوخ": [
+  "Jleeb Al-Shuyoukh",
+  "Jleeb"
+ ],
+ "صباح الناصر": [
+  "Sabah Al-Nasser"
+ ],
+ "عبدالله المبارك": [
+  "Abdullah Al-Mubarak"
+ ],
+ "غرب عبدالله المبارك": [
+  "West Abdullah Al-Mubarak"
+ ],
+ "جنوب عبدالله المبارك": [
+  "South Abdullah Al-Mubarak"
+ ],
+ "مبارك الكبير": [
+  "Mubarak Al-Kabeer"
+ ],
+ "صباح السالم": [
+  "Sabah Al-Salem"
+ ],
+ "العدان": [
+  "Adan"
+ ],
+ "القرين": [
+  "Qurain"
+ ],
+ "القصور": [
+  "Qusour"
+ ],
+ "المسيلة": [
+  "Messila"
+ ],
+ "أبو فطيرة": [
+  "Abu Fatira",
+  "Abu Ftaira"
+ ],
+ "الفنيطيس": [
+  "Fnaitees",
+  "Funaitees"
+ ],
+ "المسايل": [
+  "Masayel"
+ ],
+ "أبو الحصانية": [
+  "Abu Al-Hasaniya"
+ ],
+ "الفنطاس": [
+  "Fintas"
+ ],
+ "العقيلة": [
+  "Egaila",
+  "Uqaila"
+ ],
+ "الظهر": [
+  "Dhaher",
+  "Al-Dhahar"
+ ],
+ "جابر العلي": [
+  "Jaber Al-Ali"
+ ],
+ "الأحمدي": [
+  "Ahmadi"
+ ],
+ "الفحيحيل": [
+  "Fahaheel"
+ ],
+ "المنقف": [
+  "Mangaf"
+ ],
+ "أبو حليفة": [
+  "Abu Halifa"
+ ],
+ "المهبولة": [
+  "Mahboula"
+ ],
+ "الصباحية": [
+  "Sabahiya"
+ ],
+ "الرقة": [
+  "Riqqa"
+ ],
+ "هدية": [
+  "Hadiya"
+ ],
+ "فهد الأحمد": [
+  "Fahad Al-Ahmad"
+ ],
+ "علي صباح السالم": [
+  "Ali Sabah Al-Salem"
+ ],
+ "أم الهيمان": [
+  "Umm Al-Hayman"
+ ],
+ "الخيران": [
+  "Khiran"
+ ],
+ "الخيران السكني": [
+  "Khiran Residential",
+  "Sabah Al-Ahmad Sea City"
+ ],
+ "الوفرة": [
+  "Wafra"
+ ],
+ "صباح الأحمد": [
+  "Sabah Al-Ahmad"
+ ],
+ "جنوب صباح الأحمد": [
+  "South Sabah Al-Ahmad"
+ ],
+ "المطلاع": [
+  "Mutlaa",
+  "Al-Mutlaa"
+ ],
+ "الجهراء": [
+  "Jahra"
+ ],
+ "القصر": [
+  "Qasr"
+ ],
+ "العيون": [
+  "Oyoun"
+ ],
+ "النسيم": [
+  "Naseem"
+ ],
+ "تيماء": [
+  "Taima"
+ ],
+ "الواحة": [
+  "Waha"
+ ],
+ "سعد العبدالله": [
+  "Saad Al-Abdullah"
+ ],
+ "جابر الأحمد": [
+  "Jaber Al-Ahmad"
+ ],
+ "أمغرة": [
+  "Amghara"
+ ],
+ "الصليبية": [
+  "Sulaibiya"
+ ]
+}

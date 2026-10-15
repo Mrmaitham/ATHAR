@@ -5,6 +5,7 @@
 """
 
 import difflib
+import json
 import re
 from pathlib import Path
 
@@ -162,12 +163,27 @@ def load_zones(path: Path = BASE / "zones.md"):
 
 AREA_ZONE, AREA_DISPLAY, ADJACENT = load_zones()
 
+# الأسماء الإنجليزية: للعمال، وعشان العميل يقدر يكتب المنطقة بالإنجليزي
+_EN = json.loads((BASE / "area_names_en.json").read_text(encoding="utf-8"))
+AREA_EN = {ar: names[0] for ar, names in _EN.items()}
+_EN_INDEX = {re.sub(r"[^a-z]", "", n.lower()): normalize(ar) for ar, names in _EN.items() for n in names}
+
+
+def area_en(arabic_name: str) -> str:
+    return AREA_EN.get(arabic_name, "")
+
 
 def find_area(name: str) -> dict:
     """يرجع {area, zone} أو {suggestions} لو ما انعرفت المنطقة."""
     key = normalize(name)
     if key in AREA_ZONE:
         return {"area": AREA_DISPLAY[key], "zone": AREA_ZONE[key]}
+    latin = re.sub(r"[^a-z]", "", name.lower())
+    if latin:
+        hit = _EN_INDEX.get(latin) or next(iter(
+            [_EN_INDEX[c] for c in difflib.get_close_matches(latin, _EN_INDEX, n=1, cutoff=0.85)]), None)
+        if hit:
+            return {"area": AREA_DISPLAY[hit], "zone": AREA_ZONE[hit]}
     # خطأ إملائي بسيط (مثل "الجهرا") ينقبل؛ غير كذا نقترح ونخلي العميل يأكد
     sure = difflib.get_close_matches(key, AREA_ZONE.keys(), n=2, cutoff=0.88)
     if len(sure) == 1:

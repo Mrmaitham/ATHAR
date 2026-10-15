@@ -76,7 +76,8 @@ def job_text(r) -> str:
     out = [f"⏰ *{time_en(biz.SLOTS[r['slot']])}*"
            + (f" → {time_en(biz.SLOTS[r['slot'] + r['slots'] - 1])} (2 slots | 2 स्लॉट)" if r["slots"] > 1 else "")
            + f" — #{r['id']}"]
-    out.append(f"📍 {r['area']} (Area {r['zone']})")
+    en = biz.area_en(r["area"])
+    out.append(f"📍 {en + ' | ' if en else ''}{r['area']} (Area {r['zone']})")
     if r["location"]:
         out.append(f"🗺️ {r['location'].split()[0]}")
     if r["phone"] == "manual":
@@ -103,7 +104,8 @@ def schedule_text(store, van: int, day: date) -> str:
     head = f"🚐 *Van {van} | गाड़ी {van}* — {label} {day:%d/%m}"
     far = store.far_day(day, van=van)
     if far:
-        head += f"\n🏜️ Far-area day | दूर के इलाके का दिन: {'، '.join(json.loads(far['areas']))}"
+        head += "\n🏜️ Far-area day | दूर के इलाके का दिन: " + ", ".join(
+            biz.area_en(a) or a for a in json.loads(far["areas"]))
     if not rows:
         return head + "\nNo jobs | कोई काम नहीं"
     return head + f" — {len(rows)} jobs | काम\n\n" + "\n\n".join(

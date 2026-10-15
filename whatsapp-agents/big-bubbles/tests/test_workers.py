@@ -51,7 +51,7 @@ def test_booking_today_notifies_both_crew_of_that_van_only():
     text = crew_msgs[0][1]
     assert "New job" in text and "नया काम" in text and "Basement" in text
     assert "Super Bubbles" in text and "Trunk cleaning" in text and "डिक्की" in text
-    assert "20 KD" in text
+    assert "20 KD" in text and "Hawally | حولي" in text
 
 
 def test_worker_commands_reply_bilingual_and_send_next():

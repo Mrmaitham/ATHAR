@@ -43,6 +43,10 @@ def test_area_lookup_variants():
     assert biz.find_area("صباح الاحمد")["zone"] == biz.FAR_ZONE
     assert "suggestions" in biz.find_area("مدينة وهمية")
     assert biz.find_area("الجهرا")["zone"] == biz.FAR_ZONE
+    assert biz.find_area("Salmiya") == {"area": "السالمية", "zone": 2}
+    assert biz.find_area("salmiyah")["zone"] == 2 and biz.find_area("Fahaheel")["zone"] == 5
+    assert biz.find_area("Mangaff")["area"] == "المنقف"          # خطأ إملائي بسيط
+    assert biz.area_en("جليب الشيوخ") == "Jleeb Al-Shuyoukh"
 
 
 def test_parse_helpers():
