@@ -22,6 +22,17 @@ New episodes every Friday. Subscribe to The Little Wonder Show for more gentle s
 
 **Settings:** Made for Kids = ON · Category: Education · Language: English · Publish: Fri 16 Oct, 9:00 AM (scheduled after approval)
 
-**Chapters:**
+**Chapters** (timings from the final cut v7 smooth, 7:50 total):
 0:00 Is it growing yet?
-(rest filled in after final cut timings)
+0:08 Little Wonder Theme Song
+0:41 The Little Seed
+1:43 Planting Time
+2:36 Is It Growing Yet?
+3:34 Mishoo the Gardener
+4:01 Days Go By
+4:53 A Big Surprise!
+5:12 Grandma's Question
+5:59 The Star Chart
+6:28 The Hard Wait
+7:03 Sprouty Wakes Up!
+7:29 Good Things Grow When We Wait
