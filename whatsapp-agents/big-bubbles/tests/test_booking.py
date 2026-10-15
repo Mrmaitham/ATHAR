@@ -3,7 +3,7 @@ from datetime import date, datetime, timedelta
 import pytest
 
 import business as biz
-from booking import KW, BookingError, Store, parse_date, parse_slot
+from booking import KW, BookingError, Store, now_kw, parse_date, parse_slot
 
 DAY = date(2026, 10, 20)
 NOW = datetime(2026, 10, 19, 12, 0, tzinfo=KW)
@@ -150,3 +150,15 @@ def test_reminders_window(store):
 
 def test_too_many_cars(store):
     assert store.availability(DAY, "حولي", [LIGHT] * 5, NOW)["reason"] == "too_many_cars_handoff"
+
+
+def test_add_addons_after_booking(store):
+    day = now_kw().date() + timedelta(days=1)
+    cars = [{"vehicle": "jeep", "package": "super"}, {"vehicle": "saloon", "package": "super_top"}]
+    b = store.create("965500", "علي", "السالمية", day, "10:30", cars)
+    out = store.add_addons(b["booking_id"], "965500", ["freshener", "tissues"], [1])
+    assert out["price"]["total"] == 20 + 1 + 0.25 + 20
+    out = store.add_addons(b["booking_id"], "965500", ["freshener"])          # مكرر + هدية للسيارة 2
+    assert out["price"]["total"] == 41.25
+    with pytest.raises(BookingError):
+        store.add_addons(b["booking_id"], "965999", ["freshener"])            # مو حجزه

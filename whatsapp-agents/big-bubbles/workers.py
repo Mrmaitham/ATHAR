@@ -133,7 +133,8 @@ class Crew:
             return
         when = "TODAY | आज" if day == today else "TOMORROW | कल"
         title = {"new": "🆕 New job | नया काम", "cancel": "❌ Cancelled | रद्द",
-                 "moved": "🔁 Time changed | समय बदला"}[event]
+                 "moved": "🔁 Time changed | समय बदला",
+                 "extras": "➕ Extras added | अतिरिक्त सामान जोड़ा"}[event]
         self.to_van(r["van"], f"{title} — {when}\n\n{job_text(r)}")
 
     def send_next(self, van: int) -> None:

@@ -284,6 +284,15 @@ TOOLS = [
                                                           "(مثال: Basement parking, guard allows entry, "
                                                           "son will give keys, power socket available)"}},
          "required": ["name", "area", "date", "time", "cars"]}},
+    {"name": "add_addons_to_booking",
+     "description": "يضيف المعطر و/أو الكلينكس لحجز مثبت (بعد ما يوافق العميل). يعيد حساب الإجمالي. "
+                    "car_numbers فاضية = كل سيارات الحجز.",
+     "input_schema": {"type": "object", "properties": {
+         "booking_id": {"type": "integer"},
+         "addons": {"type": "array", "items": {"type": "string", "enum": list(biz.ADDONS)}, "minItems": 1},
+         "car_numbers": {"type": "array", "items": {"type": "integer"},
+                         "description": "رقم السيارة بالحجز (1، 2…) إذا الإضافة لسيارة معينة"}},
+         "required": ["booking_id", "addons"]}},
     {"name": "my_bookings", "description": "حجوزات العميل الجاية.",
      "input_schema": {"type": "object", "properties": {}}},
     {"name": "cancel_booking", "description": "يلغي حجز للعميل (بعد ما يأكد).",
@@ -372,6 +381,15 @@ def run_tool(phone: str, name: str, args: dict) -> dict:
                        f"الإجمالي: {b['total']}\n{args.get('notes', '')}\n"
                        f"{('📍 ' + loc[0]) if loc else '📍 لسا ما أرسل اللوكيشن'}",
                        [[("✅ وصل الدفع", f"مدفوع {b['booking_id']}")]] if b["prepay_required"] else None)
+            return b
+
+        if name == "add_addons_to_booking":
+            b = store.add_addons(args["booking_id"], phone, args["addons"], args.get("car_numbers"))
+            r = store.get(b["booking_id"])
+            crew.notify(r, "extras")
+            tell_admin(f"➕ *حجز #{b['booking_id']}*: انضاف "
+                       f"{'، '.join(biz.ADDONS[a]['name'] for a in args['addons'])} — الإجمالي الجديد {b['total']}")
+            b.pop("cars", None)
             return b
 
         if name == "my_bookings":

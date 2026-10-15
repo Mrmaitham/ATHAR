@@ -252,6 +252,30 @@ class Store:
             return {"booking_id": booking_id, "late": late, "strikes": strikes,
                     "next_booking_prepaid": strikes >= biz.STRIKES_FOR_PREPAY}
 
+    def add_addons(self, booking_id: int, phone: str, addons: list[str],
+                   car_numbers: list[int] | None = None, now: datetime | None = None) -> dict:
+        """يضيف معطر/كلينكس لحجز قائم (ما يغير الموعد) ويعيد حساب الإجمالي."""
+        now = now or now_kw()
+        with self.lock:
+            r = self.get(booking_id)
+            if not r or r["phone"] != phone or r["status"] not in ("confirmed", "pending_payment") \
+                    or slot_start(date.fromisoformat(r["day"]), r["slot"]) <= now:
+                raise BookingError("booking_not_found")
+            cars = json.loads(r["cars"])
+            targets = car_numbers or list(range(1, len(cars) + 1))
+            for i in targets:
+                if not 1 <= i <= len(cars):
+                    raise BookingError("bad_car_number")
+                car = cars[i - 1]
+                car["addons"] = list(dict.fromkeys((car.get("addons") or []) + list(addons)))
+            price = biz.quote(cars)
+            self.db.execute("UPDATE bookings SET cars = ?, total = ? WHERE id = ?",
+                            (json.dumps(cars, ensure_ascii=False), price["total"], booking_id))
+            self.db.commit()
+            out = self.describe(self.get(booking_id))
+            out["price"] = price
+            return out
+
     def reschedule(self, booking_id: int, phone: str, new_day: date, new_time: str,
                    now: datetime | None = None) -> dict:
         with self.lock:
