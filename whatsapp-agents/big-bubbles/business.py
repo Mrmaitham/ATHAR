@@ -31,10 +31,6 @@ PACKAGES = {
 }
 MOTORCYCLE_PRICE = 5.0
 
-# بوستر كل باقة (يرسلها الموظف للعميل لما يسأل عن الأسعار أو الفرق بين الباقات)
-POSTERS = {"bubbles": "1-basic.jpg", "super": "2-super-bubbles.jpg",
-           "super_top": "3-super-top-bubbles.jpg", "special": "4-special-bubbles.jpg"}
-POSTERS_DIR = BASE / "assets" / "price-posters"
 
 VEHICLES = {"saloon": "صالون", "jeep": "جيب", "large": "سيارة كبيرة (بيك أب/جيب كبير/فان/باص)",
             "motorcycle": "دراجة نارية"}
