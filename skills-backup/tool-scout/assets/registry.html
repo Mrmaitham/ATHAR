@@ -1,0 +1,179 @@
+<title>سجل كشّاف الأدوات</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;600&family=Reem+Kufi:wght@500;700&display=swap">
+<style>
+/* Layout: a scout's field ledger. Profile strip on top, then filter chips, then one row per vetted tool with a verdict stamp. */
+:root {
+  --bg: #f6f7f4; --surface: #ffffff; --fg: #1d2420; --muted: #5f6b64; --line: #dde2dc;
+  --accent: #2f6b4f; --accent-soft: #e3efe8;
+  --yes: #2f7d4f; --yes-bg: #e2f2e8; --cond: #9a6a12; --cond-bg: #f8edd6; --no: #a83a32; --no-bg: #f7e1de;
+  --font-display: "Reem Kufi", "IBM Plex Sans Arabic", "Segoe UI", Tahoma, sans-serif;
+  --font-body: "IBM Plex Sans Arabic", "Segoe UI", Tahoma, sans-serif;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #121614; --surface: #1a201d; --fg: #e6ebe7; --muted: #9aa69f; --line: #2b332f;
+  --accent: #7cc4a0; --accent-soft: #1f3329;
+  --yes: #7fd3a0; --yes-bg: #1d3327; --cond: #e5b65c; --cond-bg: #3a2f17; --no: #f08a80; --no-bg: #3d1f1c; color-scheme: dark } }
+:root[data-theme="dark"] {
+  --bg: #121614; --surface: #1a201d; --fg: #e6ebe7; --muted: #9aa69f; --line: #2b332f;
+  --accent: #7cc4a0; --accent-soft: #1f3329;
+  --yes: #7fd3a0; --yes-bg: #1d3327; --cond: #e5b65c; --cond-bg: #3a2f17; --no: #f08a80; --no-bg: #3d1f1c; color-scheme: dark }
+html { direction: rtl; }
+body { background: var(--bg); color: var(--fg); font-family: var(--font-body); font-size: 15px; line-height: 1.65;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); padding-block: 24px 48px; }
+.wrap { max-width: 860px; margin: 0 auto; display: grid; gap: 22px; }
+h1 { font-family: var(--font-display); font-weight: 700; font-size: 1.9rem; margin: 0; text-wrap: balance; }
+.sub { color: var(--muted); margin: 4px 0 0; }
+.profile { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 16px 18px; display: grid; gap: 10px; }
+.profile h2, .list-head h2 { font-family: var(--font-display); font-weight: 500; font-size: 1.15rem; margin: 0; }
+.facts { display: flex; flex-wrap: wrap; gap: 8px; }
+.fact { background: var(--accent-soft); color: var(--fg); border-radius: 999px; padding: 3px 12px; font-size: 0.88rem; }
+.fact b { color: var(--accent); font-weight: 600; margin-inline-end: 4px; }
+.projects { display: grid; gap: 6px; margin: 0; padding: 0; list-style: none; }
+.projects li { min-width: 0; }
+.projects strong { font-weight: 600; }
+.list-head { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 10px; }
+.chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.chip { font: inherit; font-size: 0.88rem; border: 1px solid var(--line); background: var(--surface); color: var(--fg); border-radius: 999px; padding: 4px 12px; cursor: pointer; }
+.chip[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: var(--bg); }
+.chip:focus-visible, summary:focus-visible, a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.tools { display: grid; gap: 10px; }
+.tool { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 14px 16px; display: grid; gap: 6px; min-width: 0; }
+.tool-top { display: flex; align-items: flex-start; justify-content: space-between; gap: 12px; }
+.tool-name { font-weight: 600; font-size: 1.05rem; margin: 0; overflow-wrap: anywhere; }
+.tool-name a { color: inherit; text-decoration: none; border-bottom: 1px solid var(--line); }
+.stamp { flex: none; font-size: 0.82rem; font-weight: 600; border-radius: 6px; padding: 2px 10px; white-space: nowrap; }
+.stamp.yes { color: var(--yes); background: var(--yes-bg); }
+.stamp.conditional { color: var(--cond); background: var(--cond-bg); }
+.stamp.no { color: var(--no); background: var(--no-bg); }
+.summary { margin: 0; overflow-wrap: anywhere; }
+.meta { display: flex; flex-wrap: wrap; gap: 4px 14px; color: var(--muted); font-size: 0.85rem; }
+.dot { display: inline-block; width: 8px; height: 8px; border-radius: 50%; margin-inline-end: 5px; vertical-align: middle; }
+.dot.green { background: var(--yes); } .dot.yellow { background: var(--cond); } .dot.red { background: var(--no); }
+details { font-size: 0.92rem; }
+summary { cursor: pointer; color: var(--accent); width: fit-content; }
+.fit { margin: 8px 0 0; padding: 0; list-style: none; display: grid; gap: 4px; }
+.cond { color: var(--cond); }
+.empty { background: var(--surface); border: 1px dashed var(--line); border-radius: 12px; padding: 22px; color: var(--muted); text-align: center; }
+.empty strong { color: var(--fg); display: block; margin-bottom: 4px; }
+.num { font-variant-numeric: tabular-nums; }
+</style>
+
+<div class="wrap">
+  <header>
+    <h1>سجل كشّاف الأدوات</h1>
+    <p class="sub">كل أداة فحصها الكشّاف، وحكمها عليك أنت. يتحدّث تلقائيًا بعد كل فحص.</p>
+  </header>
+
+  <section class="profile" aria-labelledby="p-h">
+    <h2 id="p-h">ملفك</h2>
+    <div id="profile-body"><p class="sub">ما فيه ملف تعريف بعد. اطلب من Claude: «افحص لي هالأداة» وبيسألك كم سؤال أول مرة.</p></div>
+  </section>
+
+  <section aria-labelledby="t-h" style="display:grid;gap:12px">
+    <div class="list-head">
+      <h2 id="t-h">الأدوات <span class="num" id="count"></span></h2>
+      <div class="chips" role="group" aria-label="فلترة حسب الحكم">
+        <button class="chip" id="f-all" data-f="all" aria-pressed="true">الكل</button>
+        <button class="chip" id="f-yes" data-f="yes" aria-pressed="false">✅ ركّبها</button>
+        <button class="chip" id="f-cond" data-f="conditional" aria-pressed="false">⚠️ بشرط</button>
+        <button class="chip" id="f-no" data-f="no" aria-pressed="false">❌ لا</button>
+      </div>
+    </div>
+    <div class="tools" id="tools">
+      <div class="empty"><strong>السجل فاضي</strong>أرسل لـ Claude رابط أي أداة واطلب يفحصها، وبتطلع هني.</div>
+    </div>
+  </section>
+</div>
+
+<script>
+const VERDICT = { yes: "✅ ركّبها", conditional: "⚠️ بشرط", no: "❌ لا" };
+const LEVEL = { green: "جيد", yellow: "مقبول", red: "خطر" };
+const DEVICE = { yes: "تشتغل على جهازك", partial: "تشتغل جزئيًا على جهازك", no: "ما تشتغل على جهازك" };
+const STARS = n => (n >= 1 ? "⭐".repeat(Math.min(3, n)) : "❌");
+let tools = [], filter = "all";
+
+function el(tag, attrs = {}, ...kids) {
+  const e = document.createElement(tag);
+  for (const [k, v] of Object.entries(attrs)) {
+    if (k === "class") e.className = v; else if (k === "text") e.textContent = v; else e.setAttribute(k, v);
+  }
+  for (const k of kids) if (k) e.append(k);
+  return e;
+}
+function safeUrl(u) { try { const x = new URL(u); return /^https?:$/.test(x.protocol) ? x.href : null; } catch { return null; } }
+function fmtDate(d) { if (!d) return ""; try { return new Date(d).toLocaleDateString("ar", { year: "numeric", month: "short", day: "numeric" }); } catch { return String(d); } }
+
+function renderProfile(p, projects) {
+  const box = document.getElementById("profile-body");
+  if (!p && !projects.length) return;
+  box.replaceChildren();
+  if (p) {
+    const facts = el("div", { class: "facts" });
+    [["الشغل", p.work], ["الجهاز", p.device], ["الخطة", p.claude_plan], ["الميزانية", p.budget], ["المستوى التقني", p.tech_level]]
+      .filter(([, v]) => v).forEach(([k, v]) => facts.append(el("span", { class: "fact" }, el("b", { text: k }), String(v))));
+    box.append(facts);
+    if (Array.isArray(p.existing_tools) && p.existing_tools.length)
+      box.append(el("p", { class: "sub", text: "أدواتك الحالية: " + p.existing_tools.join("، ") }));
+  }
+  if (projects.length) {
+    const ul = el("ul", { class: "projects" });
+    projects.forEach(pr => ul.append(el("li", {}, el("strong", { text: pr.name || pr.id }), pr.description ? " — " + pr.description : "")));
+    box.append(ul);
+  }
+}
+
+function renderTools() {
+  const box = document.getElementById("tools");
+  const list = tools.filter(t => filter === "all" || t.verdict === filter)
+    .sort((a, b) => String(b.vetted_at || "").localeCompare(String(a.vetted_at || "")));
+  document.getElementById("count").textContent = tools.length ? "(" + tools.length + ")" : "";
+  if (!tools.length) return;
+  box.replaceChildren();
+  if (!list.length) { box.append(el("div", { class: "empty", text: "ما فيه أدوات بهالحكم." })); return; }
+  for (const t of list) {
+    const url = safeUrl(t.url);
+    const name = url ? el("a", { href: url, target: "_blank", rel: "noopener" }, t.name || t.id) : (t.name || t.id);
+    const card = el("article", { class: "tool" },
+      el("div", { class: "tool-top" },
+        el("h3", { class: "tool-name" }, name),
+        el("span", { class: "stamp " + (t.verdict || ""), text: VERDICT[t.verdict] || "—" })),
+      t.summary ? el("p", { class: "summary", text: t.summary }) : null,
+      t.verdict === "conditional" && t.condition ? el("p", { class: "summary cond", text: "الشرط: " + t.condition }) : null);
+    const meta = el("div", { class: "meta" });
+    if (t.quality) meta.append(el("span", {}, el("span", { class: "dot " + t.quality }), "الجودة: " + (LEVEL[t.quality] || t.quality)));
+    if (t.security) meta.append(el("span", {}, el("span", { class: "dot " + t.security }), "الأمان: " + (LEVEL[t.security] || t.security)));
+    if (t.device_ok) meta.append(el("span", { text: DEVICE[t.device_ok] || t.device_ok }));
+    if (t.cost) meta.append(el("span", { text: "التكلفة: " + t.cost }));
+    if (t.vetted_at) meta.append(el("span", { class: "num", text: "انفحصت: " + fmtDate(t.vetted_at) }));
+    card.append(meta);
+    const extra = [];
+    if (Array.isArray(t.fit) && t.fit.length) {
+      const ul = el("ul", { class: "fit" });
+      t.fit.forEach(f => ul.append(el("li", {}, el("strong", { text: (f.project || "") + ": " }), STARS(Number(f.score) || 0) + (f.why ? " — " + f.why : ""))));
+      extra.push(ul);
+    }
+    if (t.quality_note) extra.push(el("p", { class: "summary", text: "الجودة: " + t.quality_note }));
+    if (t.security_note) extra.push(el("p", { class: "summary", text: "الأمان: " + t.security_note }));
+    if (t.maker) extra.push(el("p", { class: "summary", text: "الصانع: " + t.maker }));
+    if (t.notes) extra.push(el("p", { class: "summary", text: t.notes }));
+    if (extra.length) card.append(el("details", {}, el("summary", { text: "التفاصيل" }), ...extra));
+    box.append(card);
+  }
+}
+
+document.querySelectorAll(".chip").forEach(b => b.addEventListener("click", () => {
+  filter = b.dataset.f;
+  document.querySelectorAll(".chip").forEach(c => c.setAttribute("aria-pressed", String(c === b)));
+  renderTools();
+}));
+
+(async () => {
+  const db = await window.claude?.use?.("db");
+  if (!db) return;
+  let profile = null, projects = [];
+  db.doc("profile/main").onSnapshot(s => { profile = s.exists ? s.data() : null; renderProfile(profile, projects); });
+  db.collection("projects").onSnapshot(s => { projects = s.docs.map(d => ({ id: d.id, ...d.data() })); renderProfile(profile, projects); });
+  db.collection("tools").onSnapshot(s => { tools = s.docs.map(d => ({ id: d.id, ...d.data() })); renderTools(); });
+})();
+</script>
