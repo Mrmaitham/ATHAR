@@ -134,6 +134,11 @@ def test_send_package_posters_failure_falls_back_to_text():
     assert not r["ok"]
 
 
+def test_admin_alert_does_not_repeat_vehicle_label():
+    assert app._car_text([{"vehicle": "saloon", "package": "bubbles", "description": "صالون"}]) == "صالون ببلز"
+    assert app._car_text([{"vehicle": "jeep", "package": "super", "description": "كامري بيضا"}]) == "جيب كامري بيضا سوبر ببلز"
+
+
 def test_posters_not_resent_unless_asked():
     posters = []
     app.SEND_POSTER = lambda to, path, caption: posters.append(path.name)

@@ -327,7 +327,11 @@ def _car_text(cars: list[dict]) -> str:
     out = []
     for c in cars:
         pkg = biz.PACKAGES.get(c.get("package"), {}).get("name", "")
-        out.append(" ".join(x for x in [biz.VEHICLES.get(c.get("vehicle"), ""), c.get("description", ""), pkg] if x))
+        label = biz.VEHICLES.get(c.get("vehicle"), "")
+        desc = c.get("description", "")
+        if desc and desc.strip() == label:        # الموديل يكرر نوع السيارة بالوصف
+            desc = ""
+        out.append(" ".join(x for x in [label, desc, pkg] if x))
     return "، ".join(out)
 
 
