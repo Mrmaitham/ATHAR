@@ -62,7 +62,7 @@ def test_full_booking_flow_and_done_command():
     SENT.clear()
     app.handle_message(msg("96588888888", "تم 1", "m2"))                       # العامل خلص
     assert any(to == "96511111111" and "5 د.ك" in t and "تلمع" in t for to, t in SENT)
-    assert SENT[-1] == ("96588888888", "✅ الحجز #1 خلص وانرسل للعميل.")
+    assert SENT[-1][0] == "96588888888" and "काम पूरा" in SENT[-1][1]   # رد العامل بالإنجليزي والهندي
 
 
 def test_handoff_silences_bot_until_admin_returns_it():

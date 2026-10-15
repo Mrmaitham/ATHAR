@@ -27,6 +27,7 @@ from fastapi import BackgroundTasks, FastAPI, HTTPException, Request
 from fastapi.responses import PlainTextResponse
 
 import business as biz
+import workers
 from booking import WEEKDAYS, BookingError, Store, now_kw, parse_date
 
 load_dotenv()
@@ -176,6 +177,7 @@ def wa_mark_read(message_id: str) -> None:
 
 # تقدر تستبدلها (وضع الاختبار يطبع بالطرفية بدل الإرسال)
 SEND = wa_send_text
+crew = workers.Crew(store, WORKERS, lambda to, text: SEND(to, text))
 
 
 def tell_customer(phone: str, text: str) -> None:
@@ -240,7 +242,10 @@ TOOLS = [
          "time": {"type": "string", "description": "الموعد بصيغة HH:MM من المواعيد المتاحة، مثل 10:30 أو 13:30"},
          "cars": CARS,
          "notes": {"type": "string", "description": "تفاصيل المكان: عمارة/سرداب/بيت، رقم البيت أو الشقة، "
-                                                   "مين يسلم المفتاح، توفر كهرباء"}},
+                                                   "مين يسلم المفتاح، توفر كهرباء"},
+         "worker_notes": {"type": "string", "description": "نفس الملاحظات بالإنجليزي البسيط للعمال "
+                                                          "(مثال: Basement parking, guard allows entry, "
+                                                          "son will give keys, power socket available)"}},
          "required": ["name", "area", "date", "time", "cars"]}},
     {"name": "my_bookings", "description": "حجوزات العميل الجاية.",
      "input_schema": {"type": "object", "properties": {}}},
@@ -289,8 +294,10 @@ def run_tool(phone: str, name: str, args: dict) -> dict:
         if name == "create_booking":
             loc = db.execute("SELECT text FROM locations WHERE phone = ?", (phone,)).fetchone()
             b = store.create(phone, args["name"], args["area"], date.fromisoformat(args["date"]),
-                             args["time"], args["cars"], loc[0] if loc else "", args.get("notes", ""))
+                             args["time"], args["cars"], loc[0] if loc else "", args.get("notes", ""),
+                             worker_notes=args.get("worker_notes", ""))
             b.pop("cars", None)
+            crew.notify(store.get(b["booking_id"]), "new")
             if b["prepay_required"]:
                 b["payment_link"] = PAYMENT_LINK or "مو متوفر — قل إن الفريق بيرسل الرابط"
             tell_admin(f"🆕 *حجز #{b['booking_id']}*{' (دفع مسبق ⏳)' if b['prepay_required'] else ''}\n"
@@ -305,6 +312,7 @@ def run_tool(phone: str, name: str, args: dict) -> dict:
 
         if name == "cancel_booking":
             r = store.cancel(args["booking_id"], phone)
+            crew.notify(store.get(args["booking_id"]), "cancel")
             tell_admin(f"❌ العميل +{phone} ألغى الحجز #{args['booking_id']}"
                        f"{' (إلغاء متأخر — ينحسب)' if r['late'] else ''}")
             return r
@@ -312,6 +320,8 @@ def run_tool(phone: str, name: str, args: dict) -> dict:
         if name == "reschedule_booking":
             b = store.reschedule(args["booking_id"], phone, date.fromisoformat(args["date"]), args["time"])
             b.pop("cars", None)
+            crew.notify(store.get(args["booking_id"]), "cancel")
+            crew.notify(store.get(b["booking_id"]), "moved")
             tell_admin(f"🔁 العميل +{phone} أجّل الحجز #{args['booking_id']} → #{b['booking_id']} "
                        f"{b['date']} {b['time']} (سيارة {b['van']})")
             return b
@@ -413,11 +423,10 @@ def agent_reply(phone: str, user_content: str | list, history_text: str, profile
 # ---------------------------------------------------------------- أوامر الفريق
 
 HELP = """🫧 أوامر الفريق:
-*العمال:*
-• تم 12 ← الغسيل خلص (يرسل للعميل المبلغ وطريقة الدفع)
-• تأخير 20 ← تأخير 20 دقيقة على الموعد الجاي (أو: تأخير 20 12)
-• غياب 12 ← العميل مو موجود بعد 10 دقايق (ينحسب عليه)
+*العمال* (بالإنجليزي/الهندي، يوصلهم جدول اليوم 8 الصبح تلقائيًا):
+• done 12 • late 20 • noshow 12 • schedule • tomorrow • next
 *ميثم:*
+• تم 12 / تأخير 20 12 / غياب 12
 • جدول / جدول بكرة / جدول 20/10
 • حجز 20/10 10:30 سيارة 1 السالمية ← حجز من برا الواتساب
 • إلغاء حجز 12 ← إلغاء بدون ما ينحسب على العميل
@@ -428,10 +437,76 @@ HELP = """🫧 أوامر الفريق:
 • /bot on 965xxxxxxxx ← رجّع البوت لعميل محوّل"""
 
 
+def job_done(booking_id: int):
+    b = store.set_status(booking_id, "done")
+    pay = f"\nأو من الرابط: {PAYMENT_LINK}" if PAYMENT_LINK else ""
+    if b["phone"] != "manual":
+        tell_customer(b["phone"], f"سيارتك صارت تلمع ✨\nالمبلغ: *{biz.fmt_kd(b['total'])}*\n"
+                                  f"تقدر تدفع كي نت مع الشباب{pay}\n"
+                                  "ننطرك المرة الجاية، الفقاعة الكبيرة في الخدمة 🫧")
+    return b
+
+
+def job_late(minutes: int, booking_id: int | None, van: int | None):
+    """يرجع (الحجز، هل تبلّغ العميل)."""
+    b = store.get(booking_id) if booking_id else (store.next_for_van(van) if van else None)
+    if not b or minutes < biz.DELAY_NOTIFY_MINUTES or b["phone"] == "manual":
+        return b, False
+    tell_customer(b["phone"], f"نعتذر منك 🙏 فريقنا بيتأخر عليك تقريبًا {minutes} دقيقة "
+                              "بسبب الزحمة، ونوصلك بأقرب وقت بإذن الله 🫧")
+    return b, True
+
+
+def job_noshow(booking_id: int):
+    b = store.set_status(booking_id, "no_show")
+    if b["phone"] != "manual":
+        tell_customer(b["phone"], "حاول فريقنا يوصل لك بموعدك وانتظرك 10 دقايق، بس للأسف ما قدرنا 🙏\n"
+                                  "تقدر تحجز موعد جديد متى ما تبي 🫧")
+        tell_admin(f"🚫 غياب بالحجز #{b['id']} (+{b['phone']}) — صار عنده {store.strikes(b['phone'])} من 2")
+    return b
+
+
+def handle_worker_command(van: int, text: str) -> str:
+    """رد العمال دايمًا بالإنجليزي والهندي."""
+    cmd = workers.parse_command(text)
+    if not cmd:
+        return "❓ Unknown command | कमांड समझ नहीं आई\n\n" + workers.HELP
+    kind, groups = cmd
+    try:
+        if kind == "done":
+            b = job_done(int(groups[0]))
+            crew.send_next(b["van"])
+            return f"✅ #{b['id']} done — customer informed | काम पूरा — ग्राहक को बता दिया"
+        if kind == "late":
+            b, told = job_late(int(groups[0]), int(groups[1]) if groups[1] else None, van)
+            if not b:
+                return "No next job found — send: late 20 <job no.> | अगला काम नहीं मिला"
+            if not told:
+                return "Under 15 min is normal — customer not informed | 15 मिनट से कम — ग्राहक को नहीं बताया"
+            return f"✅ Customer #{b['id']} informed about delay | ग्राहक को देरी बता दी"
+        if kind == "noshow":
+            b = job_noshow(int(groups[0]))
+            crew.send_next(b["van"])
+            return f"✅ #{b['id']} marked no-show | ग्राहक नहीं मिला — दर्ज किया"
+        if kind == "schedule":
+            return workers.schedule_text(store, van, now_kw().date())
+        if kind == "tomorrow":
+            return workers.schedule_text(store, van, now_kw().date() + timedelta(days=1))
+        if kind == "next":
+            r = store.next_for_van(van)
+            return ("➡️ Next job | अगला काम\n\n" + workers.job_text(r)) if r else \
+                "✅ No more jobs today | आज और कोई काम नहीं"
+        return workers.HELP
+    except BookingError:
+        return "⚠️ Job number not found | यह काम नंबर नहीं मिला"
+
+
 def handle_staff_command(sender: str, text: str) -> str | None:
     """يرجع رد للفريق، أو None لو الرسالة مو أمر."""
-    is_admin = sender == ADMIN
-    van_of_sender = WORKERS.get(sender)
+    if sender in WORKERS and sender != ADMIN:
+        return handle_worker_command(WORKERS[sender], text)
+    if sender != ADMIN:
+        return None
     t = text.strip()
     try:
         if t in ("مساعدة", "اوامر", "أوامر", "help"):
@@ -439,37 +514,20 @@ def handle_staff_command(sender: str, text: str) -> str | None:
 
         m = re.fullmatch(r"تم\s*#?(\d+)", t)
         if m:
-            b = store.set_status(int(m.group(1)), "done")
-            pay = f"\nأو من الرابط: {PAYMENT_LINK}" if PAYMENT_LINK else ""
-            if b["phone"] != "manual":
-                tell_customer(b["phone"], f"سيارتك صارت تلمع ✨\nالمبلغ: *{biz.fmt_kd(b['total'])}*\n"
-                                          f"تقدر تدفع كي نت مع الشباب{pay}\n"
-                                          "ننطرك المرة الجاية، الفقاعة الكبيرة في الخدمة 🫧")
+            b = job_done(int(m.group(1)))
+            crew.send_next(b["van"])
             return f"✅ الحجز #{b['id']} خلص وانرسل للعميل."
 
-        m = re.fullmatch(r"تأخير\s+(\d+)(?:\s+#?(\d+))?", t)
+        m = re.fullmatch(r"تأخير\s+(\d+)\s+#?(\d+)", t)
         if m:
-            minutes = int(m.group(1))
-            b = store.get(int(m.group(2))) if m.group(2) else (
-                store.next_for_van(van_of_sender) if van_of_sender else None)
-            if not b:
-                return "ما لقيت الحجز الجاي — اكتب: تأخير 20 <رقم الحجز>"
-            if minutes < biz.DELAY_NOTIFY_MINUTES:
-                return "تأخير أقل من 15 دقيقة طبيعي — ما بلغت العميل."
-            tell_customer(b["phone"], f"نعتذر منك 🙏 فريقنا بيتأخر عليك تقريبًا {minutes} دقيقة "
-                                      "بسبب الزحمة، ونوصلك بأقرب وقت بإذن الله 🫧")
-            return f"✅ بلّغت عميل الحجز #{b['id']} بالتأخير."
+            b, told = job_late(int(m.group(1)), int(m.group(2)), None)
+            return (f"✅ بلّغت عميل الحجز #{b['id']} بالتأخير." if told else
+                    "ما بلغت العميل (التأخير أقل من 15 دقيقة أو الحجز مو موجود).")
 
         m = re.fullmatch(r"غياب\s*#?(\d+)", t)
         if m:
-            b = store.set_status(int(m.group(1)), "no_show")
-            tell_customer(b["phone"], "حاول فريقنا يوصل لك بموعدك وانتظرك 10 دقايق، بس للأسف ما قدرنا 🙏\n"
-                                      "تقدر تحجز موعد جديد متى ما تبي 🫧")
-            tell_admin(f"🚫 غياب بالحجز #{b['id']} (+{b['phone']}) — صار عنده {store.strikes(b['phone'])} من 2")
+            b = job_noshow(int(m.group(1)))
             return f"✅ انحسب غياب للحجز #{b['id']}."
-
-        if not is_admin:
-            return None if not (van_of_sender and t.startswith(("تم", "تأخير", "غياب"))) else HELP
 
         m = re.fullmatch(r"جدول(?:\s+(.+))?", t)
         if m:
@@ -487,17 +545,21 @@ def handle_staff_command(sender: str, text: str) -> str | None:
         m = re.fullmatch(r"حجز\s+(\S+)\s+(\S+)\s+سيارة\s*(\d)\s+(.+)", t)
         if m:
             bid = store.manual_block(parse_date(m.group(1)), m.group(2), int(m.group(3)), m.group(4))
+            crew.notify(store.get(bid), "new")
             return f"✅ انحجز الموعد يدويًا (#{bid})."
 
         m = re.fullmatch(r"إلغاء حجز\s*#?(\d+)", t)
         if m:
             b = store.set_status(int(m.group(1)), "cancelled")
+            crew.notify(b, "cancel")
             return f"✅ انلغى الحجز #{b['id']} بدون ما ينحسب على العميل."
 
         m = re.fullmatch(r"إلغاء سيارة\s*(\d)\s*(.*)", t)
         if m:
             day = parse_date(m.group(2) or "اليوم")
             rows = store.cancel_van_day(int(m.group(1)), day)
+            crew.to_van(int(m.group(1)), f"❌ All jobs on {day:%d/%m} cancelled | "
+                                         f"{day:%d/%m} के सारे काम रद्द — {len(rows)}")
             for r in rows:
                 if r["phone"] != "manual":
                     tell_customer(r["phone"], "نعتذر منك 🙏 صار عندنا ظرف طارئ واضطرينا نلغي موعدك "
@@ -509,6 +571,7 @@ def handle_staff_command(sender: str, text: str) -> str | None:
         if m:
             b = store.set_status(int(m.group(1)), "confirmed")
             set_handoff(b["phone"], False)
+            crew.notify(b, "new")
             tell_customer(b["phone"], f"تم! وصلنا الدفع وثبتت لك الحجز 🫧\n"
                                       f"{b['day']} — {biz.fmt_time(biz.SLOTS[b['slot']])}")
             return f"✅ الحجز #{b['id']} تثبت."
@@ -550,6 +613,9 @@ def handle_message(msg: dict, profile_name: str = "") -> None:
         if answer:
             SEND(phone, answer)
             return
+    if phone in WORKERS and phone != ADMIN:  # الفريق ما يكلم موظف العملاء
+        SEND(phone, workers.HELP)
+        return
 
     user_content: str | list = ""
     history_text = ""
@@ -612,10 +678,18 @@ def send_reminders() -> None:
                                   "إذا ما تقدر، رد علي وأأجله لك 🙏")
 
 
+def send_daily_schedules() -> None:
+    today = now_kw().date().isoformat()
+    if now_kw().hour >= workers.DAILY_HOUR and store.kv_get("daily_sent") != today:
+        store.kv_set("daily_sent", today)
+        crew.daily()
+
+
 def reminder_loop() -> None:
     while True:
         try:
             send_reminders()
+            send_daily_schedules()
         except Exception as e:  # noqa: BLE001 — اللوب لازم ما يوقف
             print("reminder error:", e, file=sys.stderr)
         time.sleep(60)
@@ -666,8 +740,8 @@ def health():
 def chat_cli() -> None:
     global SEND, ADMIN
     ADMIN = ADMIN or "admin"
-    WORKERS.setdefault("worker1", 1)
-    WORKERS.setdefault("worker2", 2)
+    for n, v in (("worker1", 1), ("helper1", 1), ("worker2", 2), ("helper2", 2)):
+        WORKERS.setdefault(n, v)
     customer = f"test{int(time.time())}"
 
     def show(to: str, text: str) -> None:
@@ -677,7 +751,8 @@ def chat_cli() -> None:
     SEND = show
     print(f"وضع الاختبار ({MODEL}). اكتب كعميل. أوامر خاصة:\n"
           "  !ادمن <أمر>     ← رسالة من ميثم (مثل: !ادمن جدول بكرة)\n"
-          "  !عامل1 <أمر>    ← رسالة من عامل سيارة 1 (مثل: !عامل1 تم 1)\n"
+          "  !عامل1 <أمر>    ← رسالة من سواق سيارة 1 (مثل: !عامل1 done 1)\n"
+          "  !صبح            ← إرسال جدول اليوم للفريق الحين\n"
           "  !موقع           ← العميل يرسل لوكيشن\n"
           "  !عميل جديد      ← عميل ثاني\n"
           "  Ctrl+C للخروج\n")
@@ -699,6 +774,9 @@ def chat_cli() -> None:
         elif line == "!موقع":
             msg = {"type": "location", "location": {"latitude": 29.3375, "longitude": 48.0746,
                                                     "address": "السالمية، قطعة 10"}}
+        elif line == "!صبح":
+            crew.daily()
+            continue
         elif line == "!عميل جديد":
             customer = f"test{int(time.time())}"
             print("— عميل جديد —")

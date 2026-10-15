@@ -73,11 +73,24 @@ class Store:
                 reminder_sent INTEGER DEFAULT 0, created_at TEXT);
             CREATE TABLE IF NOT EXISTS far_days (
                 id INTEGER PRIMARY KEY, day TEXT, van INTEGER, areas TEXT);
+            CREATE TABLE IF NOT EXISTS kv (k TEXT PRIMARY KEY, v TEXT);
             CREATE TABLE IF NOT EXISTS waitlist (
                 id INTEGER PRIMARY KEY, phone TEXT, name TEXT, area TEXT, cars TEXT,
                 preferred TEXT, created_at TEXT, notified INTEGER DEFAULT 0);
             """
         )
+        cols = {r[1] for r in self.db.execute("PRAGMA table_info(bookings)")}
+        if "worker_notes" not in cols:  # ترقية قاعدة بيانات قديمة
+            self.db.execute("ALTER TABLE bookings ADD COLUMN worker_notes TEXT DEFAULT ''")
+            self.db.commit()
+
+    def kv_get(self, k: str) -> str | None:
+        row = self.db.execute("SELECT v FROM kv WHERE k = ?", (k,)).fetchone()
+        return row[0] if row else None
+
+    def kv_set(self, k: str, v: str) -> None:
+        self.db.execute("INSERT OR REPLACE INTO kv VALUES (?, ?)", (k, v))
+        self.db.commit()
 
     # ------------------------------------------------------------ قراءة
 
@@ -200,7 +213,8 @@ class Store:
     # ------------------------------------------------------------ الحجز
 
     def create(self, phone: str, name: str, area: str, day: date, time_text: str, cars: list[dict],
-               location: str = "", notes: str = "", now: datetime | None = None) -> dict:
+               location: str = "", notes: str = "", now: datetime | None = None,
+               worker_notes: str = "") -> dict:
         now = now or now_kw()
         with self.lock:
             avail = self.availability(day, area, cars, now)
@@ -214,10 +228,10 @@ class Store:
             status = "pending_payment" if prepay else "confirmed"
             cur = self.db.execute(
                 "INSERT INTO bookings (phone, name, area, zone, van, day, slot, slots, cars, total, "
-                "location, notes, status, created_at) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?)",
+                "location, notes, status, created_at, worker_notes) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)",
                 (phone, name, avail["area"], avail["zone"], van, day.isoformat(), slot,
                  avail["slots_needed"], json.dumps(cars, ensure_ascii=False), avail["price"]["total"],
-                 location, notes, status, now.isoformat()))
+                 location, notes, status, now.isoformat(), worker_notes))
             self.db.commit()
             out = self.describe(self.get(cur.lastrowid))
             out.update(van=van, prepay_required=prepay, price=avail["price"])
@@ -249,7 +263,7 @@ class Store:
             self.db.execute("UPDATE bookings SET status = 'cancelled' WHERE id = ?", (booking_id,))
             try:
                 new = self.create(phone, r["name"], r["area"], new_day, new_time, cars,
-                                  r["location"], r["notes"], now)
+                                  r["location"], r["notes"], now, r["worker_notes"])
             except (BookingError, ValueError):
                 self.db.execute("UPDATE bookings SET status = ? WHERE id = ?", (r["status"], booking_id))
                 self.db.commit()
