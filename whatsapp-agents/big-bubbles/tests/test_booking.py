@@ -22,7 +22,7 @@ def book(store, phone, area, time, cars=None, day=DAY, now=NOW):
 
 def test_pricing_addons_and_free_items():
     q = biz.quote([{"vehicle": "saloon", "package": "bubbles", "addons": ["freshener", "tissues", "trunk"]}])
-    assert q["total"] == 5.75
+    assert q["total"] == 6.75  # ببلز 5 + معطر 1 + كلينكس 0.25 + دبة 0.5
     q = biz.quote([{"vehicle": "large", "package": "super_top", "addons": ["freshener", "tissues", "trunk"]}])
     assert q["total"] == 25.0  # سعر الجيب، والإضافات مجانية
     assert biz.quote([{"vehicle": "jeep", "package": "super", "addons": ["trunk", "freshener"]}])["total"] == 21.0
@@ -165,7 +165,7 @@ def test_add_addons_after_booking(store):
 
 
 def test_double_bubbles_price_and_slot():
-    assert biz.quote([{"vehicle": "saloon", "package": "double"}])["total"] == 5
-    assert biz.quote([{"vehicle": "jeep", "package": "double"}])["total"] == 7
+    assert biz.quote([{"vehicle": "saloon", "package": "double"}])["total"] == 7
+    assert biz.quote([{"vehicle": "jeep", "package": "double"}])["total"] == 9
     assert "دبل ببلز" in biz.price_table_text()
     assert biz.slots_needed([{"vehicle": "saloon", "package": "double"}]) == 1
