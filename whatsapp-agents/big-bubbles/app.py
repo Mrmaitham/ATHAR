@@ -174,6 +174,20 @@ def wa_upload(data: bytes, mime: str) -> str:
     return r.json().get("id", "")
 
 
+_poster_ids: dict[str, tuple[str, float]] = {}   # ملف → (media_id, وقت الرفع)
+
+
+def wa_send_poster(to: str, path: Path, caption: str) -> None:
+    """يرفع البوستر مرة وحدة ويعيد استخدامه (ميديا واتساب تنتهي بعد 30 يوم — نجدد كل أسبوع)."""
+    media_id, ts = _poster_ids.get(path.name, ("", 0.0))
+    if not media_id or time.time() - ts > 7 * 86400:
+        media_id = wa_upload(path.read_bytes(), "image/jpeg")
+        if not media_id:
+            raise httpx.HTTPError("upload failed")
+        _poster_ids[path.name] = (media_id, time.time())
+    wa_send_image(to, media_id, caption)
+
+
 def wa_mark_read(message_id: str) -> None:
     wa_post({"messaging_product": "whatsapp", "status": "read", "message_id": message_id,
              "typing_indicator": {"type": "text"}})
@@ -181,6 +195,7 @@ def wa_mark_read(message_id: str) -> None:
 
 # تقدر تستبدلها (وضع الاختبار يطبع بالطرفية بدل الإرسال)
 SEND = wa_send_text
+SEND_POSTER = wa_send_poster
 crew = workers.Crew(store, WORKERS, lambda to, text: SEND(to, text))
 
 
@@ -269,6 +284,12 @@ TOOLS = [
          "name": {"type": "string"}, "area": {"type": "string"}, "cars": CARS,
          "preferred_days": {"type": "string", "description": "الأيام/الأوقات اللي تناسبه"}},
          "required": ["name", "area", "cars"]}},
+    {"name": "send_package_posters",
+     "description": "يرسل للعميل صور بوسترات الباقات (كل بوستر فيه محتوى الباقة وسعرها للصالون والجيب). "
+                    "استخدمها لما يسأل عن الأسعار بشكل عام أو الفرق بين الباقات. "
+                    "packages فاضية = كل الباقات من الأرخص للأغلى.",
+     "input_schema": {"type": "object", "properties": {
+         "packages": {"type": "array", "items": {"type": "string", "enum": list(biz.POSTERS)}}}}},
     {"name": "handoff_to_human",
      "description": "يحوّل المحادثة لميثم (موظف بشري) ويوقف المساعد الآلي لهالعميل.",
      "input_schema": {"type": "object", "properties": {
@@ -289,6 +310,19 @@ def run_tool(phone: str, name: str, args: dict) -> dict:
     try:
         if name == "get_price":
             return biz.quote(args["cars"])
+
+        if name == "send_package_posters":
+            keys = [k for k in biz.POSTERS if k in (args.get("packages") or biz.POSTERS)]
+            sent = []
+            for k in keys:
+                try:
+                    SEND_POSTER(phone, biz.POSTERS_DIR / biz.POSTERS[k], biz.PACKAGES[k]["name"])
+                    sent.append(biz.PACKAGES[k]["name"])
+                except (httpx.HTTPError, OSError) as e:
+                    print("poster error:", e, file=sys.stderr)
+            if not sent:
+                return {"ok": False, "error": "ما قدرت أرسل الصور — اكتب له الباقات والأسعار نصًا"}
+            return {"ok": True, "sent": sent, "note": "الصور وصلت العميل قبل ردك — لا تكرر كل محتواها نصًا"}
 
         if name == "check_availability":
             result = store.availability(date.fromisoformat(args["date"]), args["area"], args["cars"])
@@ -784,7 +818,7 @@ def health():
 # ---------------------------------------------------------------- اختبار محلي بالطرفية
 
 def chat_cli() -> None:
-    global SEND, ADMIN
+    global SEND, SEND_POSTER, ADMIN
     ADMIN = ADMIN or "admin"
     for n, v in (("worker1", 1), ("helper1", 1), ("worker2", 2), ("helper2", 2)):
         WORKERS.setdefault(n, v)
@@ -795,6 +829,7 @@ def chat_cli() -> None:
         print(f"\n{who}:\n{text}\n")
 
     SEND = show
+    SEND_POSTER = lambda to, path, caption: print(f"\n🖼️ للعميل: [صورة {path.name}] — {caption}\n")
     print(f"وضع الاختبار ({MODEL}). اكتب كعميل. أوامر خاصة:\n"
           "  !ادمن <أمر>     ← رسالة من ميثم (مثل: !ادمن جدول بكرة)\n"
           "  !عامل1 <أمر>    ← رسالة من سواق سيارة 1 (مثل: !عامل1 done 1)\n"

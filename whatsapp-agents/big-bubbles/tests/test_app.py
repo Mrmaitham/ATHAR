@@ -112,3 +112,23 @@ def test_admin_commands_schedule_and_far_day():
     app.handle_message(msg("96599999999", f"يوم بعيد {d} سيارة 2: صباح الأحمد", "a3"))
     assert any(to == "96555555555" and "صباح الأحمد" in t for to, t in SENT)
     assert "تبلّغ 1" in SENT[-1][1]
+
+
+def test_send_package_posters_all_and_selected():
+    posters = []
+    app.SEND_POSTER = lambda to, path, caption: posters.append((to, path.name, caption))
+    r = app.run_tool("96511111111", "send_package_posters", {})
+    assert r["ok"] and [p[1] for p in posters] == ["1-basic.jpg", "2-super-bubbles.jpg",
+                                                   "3-super-top-bubbles.jpg", "4-special-bubbles.jpg"]
+    assert all((app.biz.POSTERS_DIR / p[1]).exists() for p in posters)
+    posters.clear()
+    r = app.run_tool("96511111111", "send_package_posters", {"packages": ["special", "bubbles"]})
+    assert [p[1] for p in posters] == ["1-basic.jpg", "4-special-bubbles.jpg"]
+
+
+def test_send_package_posters_failure_falls_back_to_text():
+    def boom(*a):
+        raise OSError("no file")
+    app.SEND_POSTER = boom
+    r = app.run_tool("96511111111", "send_package_posters", {})
+    assert not r["ok"]
