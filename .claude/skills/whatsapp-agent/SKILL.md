@@ -32,9 +32,11 @@ description: >
 
 - **قناة الواتساب**: WhatsApp Cloud API الرسمي من Meta (مو مكتبات غير رسمية
   زي whatsapp-web.js — تسبب حظر الرقم).
-- **العقل**: Claude API — الموديل الافتراضي `claude-sonnet-5-5` (توازن ممتاز
-  بين الجودة والتكلفة لخدمة العملاء). لو الحجم كبير والأسئلة بسيطة:
-  `claude-haiku-5-5`. لو المحادثات معقدة جدًا: `claude-opus-5-5`.
+- **العقل**: Claude API — الموديل الافتراضي `claude-opus-5-5` (مع `fallbacks: "default"`
+  و effort `medium`). لو العميل يبي تكلفة أقل: `claude-sonnet-5-5` أو `claude-haiku-5-5`
+  عبر `CLAUDE_MODEL` — القرار للعميل.
+- **مثال كامل مبني بهالمهارة**: `whatsapp-agents/big-bubbles/` (حجوزات بمواعيد وزونات،
+  أوامر للعمال، تذكير، فويس، اختبارات).
 - **الكود**: Python + FastAPI — القالب الجاهز في `templates/`.
 
 نفّذ الخطوات بالترتيب. **اعمل QC بنفسك على مخرجات كل خطوة** قبل ما تنتقل
@@ -105,7 +107,9 @@ whatsapp-agents/<اسم-النشاط-بالإنجليزي>/
 ## الخطوة 3 — بناء السيرفر
 
 1. انسخ `templates/app.py` و `templates/requirements.txt` و
-   `templates/.env.example` لفولدر النشاط.
+   `templates/.env.example` لفولدر النشاط. لو النشاط فيه **حجز مواعيد**، ابدأ من مثال
+   `whatsapp-agents/big-bubbles/` (فيه محرك حجوزات جاهز `booking.py`) بدل القالب البسيط.
+   الحسابات (أسعار، مواعيد متاحة) دايمًا بالكود — مو عند Claude.
 2. فعّل/عدّل **الأدوات (Tools)** في `app.py` حسب الصلاحيات من الخطوة 1:
    - `handoff_to_human` — **دائمًا موجودة**.
    - `create_order` / `book_appointment` / `track_order` / `log_complaint` —

@@ -22,7 +22,8 @@ from fastapi.responses import PlainTextResponse
 load_dotenv()
 BASE = Path(__file__).parent
 
-MODEL = os.getenv("CLAUDE_MODEL", "claude-sonnet-5-5")
+MODEL = os.getenv("CLAUDE_MODEL", "claude-opus-5-5")
+EFFORT = os.getenv("CLAUDE_EFFORT", "medium")
 WA_TOKEN = os.getenv("WHATSAPP_TOKEN", "")
 WA_PHONE_ID = os.getenv("WHATSAPP_PHONE_NUMBER_ID", "")
 WA_VERIFY_TOKEN = os.getenv("WHATSAPP_VERIFY_TOKEN", "")
@@ -173,14 +174,20 @@ def agent_reply(phone: str, user_text: str, notify) -> str:
     reply = ""
 
     for _ in range(5):  # حد أقصى لجولات الأدوات
-        resp = claude.messages.create(
+        resp = claude.beta.messages.create(
             model=MODEL,
-            max_tokens=1024,
+            max_tokens=8000,
+            betas=["server-side-fallback-2026-07-01"],
+            fallbacks="default",
+            thinking={"type": "adaptive"},
+            output_config={"effort": EFFORT},
             system=[{"type": "text", "text": SYSTEM_PROMPT,
                      "cache_control": {"type": "ephemeral"}}],
             tools=TOOLS,
             messages=messages,
         )
+        if resp.stop_reason == "refusal":
+            break
         text = "".join(b.text for b in resp.content if b.type == "text").strip()
         if text:
             reply = text
