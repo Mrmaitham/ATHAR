@@ -78,6 +78,7 @@ db.executescript(
     CREATE TABLE IF NOT EXISTS handoffs (phone TEXT PRIMARY KEY, reason TEXT, ts REAL);
     CREATE TABLE IF NOT EXISTS last_media (phone TEXT PRIMARY KEY, kind TEXT, media_id TEXT, ts REAL);
     CREATE TABLE IF NOT EXISTS locations (phone TEXT PRIMARY KEY, text TEXT, ts REAL);
+    CREATE TABLE IF NOT EXISTS posters_sent (phone TEXT, package TEXT, ts REAL, PRIMARY KEY (phone, package));
     """
 )
 
@@ -188,6 +189,19 @@ def wa_send_poster(to: str, path: Path, caption: str) -> None:
     wa_send_image(to, media_id, caption)
 
 
+STICKER = BASE / "assets" / "sticker" / "welcome.webp"
+
+
+def wa_send_sticker(to: str) -> None:
+    media_id, ts = _poster_ids.get(STICKER.name, ("", 0.0))
+    if not media_id or time.time() - ts > 7 * 86400:
+        media_id = wa_upload(STICKER.read_bytes(), "image/webp")
+        if not media_id:
+            raise httpx.HTTPError("upload failed")
+        _poster_ids[STICKER.name] = (media_id, time.time())
+    wa_post({"messaging_product": "whatsapp", "to": to, "type": "sticker", "sticker": {"id": media_id}})
+
+
 def wa_mark_read(message_id: str) -> None:
     wa_post({"messaging_product": "whatsapp", "status": "read", "message_id": message_id,
              "typing_indicator": {"type": "text"}})
@@ -196,6 +210,7 @@ def wa_mark_read(message_id: str) -> None:
 # تقدر تستبدلها (وضع الاختبار يطبع بالطرفية بدل الإرسال)
 SEND = wa_send_text
 SEND_POSTER = wa_send_poster
+SEND_STICKER = wa_send_sticker
 crew = workers.Crew(store, WORKERS, lambda to, text: SEND(to, text))
 
 
@@ -289,7 +304,8 @@ TOOLS = [
                     "استخدمها لما يسأل عن الأسعار بشكل عام أو الفرق بين الباقات. "
                     "packages فاضية = كل الباقات من الأرخص للأغلى.",
      "input_schema": {"type": "object", "properties": {
-         "packages": {"type": "array", "items": {"type": "string", "enum": list(biz.POSTERS)}}}}},
+         "packages": {"type": "array", "items": {"type": "string", "enum": list(biz.POSTERS)}},
+         "resend": {"type": "boolean", "description": "true فقط إذا العميل طلب الصور مرة ثانية بنفسه"}}}},
     {"name": "handoff_to_human",
      "description": "يحوّل المحادثة لميثم (موظف بشري) ويوقف المساعد الآلي لهالعميل.",
      "input_schema": {"type": "object", "properties": {
@@ -313,11 +329,20 @@ def run_tool(phone: str, name: str, args: dict) -> dict:
 
         if name == "send_package_posters":
             keys = [k for k in biz.POSTERS if k in (args.get("packages") or biz.POSTERS)]
+            already = posters_sent(phone)
+            if not args.get("resend"):
+                skipped = [biz.PACKAGES[k]["name"] for k in keys if k in already]
+                keys = [k for k in keys if k not in already]
+                if not keys:
+                    return {"ok": True, "sent": [], "already_sent": skipped,
+                            "note": "هالبوسترات وصلت العميل قبل — جاوبه نص بدون صور"}
             sent = []
             for k in keys:
                 try:
                     SEND_POSTER(phone, biz.POSTERS_DIR / biz.POSTERS[k], biz.PACKAGES[k]["name"])
                     sent.append(biz.PACKAGES[k]["name"])
+                    db.execute("INSERT OR REPLACE INTO posters_sent VALUES (?, ?, ?)", (phone, k, time.time()))
+                    db.commit()
                 except (httpx.HTTPError, OSError) as e:
                     print("poster error:", e, file=sys.stderr)
             if not sent:
@@ -411,6 +436,13 @@ def forward_last_media(phone: str) -> None:
 
 # ---------------------------------------------------------------- عقل الموظف (Claude)
 
+def posters_sent(phone: str) -> set[str]:
+    """البوسترات اللي وصلت العميل آخر 3 أيام."""
+    rows = db.execute("SELECT package FROM posters_sent WHERE phone = ? AND ts > ?",
+                      (phone, time.time() - 3 * 86400)).fetchall()
+    return {r[0] for r in rows}
+
+
 def turn_context(phone: str, profile_name: str, is_new: bool) -> str:
     n = now_kw()
     ctx = f"[الوقت الآن: {WEEKDAYS[n.weekday()]} {n:%Y-%m-%d %H:%M} بتوقيت الكويت"
@@ -420,11 +452,18 @@ def turn_context(phone: str, profile_name: str, is_new: bool) -> str:
         ctx += " • عميل جديد: أول رسالة منه"
     if store.strikes(phone) >= biz.STRIKES_FOR_PREPAY:
         ctx += " • هالعميل حجوزاته بدفع مسبق"
+    if sent := posters_sent(phone):
+        ctx += " • بوسترات وصلته قبل: " + "، ".join(biz.PACKAGES[k]["name"] for k in biz.POSTERS if k in sent)
     return ctx + "]\n"
 
 
 def agent_reply(phone: str, user_content: str | list, history_text: str, profile_name: str = "") -> str:
     is_new = not load_history(phone)
+    if is_new:
+        try:
+            SEND_STICKER(phone)          # ستيكر الفقاعة الكبيرة قبل الترحيب
+        except (httpx.HTTPError, OSError) as e:
+            print("sticker error:", e, file=sys.stderr)
     save_message(phone, "user", history_text)
     messages = load_history(phone)
     ctx = turn_context(phone, profile_name, is_new)
@@ -818,7 +857,7 @@ def health():
 # ---------------------------------------------------------------- اختبار محلي بالطرفية
 
 def chat_cli() -> None:
-    global SEND, SEND_POSTER, ADMIN
+    global SEND, SEND_POSTER, SEND_STICKER, ADMIN
     ADMIN = ADMIN or "admin"
     for n, v in (("worker1", 1), ("helper1", 1), ("worker2", 2), ("helper2", 2)):
         WORKERS.setdefault(n, v)
@@ -829,6 +868,7 @@ def chat_cli() -> None:
         print(f"\n{who}:\n{text}\n")
 
     SEND = show
+    SEND_STICKER = lambda to: print("\n🫧 للعميل: [ستيكر الفقاعة الكبيرة]\n")
     SEND_POSTER = lambda to, path, caption: print(f"\n🖼️ للعميل: [صورة {path.name}] — {caption}\n")
     print(f"وضع الاختبار ({MODEL}). اكتب كعميل. أوامر خاصة:\n"
           "  !ادمن <أمر>     ← رسالة من ميثم (مثل: !ادمن جدول بكرة)\n"

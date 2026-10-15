@@ -122,7 +122,7 @@ def test_send_package_posters_all_and_selected():
                                                    "3-super-top-bubbles.jpg", "4-special-bubbles.jpg"]
     assert all((app.biz.POSTERS_DIR / p[1]).exists() for p in posters)
     posters.clear()
-    r = app.run_tool("96511111111", "send_package_posters", {"packages": ["special", "bubbles"]})
+    r = app.run_tool("96511111111", "send_package_posters", {"packages": ["special", "bubbles"], "resend": True})
     assert [p[1] for p in posters] == ["1-basic.jpg", "4-special-bubbles.jpg"]
 
 
@@ -130,5 +130,28 @@ def test_send_package_posters_failure_falls_back_to_text():
     def boom(*a):
         raise OSError("no file")
     app.SEND_POSTER = boom
-    r = app.run_tool("96511111111", "send_package_posters", {})
+    r = app.run_tool("96511111112", "send_package_posters", {})
     assert not r["ok"]
+
+
+def test_posters_not_resent_unless_asked():
+    posters = []
+    app.SEND_POSTER = lambda to, path, caption: posters.append(path.name)
+    phone = "96512121212"
+    app.run_tool(phone, "send_package_posters", {})
+    posters.clear()
+    r = app.run_tool(phone, "send_package_posters", {"packages": ["super"]})
+    assert posters == [] and r["already_sent"] == ["سوبر ببلز"]
+    assert "بوسترات وصلته قبل" in app.turn_context(phone, "", False)
+    app.run_tool(phone, "send_package_posters", {"packages": ["super"], "resend": True})
+    assert posters == ["2-super-bubbles.jpg"]
+
+
+def test_sticker_sent_once_for_new_customer():
+    stickers = []
+    app.SEND_STICKER = lambda to: stickers.append(to)
+    fake_claude(["هلا", "تمام"])
+    app.agent_reply("96513131313", "هلا", "هلا")
+    app.agent_reply("96513131313", "شكرا", "شكرا")
+    assert stickers == ["96513131313"]
+    assert app.STICKER.exists() and app.STICKER.stat().st_size < 100_000
