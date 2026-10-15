@@ -14,7 +14,10 @@ Talk to the user in their language and dialect (default: Gulf Arabic, simple wor
 ```
 0. Load profile + registry        →  references/memory.md
 1. Understand the request         (a link? a need? a batch?)
-2. Search (only if they described a need)  →  references/sources.md
+2. If they described a need:
+   2a. Interview them like a client     →  references/intake.md
+   2b. Search & vet                     →  references/sources.md
+   2c. Present 3 options, they choose   →  references/report-template.md
 3. Fetch & read the real thing
 4. Vet: quality, security, fit    →  references/rubric.md
 5. Report + verdict               →  references/report-template.md
@@ -42,9 +45,15 @@ Strip tracking parameters from links before fetching (`fbclid`, `utm_*`, `si`, `
 
 When the user sends several links at once, vet them all, then finish with one comparison table (see the template).
 
-### 2. Search (when they describe a need instead of sending a link)
+### 2. Search: consult like an advisor (when they describe a need instead of sending a link)
 
-Follow `references/sources.md`. Produce a shortlist of 5–10 candidates, filter quickly (alive? actually a Claude tool? license?), then deep-vet only the top 2–3. Say briefly how you searched so the user knows the coverage — search engines index new repos with a delay, so very fresh tools can be missed.
+When the user describes a need ("محتاج مهارة تساعدني في بناء المواقع"), work the way a good consultant treats a client: listen first, then offer options, and let the client choose. Three stages, in this order:
+
+**2a. Interview.** Before searching, ask the questions that actually change which tool is right. Keep it to one message with 3–5 short questions, and skip anything the profile already answers. Read `references/intake.md` for question sets by domain (websites, video, design, writing, data, automation) and how to build one for a new domain. Offer quick answer choices so the user can reply in a few words. If the user says "دوّر بس" or wants you to skip the questions, proceed with sensible assumptions and state them at the top of the results.
+
+**2b. Search and vet.** Follow `references/sources.md`. Build a shortlist of 5–10 candidates and filter quickly (alive? actually a Claude tool? license?). Deep-vet the strongest, and include what the user already has (their connectors, installed skills, Claude's built-in abilities) as candidates too: sometimes the best option is already installed. Say briefly how you searched; search engines index new repos with a delay.
+
+**2c. Present exactly 3 options, then stop and let them decide.** Three is enough to compare and few enough to decide. Make them genuinely different, not three versions of the same thing. A good spread is usually: the simplest option that works (often something they already have), the strongest dedicated tool, and a different approach or budget level. If fewer than 3 survive vetting, show what survived and say why the rest failed; don't pad the list with weak picks. Use the "3 options" format in `references/report-template.md`, end with your recommendation and a direct question ("أي واحد تختار؟"), and **don't install anything or present any option as final until they choose**. When they choose, give step-by-step setup for that option on their device, and record the choice in the registry (`chosen: true` on that tool, plus the need it was chosen for).
 
 ### 3. Fetch and read the real thing
 

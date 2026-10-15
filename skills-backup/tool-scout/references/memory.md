@@ -6,7 +6,7 @@ Sessions are wiped when they end, so anything the skill learns has to live somew
 |---|---|---|
 | `profile` | `main` | Who the user is: `name`, `work`, `device`, `claude_plan`, `budget`, `tech_level`, `existing_tools` (array), `notes`, `updated` (ISO date) |
 | `projects` | slug (e.g. `by-athar`) | One per project: `name`, `description`, `format`, `audience`, `notes` |
-| `tools` | slug (e.g. `claude-video-vision`) | One per vetted tool: `name`, `url`, `kind`, `maker`, `summary`, `verdict` (`yes` / `conditional` / `no`), `condition`, `quality` / `security` (`green` / `yellow` / `red`), `quality_note`, `security_note`, `fit` (array of `{project, score 0-3, why}`), `device_ok` (`yes` / `partial` / `no`), `cost`, `upstream_updated` (date of the tool's last commit), `vetted_at`, `notes` |
+| `tools` | slug (e.g. `claude-video-vision`) | One per vetted tool: `name`, `url`, `kind`, `maker`, `summary`, `verdict` (`yes` / `conditional` / `no`), `condition`, `quality` / `security` (`green` / `yellow` / `red`), `quality_note`, `security_note`, `fit` (array of `{project, score 0-3, why}`), `device_ok` (`yes` / `partial` / `no`), `cost`, `upstream_updated` (date of the tool's last commit), `vetted_at`, `notes`, and when the user picks it from a 3-option search: `chosen` (true), `chosen_for` (the need) |
 
 ## Step 0: load memory (at the start of every run)
 

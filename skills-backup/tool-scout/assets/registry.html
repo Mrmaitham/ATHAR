@@ -46,6 +46,7 @@ h1 { font-family: var(--font-display); font-weight: 700; font-size: 1.9rem; marg
 .stamp.yes { color: var(--yes); background: var(--yes-bg); }
 .stamp.conditional { color: var(--cond); background: var(--cond-bg); }
 .stamp.no { color: var(--no); background: var(--no-bg); }
+.chosen { font-size: 0.82rem; font-weight: 600; color: var(--accent); background: var(--accent-soft); border-radius: 6px; padding: 2px 10px; width: fit-content; }
 .summary { margin: 0; overflow-wrap: anywhere; }
 .meta { display: flex; flex-wrap: wrap; gap: 4px 14px; color: var(--muted); font-size: 0.85rem; }
 .dot { display: inline-block; width: 8px; height: 8px; border-radius: 50%; margin-inline-end: 5px; vertical-align: middle; }
@@ -138,6 +139,7 @@ function renderTools() {
       el("div", { class: "tool-top" },
         el("h3", { class: "tool-name" }, name),
         el("span", { class: "stamp " + (t.verdict || ""), text: VERDICT[t.verdict] || "—" })),
+      t.chosen ? el("span", { class: "chosen", text: "★ اخترتها" + (t.chosen_for ? " لـ " + t.chosen_for : "") }) : null,
       t.summary ? el("p", { class: "summary", text: t.summary }) : null,
       t.verdict === "conditional" && t.condition ? el("p", { class: "summary cond", text: "الشرط: " + t.condition }) : null);
     const meta = el("div", { class: "meta" });
