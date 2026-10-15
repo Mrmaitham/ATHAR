@@ -55,3 +55,33 @@
 - Auto1: "Sonax Express Car Wash" بـ 10 د.ك.
 - مغاسل متنقلة أخرى: تبدأ من 8 د.ك.
 - Big Bubbles: غسلة ببلز 4–5 د.ك ← **أرخص بوضوح** (تحتاج مقارنة نطاق الخدمة).
+
+## 4) MA-FRA Kuwait — الكتالوج الكامل (سكرين شوت من ميثم 2026-10-15) + الطقم المرشّح
+هاتف المتجر: 666-157-81 — كلها أحجام تجزئة (500–750 مل / 1 لتر).
+
+### الطقم الأساسي المرشّح (حبة من كل وحدة ≈ 33 د.ك)
+| الاستخدام / الباقة | المنتج | السعر |
+|---|---|---|
+| طبقة الواكس (دبل/سوبر/توب) | Last Touch Express liquid wax | 3.00 |
+| مسحة سريعة / غبار خفيف | Fast Cleaner Quick Detailer | 3.00 |
+| منظف متعدد (داخلية، أبواب، فتحات تكييف) | Split | 2.50 |
+| الكشنات والأرضيات (سوبر توب) | Pulimax Purifying for Interiors | 3.00 |
+| تلميع التابلوه | 3in1 Treatment Glossy Dashboard | 3.00 |
+| تلميع الربلات والبلاستيك الخارجي | 3in1 Plastic Treatment | 3.00 |
+| تلميع الإطارات | Nouveau Noir | 2.00 |
+| تنظيف الرنقات والإطارات | Rims and Tires Cleaner | 3.00 |
+| الزجاج | Glass Cleaner Car | 1.50 |
+| غسيل الماكينة | HP 12 Universal Degreaser | 3.00 |
+| القوارب والوسخ الثقيل | Shampoo Power | 3.00 |
+| فوط مايكروفايبر | Double Face Cloths | 2.00 |
+| بقع الداخلية والعتبات | Wendy magic sponge | 1.00 |
+
+### سبشل ببلز (بوليش)
+| Polish Corrector (Heavy Cut Compound) | 10.00 |
+| Polish Illumina (Ultra Finish) | 7.00 |
+
+### اختياري / خدمات إضافية
+Odorbact Out (تعقيم التكييف) 5.00 · Deca Flash (قار وصمغ) 2.50 · Clay Soft 12.00 · Regénera Headlights Kit 6.00 · Hippy (معطر) 1.25
+
+### ناقص بالكتالوج
+- **ما فيه منتج غسيل بدون ماء مخصص** (Fast Cleaner مسحة سريعة للغبار الخفيف بس).
