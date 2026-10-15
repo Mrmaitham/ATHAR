@@ -29,7 +29,7 @@ body{background:var(--blue);position:relative}
 .logo{position:absolute;top:20px;left:50%;transform:translateX(-50%);width:190px}
 .name{position:absolute;top:165px;width:100%;text-align:center;color:var(--gold);font-size:130px;font-weight:900;
   text-shadow:0 8px 0 var(--navy)}
-.en{position:absolute;top:330px;width:100%;text-align:center;color:var(--white);font-size:38px;font-weight:700;letter-spacing:4px}
+.en{position:absolute;top:372px;width:100%;text-align:center;color:var(--white);font-size:38px;font-weight:700;letter-spacing:4px}
 .mascot{position:absolute;left:50%;transform:translateX(-50%);top:440px;width:460px}
 .prices{position:absolute;top:900px;left:70px;right:70px;display:flex;gap:24px}
 .pb{flex:1;text-align:center;border-radius:36px;padding:20px 0;background:var(--navy);color:var(--white);box-shadow:0 10px 0 #05112a}
@@ -104,7 +104,7 @@ def build(d):
 <div class="pb j"><small>جيب</small><strong>{j}</strong><em>د.ك</em></div></div>
 <div class="chips">{chips}</div>
 <div class="foot"><b class="ltr">{phone}</b><span class="ltr">{ig}</span></div>''')
-    rows = "".join(f'<div class="inc"><div>{i}</div></div>' for i in d["items"])
+    rows = "".join(f"<div>{i}</div>" for i in d["items"])
     b = page(B, f'''<div class="top"><div class="tt"><b>{ar}</b>{d["note"]}</div><img src="{LOGO}"></div>
 <div class="ticket"><div class="name">{ar}</div><div class="en">{en}</div><div class="line"></div>
 <div class="row"><span>صالون</span><strong>{s} د.ك</strong></div>
