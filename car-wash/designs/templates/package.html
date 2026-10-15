@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="ar" dir="rtl"><head><meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@600;700;800;900&family=Poppins:wght@600;700;800&display=block" rel="stylesheet">
+<style>
+:root{--navy:#0d2a8a;--blue:#1640b8;--sky:#3fa9f5;--yellow:#ffd21f;--gold:#ffb800;--white:#fff}
+*{margin:0;padding:0;box-sizing:border-box}
+body{width:1080px;height:1080px;overflow:hidden;font-family:'Cairo',sans-serif;color:#fff;
+ background:radial-gradient(circle at 75% 35%,#2a63e6 0%,#1640b8 35%,#0b2477 75%,#071a5c 100%);position:relative}
+.bub{position:absolute;border-radius:50%;background:radial-gradient(circle at 30% 30%,rgba(255,255,255,.9),rgba(255,255,255,.15) 35%,rgba(160,210,255,.12) 70%,rgba(255,255,255,.35) 100%);box-shadow:inset 0 0 8px rgba(255,255,255,.5)}
+.logo{position:absolute;left:28px;top:40px;width:540px;filter:drop-shadow(0 18px 30px rgba(0,0,0,.35))}
+.panel{position:absolute;right:40px;top:44px;width:470px}
+.title{font-weight:900;font-size:56px;line-height:1.1;color:var(--yellow);text-shadow:0 4px 0 #b37800,0 8px 18px rgba(0,0,0,.4)}
+.en{font-family:'Poppins';font-weight:700;font-size:24px;letter-spacing:.5px;direction:ltr;text-align:right;margin-top:6px}
+.tier{display:flex;gap:8px;margin:10px 0 2px;align-items:center;font-size:20px;font-weight:700;color:#cfe3ff}
+.tier i{width:22px;height:22px;border-radius:50%;border:2px solid var(--yellow);display:inline-block}
+.tier i.on{background:var(--yellow)}
+.card{margin-top:16px;background:rgba(5,20,80,.55);border:2px solid rgba(255,255,255,.35);border-radius:22px;padding:16px 22px}
+.card ul{list-style:none}
+.ar li{font-size:22px;font-weight:700;line-height:1.48;display:flex;gap:12px;align-items:center}
+.ar li:before,.en-list li:before{content:"";width:11px;height:11px;border-radius:50%;background:var(--yellow);flex:none}
+.sep{height:2px;background:linear-gradient(90deg,transparent,var(--yellow),transparent);margin:10px 0}
+.en-list{direction:ltr}
+.en-list li{font-family:'Poppins';font-weight:600;font-size:16px;line-height:1.5;display:flex;gap:10px;align-items:center;color:#e8f0ff}
+.mobile{position:absolute;left:40px;top:610px;width:520px;text-align:center;background:var(--yellow);color:var(--navy);
+ font-weight:900;font-size:30px;border-radius:40px;padding:10px 0;box-shadow:0 8px 20px rgba(0,0,0,.35)}
+.prices{position:absolute;left:40px;right:40px;top:716px;height:220px;background:#fff;border-radius:28px;display:flex;box-shadow:0 12px 30px rgba(0,0,0,.35);overflow:hidden}
+.col{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px}
+.col+.col{border-right:3px dashed #c9d6f5}
+.lab{display:flex;align-items:center;gap:16px;color:var(--navy)}
+.lab b{font-size:34px;font-weight:900}
+.lab span{font-family:'Poppins';font-size:20px;font-weight:700;color:#5b6fa8;display:block;direction:ltr;text-align:right;margin-top:-6px}
+.lab svg{width:120px;height:52px}
+.price{font-family:'Poppins';font-weight:800;font-size:72px;color:var(--navy);direction:ltr;line-height:1.1}
+.price small{font-size:34px;color:var(--gold);margin-left:8px}
+.foot{position:absolute;bottom:0;left:0;right:0;height:120px;background:rgba(3,14,60,.85);display:flex;align-items:center;justify-content:center;gap:60px;border-top:3px solid var(--yellow)}
+.foot div{display:flex;align-items:center;gap:14px;font-family:'Poppins';font-weight:700;font-size:36px;direction:ltr}
+.foot svg{width:50px;height:50px}
+</style></head><body>
+<div class="bub" style="width:60px;height:60px;left:520px;top:20px"></div>
+<div class="bub" style="width:28px;height:28px;left:560px;top:95px"></div>
+<div class="bub" style="width:46px;height:46px;left:20px;top:560px"></div>
+
+
+<img class="logo" src="../../brand/logo/big-bubbles-logo-transparent.png">
+
+<div class="panel">
+  <div class="title">{{AR_NAME}}</div>
+  <div class="en">{{EN_NAME}}</div>
+  <div class="tier">{{TIER}}</div>
+  <div class="card">
+    <ul class="ar">{{AR_ITEMS}}</ul>
+    <div class="sep"></div>
+    <ul class="en-list">{{EN_ITEMS}}</ul>
+  </div>
+</div>
+
+<div class="mobile">🚐 نوصل لك وين ما كنت</div>
+
+<div class="prices">
+  <div class="col">
+    <div class="lab"><div><b>صالون</b><span>Saloon</span></div>
+      <svg viewBox="0 0 120 52"><path fill="#1640b8" d="M6 36c0-6 4-9 10-10l18-3 14-10c4-3 9-4 14-4h18c6 0 11 3 15 7l9 8 9 2c4 1 7 4 7 8v6c0 2-2 3-4 3h-8a12 12 0 0 0-24 0H44a12 12 0 0 0-24 0H10c-2 0-4-2-4-4z"/><path fill="#cfe0ff" d="M42 22l12-9c3-2 6-3 10-3h8v12zm34 0V10h6c4 0 8 2 11 5l7 7z"/><circle cx="32" cy="42" r="9" fill="#0d2a8a"/><circle cx="88" cy="42" r="9" fill="#0d2a8a"/><circle cx="32" cy="42" r="4" fill="#fff"/><circle cx="88" cy="42" r="4" fill="#fff"/></svg></div>
+    <div class="price">{{P1}}<small>K.D</small></div>
+  </div>
+  <div class="col">
+    <div class="lab"><div><b>جيب</b><span>4×4 / SUV</span></div>
+      <svg viewBox="0 0 120 52"><path fill="#1640b8" d="M4 38V24c0-3 2-5 5-6l16-2 8-10c2-2 5-3 8-3h44c4 0 7 2 9 5l7 10h6c5 0 9 4 9 9v11c0 2-2 3-4 3h-8a12 12 0 0 0-24 0H44a12 12 0 0 0-24 0H8c-2 0-4-1-4-3z"/><path fill="#cfe0ff" d="M30 16l7-8c1-1 3-2 5-2h12v10zm28 0V6h18v10zm22 0V6h6c2 0 4 1 5 3l5 7z"/><circle cx="32" cy="42" r="9" fill="#0d2a8a"/><circle cx="88" cy="42" r="9" fill="#0d2a8a"/><circle cx="32" cy="42" r="4" fill="#fff"/><circle cx="88" cy="42" r="4" fill="#fff"/></svg></div>
+    <div class="price">{{P2}}<small>K.D</small></div>
+  </div>
+</div>
+
+<div class="foot">
+  <div><svg viewBox="0 0 48 48"><circle cx="24" cy="24" r="22" fill="#25D366"/><path fill="#fff" d="M24 11a13 13 0 0 0-11.2 19.6L11 37l6.6-1.7A13 13 0 1 0 24 11zm0 23.7c-2 0-3.9-.5-5.6-1.5l-.4-.2-3.9 1 1-3.8-.3-.4A10.7 10.7 0 1 1 24 34.7zm5.9-8c-.3-.2-1.9-.9-2.2-1-.3-.1-.5-.2-.7.2l-1 1.2c-.2.2-.4.2-.7.1a8.8 8.8 0 0 1-4.4-3.8c-.3-.6.3-.5 1-1.7.1-.2 0-.4 0-.5l-1-2.4c-.3-.6-.5-.5-.7-.5h-.6c-.2 0-.6.1-.9.4-.3.3-1.1 1.1-1.1 2.7s1.2 3.2 1.3 3.4c.2.2 2.3 3.5 5.6 4.9 2.1.9 2.9 1 4 .8.6-.1 1.9-.8 2.2-1.5.3-.8.3-1.4.2-1.5l-.6-.4z"/></svg>98894114</div>
+  <div><svg viewBox="0 0 48 48"><defs><linearGradient id="ig" x1="0" y1="1" x2="1" y2="0"><stop offset="0" stop-color="#feda75"/><stop offset=".35" stop-color="#fa7e1e"/><stop offset=".6" stop-color="#d62976"/><stop offset="1" stop-color="#4f5bd5"/></linearGradient></defs><rect x="2" y="2" width="44" height="44" rx="12" fill="url(#ig)"/><rect x="11" y="11" width="26" height="26" rx="8" fill="none" stroke="#fff" stroke-width="3"/><circle cx="24" cy="24" r="6.5" fill="none" stroke="#fff" stroke-width="3"/><circle cx="32" cy="16" r="2" fill="#fff"/></svg>@big_bubbless</div>
+</div>
+</body></html>
