@@ -27,6 +27,7 @@ from fastapi import BackgroundTasks, FastAPI, HTTPException, Request
 from fastapi.responses import PlainTextResponse
 
 import business as biz
+import telegram
 import workers
 from booking import WEEKDAYS, BookingError, Store, now_kw, parse_date
 
@@ -49,6 +50,8 @@ STT_KEY = os.getenv("ELEVENLABS_API_KEY", "")
 HANDOFF_HOURS = float(os.getenv("HANDOFF_HOURS", "12"))
 HISTORY_TURNS = int(os.getenv("HISTORY_TURNS", "30"))
 DB_PATH = os.getenv("DB_PATH", str(BASE / "bigbubbles.db"))
+tg = telegram.Telegram(os.getenv("TELEGRAM_BOT_TOKEN", ""), os.getenv("TELEGRAM_ADMIN_CHAT_ID", ""))
+ADMIN_DIGESTS = os.getenv("ADMIN_DIGESTS", "1") != "0"   # ملخص 8 الصبح + 9 بالليل
 MAX_WA_CHARS = 4000
 
 claude = anthropic.Anthropic()
@@ -186,8 +189,11 @@ def tell_customer(phone: str, text: str) -> None:
     SEND(phone, text)
 
 
-def tell_admin(text: str) -> None:
-    if ADMIN:
+def tell_admin(text: str, buttons: list[list[tuple[str, str]]] | None = None) -> None:
+    """التنبيهات لميثم: على تليقرام لو مفعّل، وإلا على واتساب."""
+    if tg.ready and SEND is wa_send_text:
+        tg.send(text, buttons)
+    elif ADMIN:
         SEND(ADMIN, text)
 
 
@@ -304,7 +310,8 @@ def run_tool(phone: str, name: str, args: dict) -> dict:
                        f"{b['weekday']} {b['date']} — {b['time']} — سيارة غسيل {b['van']}\n"
                        f"{args['name']} • +{phone} • {b['area']}\n{_car_text(args['cars'])}\n"
                        f"الإجمالي: {b['total']}\n{args.get('notes', '')}\n"
-                       f"{('📍 ' + loc[0]) if loc else '📍 لسا ما أرسل اللوكيشن'}")
+                       f"{('📍 ' + loc[0]) if loc else '📍 لسا ما أرسل اللوكيشن'}",
+                       [[("✅ وصل الدفع", f"مدفوع {b['booking_id']}")]] if b["prepay_required"] else None)
             return b
 
         if name == "my_bookings":
@@ -337,7 +344,8 @@ def run_tool(phone: str, name: str, args: dict) -> dict:
         if name == "handoff_to_human":
             set_handoff(phone, True, args.get("reason", ""))
             tell_admin(f"🔔 *تحويل عميل*\nالرقم: +{phone}\nالسبب: {args.get('reason')}\n"
-                       f"الملخص: {args.get('summary')}\n\nلإرجاع البوت: /bot on {phone}")
+                       f"الملخص: {args.get('summary')}\n\nلإرجاع البوت: /bot on {phone}",
+                       [[("↩️ رجّع البوت للعميل", f"/bot on {phone}")]])
             forward_last_media(phone)
             return {"ok": True, "working_hours": working_hours()}
 
@@ -350,10 +358,15 @@ def run_tool(phone: str, name: str, args: dict) -> dict:
 
 def forward_last_media(phone: str) -> None:
     row = db.execute("SELECT kind, media_id, ts FROM last_media WHERE phone = ?", (phone,)).fetchone()
-    if not row or time.time() - row[2] > 1800 or SEND is not wa_send_text or not ADMIN:
+    if not row or time.time() - row[2] > 1800 or SEND is not wa_send_text:
         return
     try:
         data, mime = wa_download(row[1])
+        if tg.ready:
+            tg.send_photo(data, f"📎 آخر صورة من العميل +{phone}")
+            return
+        if not ADMIN:
+            return
         new_id = wa_upload(data, mime)
         if new_id:
             wa_send_image(ADMIN, new_id, f"📎 آخر صورة من العميل +{phone}")
@@ -425,7 +438,7 @@ def agent_reply(phone: str, user_content: str | list, history_text: str, profile
 HELP = """🫧 أوامر الفريق:
 *العمال* (بالإنجليزي/الهندي، يوصلهم جدول اليوم 8 الصبح تلقائيًا):
 • done 12 • late 20 • noshow 12 • schedule • tomorrow • next
-*ميثم:*
+*ميثم* (هنا بتليقرام):
 • تم 12 / تأخير 20 12 / غياب 12
 • جدول / جدول بكرة / جدول 20/10
 • حجز 20/10 10:30 سيارة 1 السالمية ← حجز من برا الواتساب
@@ -507,6 +520,30 @@ def handle_staff_command(sender: str, text: str) -> str | None:
         return handle_worker_command(WORKERS[sender], text)
     if sender != ADMIN:
         return None
+    return handle_admin_command(text)
+
+
+def admin_schedule(day: date, title: str = "") -> str:
+    rows = store.day_schedule(day)
+    head = f"{title}📅 *{WEEKDAYS[day.weekday()]} {day:%d/%m}*"
+    if not rows:
+        return head + "\nما فيه حجوزات."
+    lines = [head]
+    for van in biz.VANS:
+        mine = [r for r in rows if r["van"] == van]
+        far = store.far_day(day, van=van)
+        lines.append(f"\n🚐 سيارة {van} — {len(mine)}/{len(biz.SLOTS)} مواعيد"
+                     + (" — يوم بعيد: " + "، ".join(json.loads(far["areas"])) if far else ""))
+        for r in mine:
+            lines.append(f"• {biz.fmt_time(biz.SLOTS[r['slot']])} #{r['id']} {r['name']} • {r['area']} • "
+                         f"{biz.fmt_kd(r['total'])}"
+                         f"{' ✅' if r['status'] == 'done' else (' ⏳' if r['status'] == 'pending_payment' else '')}")
+    total = sum(r["total"] for r in rows)
+    lines.append(f"\n💰 المتوقع: {biz.fmt_kd(total)} • {len(rows)} حجز")
+    return "\n".join(lines)
+
+
+def handle_admin_command(text: str) -> str | None:
     t = text.strip()
     try:
         if t in ("مساعدة", "اوامر", "أوامر", "help"):
@@ -531,16 +568,7 @@ def handle_staff_command(sender: str, text: str) -> str | None:
 
         m = re.fullmatch(r"جدول(?:\s+(.+))?", t)
         if m:
-            day = parse_date(m.group(1) or "اليوم")
-            rows = store.day_schedule(day)
-            if not rows:
-                return f"ما فيه حجوزات {day}."
-            lines = [f"📅 *{WEEKDAYS[day.weekday()]} {day}*"]
-            for r in rows:
-                lines.append(f"سيارة {r['van']} • {biz.fmt_time(biz.SLOTS[r['slot']])} • #{r['id']} "
-                             f"{r['name']} • {r['area']} • {biz.fmt_kd(r['total'])}"
-                             f"{' ✅' if r['status'] == 'done' else (' ⏳' if r['status'] == 'pending_payment' else '')}")
-            return "\n".join(lines)
+            return admin_schedule(parse_date(m.group(1) or "اليوم"))
 
         m = re.fullmatch(r"حجز\s+(\S+)\s+(\S+)\s+سيارة\s*(\d)\s+(.+)", t)
         if m:
@@ -685,11 +713,27 @@ def send_daily_schedules() -> None:
         crew.daily()
 
 
+def send_admin_digests() -> None:
+    if not ADMIN_DIGESTS:
+        return
+    n = now_kw()
+    today = n.date().isoformat()
+    if n.hour >= 8 and store.kv_get("admin_morning") != today:
+        store.kv_set("admin_morning", today)
+        waiting = store.waitlist_summary()
+        extra = ("\n\n📋 ينتظرون بالمناطق البعيدة: " + "، ".join(f"{a} ({c})" for a, c in waiting)) if waiting else ""
+        tell_admin(admin_schedule(n.date(), "☀️ صباح الخير — ") + extra)
+    if n.hour >= 21 and store.kv_get("admin_night") != today:
+        store.kv_set("admin_night", today)
+        tell_admin(admin_schedule(n.date() + timedelta(days=1), "🌙 جدول بكرة — "))
+
+
 def reminder_loop() -> None:
     while True:
         try:
             send_reminders()
             send_daily_schedules()
+            send_admin_digests()
         except Exception as e:  # noqa: BLE001 — اللوب لازم ما يوقف
             print("reminder error:", e, file=sys.stderr)
         time.sleep(60)
@@ -700,6 +744,7 @@ def reminder_loop() -> None:
 @asynccontextmanager
 async def lifespan(_app):
     threading.Thread(target=reminder_loop, daemon=True).start()
+    tg.start(handle_admin_command)
     yield
 
 
