@@ -1,0 +1,34 @@
+<!doctype html><html lang="ar" dir="rtl"><head><meta charset="utf-8"><style>
+@font-face{font-family:Cairo;font-weight:700;src:url(../fonts/Cairo-700.woff2)}
+@font-face{font-family:Cairo;font-weight:900;src:url(../fonts/Cairo-900.woff2)}
+*{box-sizing:border-box;margin:0}
+html,body{width:1080px;height:1350px;overflow:hidden;font-family:Cairo,'DejaVu Sans',sans-serif;direction:rtl}
+:root{--navy:#0B1F4B;--blue:#1E5BD8;--gold:#FFC400;--red:#D7261E;--white:#FFFFFF}
+.ltr{direction:ltr;unicode-bidi:isolate}
+
+body{background:var(--blue);position:relative}
+.bgc{position:absolute;left:50%;top:400px;width:820px;height:820px;transform:translateX(-50%);border-radius:50%;
+  background:radial-gradient(circle at 35% 30%,#ffffff 0,#cfe6ff 45%,#6fb2ff 100%);opacity:.95}
+.logo{position:absolute;top:20px;left:50%;transform:translateX(-50%);width:190px}
+.name{position:absolute;top:165px;width:100%;text-align:center;color:var(--gold);font-size:130px;font-weight:900;
+  text-shadow:0 8px 0 var(--navy)}
+.en{position:absolute;top:330px;width:100%;text-align:center;color:var(--white);font-size:38px;font-weight:700;letter-spacing:4px}
+.mascot{position:absolute;left:50%;transform:translateX(-50%);top:440px;width:460px}
+.prices{position:absolute;top:900px;left:70px;right:70px;display:flex;gap:24px}
+.pb{flex:1;text-align:center;border-radius:36px;padding:20px 0;background:var(--navy);color:var(--white);box-shadow:0 10px 0 #05112a}
+.pb.j{background:var(--gold);color:var(--navy);box-shadow:0 10px 0 #b38600}
+.pb small{font-size:30px;font-weight:700;display:block}
+.pb strong{font-size:124px;font-weight:900;line-height:1}
+.pb em{font-style:normal;font-size:32px;font-weight:700}
+.chips{position:absolute;top:1108px;left:0;right:0;display:flex;justify-content:center;gap:16px;flex-wrap:wrap}
+.chip{background:var(--white);color:var(--navy);font-size:34px;font-weight:900;border-radius:999px;padding:10px 26px}
+.foot{position:absolute;bottom:0;left:0;right:0;height:96px;background:var(--navy);color:var(--white);display:flex;justify-content:center;align-items:center;gap:40px;font-size:32px;font-weight:700}
+.foot b{color:var(--gold);font-size:40px;font-weight:900}
+</style></head><body><div class="bgc"></div>
+<img class="logo" src="../../brand/logo/big-bubbles-logo-4096-transparent.png">
+<div class="name">ببلز</div><div class="en">BUBBLES</div>
+<img class="mascot" src="../../brand/mascot/big-bubbles-mascot-transparent.png">
+<div class="prices"><div class="pb"><small>صالون</small><strong>5</strong><em>د.ك</em></div>
+<div class="pb j"><small>جيب</small><strong>6</strong><em>د.ك</em></div></div>
+<div class="chips"><span class="chip">غسيل خارجي</span><span class="chip">تنظيف داخلي</span></div>
+<div class="foot"><b class="ltr">98894114</b><span class="ltr">@big_bubbless</span></div></body></html>
