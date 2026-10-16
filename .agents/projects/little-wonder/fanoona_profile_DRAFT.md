@@ -11,3 +11,4 @@
 - **Sheets:** ep02-refs/sheets/sheet_7_fanoona_A.png / _B.png (A/B choice pending; both drawn too tall — redo shorter)
 
 - **Update 2026-10-16:** squeaky shoes cancelled. Mishoo may speak in some scenes in a funny way (mode TBD: thought voice-over recommended). Fanoona entrance into story TBD (recommended: 'no nursery today' + gate entrance).
+## Bangles prop = B (approved 2026-10-16)
