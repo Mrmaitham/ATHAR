@@ -1,5 +1,11 @@
-# Fanoona — new character (DRAFT, 2026-10-16)
-- **Approved English spelling:** Fanoona (tested: Zoozoo says it as "Fanuna"-like; "Fnoona" and "Afnan" mispronounced)
-- **Look (draft):** ~3 y/o toddler girl, short dark bob with side part, big brown eyes, rosy cheeks, sage-green tulle dress with embroidered butterflies/flowers, gold heart pendant, gold stud earrings, two thin gold bangles, white bow sandals.
-- **Sheets:** ep02-refs/sheets/sheet_7_fanoona_A.png / _B.png (choice pending)
-- **Open questions:** age, relation to the family, personality, voice, catchphrase, likes/fears, relation to Mishoo/Grandma.
+# Fanoona — new character (DRAFT v2, 2026-10-16, answers from Maitham)
+- **Spelling (approved):** Fanoona
+- **Family:** youngest sister of Zoozoo and Noonoo; cousin (bint 3am/khal) of Nadyah and Hoor. NEW family rule: Zoozoo + Noonoo + Fanoona are three sisters; Nadyah + Hoor are two sisters; they are cousins. Never write "four sisters".
+- **Age/size:** 2.5 years. SHORTER than Hoor (Hoor = 2).
+- **Personality:** curious, loves everything beautiful. When scared or happy she runs to big sister Zoozoo, laughs, and holds Zoozoo's clothes. Loves playing, not afraid of animals.
+- **Mishoo:** best friends, lifelong, similar age.
+- **Comedy signature:** funny FAST waddling walk; her shoes make squeaky sounds while she walks (add as sound effect in post).
+- **Voice:** NO dialogue. Only natural toddler sounds (giggles, babble).
+- **Outfit:** one fixed outfit, never changes: sage-green tulle dress with butterflies/flowers, gold heart pendant, gold studs, two gold bangles, white bow sandals.
+- **Role:** guest every ~2 episodes (recurring).
+- **Sheets:** ep02-refs/sheets/sheet_7_fanoona_A.png / _B.png (A/B choice pending; both drawn too tall — redo shorter)
