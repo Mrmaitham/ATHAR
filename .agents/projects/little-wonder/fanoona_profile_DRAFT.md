@@ -12,3 +12,8 @@
 
 - **Update 2026-10-16:** squeaky shoes cancelled. Mishoo may speak in some scenes in a funny way (mode TBD: thought voice-over recommended). Fanoona entrance into story TBD (recommended: 'no nursery today' + gate entrance).
 ## Bangles prop = B (approved 2026-10-16)
+
+## تحديث 2026-10-18 — تغيير الاسم
+- اسم الشخصية صار **أفنان**. في الحوار المنطوق يُكتب دائماً **`Afnann`** (مختبر: `episodes/ep03-tests/name_test_afnann.mp4` → نُطق "Afnan" صحيح).
+- ممنوع: Fanoona / Fa-noo-na / Fanoonna / Afnaan / Afnan بحرف n واحد.
+- الشكل والملابس والصوت (النبرة B) بدون تغيير. الإسوارتان: وحدة في كل معصم.
