@@ -1,0 +1,7 @@
+الموقع: Higgsfield → Image → النموذج: Nano Banana 2.1 أو GPT Image 2.5 (جودة عالية، 2K، 16:9)
+الصور المرجعية (بهذا الترتيب):
+1) Z1_house_door.png  (البيت)
+2) Z3_swing_clean_RED_BLUE.png  (المرجيحة = مرجع الألوان والإضاءة)
+
+Prompt:
+Re-render the first image (front yard of a modern beige stone house with a brown wooden front door, steps, stone path, bench with cushion, flowerbeds, lawn) keeping the same layout, architecture, camera angle and objects exactly (no people, no animals, no text). Change only the lighting and color grading so that it matches the second image: the same warm golden-hour sunlight, rich saturated natural greens, soft realistic shadows, vivid flowers, same brightness and contrast, same color temperature as the second image. The house stone should stay natural warm cream-beige (not orange) and the door natural brown. Same 3D animated Pixar-like style as the second image.
