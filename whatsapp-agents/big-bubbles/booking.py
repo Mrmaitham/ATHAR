@@ -4,6 +4,7 @@
 """
 
 import json
+import os
 import sqlite3
 import threading
 from datetime import date, datetime, timedelta
@@ -59,7 +60,14 @@ class BookingError(ValueError):
 
 class Store:
     def __init__(self, path: str):
-        self.db = sqlite3.connect(path, check_same_thread=False)
+        try:
+            self.db = sqlite3.connect(path, check_same_thread=False)
+        except sqlite3.OperationalError as e:
+            folder = os.path.dirname(path) or "."
+            raise RuntimeError(
+                f"DB_PATH={path!r} folder_exists={os.path.isdir(folder)} "
+                f"folder_writable={os.access(folder, os.W_OK)}"
+            ) from e
         self.db.row_factory = sqlite3.Row
         self.lock = threading.RLock()
         self.db.executescript(
