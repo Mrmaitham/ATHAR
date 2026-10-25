@@ -56,7 +56,12 @@ MAX_WA_CHARS = 4000
 
 # BB_ANTHROPIC_KEY أولًا: جلسات Claude Code تحجب ANTHROPIC_API_KEY من البيئة
 claude = anthropic.Anthropic(api_key=os.getenv("BB_ANTHROPIC_KEY") or os.getenv("ANTHROPIC_API_KEY"))
-store = Store(DB_PATH)
+try:
+    store = Store(DB_PATH)
+except RuntimeError as e:
+    # Volume ما يفتح الملف: نشغّل من /tmp عشان البوت ما يطيح، والحجوزات تنمسح عند إعادة التشغيل
+    print(f"WARNING: {e} — falling back to /tmp/bigbubbles.db", file=sys.stderr, flush=True)
+    store = Store("/tmp/bigbubbles.db")
 
 
 def build_system_prompt() -> str:
