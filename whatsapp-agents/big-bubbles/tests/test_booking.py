@@ -25,7 +25,7 @@ def test_pricing_addons_and_free_items():
     assert q["total"] == 7.75  # ببلز 6 + معطر 1 + كلينكس 0.25 + دبة 0.5
     q = biz.quote([{"vehicle": "large", "package": "super_top", "addons": ["freshener", "tissues", "trunk"]}])
     assert q["total"] == 25.0  # سعر الجيب، والإضافات مجانية
-    assert biz.quote([{"vehicle": "jeep", "package": "super", "addons": ["trunk", "freshener"]}])["total"] == 21.0
+    assert biz.quote([{"vehicle": "jeep", "package": "super", "addons": ["trunk", "freshener"]}])["total"] == 20.0  # المعطر والدبة مجانيين مع السوبر
     assert biz.quote([{"vehicle": "motorcycle"}])["total"] == 5.0
 
 
@@ -157,9 +157,9 @@ def test_add_addons_after_booking(store):
     cars = [{"vehicle": "jeep", "package": "super"}, {"vehicle": "saloon", "package": "super_top"}]
     b = store.create("965500", "علي", "السالمية", day, "10:30", cars)
     out = store.add_addons(b["booking_id"], "965500", ["freshener", "tissues"], [1])
-    assert out["price"]["total"] == 20 + 1 + 0.25 + 20
+    assert out["price"]["total"] == 20 + 0.25 + 20  # المعطر مجاني مع السوبر
     out = store.add_addons(b["booking_id"], "965500", ["freshener"])          # مكرر + هدية للسيارة 2
-    assert out["price"]["total"] == 41.25
+    assert out["price"]["total"] == 40.25  # المعطر مجاني مع السوبر
     with pytest.raises(BookingError):
         store.add_addons(b["booking_id"], "965999", ["freshener"])            # مو حجزه
 

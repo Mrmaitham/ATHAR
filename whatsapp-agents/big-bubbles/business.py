@@ -34,7 +34,7 @@ VEHICLES = {"saloon": "صالون", "jeep": "جيب", "large": "سيارة كب�
             "motorcycle": "دراجة نارية"}
 
 ADDONS = {
-    "freshener": {"name": "معطر بيج ببلز", "price": 1.0, "free_with": {"super_top"}},
+    "freshener": {"name": "معطر بيج ببلز", "price": 1.0, "free_with": {"super", "super_top"}},
     "tissues": {"name": "كلينكس بيج ببلز", "price": 0.25, "free_with": {"super_top"}},
     "trunk": {"name": "تنظيف الدبة", "price": 0.5, "free_with": {"super", "super_top"}},
 }
