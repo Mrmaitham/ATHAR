@@ -244,7 +244,7 @@ CAR_SCHEMA = {
         "vehicle": {"type": "string", "enum": list(biz.VEHICLES),
                     "description": "saloon=صالون، jeep=جيب، large=سيارة كبيرة (بيك أب/جيب كبير/فان/باص)، motorcycle=دراجة نارية"},
         "package": {"type": "string", "enum": list(biz.PACKAGES),
-                    "description": "bubbles=ببلز، super=سوبر ببلز، super_top=سوبر توب ببلز، special=سيشل ببلز (لا تحتاجها للدراجة)"},
+                    "description": "bubbles=ببلز، super=سوبر ببلز، super_top=سوبر توب ببلز (لا تحتاجها للدراجة)"},
         "addons": {"type": "array", "items": {"type": "string", "enum": list(biz.ADDONS)},
                    "description": "freshener=معطر، tissues=كلينكس، trunk=تنظيف الدبة"},
         "description": {"type": "string", "description": "الموديل واللون، مثل: كامري بيضاء"},

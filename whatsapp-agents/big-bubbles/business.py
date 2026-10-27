@@ -26,8 +26,6 @@ PACKAGES = {
                   "includes": "غسيل خارجي مع طبقة واكس • غسيل داخلي مع تلميع كامل من الداخل • "
                               "غسيل الكشنات والأبواب والأرضيات • تلميع الإطارات والرنقات والأبواب • "
                               "تلميع ربلات السيارة • تنظيف فتحات التكييف"},
-    "special": {"name": "سيشل ببلز", "saloon": 35.0, "jeep": 40.0, "light": False,
-                "includes": "بوليش مميز بعد غسيل السيارة بالكامل من الداخل والخارج"},
 }
 MOTORCYCLE_PRICE = 5.0
 
@@ -36,9 +34,9 @@ VEHICLES = {"saloon": "صالون", "jeep": "جيب", "large": "سيارة كب�
             "motorcycle": "دراجة نارية"}
 
 ADDONS = {
-    "freshener": {"name": "معطر بيج ببلز", "price": 1.0, "free_with": {"super_top", "special"}},
-    "tissues": {"name": "كلينكس بيج ببلز", "price": 0.25, "free_with": {"super_top", "special"}},
-    "trunk": {"name": "تنظيف الدبة", "price": 0.5, "free_with": {"super", "super_top", "special"}},
+    "freshener": {"name": "معطر بيج ببلز", "price": 1.0, "free_with": {"super_top"}},
+    "tissues": {"name": "كلينكس بيج ببلز", "price": 0.25, "free_with": {"super_top"}},
+    "trunk": {"name": "تنظيف الدبة", "price": 0.5, "free_with": {"super", "super_top"}},
 }
 
 # ---------------------------------------------------------------- المواعيد

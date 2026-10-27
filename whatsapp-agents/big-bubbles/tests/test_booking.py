@@ -8,7 +8,7 @@ from booking import KW, BookingError, Store, now_kw, parse_date, parse_slot
 DAY = date(2026, 10, 20)
 NOW = datetime(2026, 10, 19, 12, 0, tzinfo=KW)
 LIGHT = {"vehicle": "saloon", "package": "bubbles"}
-HEAVY = {"vehicle": "jeep", "package": "special"}
+HEAVY = {"vehicle": "jeep", "package": "super_top"}
 
 
 @pytest.fixture

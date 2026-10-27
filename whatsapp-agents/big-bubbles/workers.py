@@ -14,8 +14,7 @@ from booking import now_kw
 
 DAILY_HOUR = 8
 
-PKG_EN = {"bubbles": "Bubbles", "super": "Super Bubbles", "super_top": "Super Top Bubbles",
-          "special": "Special Bubbles"}
+PKG_EN = {"bubbles": "Bubbles", "super": "Super Bubbles", "super_top": "Super Top Bubbles"}
 VEHICLE = {"saloon": ("Sedan", "सेडान"), "jeep": ("Jeep", "जीप"),
            "large": ("Big vehicle", "बड़ी गाड़ी"), "motorcycle": ("Motorcycle", "मोटरसाइकिल")}
 ADDON = {"freshener": ("Air freshener", "एयर फ्रेशनर"), "tissues": ("Tissues", "टिशू"),
