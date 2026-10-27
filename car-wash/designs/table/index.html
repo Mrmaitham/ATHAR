@@ -28,8 +28,10 @@ body{font-family:Cairo,'DejaVu Sans',sans-serif;direction:rtl;color:#fff;positio
 .prices strong{font-size:50px;font-weight:900;color:#FFC400;line-height:1}
 .prices span{line-height:1;font-size:18px;font-weight:900;color:#FFC400}
 .prices hr{border:0;border-top:2px solid rgba(255,255,255,.7);margin:6px 0}
-.mascot{background:transparent;border:0;display:flex;align-items:center;justify-content:center}
-.mascot img{width:100%;height:100%;object-fit:contain}
+.cycle{height:150px;align-self:start;grid-template-columns:1fr 130px}
+.cycle .tag{font-size:24px;min-width:230px;height:40px;line-height:40px}
+.mascot{background:transparent;border:0;display:flex;align-items:center;justify-content:center;height:300px;margin-top:-62px;overflow:visible}
+.mascot img{width:110%;height:110%;max-width:none;object-fit:contain}
 .foot{position:absolute;left:60px;right:60px;bottom:20px;height:110px;border-radius:24px;background:#fff;color:#0B1F4B;display:flex;align-items:center;justify-content:space-between;padding:0 36px}
 .foot .ph{font-size:66px;font-weight:900;color:#0B1F4B;direction:ltr}
 .foot .msg{text-align:center}
@@ -82,7 +84,7 @@ body{font-family:Cairo,'DejaVu Sans',sans-serif;direction:rtl;color:#fff;positio
     <div class="prices"><small>صالون</small><strong>9</strong><span>K.D</span><hr><small>جيب</small><strong>10</strong><span>K.D</span></div>
   </div>
   <!-- يسار -->
-  <div class="card">
+  <div class="card cycle">
     <div class="info">
       <div class="tag">غسيل دراجة هوائية</div>
       <div class="txt">غسيل عادي</div>
