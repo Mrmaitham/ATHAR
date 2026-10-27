@@ -53,7 +53,7 @@ def test_full_booking_flow_and_done_command():
     assert first["model"] == "claude-opus-5-5" and first["fallbacks"] == "default"
     assert "الوقت الآن" in first["messages"][-1]["content"] and "عميل جديد" in first["messages"][-1]["content"]
     avail = json.loads(calls[1]["messages"][-1]["content"][0]["content"])
-    assert "10:30 الصبح" in avail["available_times"] and avail["price"]["total"] == 6.0
+    assert "10:30 الصبح" in avail["available_times"] and avail["price"]["total"] == 7.0
     booked = json.loads(calls[2]["messages"][-1]["content"][0]["content"])
     assert booked["booking_id"] == 1 and booked["status"] == "confirmed"
     assert any(to == "96599999999" and "حجز #1" in t for to, t in SENT)        # تنبيه لميثم
@@ -61,7 +61,7 @@ def test_full_booking_flow_and_done_command():
 
     SENT.clear()
     app.handle_message(msg("96588888888", "تم 1", "m2"))                       # العامل خلص
-    assert any(to == "96511111111" and "6 د.ك" in t and "تلمع" in t for to, t in SENT)
+    assert any(to == "96511111111" and "7 د.ك" in t and "تلمع" in t for to, t in SENT)
     assert SENT[-1][0] == "96588888888" and "काम पूरा" in SENT[-1][1]   # رد العامل بالإنجليزي والهندي
 
 
