@@ -16,7 +16,7 @@ BASE = Path(__file__).parent
 PACKAGES = {
     "bubbles": {"name": "ببلز", "saloon": 6.0, "jeep": 7.0, "light": True,
                 "includes": "غسيل خارجي + تنظيف داخلي"},
-    "double": {"name": "دبل ببلز", "saloon": 7.0, "jeep": 9.0, "light": False,
+    "double": {"name": "دبل ببلز", "saloon": 9.0, "jeep": 10.0, "light": False,
                "includes": "غسيل خارجي مع طبقة واكس • تنظيف داخلي • تلميع التابلوه • "
                            "تلميع الإطارات والرنقات"},
     "super": {"name": "سوبر ببلز", "saloon": 15.0, "jeep": 20.0, "light": True,

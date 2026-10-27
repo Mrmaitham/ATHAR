@@ -165,7 +165,7 @@ def test_add_addons_after_booking(store):
 
 
 def test_double_bubbles_price_and_slot():
-    assert biz.quote([{"vehicle": "saloon", "package": "double"}])["total"] == 7
-    assert biz.quote([{"vehicle": "jeep", "package": "double"}])["total"] == 9
+    assert biz.quote([{"vehicle": "saloon", "package": "double"}])["total"] == 9
+    assert biz.quote([{"vehicle": "jeep", "package": "double"}])["total"] == 10
     assert "دبل ببلز" in biz.price_table_text()
     assert biz.slots_needed([{"vehicle": "saloon", "package": "double"}]) == 1
