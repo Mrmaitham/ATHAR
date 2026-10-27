@@ -29,6 +29,12 @@ body{font-family:Cairo,'DejaVu Sans',sans-serif;direction:rtl;color:#fff;positio
 .prices span{line-height:1;font-size:18px;font-weight:900;color:#FFC400}
 .prices hr{border:0;border-top:2px solid rgba(255,255,255,.7);margin:6px 0}
 .cycle{height:150px;align-self:start;grid-template-columns:1fr 130px}
+.small{height:200px;align-self:start}
+.small .prices strong{font-size:40px}
+.small .prices small{font-size:15px}
+.small .prices span{font-size:14px}
+.small .prices hr{margin:3px 0}
+.top ul{font-size:18px}
 .cycle .tag{font-size:24px;min-width:230px;height:40px;line-height:40px}
 .mascot{background:transparent;border:0;display:flex;align-items:center;justify-content:center;height:300px;margin-top:-62px;overflow:visible}
 .mascot img{width:110%;height:110%;max-width:none;object-fit:contain}
@@ -51,7 +57,7 @@ body{font-family:Cairo,'DejaVu Sans',sans-serif;direction:rtl;color:#fff;positio
 
 <div class="grid">
   <!-- يمين -->
-  <div class="card">
+  <div class="card small">
     <div class="info">
       <div class="tag">غسلة ببلز</div>
       <div class="txt">غسيل خارجي + تنظيف داخلي</div>
@@ -59,7 +65,7 @@ body{font-family:Cairo,'DejaVu Sans',sans-serif;direction:rtl;color:#fff;positio
     <div class="prices"><small>صالون</small><strong>6</strong><span>K.D</span><hr><small>جيب</small><strong>7</strong><span>K.D</span></div>
   </div>
   <!-- يسار -->
-  <div class="card">
+  <div class="card top">
     <div class="info">
       <div class="tag">سوبر توب ببلز</div>
       <ul>
