@@ -133,3 +133,26 @@ Objective: Mishoo's strongest comedic payoff; the joy of shared play.
 - The moral is shown through shared play; no lesson speeches; Grandma's closing sentence is enough.
 
 END OF PRODUCTION SCRIPT — LITTLE WONDERS EPISODE 03 — MISHOO'S BUBBLE PARTY — FINAL STORYBOARD SCRIPT V3 — 63 SHOTS × 6 SECONDS = 6:18. Little hearts, big wonders!
+
+---
+
+## V3.1 — Mishoo speaks (Maitham's request, 2026-10-28)
+Amends PART 1 rule 4 ("Mishoo communicates through realistic cat sounds and body language only"): **Mishoo now speaks in some shots**, in a funny squeaky cartoon voice, with very short lines (max 5 words). Kids react naturally (laugh), nobody is shocked that he talks. In all other shots he stays with meows/body language. The spoken name is pronounced "Mee-shoo".
+
+| Shot | Mishoo's line (funny) |
+|---|---|
+| S03 | "Ooh! Shiny bubble!" |
+| S04 | "Whoops! Missed it!" |
+| S07 | "Hey! That's my nose!" |
+| S08 | "Where did it go?" |
+| S09 | "That's not a bubble!" (about the leaf) |
+| S20 | "I feel... royal." |
+| S21 | "Bow to King Mishoo!" |
+| S36 | "You look... bubbly!" (replaces "Meow!") |
+| S39 | "I see two of everything!" |
+| S44 | "Shh! I'm invisible." |
+| S45 | "Where did my bubble go?" |
+| S59 | "I meant to do that." |
+| S60 | "My bubble party!" |
+
+Production note: the speech must be short enough to fit inside the 6-second shot; Mishoo's mouth moves with the line, and his body stays small and chubby.
