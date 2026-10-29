@@ -156,3 +156,15 @@ Amends PART 1 rule 4 ("Mishoo communicates through realistic cat sounds and body
 | S60 | "My bubble party!" |
 
 Production note: the speech must be short enough to fit inside the 6-second shot; Mishoo's mouth moves with the line, and his body stays small and chubby.
+
+---
+
+## V3.2 — Corrections (Maitham, 2026-10-29)
+1. **Naming:** the kids call her **"Grandma"** in English dialogue (never "Tita"). S09b redone: Hoor says "Grandma! More bubbles!".
+2. **Mishoo talks LESS than the children.** Lines already generated and kept: S03, S04("Whoops!" only), S07, S07b, S08, S09. From S10 onward Mishoo's spoken lines are limited to these four only, the rest of his shots use meows and body language:
+   - S21 "Bow to King Mishoo!" → removed (Afnan says it) · S20 "I feel... royal." kept
+   - S36 "You look... bubbly!" kept
+   - S45 "Where did my bubble go?" → removed (Hoor says "Where did it go?")
+   - S59 "I meant to do that." kept
+   - Removed from V3.1: S39, S44, S60.
+   Rule: in every shot the children speak at least as much as Mishoo.
