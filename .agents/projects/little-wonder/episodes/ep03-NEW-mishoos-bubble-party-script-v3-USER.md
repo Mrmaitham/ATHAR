@@ -168,3 +168,7 @@ Production note: the speech must be short enough to fit inside the 6-second shot
    - S59 "I meant to do that." kept
    - Removed from V3.1: S39, S44, S60.
    Rule: in every shot the children speak at least as much as Mishoo.
+
+## V3.3 — Decisions (Maitham, 2026-10-29)
+- S2c (girls turn to Mishoo and walk to the pouf) approved as generated (camera push-in accepted).
+- Production now continues with V3 shots 11–15 (S10 already done).
