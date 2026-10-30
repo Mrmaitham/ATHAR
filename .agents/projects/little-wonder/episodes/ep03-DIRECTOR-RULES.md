@@ -118,3 +118,17 @@
 ## Approved character heights (Maitham, 2026-10-30)
 Approved reference: ep03-zones/REF_GROUP_A_nadyah_afnan_hoor_mishoo.png
 Heights, tallest to shortest: Nadyah, Hoor, Afnan, Mishoo. Hoor is taller than Afnan.
+
+## Approved references for "Mishoo's Bubble Party" (Maitham, 2026-10-30)
+Characters: REF_GROUP_A (Nadyah, Afnan, Hoor, Mishoo; Hoor taller than Afnan), REF_GROUP_B (Noonoo, Grandma, Zoozoo).
+Places: Z1_house_USER_REF, Z3_swing_USER_REF, ZB_grandma_corner, ZC_bubble_table, ZF_tap. Mishoo's rest area (ZD) cancelled; replacement pending.
+
+## Work fundamentals (new method)
+1. Stills first: generate and get approval of start and end frame for every shot before any video.
+2. End frame of shot N is the exact start frame of shot N+1 (same image file).
+3. One fixed camera distance per place; character scale: Zoozoo about 45 percent of frame height, Mishoo knee-height.
+4. Locked camera, no zoom/pan, nobody walks toward the camera, max 4 characters, one action per shot.
+5. Neutral daylight, brightness and saturation at least 133, no lit lamps.
+6. Dialogue generated as separate audio with correct names; Mishoo speaks little and funny.
+7. Automatic QC per shot (background stability, brightness, join SSIM, transcript); reject before showing.
+8. Pilot scene first; continue only if first-pass success is about 90 percent.
