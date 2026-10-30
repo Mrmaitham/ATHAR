@@ -114,3 +114,7 @@
 - سطر ثابت في كل برومبت: "same soft warm golden-hour daylight as the first image, same color grading, same brightness and contrast, no lighting change".
 - بعد كل لقطة: قياس السطوع/التشبّع/الدفء مقابل S001 (حد الفرق: R/B ±0.08، تشبّع ±8، سطوع ±5). أي لقطة خارج الحد = تصحيح لوني في المونتاج أو إعادة.
 - لقطات المرجيحة (Z2) أدفأ وأكثر تشبّعاً بطبيعتها (R/B ≈ 1.8، تشبّع ≈ 155) → تُخفَّض بتصحيح لوني عند الدمج.
+
+## Approved character heights (Maitham, 2026-10-30)
+Approved reference: ep03-zones/REF_GROUP_A_nadyah_afnan_hoor_mishoo.png
+Heights, tallest to shortest: Nadyah, Hoor, Afnan, Mishoo. Hoor is taller than Afnan.
