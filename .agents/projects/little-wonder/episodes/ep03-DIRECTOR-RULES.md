@@ -132,3 +132,10 @@ Places: Z1_house_USER_REF, Z3_swing_USER_REF, ZB_grandma_corner, ZC_bubble_table
 6. Dialogue generated as separate audio with correct names; Mishoo speaks little and funny.
 7. Automatic QC per shot (background stability, brightness, join SSIM, transcript); reject before showing.
 8. Pilot scene first; continue only if first-pass success is about 90 percent.
+
+## قواعد جديدة من ميثم (2026-10-31)
+1. **أي شخصية جديدة تظهر بأول 10 لقطات** من الحلقة، مو بالآخر (افنان: S009).
+2. **كل سكربت لازم يركّز على تسلسل الأحداث:** كل لقطة تكتب حالة البداية، الأحداث بالترتيب، حالة النهاية، ولقطة بعدها تبدأ من نفس الحالة.
+3. **كل لقطة تكتب الكاميرا:** المحطة (موقع ثابت)، حجم اللقطة، وحركة الكاميرا إن وجدت (أول ثانيتين بس)، ونوع الانتقال للقطة اللي بعدها.
+4. **اتجاه الجري ثابت** من اليسار لليمين طول الحلقة (البوابة يسار، الدرجات يمين).
+5. **اللقطات القريبة تبدأ من آخر إطار حقيقي** ما تبدأ من قص صغير.
