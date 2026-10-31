@@ -25,7 +25,7 @@ Grandma > Zoozoo > Noonoo > Nadyah > Hoor > Afnan > Mishoo
 | Nadyah | about 50 | 60 percent of Noonoo; taller than Hoor and Afnan, shorter than Zoozoo and Noonoo |
 | Hoor | about 44.5 | taller than Afnan by 6 percent |
 | Afnan | about 42 | half of Noonoo's height; 6 percent shorter than Hoor |
-| Mishoo | about 12 (seated, ears to paws) | size approved as in the sheet (47 percent of Nadyah seated) |
+| Mishoo | about 23 (seated, ears to paws) | size approved as in the sheet (47 percent of Nadyah seated) |
 
 Notes for production:
 - Hoor and Afnan are both toddlers; Afnan is half a year older than Hoor but 6 percent shorter. This is approved.
