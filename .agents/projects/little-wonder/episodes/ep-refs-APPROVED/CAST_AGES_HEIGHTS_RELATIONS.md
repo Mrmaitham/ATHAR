@@ -22,9 +22,9 @@ Grandma > Zoozoo > Noonoo > Nadyah > Hoor > Afnan > Mishoo
 | Grandma | 100 | tallest |
 | Zoozoo | about 90 | slightly shorter than Grandma, second tallest |
 | Noonoo | about 84 | shorter than Zoozoo and Grandma, taller than everyone else |
-| Nadyah | about 50 | 60 percent of Noonoo; taller than Hoor and Afnan, shorter than Zoozoo and Noonoo |
-| Hoor | about 44.5 | taller than Afnan by 6 percent |
-| Afnan | about 42 | half of Noonoo's height; 6 percent shorter than Hoor |
+| Nadyah | about 55 (+10% per Maitham) | 60 percent of Noonoo; taller than Hoor and Afnan, shorter than Zoozoo and Noonoo |
+| Hoor | about 49 (+10%) | taller than Afnan by 6 percent |
+| Afnan | about 46 (+10%) | half of Noonoo's height; 6 percent shorter than Hoor |
 | Mishoo | about 23 (seated, ears to paws) | size approved as in the sheet (47 percent of Nadyah seated) |
 
 Notes for production:
