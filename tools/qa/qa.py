@@ -80,7 +80,7 @@ def main():
     cs = [color(f) for f in fs]; lum, sat, rb = (float(np.mean([c[i] for c in cs])) for i in range(3))
     add("brightness", lum >= LUM_MIN, f"{lum:.0f} (min {LUM_MIN})"); add("saturation", sat >= SAT_MIN, f"{sat:.0f} (min {SAT_MIN})")
     add("cool light R/B (flag only)", True, f"{rb:.2f} (target 1.5-2.0{'' if 1.5 <= rb <= 2.0 else ' - OUT OF RANGE, look at it'})")
-    sh = camera_shift(fs); add("camera locked", sh <= CAM_MAX_SHIFT, f"max background shift {sh:.1f}px (max {CAM_MAX_SHIFT})")
+    sh = camera_shift(fs); add("camera movement (advisory, moving camera allowed)", sh <= CAM_MAX_SHIFT, f"max background shift {sh:.1f}px - check by eye that it matches the script", soft=True)
     pres = [present(f) for f in fs]
     for c in cast:
         if c in AUTO:
