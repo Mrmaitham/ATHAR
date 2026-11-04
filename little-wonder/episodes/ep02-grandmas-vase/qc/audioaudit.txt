@@ -1,0 +1,198 @@
+01   EXP: 
+     GOT: 
+     EXTRA:[] MISS:[]
+02   EXP: 
+     GOT: There@0.0 you@1.7 are,@1.96 shining@3.32 like@3.6 new.@3.96
+     EXTRA:['there', 'you', 'are', 'shining', 'like', 'new'] MISS:[]
+03   EXP: 
+     GOT: Grandma,@1.46 why@2.64 do@3.1 you@3.28 clean@3.44 it@3.78 every@4.04 day?@4.28
+     EXTRA:['grandma', 'why', 'do', 'you', 'clean', 'it', 'every', 'day'] MISS:[]
+04   EXP: 
+     GOT: Because@0.0 this@1.06 vase@1.44 is@2.04 very,@2.62 very@3.2 special.@3.82
+     EXTRA:['because', 'this', 'vase', 'is', 'very', 'very', 'special'] MISS:[]
+05   EXP: 
+     GOT: Special?@2.7 It's@3.7 just@3.96 a@4.18 vase!@4.4 It's@4.62 just@4.62 a@4.62 vase!@4.62
+     EXTRA:['special', "it's", 'just', 'a', 'vase', "it's", 'just', 'a', 'vase'] MISS:[]
+06   EXP: 
+     GOT: This@0.0 vase@2.08 is@2.66 50@3.14 years@3.74 old.@4.24
+     EXTRA:['this', 'vase', 'is', 'years', 'old'] MISS:[]
+07   EXP: 
+     GOT: Fifty?@0.0 That's@1.9 older@2.48 than@2.78 everything!@3.34
+     EXTRA:['fifty', "that's", 'older', 'than', 'everything'] MISS:[]
+08   EXP: 
+     GOT: And@1.98 it@2.66 never@2.8 broke?@3.04 Not@3.98 even@4.1 once?@4.34
+     EXTRA:['and', 'it', 'never', 'broke', 'not', 'even', 'once'] MISS:[]
+09   EXP: 
+     GOT: Not@0.0 one@1.22 crack@1.64 in@2.1 50@2.54 years.@2.98
+     EXTRA:['not', 'one', 'crack', 'in', 'years'] MISS:[]
+10   EXP: Pretty vase!
+     GOT: Pretty@2.56 vase!@3.96
+     EXTRA:[] MISS:[]
+11   EXP: Who gave it to you, Grandma?
+     GOT: Who@1.68 gave@2.34 it@2.7 to@2.98 you,@3.28 Grandma?@3.78
+     EXTRA:[] MISS:[]
+12   EXP: Ahh… that's a story for another day.
+     GOT: Ah,@0.0 that's@2.52 a@2.94 story@3.06 for@3.5 another@3.88 day.@4.22
+     EXTRA:['ah'] MISS:['ahh']
+13   EXP: Mrrow?
+     GOT: Miss@0.0 you?@1.32 Meow?@4.0
+     EXTRA:['miss', 'you', 'meow'] MISS:['mrrow']
+14   EXP: I'll make you some fresh juice. Nadyah! Catch!
+     GOT: I'll@0.0 make@0.36 you@0.5 some@0.68 fresh@0.92 juice.@1.22 Nettie@6.42 -ha!@6.64 Catch!@7.18
+     EXTRA:['nettie', 'ha'] MISS:['nadyah']
+16   EXP: Throw it! Throw it high!
+     GOT: Throw@0.0 it!@1.8 Throw@2.58 it@2.96 high!@3.22
+     EXTRA:[] MISS:[]
+17   EXP: 
+     GOT: 
+     EXTRA:[] MISS:[]
+18   EXP: Nadyah! The vase!
+     GOT: Oh,@0.0 Nadia@1.44 the@3.6 vase@3.92
+     EXTRA:['oh', 'nadia'] MISS:['nadyah']
+19   EXP: It didn't fall… right?
+     GOT: It@0.0 didn't@2.32 fall,@3.06 right?@4.02
+     EXTRA:[] MISS:[]
+20   EXP: Hmm… shall we keep the ball for the garden, my dears?
+     GOT: Hmm.@2.78 Shall@4.22 we@4.32 keep@4.5 the@4.72 ball@4.96 for@5.2 the@5.48 garden,@5.68 my@6.2 dears?@6.28
+     EXTRA:[] MISS:[]
+21   EXP: There. Safe and sound.
+     GOT: There,@2.0 safe@4.12 and@4.28 sound.@4.54
+     EXTRA:[] MISS:[]
+22   EXP: Flower! For Grandma!
+     GOT: Flower@2.18 for@3.5 Grandma!@4.02
+     EXTRA:[] MISS:[]
+23   EXP: So pretty, Hoor! Grandma will love it.
+     GOT: So@1.36 pretty,@2.12 Hoor!@2.78 Grandma@3.54 will@3.92 love@4.06 it!@4.28
+     EXTRA:[] MISS:[]
+24   EXP: Flower… in the vase!
+     GOT: Flower@1.74 in@2.98 the@3.96 vase!@4.2
+     EXTRA:[] MISS:[]
+25   EXP: I'll help Grandma with the juice. Wait for us, Hoor!
+     GOT: I'll@0.0 help@0.9 grandma@1.06 with@1.42 the@1.66 juice.@1.84 Wait@2.6 for@2.7 us,@2.94 Hoer.@3.32
+     EXTRA:['hoer'] MISS:['hoor']
+25b  EXP: 
+     GOT: The@0.0 sun@1.22 is@1.6 so@1.88 bright,@2.16 I'll@2.88 turn@3.28 off@3.44 the@3.66 lights!@3.86
+     EXTRA:['the', 'sun', 'is', 'so', 'bright', "i'll", 'turn', 'off', 'the', 'lights'] MISS:[]
+26   EXP: Me! I do it! I'm big!
+     GOT: Me!@1.46 I@2.62 do@2.96 it!@3.26 I'm@3.82 big!@4.24
+     EXTRA:[] MISS:[]
+27   EXP: In… in…
+     GOT: In,@3.1 In,@4.3 In,@5.06 In,@5.06 In,@5.06 In,@5.06 In,@5.06 In,@5.06 In,@5.06 In,@5.06 In,@5.06 In,@5.06 In,@5.06 In,@5.06 In,@5.06 In,@5.06 In,@5.06 In,@5.06 In,@5.06 In,@5.06 In,@5.06 In,@5.06
+     EXTRA:['in', 'in', 'in', 'in', 'in', 'in', 'in', 'in', 'in', 'in', 'in', 'in', 'in', 'in', 'in', 'in', 'in', 'in', 'in', 'in'] MISS:[]
+28   EXP: Mrrow…
+     GOT: 
+     EXTRA:[] MISS:['mrrow']
+29   EXP: 
+     GOT: 
+     EXTRA:[] MISS:[]
+30   EXP: 
+     GOT: 
+     EXTRA:[] MISS:[]
+31   EXP: Uh-oh…
+     GOT: uh@0.0 -oh@1.98
+     EXTRA:[] MISS:[]
+32   EXP: 
+     GOT: Oh@0.0
+     EXTRA:['oh'] MISS:[]
+33   EXP: Oh no… Grandma's vase…
+     GOT: Oh@0.0 no!@1.68 Grandma's@3.2 vase!@4.2
+     EXTRA:[] MISS:[]
+34   EXP: Juice is almost ready!
+     GOT: Juice@1.3 is@2.38 almost@2.72 ready!@3.1
+     EXTRA:[] MISS:[]
+35   EXP: Zoozoo… help…
+     GOT: Zuzu,@1.96 help!@4.18
+     EXTRA:['zuzu'] MISS:['zoozoo']
+35b  EXP: Hoor! Don't touch it — you could get hurt!
+     GOT: Whore!@1.62 Don't@2.68 touch@3.22 it!@3.44 You@4.0 could@4.12 get@4.26 hurt!@4.42
+     EXTRA:['whore'] MISS:['hoor']
+36   EXP: تك I need more light to see the pieces…
+     GOT: I@0.52 need@1.0 more@1.16 light@1.42 to@1.66 see@1.86 the@2.06 pieces.@2.24
+     EXTRA:[] MISS:[]
+37   EXP: تك Better!
+     GOT: Better.@0.0
+     EXTRA:[] MISS:[]
+38   EXP: Careful… careful…
+     GOT: Careful,@0.0 careful,@1.82 careful.@2.66
+     EXTRA:['careful'] MISS:[]
+38b  EXP: 
+     GOT: You@0.0
+     EXTRA:['you'] MISS:[]
+39   EXP: We must tell Grandma.
+     GOT: This@1.5 gray@2.18 owl.@2.46 We@3.56 must@3.64 tell@3.86 grandma.@4.2
+     EXTRA:['this', 'gray', 'owl'] MISS:[]
+39b  EXP: Not yet… please…
+     GOT: Not@0.0 yet.@1.52 Please?@3.5
+     EXTRA:[] MISS:[]
+40   EXP: Okay… but you tell her yourself. Soon.
+     GOT: Okay,@0.72 but@1.78 you@2.0 tell@2.16 her@2.36 yourself.@2.54 Soon.@3.64
+     EXTRA:[] MISS:[]
+40b  EXP: Shhh!
+     GOT: Shh.@3.46
+     EXTRA:['shh'] MISS:['shhh']
+40c  EXP: I saw that. I see everything.
+     GOT: I@1.16 saw@2.12 that.@2.4 I@3.4 see@3.52 everything.@3.92
+     EXTRA:[] MISS:[]
+41   EXP: My vase… where is my vase?
+     GOT: My@2.72 Vast?@3.48 Where@4.52 is@4.78 my@4.98 Vast?@5.22
+     EXTRA:['vast', 'vast'] MISS:['vase', 'vase']
+42   EXP: قولي لها
+     GOT: 
+     EXTRA:[] MISS:[]
+43   EXP: Did anyone see it?
+     GOT: Did@2.88 anyone@3.64 see@4.06 it?@4.44
+     EXTRA:[] MISS:[]
+44   EXP: Grandma… I…
+     GOT: Grandma,@2.1 I...@4.02
+     EXTRA:[] MISS:[]
+45   EXP: It wasn't me! I put the ball away!
+     GOT: It@1.94 wasn't@2.82 me!@3.34 I@4.32 put@4.42 the@4.64 ball@4.86 away!@5.1
+     EXTRA:[] MISS:[]
+45b  EXP: 
+     GOT: 
+     EXTRA:[] MISS:[]
+46   EXP: A mystery! Don't worry, Grandma…
+     GOT: A@2.8 mystery!@3.54 Don't@4.8 worry,@5.18 Grandma!@5.64
+     EXTRA:[] MISS:[]
+47   EXP: Detective Noonoo is on the case!
+     GOT: Detective@2.14 Nunu@2.86 is@3.46 on@3.7 the@4.06 case!@4.28
+     EXTRA:['nunu'] MISS:['noonoo']
+48   EXP: Can I be the helper detective? Please?
+     GOT: Can@0.0 I@0.82 be@1.02 the@1.22 helper@1.4 detective,@1.72 please?@3.04
+     EXTRA:[] MISS:[]
+49   EXP: Look for clues. Every little thing!
+     GOT: Look@0.0 for@1.66 clues.@1.94 Every@3.18 little@3.54 thing.@4.02
+     EXTRA:[] MISS:[]
+50   EXP: Clue number one… a petal!
+     GOT: Clue@1.62 number@2.58 one,@2.84 a@3.92 petal.@4.02
+     EXTRA:[] MISS:[]
+51   EXP: Clue number two… cat hair!
+     GOT: Clue@1.52 number@2.4 two,@2.64 cat@4.0 hair.@4.2
+     EXTRA:[] MISS:[]
+52   EXP: 
+     GOT: The@0.0 End@1.8
+     EXTRA:['the', 'end'] MISS:[]
+53   EXP: Aha! A rose petal… on Mishoo's tail!
+     GOT: Aha!@0.0 A@1.74 rose@1.86 petal@2.26 on@2.9 Mishu's@3.52 tail!@4.32
+     EXTRA:["mishu's"] MISS:["mishoo's"]
+54   EXP: And a piece of the vase… next to his chair!
+     GOT: And@1.24 a@1.72 piece@1.96 of@2.12 the@2.32 vase@2.44 next@2.96 to@3.96 his@4.22 chair.@4.36
+     EXTRA:[] MISS:[]
+55   EXP: Case closed! Mishoo did it!
+     GOT: Case@1.66 closed.@2.34 Miss@3.46 you.@3.56 Did@4.42 it.@4.54
+     EXTRA:['miss', 'you'] MISS:['mishoo']
+56   EXP: Me?! It wasn't me! I'm innocent!
+     GOT: Me?@0.0 It@1.58 wasn't@2.08 me!@2.52 I'm@3.76 innocent!@4.16
+     EXTRA:[] MISS:[]
+57   EXP: Bad kitty!
+     GOT: Bad@0.0 kitty!@2.52
+     EXTRA:[] MISS:[]
+58   EXP: Oh, Mishoo… maybe you should sit on your cushion for a while?
+     GOT: Oh,@0.0 Miss@1.34 Show,@1.46 maybe@3.12 you@3.5 should@3.88 sit@4.14 on@4.42 your@4.84 cushion@5.04 for@5.52 a@5.98 while?@6.22
+     EXTRA:['miss', 'show'] MISS:['mishoo']
+59   EXP: Mew…
+     GOT: Meow.@1.46
+     EXTRA:['meow'] MISS:['mew']
+60   EXP: Mishoo…
+     GOT: Me@3.4 too.@4.24
+     EXTRA:['me', 'too'] MISS:['mishoo']

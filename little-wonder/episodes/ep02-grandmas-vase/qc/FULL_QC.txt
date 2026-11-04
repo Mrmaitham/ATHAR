@@ -1,0 +1,330 @@
+  01 1280x720 24/1 5.09s audio=True LUFS=-36.9 peak=-17.5 cut=None light_first={'L': np.float64(160.3), 'a': np.float64(10.2), 'b': np.float64(20.1)} light_last={'L': np.float64(156.2), 'a': np.float64(12.1), 'b': np.float64(17.4)}
+     EXP: []
+     HEARD(vad): 
+     HEARD(raw): You
+     MISS: [] EXTRA: []
+  02 1280x720 24/1 5.09s audio=True LUFS=-16.5 peak=-6.2 cut=28.3 light_first={'L': np.float64(129.9), 'a': np.float64(11.1), 'b': np.float64(13.7)} light_last={'L': np.float64(128.6), 'a': np.float64(10.9), 'b': np.float64(14.1)}
+     EXP: []
+     HEARD(vad): There you are, shining like new.
+     HEARD(raw): There you are, shining like new.
+     MISS: [] EXTRA: ['there', 'you', 'are', 'shining', 'like', 'new']
+  03 1280x720 24/1 5.09s audio=True LUFS=-18.8 peak=-8.1 cut=12.8 light_first={'L': np.float64(121.6), 'a': np.float64(11.1), 'b': np.float64(12.9)} light_last={'L': np.float64(123.2), 'a': np.float64(11.0), 'b': np.float64(12.7)}
+     EXP: []
+     HEARD(vad): Grandma, why do you clean it every day?
+     HEARD(raw): Grandma, why do you clean it every day?
+     MISS: [] EXTRA: ['grandma', 'why', 'do', 'you', 'clean', 'it', 'every', 'day']
+  04 1280x720 24/1 5.09s audio=True LUFS=-20.1 peak=-5.7 cut=11.7 light_first={'L': np.float64(115.9), 'a': np.float64(11.1), 'b': np.float64(11.8)} light_last={'L': np.float64(102.6), 'a': np.float64(10.1), 'b': np.float64(10.0)}
+     EXP: []
+     HEARD(vad): because this vase is very, very special.
+     HEARD(raw): Because this vase is very, very special.
+     MISS: [] EXTRA: ['because', 'this', 'vase', 'is', 'very', 'very', 'special']
+  05 1280x720 24/1 5.09s audio=True LUFS=-22.5 peak=-9.7 cut=10.1 light_first={'L': np.float64(98.5), 'a': np.float64(9.8), 'b': np.float64(9.4)} light_last={'L': np.float64(145.0), 'a': np.float64(8.3), 'b': np.float64(11.4)}
+     EXP: []
+     HEARD(vad): Special? It's just a vase!
+     HEARD(raw): Special? It's just a vase!
+     MISS: [] EXTRA: ['special', "it's", 'just', 'a', 'vase']
+  06 1280x720 24/1 5.09s audio=True LUFS=-21.6 peak=-10.6 cut=11.4 light_first={'L': np.float64(137.7), 'a': np.float64(9.0), 'b': np.float64(10.8)} light_last={'L': np.float64(129.4), 'a': np.float64(11.2), 'b': np.float64(15.7)}
+     EXP: ['GRANDMA: This vase is fifty years old!']
+     HEARD(vad): This vase is 50 years old!
+     HEARD(raw): This vase is 50 years old.
+     MISS: ['fifty'] EXTRA: []
+  07 1280x720 24/1 5.09s audio=True LUFS=-22.7 peak=-12.7 cut=8.2 light_first={'L': np.float64(124.1), 'a': np.float64(11.9), 'b': np.float64(15.1)} light_last={'L': np.float64(122.0), 'a': np.float64(10.8), 'b': np.float64(14.1)}
+     EXP: ["NADYAH: Fifty?! That's older than… everything!"]
+     HEARD(vad): 
+     HEARD(raw): Fifty? That's older than everything!
+     MISS: ['fifty', "that's", 'older', 'than', 'everything'] EXTRA: []
+  08 1280x720 24/1 5.09s audio=True LUFS=-17.9 peak=-6.9 cut=11.8 light_first={'L': np.float64(114.7), 'a': np.float64(10.9), 'b': np.float64(13.1)} light_last={'L': np.float64(121.1), 'a': np.float64(10.4), 'b': np.float64(12.5)}
+     EXP: ['ZOOZOO: And it never broke? Not even once?']
+     HEARD(vad): And it never broke? Not even once?
+     HEARD(raw): And it never broke? Not even once?
+     MISS: [] EXTRA: []
+  09 1280x720 24/1 5.09s audio=True LUFS=-22.6 peak=-8.6 cut=9.8 light_first={'L': np.float64(114.2), 'a': np.float64(10.5), 'b': np.float64(11.6)} light_last={'L': np.float64(117.5), 'a': np.float64(10.0), 'b': np.float64(11.7)}
+     EXP: ['GRANDMA: Not one crack in fifty years.']
+     HEARD(vad): Not one crack in 50 years.
+     HEARD(raw): Not one crack in 50 years.
+     MISS: ['fifty'] EXTRA: []
+  10 1280x720 24/1 5.09s audio=True LUFS=-19.6 peak=-8.1 cut=11.4 light_first={'L': np.float64(108.9), 'a': np.float64(9.9), 'b': np.float64(11.2)} light_last={'L': np.float64(110.7), 'a': np.float64(9.8), 'b': np.float64(11.0)}
+     EXP: ['HOOR: Pretty vase!']
+     HEARD(vad): 
+     HEARD(raw): Pretty vase!
+     MISS: ['pretty', 'vase'] EXTRA: []
+  11 1280x720 24/1 5.09s audio=True LUFS=-20.3 peak=-10.0 cut=10.1 light_first={'L': np.float64(104.0), 'a': np.float64(9.7), 'b': np.float64(10.1)} light_last={'L': np.float64(108.1), 'a': np.float64(9.0), 'b': np.float64(9.9)}
+     EXP: ['NADYAH: Who gave it to you, Grandma?']
+     HEARD(vad): Who gave it to you, Grandma?
+     HEARD(raw): Who gave it to you, Grandma?
+     MISS: [] EXTRA: []
+  12 1280x720 24/1 5.09s audio=True LUFS=-20.0 peak=-6.3 cut=11.2 light_first={'L': np.float64(102.3), 'a': np.float64(9.1), 'b': np.float64(9.0)} light_last={'L': np.float64(106.5), 'a': np.float64(8.6), 'b': np.float64(8.9)}
+     EXP: ["GRANDMA: Ahh… that's a story for another day."]
+     HEARD(vad): Ah, that's a story for another day.
+     HEARD(raw): Ah, that's a story for another day.
+     MISS: ['ahh'] EXTRA: ['ah']
+  13 1280x720 24/1 5.09s audio=True LUFS=-21.8 peak=-10.2 cut=9.9 light_first={'L': np.float64(100.0), 'a': np.float64(8.8), 'b': np.float64(8.0)} light_last={'L': np.float64(104.1), 'a': np.float64(8.2), 'b': np.float64(7.5)}
+     EXP: []
+     HEARD(vad): Miss you
+     HEARD(raw): Miss you. Meow.
+     MISS: [] EXTRA: ['miss', 'you']
+  14 1280x720 24/1 8.10s audio=True LUFS=-18.9 peak=-3.0 cut=10.6 light_first={'L': np.float64(97.7), 'a': np.float64(8.3), 'b': np.float64(6.6)} light_last={'L': np.float64(112.2), 'a': np.float64(8.4), 'b': np.float64(6.8)}
+     EXP: ["GRANDMA: I'll make you some fresh juice.", 'NOONOO: Nadyah! Catch!']
+     HEARD(vad): I'll make you some fresh juice.
+     HEARD(raw): I'll make you some fresh juice. Nettie-ha! Catch!
+     MISS: ['nadyah', 'catch'] EXTRA: []
+  16 1280x720 24/1 5.09s audio=True LUFS=-17.4 peak=-8.1 cut=10.7 light_first={'L': np.float64(105.1), 'a': np.float64(8.3), 'b': np.float64(5.9)} light_last={'L': np.float64(110.7), 'a': np.float64(8.3), 'b': np.float64(6.3)}
+     EXP: ['NADYAH: Throw it! Throw it high!']
+     HEARD(vad): Throw it! Throw it high!
+     HEARD(raw): Throw it! Throw it high!
+     MISS: [] EXTRA: []
+  17 1280x720 24/1 5.09s audio=True LUFS=-21.5 peak=-1.5 cut=10.5 light_first={'L': np.float64(103.8), 'a': np.float64(8.4), 'b': np.float64(5.3)} light_last={'L': np.float64(108.1), 'a': np.float64(7.6), 'b': np.float64(6.2)}
+     EXP: []
+     HEARD(vad): 
+     HEARD(raw): Oh
+     MISS: [] EXTRA: []
+  18 1280x720 24/1 5.09s audio=True LUFS=-20.8 peak=-8.3 cut=9.8 light_first={'L': np.float64(101.9), 'a': np.float64(7.7), 'b': np.float64(5.1)} light_last={'L': np.float64(105.9), 'a': np.float64(7.4), 'b': np.float64(5.3)}
+     EXP: ['NOONOO: Nadyah! The vase!']
+     HEARD(vad): The vase!
+     HEARD(raw): Huh, Nadia the vase
+     MISS: ['nadyah'] EXTRA: []
+  19 1280x720 24/1 5.09s audio=True LUFS=-22.3 peak=-8.9 cut=9.3 light_first={'L': np.float64(99.6), 'a': np.float64(7.6), 'b': np.float64(4.2)} light_last={'L': np.float64(105.0), 'a': np.float64(7.2), 'b': np.float64(3.9)}
+     EXP: ["NADYAH: It didn't fall… right?"]
+     HEARD(vad): It didn't fall, right?
+     HEARD(raw): It didn't fall, right?
+     MISS: [] EXTRA: []
+  20 1280x720 24/1 7.10s audio=True LUFS=-19.8 peak=-8.2 cut=9.4 light_first={'L': np.float64(99.5), 'a': np.float64(7.4), 'b': np.float64(3.1)} light_last={'L': np.float64(93.8), 'a': np.float64(6.9), 'b': np.float64(3.7)}
+     EXP: ['GRANDMA: Hmm… shall we keep the ball for the garden, my dears?']
+     HEARD(vad): Hm. Shall we keep the ball for the garden, my dears?
+     HEARD(raw): Hmm. Shall we keep the ball for the garden, my dears?
+     MISS: ['hmm'] EXTRA: ['hm']
+  21 1280x720 24/1 8.10s audio=True LUFS=-22.1 peak=-7.7 cut=9.0 light_first={'L': np.float64(88.9), 'a': np.float64(7.6), 'b': np.float64(3.1)} light_last={'L': np.float64(111.6), 'a': np.float64(6.5), 'b': np.float64(5.8)}
+     EXP: ['GRANDMA: There. Safe and sound.']
+     HEARD(vad): There, safe and sound.
+     HEARD(raw): There, safe and sound.
+     MISS: [] EXTRA: []
+  22 1280x720 24/1 5.09s audio=True LUFS=-20.2 peak=-8.8 cut=10.2 light_first={'L': np.float64(105.1), 'a': np.float64(7.0), 'b': np.float64(4.9)} light_last={'L': np.float64(111.2), 'a': np.float64(7.0), 'b': np.float64(5.1)}
+     EXP: ['HOOR: Flower! For Grandma!']
+     HEARD(vad): Power for Grandma!
+     HEARD(raw): Flower for Grandma!
+     MISS: ['flower'] EXTRA: ['power']
+  23 1280x720 24/1 5.09s audio=True LUFS=-19.1 peak=-7.3 cut=10.0 light_first={'L': np.float64(107.8), 'a': np.float64(7.7), 'b': np.float64(4.9)} light_last={'L': np.float64(110.4), 'a': np.float64(7.0), 'b': np.float64(4.7)}
+     EXP: ['ZOOZOO: So pretty, Hoor! Grandma will love it.']
+     HEARD(vad): So pretty whore grandma will love it
+     HEARD(raw): So pretty, Hoor! Grandma will love it!
+     MISS: ['hoor'] EXTRA: ['whore']
+  24 1280x720 24/1 5.09s audio=True LUFS=-19.2 peak=-7.0 cut=12.0 light_first={'L': np.float64(103.3), 'a': np.float64(7.4), 'b': np.float64(3.9)} light_last={'L': np.float64(108.1), 'a': np.float64(7.3), 'b': np.float64(4.2)}
+     EXP: ['HOOR: Flower… in the vase!']
+     HEARD(vad): Flower in the vase!
+     HEARD(raw): Flower in the vase!
+     MISS: [] EXTRA: []
+  25 1280x720 24/1 7.10s audio=True LUFS=-20.5 peak=-7.7 cut=8.8 light_first={'L': np.float64(103.2), 'a': np.float64(7.8), 'b': np.float64(3.9)} light_last={'L': np.float64(106.5), 'a': np.float64(7.2), 'b': np.float64(3.9)}
+     EXP: ["ZOOZOO: I'll help Grandma with the juice. Wait for us, Hoor!"]
+     HEARD(vad): I'll help grandma with the juice. Wait for us, Hoer.
+     HEARD(raw): I'll help grandma with the juice. Wait for us, Huur.
+     MISS: ['hoor'] EXTRA: ['hoer']
+ 25b 1280x720 24/1 5.09s audio=True LUFS=-28.6 peak=-16.7 cut=9.3 light_first={'L': np.float64(99.9), 'a': np.float64(7.5), 'b': np.float64(3.0)} light_last={'L': np.float64(97.2), 'a': np.float64(6.7), 'b': np.float64(2.7)}
+     EXP: []
+     HEARD(vad): The sun is so bright. I'll turn off the lights
+     HEARD(raw): The sun is so bright, I'll turn off the lights.
+     MISS: [] EXTRA: ['the', 'sun', 'is', 'so', 'bright', "i'll", 'turn', 'off', 'the', 'lights']
+  26 1280x720 24/1 5.09s audio=True LUFS=-20.8 peak=-9.0 cut=8.2 light_first={'L': np.float64(99.8), 'a': np.float64(7.5), 'b': np.float64(3.0)} light_last={'L': np.float64(103.2), 'a': np.float64(7.4), 'b': np.float64(3.4)}
+     EXP: ["HOOR: Me! I do it! I'm big!"]
+     HEARD(vad): Me! I do it! I'm big!
+     HEARD(raw): Me! I do it! I'm big!
+     MISS: [] EXTRA: []
+  27 1280x720 24/1 5.09s audio=True LUFS=-22.8 peak=-6.4 cut=9.5 light_first={'L': np.float64(97.2), 'a': np.float64(7.7), 'b': np.float64(2.8)} light_last={'L': np.float64(102.7), 'a': np.float64(7.6), 'b': np.float64(3.3)}
+     EXP: ['HOOR: In… in…']
+     HEARD(vad): In in
+     HEARD(raw): In, in.
+     MISS: [] EXTRA: []
+  28 1280x720 24/1 5.09s audio=True LUFS=-22.9 peak=-14.3 cut=8.8 light_first={'L': np.float64(97.8), 'a': np.float64(7.8), 'b': np.float64(2.5)} light_last={'L': np.float64(101.8), 'a': np.float64(7.4), 'b': np.float64(2.6)}
+     EXP: []
+     HEARD(vad): 
+     HEARD(raw): meow
+     MISS: [] EXTRA: []
+  29 1280x720 24/1 5.09s audio=True LUFS=-31.3 peak=-11.9 cut=9.1 light_first={'L': np.float64(96.5), 'a': np.float64(7.8), 'b': np.float64(1.9)} light_last={'L': np.float64(101.2), 'a': np.float64(7.2), 'b': np.float64(2.2)}
+     EXP: []
+     HEARD(vad): 
+     HEARD(raw): 
+     MISS: [] EXTRA: []
+  30 1280x720 24/1 4.10s audio=True LUFS=-31.1 peak=-9.3 cut=31.6 light_first={'L': np.float64(99.3), 'a': np.float64(6.7), 'b': np.float64(3.6)} light_last={'L': np.float64(103.4), 'a': np.float64(6.5), 'b': np.float64(3.6)}
+     EXP: []
+     HEARD(vad): Oh
+     HEARD(raw): You
+     MISS: [] EXTRA: ['oh']
+  31 1280x720 24/1 4.10s audio=True LUFS=-20.0 peak=-7.2 cut=8.4 light_first={'L': np.float64(98.9), 'a': np.float64(6.8), 'b': np.float64(2.7)} light_last={'L': np.float64(103.3), 'a': np.float64(6.6), 'b': np.float64(2.8)}
+     EXP: ['MISHOO: Uh-oh…']
+     HEARD(vad): Uh-oh.
+     HEARD(raw): uh-oh
+     MISS: [] EXTRA: []
+  32 1280x720 24/1 5.09s audio=True LUFS=-20.7 peak=-1.2 cut=9.8 light_first={'L': np.float64(97.7), 'a': np.float64(6.9), 'b': np.float64(1.8)} light_last={'L': np.float64(102.0), 'a': np.float64(6.6), 'b': np.float64(1.9)}
+     EXP: []
+     HEARD(vad): 
+     HEARD(raw): you
+     MISS: [] EXTRA: []
+  33 1280x720 24/1 5.09s audio=True LUFS=-16.1 peak=-6.7 cut=8.6 light_first={'L': np.float64(96.9), 'a': np.float64(7.1), 'b': np.float64(1.1)} light_last={'L': np.float64(101.0), 'a': np.float64(6.8), 'b': np.float64(1.5)}
+     EXP: ["HOOR: Oh no… Grandma's vase…"]
+     HEARD(vad): Oh no! Grandma's vase!
+     HEARD(raw): Oh no! Grandma's vase!
+     MISS: [] EXTRA: []
+  34 1280x720 24/1 5.09s audio=True LUFS=-27.6 peak=-17.5 cut=9.9 light_first={'L': np.float64(95.5), 'a': np.float64(7.1), 'b': np.float64(0.5)} light_last={'L': np.float64(100.0), 'a': np.float64(6.9), 'b': np.float64(0.8)}
+     EXP: []
+     HEARD(vad): Juice is almost ready!
+     HEARD(raw): Juice is almost ready!
+     MISS: [] EXTRA: ['juice', 'is', 'almost', 'ready']
+  35 1280x720 24/1 5.09s audio=True LUFS=-17.3 peak=-6.6 cut=7.5 light_first={'L': np.float64(94.9), 'a': np.float64(7.1), 'b': np.float64(0.1)} light_last={'L': np.float64(99.6), 'a': np.float64(6.7), 'b': np.float64(0.4)}
+     EXP: ['HOOR: Zoozoo… help…']
+     HEARD(vad): Zuzu, help!
+     HEARD(raw): Zuzu, help!
+     MISS: ['zoozoo'] EXTRA: ['zuzu']
+ 35b 1280x720 24/1 5.09s audio=True LUFS=-21.7 peak=-3.1 cut=11.3 light_first={'L': np.float64(94.3), 'a': np.float64(7.1), 'b': np.float64(-0.2)} light_last={'L': np.float64(105.5), 'a': np.float64(7.1), 'b': np.float64(1.1)}
+     EXP: ["ZOOZOO: Hoor! Don't touch it — you could get hurt!"]
+     HEARD(vad): Whore! Don't touch it. You could get hurt.
+     HEARD(raw): Whore! Don't touch it! You could get hurt!
+     MISS: ['hoor'] EXTRA: ['whore']
+  36 1280x720 24/1 5.09s audio=True LUFS=-18.8 peak=-3.0 cut=10.7 light_first={'L': np.float64(98.5), 'a': np.float64(7.4), 'b': np.float64(0.4)} light_last={'L': np.float64(102.5), 'a': np.float64(7.2), 'b': np.float64(0.6)}
+     EXP: ['ZOOZOO: I need more light to see the pieces…']
+     HEARD(vad): I need more light to see the pieces.
+     HEARD(raw): I need more light to see the pieces.
+     MISS: [] EXTRA: []
+  37 1280x720 24/1 5.09s audio=True LUFS=-21.3 peak=-12.0 cut=44.1 light_first={'L': np.float64(132.2), 'a': np.float64(10.1), 'b': np.float64(17.7)} light_last={'L': np.float64(132.5), 'a': np.float64(9.6), 'b': np.float64(17.7)}
+     EXP: ['ZOOZOO: Better!']
+     HEARD(vad): Better.
+     HEARD(raw): better
+     MISS: [] EXTRA: []
+  38 1280x720 24/1 5.09s audio=True LUFS=-24.6 peak=-14.8 cut=15.6 light_first={'L': np.float64(127.0), 'a': np.float64(9.8), 'b': np.float64(16.4)} light_last={'L': np.float64(129.4), 'a': np.float64(9.3), 'b': np.float64(16.1)}
+     EXP: ['ZOOZOO: Careful… careful…']
+     HEARD(vad): Careful, careful.
+     HEARD(raw): Careful, careful.
+     MISS: [] EXTRA: []
+ 38b 1280x720 24/1 5.09s audio=True LUFS=-26.1 peak=-5.6 cut=18.4 light_first={'L': np.float64(123.7), 'a': np.float64(9.8), 'b': np.float64(15.2)} light_last={'L': np.float64(127.7), 'a': np.float64(9.3), 'b': np.float64(15.2)}
+     EXP: []
+     HEARD(vad): 
+     HEARD(raw): You
+     MISS: [] EXTRA: []
+  39 1280x720 24/1 5.09s audio=True LUFS=-18.3 peak=-8.5 cut=7.8 light_first={'L': np.float64(121.1), 'a': np.float64(9.8), 'b': np.float64(14.2)} light_last={'L': np.float64(126.0), 'a': np.float64(8.9), 'b': np.float64(14.6)}
+     EXP: ['ZOOZOO: We must tell Grandma.']
+     HEARD(vad): We must tell grandma
+     HEARD(raw): We must tell grandma.
+     MISS: [] EXTRA: []
+ 39b 1280x720 24/1 5.09s audio=True LUFS=-17.7 peak=-8.0 cut=8.1 light_first={'L': np.float64(120.3), 'a': np.float64(9.4), 'b': np.float64(13.2)} light_last={'L': np.float64(124.1), 'a': np.float64(8.7), 'b': np.float64(13.1)}
+     EXP: ['HOOR: Not yet… please…']
+     HEARD(vad): Not yet. Please.
+     HEARD(raw): Not yet. Please.
+     MISS: [] EXTRA: []
+  40 1280x720 24/1 5.09s audio=True LUFS=-22.0 peak=-11.1 cut=8.1 light_first={'L': np.float64(118.2), 'a': np.float64(9.3), 'b': np.float64(12.4)} light_last={'L': np.float64(119.4), 'a': np.float64(8.0), 'b': np.float64(12.7)}
+     EXP: ['ZOOZOO: Okay… but you tell her yourself. Soon.']
+     HEARD(vad): Okay, but you tell her yourself. Soon.
+     HEARD(raw): Okay, but you tell her yourself. Soon.
+     MISS: [] EXTRA: []
+ 40b 1280x720 24/1 5.09s audio=True LUFS=-26.5 peak=-7.2 cut=6.7 light_first={'L': np.float64(114.7), 'a': np.float64(8.5), 'b': np.float64(11.3)} light_last={'L': np.float64(119.2), 'a': np.float64(7.6), 'b': np.float64(11.5)}
+     EXP: ['HOOR: Shhh!']
+     HEARD(vad): Shh
+     HEARD(raw): Shh!
+     MISS: ['shhh'] EXTRA: ['shh']
+ 40c 1280x720 24/1 5.09s audio=True LUFS=-19.1 peak=-6.9 cut=6.5 light_first={'L': np.float64(113.6), 'a': np.float64(8.0), 'b': np.float64(10.1)} light_last={'L': np.float64(117.9), 'a': np.float64(7.5), 'b': np.float64(10.5)}
+     EXP: ['MISHOO: I saw that. I see everything.']
+     HEARD(vad): I saw that. I see everything.
+     HEARD(raw): I saw that. I see everything.
+     MISS: [] EXTRA: []
+  41 1280x720 24/1 5.09s audio=True LUFS=-17.1 peak=-7.3 cut=5.5 light_first={'L': np.float64(114.4), 'a': np.float64(7.9), 'b': np.float64(10.0)} light_last={'L': np.float64(110.2), 'a': np.float64(7.4), 'b': np.float64(10.1)}
+     EXP: ['GRANDMA: My vase… where is my vase?']
+     HEARD(vad): My vase where is my vase?
+     HEARD(raw): My Vayst? Where is my Vayst?
+     MISS: [] EXTRA: []
+  42 1280x720 24/1 5.09s audio=True LUFS=-41.8 peak=-19.9 cut=7.5 light_first={'L': np.float64(106.4), 'a': np.float64(8.0), 'b': np.float64(9.9)} light_last={'L': np.float64(114.2), 'a': np.float64(7.8), 'b': np.float64(10.3)}
+     EXP: []
+     HEARD(vad): 
+     HEARD(raw): 
+     MISS: [] EXTRA: []
+  43 1280x720 24/1 5.09s audio=True LUFS=-20.0 peak=-9.6 cut=8.1 light_first={'L': np.float64(108.8), 'a': np.float64(8.4), 'b': np.float64(9.6)} light_last={'L': np.float64(112.5), 'a': np.float64(7.9), 'b': np.float64(9.5)}
+     EXP: ['GRANDMA: Did anyone see it?']
+     HEARD(vad): Did anyone see it?
+     HEARD(raw): Did anyone see it?
+     MISS: [] EXTRA: []
+  44 1280x720 24/1 5.09s audio=True LUFS=-20.1 peak=-12.0 cut=7.4 light_first={'L': np.float64(108.4), 'a': np.float64(8.4), 'b': np.float64(9.0)} light_last={'L': np.float64(111.7), 'a': np.float64(7.8), 'b': np.float64(8.7)}
+     EXP: ['HOOR: Grandma… I…']
+     HEARD(vad): Grandma?
+     HEARD(raw): Grandma? I...
+     MISS: ['i'] EXTRA: []
+  45 1280x720 24/1 6.08s audio=True LUFS=-18.4 peak=-8.2 cut=33.5 light_first={'L': np.float64(136.0), 'a': np.float64(9.9), 'b': np.float64(23.0)} light_last={'L': np.float64(134.7), 'a': np.float64(9.6), 'b': np.float64(21.6)}
+     EXP: ["NADYAH: It wasn't me! I put the ball away!"]
+     HEARD(vad): It wasn't me! I put the ball away!
+     HEARD(raw): It wasn't me! I put the ball away!
+     MISS: [] EXTRA: []
+ 45b 1280x720 24/1 5.09s audio=True LUFS=-28.1 peak=-3.0 cut=7.7 light_first={'L': np.float64(132.1), 'a': np.float64(10.3), 'b': np.float64(21.9)} light_last={'L': np.float64(132.6), 'a': np.float64(9.9), 'b': np.float64(20.5)}
+     EXP: []
+     HEARD(vad): 
+     HEARD(raw): 
+     MISS: [] EXTRA: []
+  46 1280x720 24/1 6.08s audio=True LUFS=-21.2 peak=-6.4 cut=8.8 light_first={'L': np.float64(133.0), 'a': np.float64(9.8), 'b': np.float64(21.2)} light_last={'L': np.float64(131.2), 'a': np.float64(9.8), 'b': np.float64(20.1)}
+     EXP: ["NOONOO: A mystery! Don't worry, Grandma…"]
+     HEARD(vad): A mystery! Don't worry, Grandma!
+     HEARD(raw): A mystery! Don't worry, Grandma!
+     MISS: [] EXTRA: []
+  47 1280x720 24/1 5.09s audio=True LUFS=-20.6 peak=-6.9 cut=54.4 light_first={'L': np.float64(125.1), 'a': np.float64(9.8), 'b': np.float64(17.3)} light_last={'L': np.float64(123.8), 'a': np.float64(10.5), 'b': np.float64(16.9)}
+     EXP: ['NOONOO: Detective Noonoo is on the case!']
+     HEARD(vad): Detective Nunu is on the case!
+     HEARD(raw): Detective Nunu is on the case!
+     MISS: ['noonoo'] EXTRA: ['nunu']
+  48 1280x720 24/1 5.09s audio=True LUFS=-20.7 peak=-9.9 cut=52.8 light_first={'L': np.float64(130.9), 'a': np.float64(10.0), 'b': np.float64(20.1)} light_last={'L': np.float64(131.8), 'a': np.float64(9.6), 'b': np.float64(19.7)}
+     EXP: ['NADYAH: Can I be the helper detective? Please?']
+     HEARD(vad): Can I be the helper detective please?
+     HEARD(raw): Can I be the helper detective, please?
+     MISS: [] EXTRA: []
+  49 1280x720 24/1 5.09s audio=True LUFS=-20.4 peak=-9.6 cut=10.5 light_first={'L': np.float64(131.6), 'a': np.float64(10.0), 'b': np.float64(20.9)} light_last={'L': np.float64(130.2), 'a': np.float64(10.0), 'b': np.float64(20.6)}
+     EXP: ['NOONOO: Look for clues. Every little thing!']
+     HEARD(vad): Look for clues every little thing
+     HEARD(raw): Look for clues. Every little thing.
+     MISS: [] EXTRA: []
+  50 1280x720 24/1 5.09s audio=True LUFS=-18.8 peak=-8.6 cut=9.4 light_first={'L': np.float64(129.9), 'a': np.float64(10.0), 'b': np.float64(21.3)} light_last={'L': np.float64(131.4), 'a': np.float64(9.9), 'b': np.float64(20.6)}
+     EXP: ['NOONOO: Clue number one… a petal!']
+     HEARD(vad): Clue number one a petal
+     HEARD(raw): Clue number one, a petal.
+     MISS: [] EXTRA: []
+  51 1280x720 24/1 5.09s audio=True LUFS=-19.7 peak=-9.8 cut=7.2 light_first={'L': np.float64(131.2), 'a': np.float64(10.1), 'b': np.float64(20.9)} light_last={'L': np.float64(131.4), 'a': np.float64(10.0), 'b': np.float64(20.3)}
+     EXP: ['NADYAH: Clue number two… cat hair!']
+     HEARD(vad): Clue number two, cat hair!
+     HEARD(raw): Clue number two, cat hair.
+     MISS: [] EXTRA: []
+  52 1280x720 24/1 5.09s audio=True LUFS=-29.8 peak=-15.3 cut=6.9 light_first={'L': np.float64(130.7), 'a': np.float64(10.1), 'b': np.float64(20.9)} light_last={'L': np.float64(131.0), 'a': np.float64(10.0), 'b': np.float64(20.3)}
+     EXP: []
+     HEARD(vad): 
+     HEARD(raw): You
+     MISS: [] EXTRA: []
+  53 1280x720 24/1 5.09s audio=True LUFS=-20.1 peak=-8.2 cut=7.1 light_first={'L': np.float64(130.4), 'a': np.float64(10.1), 'b': np.float64(20.8)} light_last={'L': np.float64(126.0), 'a': np.float64(9.5), 'b': np.float64(19.9)}
+     EXP: ["NOONOO: Aha! A rose petal… on Mishoo's tail!"]
+     HEARD(vad): Aha! A rose petal on Mishu's tail!
+     HEARD(raw): Aha! A rose petal on Mishu's tail!
+     MISS: ["mishoo's"] EXTRA: ["mishu's"]
+  54 1280x720 24/1 5.09s audio=True LUFS=-20.4 peak=-8.5 cut=7.5 light_first={'L': np.float64(127.6), 'a': np.float64(9.8), 'b': np.float64(20.2)} light_last={'L': np.float64(129.6), 'a': np.float64(9.7), 'b': np.float64(19.8)}
+     EXP: ['NADYAH: And a piece of the vase… next to his chair!']
+     HEARD(vad): And a piece of the vase next to his chair.
+     HEARD(raw): And a piece of the vase next to his chair.
+     MISS: [] EXTRA: []
+  55 1280x720 24/1 5.09s audio=True LUFS=-21.0 peak=-7.2 cut=7.7 light_first={'L': np.float64(128.9), 'a': np.float64(9.9), 'b': np.float64(19.9)} light_last={'L': np.float64(133.0), 'a': np.float64(9.6), 'b': np.float64(18.8)}
+     EXP: ['NOONOO: Case closed! Mishoo did it!']
+     HEARD(vad): Case closed. Miss you. Did it.
+     HEARD(raw): Case closed! Miss you! Did it!
+     MISS: ['mishoo'] EXTRA: ['miss', 'you']
+  56 1280x720 24/1 5.09s audio=True LUFS=-20.3 peak=-9.4 cut=8.0 light_first={'L': np.float64(132.6), 'a': np.float64(9.7), 'b': np.float64(19.8)} light_last={'L': np.float64(133.2), 'a': np.float64(9.7), 'b': np.float64(19.6)}
+     EXP: ["MISHOO: Me?! It wasn't me! I'm innocent!"]
+     HEARD(vad): Me? It wasn't me! I'm innocent!
+     HEARD(raw): Me? It wasn't me! I'm innocent!
+     MISS: [] EXTRA: []
+  57 1280x720 24/1 4.10s audio=True LUFS=-17.3 peak=-7.0 cut=7.9 light_first={'L': np.float64(132.2), 'a': np.float64(9.9), 'b': np.float64(20.1)} light_last={'L': np.float64(131.1), 'a': np.float64(9.7), 'b': np.float64(19.9)}
+     EXP: ['NADYAH: Bad kitty!']
+     HEARD(vad): Bad kitty!
+     HEARD(raw): Bad kitty!
+     MISS: [] EXTRA: []
+  58 1280x720 24/1 7.10s audio=True LUFS=-20.2 peak=-10.5 cut=6.8 light_first={'L': np.float64(130.9), 'a': np.float64(9.8), 'b': np.float64(20.1)} light_last={'L': np.float64(130.9), 'a': np.float64(9.8), 'b': np.float64(20.2)}
+     EXP: ['GRANDMA: Oh, Mishoo… maybe you should sit on your cushion for a while?']
+     HEARD(vad): Oh, Miss Show, maybe you should sit on your cushion for a while?
+     HEARD(raw): Oh, Miss Show, maybe you should sit on your cushion for a while?
+     MISS: ['mishoo'] EXTRA: ['miss', 'show']
+  59 1280x720 24/1 4.10s audio=True LUFS=-20.6 peak=-11.9 cut=6.4 light_first={'L': np.float64(130.8), 'a': np.float64(10.0), 'b': np.float64(20.5)} light_last={'L': np.float64(131.0), 'a': np.float64(10.0), 'b': np.float64(20.4)}
+     EXP: []
+     HEARD(vad): Meow
+     HEARD(raw): Meow.
+     MISS: [] EXTRA: ['meow']
+  60 1280x720 24/1 5.09s audio=True LUFS=-22.6 peak=-14.5 cut=48.1 light_first={'L': np.float64(153.0), 'a': np.float64(13.5), 'b': np.float64(25.0)} light_last={'L': np.float64(151.3), 'a': np.float64(13.7), 'b': np.float64(24.8)}
+     EXP: ['HOOR: Mishoo…']
+     HEARD(vad): Me too
+     HEARD(raw): Me too.
+     MISS: ['mishoo'] EXTRA: ['me', 'too']

@@ -1,0 +1,401 @@
+{
+ "shots/shot01.mp4": [
+  [
+   0.0,
+   5.0,
+   "Thanks for watching!"
+  ]
+ ],
+ "shots/shot02.mp4": [
+  [
+   0.0,
+   5.0,
+   "There you are, shining like new."
+  ]
+ ],
+ "shots/shot03.mp4": [
+  [
+   0.0,
+   5.0,
+   "Grandma, why do you clean it every day?"
+  ]
+ ],
+ "shots/shot04.mp4": [
+  [
+   0.0,
+   5.0,
+   "Because this vase is very, very special."
+  ]
+ ],
+ "shots/shot05.mp4": [
+  [
+   0.0,
+   5.0,
+   "Special? It's just a vase!"
+  ]
+ ],
+ "shots/shot06.mp4": [
+  [
+   0.0,
+   5.0,
+   "This vase is 50 years old."
+  ]
+ ],
+ "shots/shot07.mp4": [
+  [
+   0.0,
+   5.0,
+   "Fifty? That's older than everything!"
+  ]
+ ],
+ "shots/shot08.mp4": [
+  [
+   0.0,
+   5.0,
+   "And it never broke? Not even once?"
+  ]
+ ],
+ "shots/shot09.mp4": [
+  [
+   0.0,
+   4.0,
+   "Not one crack in 50 years."
+  ]
+ ],
+ "shots/shot10.mp4": [
+  [
+   0.0,
+   5.0,
+   "Pretty vase!"
+  ]
+ ],
+ "shots/shot11.mp4": [
+  [
+   0.0,
+   4.3,
+   "Who gave it to you, Grandma?"
+  ]
+ ],
+ "shots/shot12.mp4": [
+  [
+   0.0,
+   5.0,
+   "Ah, that's a story for another day."
+  ]
+ ],
+ "shots/shot13.mp4": [
+  [
+   0.0,
+   2.0,
+   "Miss you."
+  ],
+  [
+   4.0,
+   5.0,
+   "Meow."
+  ]
+ ],
+ "shots/shot14.mp4": [
+  [
+   0.0,
+   2.0,
+   "I'll make you some fresh juice."
+  ],
+  [
+   6.2,
+   8.2,
+   "Nadia, catch!"
+  ]
+ ],
+ "shots/shot16.mp4": [
+  [
+   0.0,
+   4.0,
+   "Throw it! Throw it high!"
+  ]
+ ],
+ "shots/shot17.mp4": [
+  [
+   0.0,
+   2.0,
+   "Thanks for watching!"
+  ]
+ ],
+ "shots/shot18.mp4": [
+  [
+   0.0,
+   2.0,
+   "Oh"
+  ],
+  [
+   2.6,
+   4.6,
+   "Nadia the vase"
+  ]
+ ],
+ "shots/shot19.mp4": [
+  [
+   0.0,
+   5.0,
+   "It didn't fall, right?"
+  ]
+ ],
+ "shots/shot20.mp4": [
+  [
+   0.0,
+   7.0,
+   "Hmm. Shall we keep the ball for the garden, my dears?"
+  ]
+ ],
+ "shots/shot21.mp4": [
+  [
+   0.0,
+   5.2,
+   "There, safe and sound."
+  ]
+ ],
+ "shots/shot22.mp4": [
+  [
+   0.0,
+   5.0,
+   "Flower for Grandma!"
+  ]
+ ],
+ "shots/shot23.mp4": [
+  [
+   0.0,
+   5.0,
+   "So pretty, Hoor. Grandma will love it."
+  ]
+ ],
+ "shots/shot24.mp4": [
+  [
+   0.0,
+   5.0,
+   "Flower in the vase!"
+  ]
+ ],
+ "shots/shot25.mp4": [
+  [
+   0.0,
+   4.0,
+   "I'll help grandma with the juice. Wait for us, Whoer."
+  ]
+ ],
+ "shots/shot26.mp4": [
+  [
+   0.0,
+   5.0,
+   "Me! I do it! I'm big!"
+  ]
+ ],
+ "shots/shot27.mp4": [
+  [
+   0.0,
+   5.0,
+   "In. In."
+  ]
+ ],
+ "shots/shot28.mp4": [
+  [
+   0.0,
+   3.0,
+   "meow"
+  ],
+  [
+   3.0,
+   6.0,
+   "meow"
+  ]
+ ],
+ "shots/shot29.mp4": [
+  [
+   0.0,
+   4.6,
+   "Thanks for watching."
+  ]
+ ],
+ "shots/shot30.mp4": [
+  [
+   0.0,
+   5.0,
+   "Thanks for watching!"
+  ]
+ ],
+ "shots/shot31.mp4": [
+  [
+   0.0,
+   4.6,
+   "Uh-oh."
+  ]
+ ],
+ "shots/shot32.mp4": [
+  [
+   0.0,
+   2.0,
+   "Oh"
+  ]
+ ],
+ "shots/shot33.mp4": [
+  [
+   0.0,
+   5.0,
+   "Oh no! Grandma's vase!"
+  ]
+ ],
+ "shots/shot34.mp4": [
+  [
+   0.0,
+   4.0,
+   "Juice is almost ready."
+  ]
+ ],
+ "shots/shot35.mp4": [
+  [
+   0.0,
+   5.0,
+   "Zuzu, help!"
+  ]
+ ],
+ "shots/shot35b.mp4": [
+  [
+   0.0,
+   5.0,
+   "Hoor! Don't touch it! You could get hurt!"
+  ]
+ ],
+ "shots/shot36.mp4": [
+  [
+   0.0,
+   3.8,
+   "Sure, I need more light to see the pieces."
+  ]
+ ],
+ "shots/shot37.mp4": [
+  [
+   0.0,
+   2.5,
+   "...better."
+  ]
+ ],
+ "shots_graded/shot38.mp4": [
+  [
+   0.0,
+   5.0,
+   "Careful, careful, careful!"
+  ]
+ ],
+ "shots_graded/shot38b.mp4": [
+  [
+   0.0,
+   2.0,
+   "You"
+  ]
+ ],
+ "shots_graded/shot39.mp4": [
+  [
+   0.0,
+   4.8,
+   "This gray owl, we must tell Grandma."
+  ]
+ ],
+ "shots_graded/shot39b.mp4": [
+  [
+   0.0,
+   5.0,
+   "Not yet. Please?"
+  ]
+ ],
+ "shots_graded/shot40.mp4": [
+  [
+   0.0,
+   4.0,
+   "Okay, but you tell her yourself. Soon."
+  ]
+ ],
+ "shots_graded/shot40b.mp4": [
+  [
+   0.0,
+   4.8,
+   "Shhh!"
+  ]
+ ],
+ "shots_graded/shot40c.mp4": [
+  [
+   0.0,
+   4.6,
+   "I saw that I see everything"
+  ]
+ ],
+ "shots_graded/shot41.mp4": [
+  [
+   0.0,
+   6.0,
+   "My vase? Where is my vase?"
+  ]
+ ],
+ "shots_graded/shot42.mp4": [],
+ "shots_graded/shot43.mp4": [
+  [
+   0.0,
+   5.0,
+   "Did anyone see it?"
+  ]
+ ],
+ "shots_graded/shot44.mp4": [
+  [
+   0.0,
+   5.0,
+   "Grandma, I-"
+  ]
+ ],
+ "shots_graded/shot45.mp4": [
+  [
+   0.0,
+   6.0,
+   "It wasn't me! I put the ball away!"
+  ]
+ ],
+ "shots_graded/shot45b.mp4": [
+  [
+   0.0,
+   5.0,
+   "Thanks for watching!"
+  ]
+ ],
+ "shots_graded/shot46.mp4": [
+  [
+   0.0,
+   6.0,
+   "A mystery! Don't worry, Grandma!"
+  ]
+ ],
+ "shots_graded/shot47.mp4": [
+  [
+   0.0,
+   5.0,
+   "Detective Nunu is on the case."
+  ]
+ ],
+ "shots_graded/shot48.mp4": [
+  [
+   0.0,
+   4.0,
+   "Can I be the helper detective, please?"
+  ]
+ ],
+ "shots_graded/shot49.mp4": [
+  [
+   0.0,
+   5.0,
+   "Look for clues. Every little thing."
+  ]
+ ],
+ "shots_graded/shot50.mp4": [
+  [
+   0.0,
+   5.0,
+   "Clue number one, a pedal."
+  ]
+ ]
+}

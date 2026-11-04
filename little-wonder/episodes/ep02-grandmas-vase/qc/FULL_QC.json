@@ -1,0 +1,2075 @@
+[
+ {
+  "id": "01",
+  "src": "shots/shot01.mp4",
+  "w": 1280,
+  "h": 720,
+  "fps": "24/1",
+  "dur": 5.088,
+  "audio": true,
+  "ar": "32000",
+  "lufs": -36.9,
+  "peak": -17.5,
+  "heard": "",
+  "heard_novad": "You",
+  "expected": [],
+  "missing": [],
+  "extra": [],
+  "light_first": {
+   "L": 160.3,
+   "a": 10.2,
+   "b": 20.1
+  },
+  "light_last": {
+   "L": 156.2,
+   "a": 12.1,
+   "b": 17.4
+  },
+  "cut_diff": null
+ },
+ {
+  "id": "02",
+  "src": "shots/shot02.mp4",
+  "w": 1280,
+  "h": 720,
+  "fps": "24/1",
+  "dur": 5.088,
+  "audio": true,
+  "ar": "32000",
+  "lufs": -16.5,
+  "peak": -6.2,
+  "heard": "There you are, shining like new.",
+  "heard_novad": "There you are, shining like new.",
+  "expected": [],
+  "missing": [],
+  "extra": [
+   "there",
+   "you",
+   "are",
+   "shining",
+   "like",
+   "new"
+  ],
+  "light_first": {
+   "L": 129.9,
+   "a": 11.1,
+   "b": 13.7
+  },
+  "light_last": {
+   "L": 128.6,
+   "a": 10.9,
+   "b": 14.1
+  },
+  "cut_diff": 28.3
+ },
+ {
+  "id": "03",
+  "src": "shots/shot03.mp4",
+  "w": 1280,
+  "h": 720,
+  "fps": "24/1",
+  "dur": 5.088,
+  "audio": true,
+  "ar": "32000",
+  "lufs": -18.8,
+  "peak": -8.1,
+  "heard": "Grandma, why do you clean it every day?",
+  "heard_novad": "Grandma, why do you clean it every day?",
+  "expected": [],
+  "missing": [],
+  "extra": [
+   "grandma",
+   "why",
+   "do",
+   "you",
+   "clean",
+   "it",
+   "every",
+   "day"
+  ],
+  "light_first": {
+   "L": 121.6,
+   "a": 11.1,
+   "b": 12.9
+  },
+  "light_last": {
+   "L": 123.2,
+   "a": 11.0,
+   "b": 12.7
+  },
+  "cut_diff": 12.8
+ },
+ {
+  "id": "04",
+  "src": "shots/shot04.mp4",
+  "w": 1280,
+  "h": 720,
+  "fps": "24/1",
+  "dur": 5.088,
+  "audio": true,
+  "ar": "32000",
+  "lufs": -20.1,
+  "peak": -5.7,
+  "heard": "because this vase is very, very special.",
+  "heard_novad": "Because this vase is very, very special.",
+  "expected": [],
+  "missing": [],
+  "extra": [
+   "because",
+   "this",
+   "vase",
+   "is",
+   "very",
+   "very",
+   "special"
+  ],
+  "light_first": {
+   "L": 115.9,
+   "a": 11.1,
+   "b": 11.8
+  },
+  "light_last": {
+   "L": 102.6,
+   "a": 10.1,
+   "b": 10.0
+  },
+  "cut_diff": 11.7
+ },
+ {
+  "id": "05",
+  "src": "shots/shot05.mp4",
+  "w": 1280,
+  "h": 720,
+  "fps": "24/1",
+  "dur": 5.088,
+  "audio": true,
+  "ar": "32000",
+  "lufs": -22.5,
+  "peak": -9.7,
+  "heard": "Special? It's just a vase!",
+  "heard_novad": "Special? It's just a vase!",
+  "expected": [],
+  "missing": [],
+  "extra": [
+   "special",
+   "it's",
+   "just",
+   "a",
+   "vase"
+  ],
+  "light_first": {
+   "L": 98.5,
+   "a": 9.8,
+   "b": 9.4
+  },
+  "light_last": {
+   "L": 145.0,
+   "a": 8.3,
+   "b": 11.4
+  },
+  "cut_diff": 10.1
+ },
+ {
+  "id": "06",
+  "src": "shots/shot06.mp4",
+  "w": 1280,
+  "h": 720,
+  "fps": "24/1",
+  "dur": 5.088,
+  "audio": true,
+  "ar": "32000",
+  "lufs": -21.6,
+  "peak": -10.6,
+  "heard": "This vase is 50 years old!",
+  "heard_novad": "This vase is 50 years old.",
+  "expected": [
+   "GRANDMA: This vase is fifty years old!"
+  ],
+  "missing": [
+   "fifty"
+  ],
+  "extra": [],
+  "light_first": {
+   "L": 137.7,
+   "a": 9.0,
+   "b": 10.8
+  },
+  "light_last": {
+   "L": 129.4,
+   "a": 11.2,
+   "b": 15.7
+  },
+  "cut_diff": 11.4
+ },
+ {
+  "id": "07",
+  "src": "shots/shot07.mp4",
+  "w": 1280,
+  "h": 720,
+  "fps": "24/1",
+  "dur": 5.088,
+  "audio": true,
+  "ar": "32000",
+  "lufs": -22.7,
+  "peak": -12.7,
+  "heard": "",
+  "heard_novad": "Fifty? That's older than everything!",
+  "expected": [
+   "NADYAH: Fifty?! That's older than… everything!"
+  ],
+  "missing": [
+   "fifty",
+   "that's",
+   "older",
+   "than",
+   "everything"
+  ],
+  "extra": [],
+  "light_first": {
+   "L": 124.1,
+   "a": 11.9,
+   "b": 15.1
+  },
+  "light_last": {
+   "L": 122.0,
+   "a": 10.8,
+   "b": 14.1
+  },
+  "cut_diff": 8.2
+ },
+ {
+  "id": "08",
+  "src": "shots/shot08.mp4",
+  "w": 1280,
+  "h": 720,
+  "fps": "24/1",
+  "dur": 5.088,
+  "audio": true,
+  "ar": "32000",
+  "lufs": -17.9,
+  "peak": -6.9,
+  "heard": "And it never broke? Not even once?",
+  "heard_novad": "And it never broke? Not even once?",
+  "expected": [
+   "ZOOZOO: And it never broke? Not even once?"
+  ],
+  "missing": [],
+  "extra": [],
+  "light_first": {
+   "L": 114.7,
+   "a": 10.9,
+   "b": 13.1
+  },
+  "light_last": {
+   "L": 121.1,
+   "a": 10.4,
+   "b": 12.5
+  },
+  "cut_diff": 11.8
+ },
+ {
+  "id": "09",
+  "src": "shots/shot09.mp4",
+  "w": 1280,
+  "h": 720,
+  "fps": "24/1",
+  "dur": 5.088,
+  "audio": true,
+  "ar": "32000",
+  "lufs": -22.6,
+  "peak": -8.6,
+  "heard": "Not one crack in 50 years.",
+  "heard_novad": "Not one crack in 50 years.",
+  "expected": [
+   "GRANDMA: Not one crack in fifty years."
+  ],
+  "missing": [
+   "fifty"
+  ],
+  "extra": [],
+  "light_first": {
+   "L": 114.2,
+   "a": 10.5,
+   "b": 11.6
+  },
+  "light_last": {
+   "L": 117.5,
+   "a": 10.0,
+   "b": 11.7
+  },
+  "cut_diff": 9.8
+ },
+ {
+  "id": "10",
+  "src": "shots/shot10.mp4",
+  "w": 1280,
+  "h": 720,
+  "fps": "24/1",
+  "dur": 5.088,
+  "audio": true,
+  "ar": "32000",
+  "lufs": -19.6,
+  "peak": -8.1,
+  "heard": "",
+  "heard_novad": "Pretty vase!",
+  "expected": [
+   "HOOR: Pretty vase!"
+  ],
+  "missing": [
+   "pretty",
+   "vase"
+  ],
+  "extra": [],
+  "light_first": {
+   "L": 108.9,
+   "a": 9.9,
+   "b": 11.2
+  },
+  "light_last": {
+   "L": 110.7,
+   "a": 9.8,
+   "b": 11.0
+  },
+  "cut_diff": 11.4
+ },
+ {
+  "id": "11",
+  "src": "shots/shot11.mp4",
+  "w": 1280,
+  "h": 720,
+  "fps": "24/1",
+  "dur": 5.088,
+  "audio": true,
+  "ar": "32000",
+  "lufs": -20.3,
+  "peak": -10.0,
+  "heard": "Who gave it to you, Grandma?",
+  "heard_novad": "Who gave it to you, Grandma?",
+  "expected": [
+   "NADYAH: Who gave it to you, Grandma?"
+  ],
+  "missing": [],
+  "extra": [],
+  "light_first": {
+   "L": 104.0,
+   "a": 9.7,
+   "b": 10.1
+  },
+  "light_last": {
+   "L": 108.1,
+   "a": 9.0,
+   "b": 9.9
+  },
+  "cut_diff": 10.1
+ },
+ {
+  "id": "12",
+  "src": "shots/shot12.mp4",
+  "w": 1280,
+  "h": 720,
+  "fps": "24/1",
+  "dur": 5.088,
+  "audio": true,
+  "ar": "32000",
+  "lufs": -20.0,
+  "peak": -6.3,
+  "heard": "Ah, that's a story for another day.",
+  "heard_novad": "Ah, that's a story for another day.",
+  "expected": [
+   "GRANDMA: Ahh… that's a story for another day."
+  ],
+  "missing": [
+   "ahh"
+  ],
+  "extra": [
+   "ah"
+  ],
+  "light_first": {
+   "L": 102.3,
+   "a": 9.1,
+   "b": 9.0
+  },
+  "light_last": {
+   "L": 106.5,
+   "a": 8.6,
+   "b": 8.9
+  },
+  "cut_diff": 11.2
+ },
+ {
+  "id": "13",
+  "src": "shots/shot13.mp4",
+  "w": 1280,
+  "h": 720,
+  "fps": "24/1",
+  "dur": 5.088,
+  "audio": true,
+  "ar": "32000",
+  "lufs": -21.8,
+  "peak": -10.2,
+  "heard": "Miss you",
+  "heard_novad": "Miss you. Meow.",
+  "expected": [],
+  "missing": [],
+  "extra": [
+   "miss",
+   "you"
+  ],
+  "light_first": {
+   "L": 100.0,
+   "a": 8.8,
+   "b": 8.0
+  },
+  "light_last": {
+   "L": 104.1,
+   "a": 8.2,
+   "b": 7.5
+  },
+  "cut_diff": 9.9
+ },
+ {
+  "id": "14",
+  "src": "shots/shot14.mp4",
+  "w": 1280,
+  "h": 720,
+  "fps": "24/1",
+  "dur": 8.096,
+  "audio": true,
+  "ar": "32000",
+  "lufs": -18.9,
+  "peak": -3.0,
+  "heard": "I'll make you some fresh juice.",
+  "heard_novad": "I'll make you some fresh juice. Nettie-ha! Catch!",
+  "expected": [
+   "GRANDMA: I'll make you some fresh juice.",
+   "NOONOO: Nadyah! Catch!"
+  ],
+  "missing": [
+   "nadyah",
+   "catch"
+  ],
+  "extra": [],
+  "light_first": {
+   "L": 97.7,
+   "a": 8.3,
+   "b": 6.6
+  },
+  "light_last": {
+   "L": 112.2,
+   "a": 8.4,
+   "b": 6.8
+  },
+  "cut_diff": 10.6
+ },
+ {
+  "id": "16",
+  "src": "shots/shot16.mp4",
+  "w": 1280,
+  "h": 720,
+  "fps": "24/1",
+  "dur": 5.088,
+  "audio": true,
+  "ar": "32000",
+  "lufs": -17.4,
+  "peak": -8.1,
+  "heard": "Throw it! Throw it high!",
+  "heard_novad": "Throw it! Throw it high!",
+  "expected": [
+   "NADYAH: Throw it! Throw it high!"
+  ],
+  "missing": [],
+  "extra": [],
+  "light_first": {
+   "L": 105.1,
+   "a": 8.3,
+   "b": 5.9
+  },
+  "light_last": {
+   "L": 110.7,
+   "a": 8.3,
+   "b": 6.3
+  },
+  "cut_diff": 10.7
+ },
+ {
+  "id": "17",
+  "src": "shots/shot17.mp4",
+  "w": 1280,
+  "h": 720,
+  "fps": "24/1",
+  "dur": 5.088,
+  "audio": true,
+  "ar": "32000",
+  "lufs": -21.5,
+  "peak": -1.5,
+  "heard": "",
+  "heard_novad": "Oh",
+  "expected": [],
+  "missing": [],
+  "extra": [],
+  "light_first": {
+   "L": 103.8,
+   "a": 8.4,
+   "b": 5.3
+  },
+  "light_last": {
+   "L": 108.1,
+   "a": 7.6,
+   "b": 6.2
+  },
+  "cut_diff": 10.5
+ },
+ {
+  "id": "18",
+  "src": "shots/shot18.mp4",
+  "w": 1280,
+  "h": 720,
+  "fps": "24/1",
+  "dur": 5.088,
+  "audio": true,
+  "ar": "32000",
+  "lufs": -20.8,
+  "peak": -8.3,
+  "heard": "The vase!",
+  "heard_novad": "Huh, Nadia the vase",
+  "expected": [
+   "NOONOO: Nadyah! The vase!"
+  ],
+  "missing": [
+   "nadyah"
+  ],
+  "extra": [],
+  "light_first": {
+   "L": 101.9,
+   "a": 7.7,
+   "b": 5.1
+  },
+  "light_last": {
+   "L": 105.9,
+   "a": 7.4,
+   "b": 5.3
+  },
+  "cut_diff": 9.8
+ },
+ {
+  "id": "19",
+  "src": "shots/shot19.mp4",
+  "w": 1280,
+  "h": 720,
+  "fps": "24/1",
+  "dur": 5.088,
+  "audio": true,
+  "ar": "32000",
+  "lufs": -22.3,
+  "peak": -8.9,
+  "heard": "It didn't fall, right?",
+  "heard_novad": "It didn't fall, right?",
+  "expected": [
+   "NADYAH: It didn't fall… right?"
+  ],
+  "missing": [],
+  "extra": [],
+  "light_first": {
+   "L": 99.6,
+   "a": 7.6,
+   "b": 4.2
+  },
+  "light_last": {
+   "L": 105.0,
+   "a": 7.2,
+   "b": 3.9
+  },
+  "cut_diff": 9.3
+ },
+ {
+  "id": "20",
+  "src": "shots/shot20.mp4",
+  "w": 1280,
+  "h": 720,
+  "fps": "24/1",
+  "dur": 7.104,
+  "audio": true,
+  "ar": "32000",
+  "lufs": -19.8,
+  "peak": -8.2,
+  "heard": "Hm. Shall we keep the ball for the garden, my dears?",
+  "heard_novad": "Hmm. Shall we keep the ball for the garden, my dears?",
+  "expected": [
+   "GRANDMA: Hmm… shall we keep the ball for the garden, my dears?"
+  ],
+  "missing": [
+   "hmm"
+  ],
+  "extra": [
+   "hm"
+  ],
+  "light_first": {
+   "L": 99.5,
+   "a": 7.4,
+   "b": 3.1
+  },
+  "light_last": {
+   "L": 93.8,
+   "a": 6.9,
+   "b": 3.7
+  },
+  "cut_diff": 9.4
+ },
+ {
+  "id": "21",
+  "src": "shots/shot21.mp4",
+  "w": 1280,
+  "h": 720,
+  "fps": "24/1",
+  "dur": 8.096,
+  "audio": true,
+  "ar": "32000",
+  "lufs": -22.1,
+  "peak": -7.7,
+  "heard": "There, safe and sound.",
+  "heard_novad": "There, safe and sound.",
+  "expected": [
+   "GRANDMA: There. Safe and sound."
+  ],
+  "missing": [],
+  "extra": [],
+  "light_first": {
+   "L": 88.9,
+   "a": 7.6,
+   "b": 3.1
+  },
+  "light_last": {
+   "L": 111.6,
+   "a": 6.5,
+   "b": 5.8
+  },
+  "cut_diff": 9.0
+ },
+ {
+  "id": "22",
+  "src": "shots/shot22.mp4",
+  "w": 1280,
+  "h": 720,
+  "fps": "24/1",
+  "dur": 5.088,
+  "audio": true,
+  "ar": "32000",
+  "lufs": -20.2,
+  "peak": -8.8,
+  "heard": "Power for Grandma!",
+  "heard_novad": "Flower for Grandma!",
+  "expected": [
+   "HOOR: Flower! For Grandma!"
+  ],
+  "missing": [
+   "flower"
+  ],
+  "extra": [
+   "power"
+  ],
+  "light_first": {
+   "L": 105.1,
+   "a": 7.0,
+   "b": 4.9
+  },
+  "light_last": {
+   "L": 111.2,
+   "a": 7.0,
+   "b": 5.1
+  },
+  "cut_diff": 10.2
+ },
+ {
+  "id": "23",
+  "src": "shots/shot23.mp4",
+  "w": 1280,
+  "h": 720,
+  "fps": "24/1",
+  "dur": 5.088,
+  "audio": true,
+  "ar": "32000",
+  "lufs": -19.1,
+  "peak": -7.3,
+  "heard": "So pretty whore grandma will love it",
+  "heard_novad": "So pretty, Hoor! Grandma will love it!",
+  "expected": [
+   "ZOOZOO: So pretty, Hoor! Grandma will love it."
+  ],
+  "missing": [
+   "hoor"
+  ],
+  "extra": [
+   "whore"
+  ],
+  "light_first": {
+   "L": 107.8,
+   "a": 7.7,
+   "b": 4.9
+  },
+  "light_last": {
+   "L": 110.4,
+   "a": 7.0,
+   "b": 4.7
+  },
+  "cut_diff": 10.0
+ },
+ {
+  "id": "24",
+  "src": "shots/shot24.mp4",
+  "w": 1280,
+  "h": 720,
+  "fps": "24/1",
+  "dur": 5.088,
+  "audio": true,
+  "ar": "32000",
+  "lufs": -19.2,
+  "peak": -7.0,
+  "heard": "Flower in the vase!",
+  "heard_novad": "Flower in the vase!",
+  "expected": [
+   "HOOR: Flower… in the vase!"
+  ],
+  "missing": [],
+  "extra": [],
+  "light_first": {
+   "L": 103.3,
+   "a": 7.4,
+   "b": 3.9
+  },
+  "light_last": {
+   "L": 108.1,
+   "a": 7.3,
+   "b": 4.2
+  },
+  "cut_diff": 12.0
+ },
+ {
+  "id": "25",
+  "src": "shots/shot25.mp4",
+  "w": 1280,
+  "h": 720,
+  "fps": "24/1",
+  "dur": 7.104,
+  "audio": true,
+  "ar": "32000",
+  "lufs": -20.5,
+  "peak": -7.7,
+  "heard": "I'll help grandma with the juice. Wait for us, Hoer.",
+  "heard_novad": "I'll help grandma with the juice. Wait for us, Huur.",
+  "expected": [
+   "ZOOZOO: I'll help Grandma with the juice. Wait for us, Hoor!"
+  ],
+  "missing": [
+   "hoor"
+  ],
+  "extra": [
+   "hoer"
+  ],
+  "light_first": {
+   "L": 103.2,
+   "a": 7.8,
+   "b": 3.9
+  },
+  "light_last": {
+   "L": 106.5,
+   "a": 7.2,
+   "b": 3.9
+  },
+  "cut_diff": 8.8
+ },
+ {
+  "id": "25b",
+  "src": "shots/shot25b.mp4",
+  "w": 1280,
+  "h": 720,
+  "fps": "24/1",
+  "dur": 5.088,
+  "audio": true,
+  "ar": "32000",
+  "lufs": -28.6,
+  "peak": -16.7,
+  "heard": "The sun is so bright. I'll turn off the lights",
+  "heard_novad": "The sun is so bright, I'll turn off the lights.",
+  "expected": [],
+  "missing": [],
+  "extra": [
+   "the",
+   "sun",
+   "is",
+   "so",
+   "bright",
+   "i'll",
+   "turn",
+   "off",
+   "the",
+   "lights"
+  ],
+  "light_first": {
+   "L": 99.9,
+   "a": 7.5,
+   "b": 3.0
+  },
+  "light_last": {
+   "L": 97.2,
+   "a": 6.7,
+   "b": 2.7
+  },
+  "cut_diff": 9.3
+ },
+ {
+  "id": "26",
+  "src": "shots/shot26.mp4",
+  "w": 1280,
+  "h": 720,
+  "fps": "24/1",
+  "dur": 5.088,
+  "audio": true,
+  "ar": "32000",
+  "lufs": -20.8,
+  "peak": -9.0,
+  "heard": "Me! I do it! I'm big!",
+  "heard_novad": "Me! I do it! I'm big!",
+  "expected": [
+   "HOOR: Me! I do it! I'm big!"
+  ],
+  "missing": [],
+  "extra": [],
+  "light_first": {
+   "L": 99.8,
+   "a": 7.5,
+   "b": 3.0
+  },
+  "light_last": {
+   "L": 103.2,
+   "a": 7.4,
+   "b": 3.4
+  },
+  "cut_diff": 8.2
+ },
+ {
+  "id": "27",
+  "src": "shots/shot27.mp4",
+  "w": 1280,
+  "h": 720,
+  "fps": "24/1",
+  "dur": 5.088,
+  "audio": true,
+  "ar": "32000",
+  "lufs": -22.8,
+  "peak": -6.4,
+  "heard": "In in",
+  "heard_novad": "In, in.",
+  "expected": [
+   "HOOR: In… in…"
+  ],
+  "missing": [],
+  "extra": [],
+  "light_first": {
+   "L": 97.2,
+   "a": 7.7,
+   "b": 2.8
+  },
+  "light_last": {
+   "L": 102.7,
+   "a": 7.6,
+   "b": 3.3
+  },
+  "cut_diff": 9.5
+ },
+ {
+  "id": "28",
+  "src": "shots/shot28.mp4",
+  "w": 1280,
+  "h": 720,
+  "fps": "24/1",
+  "dur": 5.088,
+  "audio": true,
+  "ar": "32000",
+  "lufs": -22.9,
+  "peak": -14.3,
+  "heard": "",
+  "heard_novad": "meow",
+  "expected": [],
+  "missing": [],
+  "extra": [],
+  "light_first": {
+   "L": 97.8,
+   "a": 7.8,
+   "b": 2.5
+  },
+  "light_last": {
+   "L": 101.8,
+   "a": 7.4,
+   "b": 2.6
+  },
+  "cut_diff": 8.8
+ },
+ {
+  "id": "29",
+  "src": "shots/shot29.mp4",
+  "w": 1280,
+  "h": 720,
+  "fps": "24/1",
+  "dur": 5.088,
+  "audio": true,
+  "ar": "32000",
+  "lufs": -31.3,
+  "peak": -11.9,
+  "heard": "",
+  "heard_novad": "",
+  "expected": [],
+  "missing": [],
+  "extra": [],
+  "light_first": {
+   "L": 96.5,
+   "a": 7.8,
+   "b": 1.9
+  },
+  "light_last": {
+   "L": 101.2,
+   "a": 7.2,
+   "b": 2.2
+  },
+  "cut_diff": 9.1
+ },
+ {
+  "id": "30",
+  "src": "shots/shot30.mp4",
+  "w": 1280,
+  "h": 720,
+  "fps": "24/1",
+  "dur": 4.096,
+  "audio": true,
+  "ar": "32000",
+  "lufs": -31.1,
+  "peak": -9.3,
+  "heard": "Oh",
+  "heard_novad": "You",
+  "expected": [],
+  "missing": [],
+  "extra": [
+   "oh"
+  ],
+  "light_first": {
+   "L": 99.3,
+   "a": 6.7,
+   "b": 3.6
+  },
+  "light_last": {
+   "L": 103.4,
+   "a": 6.5,
+   "b": 3.6
+  },
+  "cut_diff": 31.6
+ },
+ {
+  "id": "31",
+  "src": "shots/shot31.mp4",
+  "w": 1280,
+  "h": 720,
+  "fps": "24/1",
+  "dur": 4.096,
+  "audio": true,
+  "ar": "32000",
+  "lufs": -20.0,
+  "peak": -7.2,
+  "heard": "Uh-oh.",
+  "heard_novad": "uh-oh",
+  "expected": [
+   "MISHOO: Uh-oh…"
+  ],
+  "missing": [],
+  "extra": [],
+  "light_first": {
+   "L": 98.9,
+   "a": 6.8,
+   "b": 2.7
+  },
+  "light_last": {
+   "L": 103.3,
+   "a": 6.6,
+   "b": 2.8
+  },
+  "cut_diff": 8.4
+ },
+ {
+  "id": "32",
+  "src": "shots/shot32.mp4",
+  "w": 1280,
+  "h": 720,
+  "fps": "24/1",
+  "dur": 5.088,
+  "audio": true,
+  "ar": "32000",
+  "lufs": -20.7,
+  "peak": -1.2,
+  "heard": "",
+  "heard_novad": "you",
+  "expected": [],
+  "missing": [],
+  "extra": [],
+  "light_first": {
+   "L": 97.7,
+   "a": 6.9,
+   "b": 1.8
+  },
+  "light_last": {
+   "L": 102.0,
+   "a": 6.6,
+   "b": 1.9
+  },
+  "cut_diff": 9.8
+ },
+ {
+  "id": "33",
+  "src": "shots/shot33.mp4",
+  "w": 1280,
+  "h": 720,
+  "fps": "24/1",
+  "dur": 5.088,
+  "audio": true,
+  "ar": "32000",
+  "lufs": -16.1,
+  "peak": -6.7,
+  "heard": "Oh no! Grandma's vase!",
+  "heard_novad": "Oh no! Grandma's vase!",
+  "expected": [
+   "HOOR: Oh no… Grandma's vase…"
+  ],
+  "missing": [],
+  "extra": [],
+  "light_first": {
+   "L": 96.9,
+   "a": 7.1,
+   "b": 1.1
+  },
+  "light_last": {
+   "L": 101.0,
+   "a": 6.8,
+   "b": 1.5
+  },
+  "cut_diff": 8.6
+ },
+ {
+  "id": "34",
+  "src": "shots/shot34.mp4",
+  "w": 1280,
+  "h": 720,
+  "fps": "24/1",
+  "dur": 5.088,
+  "audio": true,
+  "ar": "32000",
+  "lufs": -27.6,
+  "peak": -17.5,
+  "heard": "Juice is almost ready!",
+  "heard_novad": "Juice is almost ready!",
+  "expected": [],
+  "missing": [],
+  "extra": [
+   "juice",
+   "is",
+   "almost",
+   "ready"
+  ],
+  "light_first": {
+   "L": 95.5,
+   "a": 7.1,
+   "b": 0.5
+  },
+  "light_last": {
+   "L": 100.0,
+   "a": 6.9,
+   "b": 0.8
+  },
+  "cut_diff": 9.9
+ },
+ {
+  "id": "35",
+  "src": "shots/shot35.mp4",
+  "w": 1280,
+  "h": 720,
+  "fps": "24/1",
+  "dur": 5.088,
+  "audio": true,
+  "ar": "32000",
+  "lufs": -17.3,
+  "peak": -6.6,
+  "heard": "Zuzu, help!",
+  "heard_novad": "Zuzu, help!",
+  "expected": [
+   "HOOR: Zoozoo… help…"
+  ],
+  "missing": [
+   "zoozoo"
+  ],
+  "extra": [
+   "zuzu"
+  ],
+  "light_first": {
+   "L": 94.9,
+   "a": 7.1,
+   "b": 0.1
+  },
+  "light_last": {
+   "L": 99.6,
+   "a": 6.7,
+   "b": 0.4
+  },
+  "cut_diff": 7.5
+ },
+ {
+  "id": "35b",
+  "src": "shots/shot35b.mp4",
+  "w": 1280,
+  "h": 720,
+  "fps": "24/1",
+  "dur": 5.088,
+  "audio": true,
+  "ar": "32000",
+  "lufs": -21.7,
+  "peak": -3.1,
+  "heard": "Whore! Don't touch it. You could get hurt.",
+  "heard_novad": "Whore! Don't touch it! You could get hurt!",
+  "expected": [
+   "ZOOZOO: Hoor! Don't touch it — you could get hurt!"
+  ],
+  "missing": [
+   "hoor"
+  ],
+  "extra": [
+   "whore"
+  ],
+  "light_first": {
+   "L": 94.3,
+   "a": 7.1,
+   "b": -0.2
+  },
+  "light_last": {
+   "L": 105.5,
+   "a": 7.1,
+   "b": 1.1
+  },
+  "cut_diff": 11.3
+ },
+ {
+  "id": "36",
+  "src": "shots/shot36.mp4",
+  "w": 1280,
+  "h": 720,
+  "fps": "24/1",
+  "dur": 5.088,
+  "audio": true,
+  "ar": "32000",
+  "lufs": -18.8,
+  "peak": -3.0,
+  "heard": "I need more light to see the pieces.",
+  "heard_novad": "I need more light to see the pieces.",
+  "expected": [
+   "ZOOZOO: I need more light to see the pieces…"
+  ],
+  "missing": [],
+  "extra": [],
+  "light_first": {
+   "L": 98.5,
+   "a": 7.4,
+   "b": 0.4
+  },
+  "light_last": {
+   "L": 102.5,
+   "a": 7.2,
+   "b": 0.6
+  },
+  "cut_diff": 10.7
+ },
+ {
+  "id": "37",
+  "src": "shots/shot37.mp4",
+  "w": 1280,
+  "h": 720,
+  "fps": "24/1",
+  "dur": 5.088,
+  "audio": true,
+  "ar": "32000",
+  "lufs": -21.3,
+  "peak": -12.0,
+  "heard": "Better.",
+  "heard_novad": "better",
+  "expected": [
+   "ZOOZOO: Better!"
+  ],
+  "missing": [],
+  "extra": [],
+  "light_first": {
+   "L": 132.2,
+   "a": 10.1,
+   "b": 17.7
+  },
+  "light_last": {
+   "L": 132.5,
+   "a": 9.6,
+   "b": 17.7
+  },
+  "cut_diff": 44.1
+ },
+ {
+  "id": "38",
+  "src": "shots_graded/shot38.mp4",
+  "w": 1280,
+  "h": 720,
+  "fps": "24/1",
+  "dur": 5.088,
+  "audio": true,
+  "ar": "32000",
+  "lufs": -24.6,
+  "peak": -14.8,
+  "heard": "Careful, careful.",
+  "heard_novad": "Careful, careful.",
+  "expected": [
+   "ZOOZOO: Careful… careful…"
+  ],
+  "missing": [],
+  "extra": [],
+  "light_first": {
+   "L": 127.0,
+   "a": 9.8,
+   "b": 16.4
+  },
+  "light_last": {
+   "L": 129.4,
+   "a": 9.3,
+   "b": 16.1
+  },
+  "cut_diff": 15.6
+ },
+ {
+  "id": "38b",
+  "src": "shots_graded/shot38b.mp4",
+  "w": 1280,
+  "h": 720,
+  "fps": "24/1",
+  "dur": 5.088,
+  "audio": true,
+  "ar": "32000",
+  "lufs": -26.1,
+  "peak": -5.6,
+  "heard": "",
+  "heard_novad": "You",
+  "expected": [],
+  "missing": [],
+  "extra": [],
+  "light_first": {
+   "L": 123.7,
+   "a": 9.8,
+   "b": 15.2
+  },
+  "light_last": {
+   "L": 127.7,
+   "a": 9.3,
+   "b": 15.2
+  },
+  "cut_diff": 18.4
+ },
+ {
+  "id": "39",
+  "src": "shots_graded/shot39.mp4",
+  "w": 1280,
+  "h": 720,
+  "fps": "24/1",
+  "dur": 5.088,
+  "audio": true,
+  "ar": "32000",
+  "lufs": -18.3,
+  "peak": -8.5,
+  "heard": "We must tell grandma",
+  "heard_novad": "We must tell grandma.",
+  "expected": [
+   "ZOOZOO: We must tell Grandma."
+  ],
+  "missing": [],
+  "extra": [],
+  "light_first": {
+   "L": 121.1,
+   "a": 9.8,
+   "b": 14.2
+  },
+  "light_last": {
+   "L": 126.0,
+   "a": 8.9,
+   "b": 14.6
+  },
+  "cut_diff": 7.8
+ },
+ {
+  "id": "39b",
+  "src": "shots_graded/shot39b.mp4",
+  "w": 1280,
+  "h": 720,
+  "fps": "24/1",
+  "dur": 5.088,
+  "audio": true,
+  "ar": "32000",
+  "lufs": -17.7,
+  "peak": -8.0,
+  "heard": "Not yet. Please.",
+  "heard_novad": "Not yet. Please.",
+  "expected": [
+   "HOOR: Not yet… please…"
+  ],
+  "missing": [],
+  "extra": [],
+  "light_first": {
+   "L": 120.3,
+   "a": 9.4,
+   "b": 13.2
+  },
+  "light_last": {
+   "L": 124.1,
+   "a": 8.7,
+   "b": 13.1
+  },
+  "cut_diff": 8.1
+ },
+ {
+  "id": "40",
+  "src": "shots_graded/shot40.mp4",
+  "w": 1280,
+  "h": 720,
+  "fps": "24/1",
+  "dur": 5.088,
+  "audio": true,
+  "ar": "32000",
+  "lufs": -22.0,
+  "peak": -11.1,
+  "heard": "Okay, but you tell her yourself. Soon.",
+  "heard_novad": "Okay, but you tell her yourself. Soon.",
+  "expected": [
+   "ZOOZOO: Okay… but you tell her yourself. Soon."
+  ],
+  "missing": [],
+  "extra": [],
+  "light_first": {
+   "L": 118.2,
+   "a": 9.3,
+   "b": 12.4
+  },
+  "light_last": {
+   "L": 119.4,
+   "a": 8.0,
+   "b": 12.7
+  },
+  "cut_diff": 8.1
+ },
+ {
+  "id": "40b",
+  "src": "shots_graded/shot40b.mp4",
+  "w": 1280,
+  "h": 720,
+  "fps": "24/1",
+  "dur": 5.088,
+  "audio": true,
+  "ar": "32000",
+  "lufs": -26.5,
+  "peak": -7.2,
+  "heard": "Shh",
+  "heard_novad": "Shh!",
+  "expected": [
+   "HOOR: Shhh!"
+  ],
+  "missing": [
+   "shhh"
+  ],
+  "extra": [
+   "shh"
+  ],
+  "light_first": {
+   "L": 114.7,
+   "a": 8.5,
+   "b": 11.3
+  },
+  "light_last": {
+   "L": 119.2,
+   "a": 7.6,
+   "b": 11.5
+  },
+  "cut_diff": 6.7
+ },
+ {
+  "id": "40c",
+  "src": "shots_graded/shot40c.mp4",
+  "w": 1280,
+  "h": 720,
+  "fps": "24/1",
+  "dur": 5.088,
+  "audio": true,
+  "ar": "32000",
+  "lufs": -19.1,
+  "peak": -6.9,
+  "heard": "I saw that. I see everything.",
+  "heard_novad": "I saw that. I see everything.",
+  "expected": [
+   "MISHOO: I saw that. I see everything."
+  ],
+  "missing": [],
+  "extra": [],
+  "light_first": {
+   "L": 113.6,
+   "a": 8.0,
+   "b": 10.1
+  },
+  "light_last": {
+   "L": 117.9,
+   "a": 7.5,
+   "b": 10.5
+  },
+  "cut_diff": 6.5
+ },
+ {
+  "id": "41",
+  "src": "shots_graded/shot41.mp4",
+  "w": 1280,
+  "h": 720,
+  "fps": "24/1",
+  "dur": 5.088,
+  "audio": true,
+  "ar": "32000",
+  "lufs": -17.1,
+  "peak": -7.3,
+  "heard": "My vase where is my vase?",
+  "heard_novad": "My Vayst? Where is my Vayst?",
+  "expected": [
+   "GRANDMA: My vase… where is my vase?"
+  ],
+  "missing": [],
+  "extra": [],
+  "light_first": {
+   "L": 114.4,
+   "a": 7.9,
+   "b": 10.0
+  },
+  "light_last": {
+   "L": 110.2,
+   "a": 7.4,
+   "b": 10.1
+  },
+  "cut_diff": 5.5
+ },
+ {
+  "id": "42",
+  "src": "shots_graded/shot42.mp4",
+  "w": 1280,
+  "h": 720,
+  "fps": "24/1",
+  "dur": 5.088,
+  "audio": true,
+  "ar": "32000",
+  "lufs": -41.8,
+  "peak": -19.9,
+  "heard": "",
+  "heard_novad": "",
+  "expected": [],
+  "missing": [],
+  "extra": [],
+  "light_first": {
+   "L": 106.4,
+   "a": 8.0,
+   "b": 9.9
+  },
+  "light_last": {
+   "L": 114.2,
+   "a": 7.8,
+   "b": 10.3
+  },
+  "cut_diff": 7.5
+ },
+ {
+  "id": "43",
+  "src": "shots_graded/shot43.mp4",
+  "w": 1280,
+  "h": 720,
+  "fps": "24/1",
+  "dur": 5.088,
+  "audio": true,
+  "ar": "32000",
+  "lufs": -20.0,
+  "peak": -9.6,
+  "heard": "Did anyone see it?",
+  "heard_novad": "Did anyone see it?",
+  "expected": [
+   "GRANDMA: Did anyone see it?"
+  ],
+  "missing": [],
+  "extra": [],
+  "light_first": {
+   "L": 108.8,
+   "a": 8.4,
+   "b": 9.6
+  },
+  "light_last": {
+   "L": 112.5,
+   "a": 7.9,
+   "b": 9.5
+  },
+  "cut_diff": 8.1
+ },
+ {
+  "id": "44",
+  "src": "qc/hoor_redo/shot44_v1_raw.mp4",
+  "w": 1280,
+  "h": 720,
+  "fps": "24/1",
+  "dur": 5.088,
+  "audio": true,
+  "ar": "32000",
+  "lufs": -20.1,
+  "peak": -12.0,
+  "heard": "Grandma?",
+  "heard_novad": "Grandma? I...",
+  "expected": [
+   "HOOR: Grandma… I…"
+  ],
+  "missing": [
+   "i"
+  ],
+  "extra": [],
+  "light_first": {
+   "L": 108.4,
+   "a": 8.4,
+   "b": 9.0
+  },
+  "light_last": {
+   "L": 111.7,
+   "a": 7.8,
+   "b": 8.7
+  },
+  "cut_diff": 7.4
+ },
+ {
+  "id": "45",
+  "src": "shots_graded/shot45.mp4",
+  "w": 1280,
+  "h": 720,
+  "fps": "24/1",
+  "dur": 6.08,
+  "audio": true,
+  "ar": "32000",
+  "lufs": -18.4,
+  "peak": -8.2,
+  "heard": "It wasn't me! I put the ball away!",
+  "heard_novad": "It wasn't me! I put the ball away!",
+  "expected": [
+   "NADYAH: It wasn't me! I put the ball away!"
+  ],
+  "missing": [],
+  "extra": [],
+  "light_first": {
+   "L": 136.0,
+   "a": 9.9,
+   "b": 23.0
+  },
+  "light_last": {
+   "L": 134.7,
+   "a": 9.6,
+   "b": 21.6
+  },
+  "cut_diff": 33.5
+ },
+ {
+  "id": "45b",
+  "src": "shots_graded/shot45b.mp4",
+  "w": 1280,
+  "h": 720,
+  "fps": "24/1",
+  "dur": 5.088,
+  "audio": true,
+  "ar": "32000",
+  "lufs": -28.1,
+  "peak": -3.0,
+  "heard": "",
+  "heard_novad": "",
+  "expected": [],
+  "missing": [],
+  "extra": [],
+  "light_first": {
+   "L": 132.1,
+   "a": 10.3,
+   "b": 21.9
+  },
+  "light_last": {
+   "L": 132.6,
+   "a": 9.9,
+   "b": 20.5
+  },
+  "cut_diff": 7.7
+ },
+ {
+  "id": "46",
+  "src": "shots_graded/shot46.mp4",
+  "w": 1280,
+  "h": 720,
+  "fps": "24/1",
+  "dur": 6.08,
+  "audio": true,
+  "ar": "32000",
+  "lufs": -21.2,
+  "peak": -6.4,
+  "heard": "A mystery! Don't worry, Grandma!",
+  "heard_novad": "A mystery! Don't worry, Grandma!",
+  "expected": [
+   "NOONOO: A mystery! Don't worry, Grandma…"
+  ],
+  "missing": [],
+  "extra": [],
+  "light_first": {
+   "L": 133.0,
+   "a": 9.8,
+   "b": 21.2
+  },
+  "light_last": {
+   "L": 131.2,
+   "a": 9.8,
+   "b": 20.1
+  },
+  "cut_diff": 8.8
+ },
+ {
+  "id": "47",
+  "src": "shots_graded/shot47.mp4",
+  "w": 1280,
+  "h": 720,
+  "fps": "24/1",
+  "dur": 5.088,
+  "audio": true,
+  "ar": "32000",
+  "lufs": -20.6,
+  "peak": -6.9,
+  "heard": "Detective Nunu is on the case!",
+  "heard_novad": "Detective Nunu is on the case!",
+  "expected": [
+   "NOONOO: Detective Noonoo is on the case!"
+  ],
+  "missing": [
+   "noonoo"
+  ],
+  "extra": [
+   "nunu"
+  ],
+  "light_first": {
+   "L": 125.1,
+   "a": 9.8,
+   "b": 17.3
+  },
+  "light_last": {
+   "L": 123.8,
+   "a": 10.5,
+   "b": 16.9
+  },
+  "cut_diff": 54.4
+ },
+ {
+  "id": "48",
+  "src": "shots_graded/shot48.mp4",
+  "w": 1280,
+  "h": 720,
+  "fps": "24/1",
+  "dur": 5.088,
+  "audio": true,
+  "ar": "32000",
+  "lufs": -20.7,
+  "peak": -9.9,
+  "heard": "Can I be the helper detective please?",
+  "heard_novad": "Can I be the helper detective, please?",
+  "expected": [
+   "NADYAH: Can I be the helper detective? Please?"
+  ],
+  "missing": [],
+  "extra": [],
+  "light_first": {
+   "L": 130.9,
+   "a": 10.0,
+   "b": 20.1
+  },
+  "light_last": {
+   "L": 131.8,
+   "a": 9.6,
+   "b": 19.7
+  },
+  "cut_diff": 52.8
+ },
+ {
+  "id": "49",
+  "src": "shots_graded/shot49.mp4",
+  "w": 1280,
+  "h": 720,
+  "fps": "24/1",
+  "dur": 5.088,
+  "audio": true,
+  "ar": "32000",
+  "lufs": -20.4,
+  "peak": -9.6,
+  "heard": "Look for clues every little thing",
+  "heard_novad": "Look for clues. Every little thing.",
+  "expected": [
+   "NOONOO: Look for clues. Every little thing!"
+  ],
+  "missing": [],
+  "extra": [],
+  "light_first": {
+   "L": 131.6,
+   "a": 10.0,
+   "b": 20.9
+  },
+  "light_last": {
+   "L": 130.2,
+   "a": 10.0,
+   "b": 20.6
+  },
+  "cut_diff": 10.5
+ },
+ {
+  "id": "50",
+  "src": "shots_graded/shot50.mp4",
+  "w": 1280,
+  "h": 720,
+  "fps": "24/1",
+  "dur": 5.088,
+  "audio": true,
+  "ar": "32000",
+  "lufs": -18.8,
+  "peak": -8.6,
+  "heard": "Clue number one a petal",
+  "heard_novad": "Clue number one, a petal.",
+  "expected": [
+   "NOONOO: Clue number one… a petal!"
+  ],
+  "missing": [],
+  "extra": [],
+  "light_first": {
+   "L": 129.9,
+   "a": 10.0,
+   "b": 21.3
+  },
+  "light_last": {
+   "L": 131.4,
+   "a": 9.9,
+   "b": 20.6
+  },
+  "cut_diff": 9.4
+ },
+ {
+  "id": "51",
+  "src": "shots_graded/shot51.mp4",
+  "w": 1280,
+  "h": 720,
+  "fps": "24/1",
+  "dur": 5.088,
+  "audio": true,
+  "ar": "32000",
+  "lufs": -19.7,
+  "peak": -9.8,
+  "heard": "Clue number two, cat hair!",
+  "heard_novad": "Clue number two, cat hair.",
+  "expected": [
+   "NADYAH: Clue number two… cat hair!"
+  ],
+  "missing": [],
+  "extra": [],
+  "light_first": {
+   "L": 131.2,
+   "a": 10.1,
+   "b": 20.9
+  },
+  "light_last": {
+   "L": 131.4,
+   "a": 10.0,
+   "b": 20.3
+  },
+  "cut_diff": 7.2
+ },
+ {
+  "id": "52",
+  "src": "shots_graded/shot52.mp4",
+  "w": 1280,
+  "h": 720,
+  "fps": "24/1",
+  "dur": 5.088,
+  "audio": true,
+  "ar": "32000",
+  "lufs": -29.8,
+  "peak": -15.3,
+  "heard": "",
+  "heard_novad": "You",
+  "expected": [],
+  "missing": [],
+  "extra": [],
+  "light_first": {
+   "L": 130.7,
+   "a": 10.1,
+   "b": 20.9
+  },
+  "light_last": {
+   "L": 131.0,
+   "a": 10.0,
+   "b": 20.3
+  },
+  "cut_diff": 6.9
+ },
+ {
+  "id": "53",
+  "src": "shots_graded/shot53.mp4",
+  "w": 1280,
+  "h": 720,
+  "fps": "24/1",
+  "dur": 5.088,
+  "audio": true,
+  "ar": "32000",
+  "lufs": -20.1,
+  "peak": -8.2,
+  "heard": "Aha! A rose petal on Mishu's tail!",
+  "heard_novad": "Aha! A rose petal on Mishu's tail!",
+  "expected": [
+   "NOONOO: Aha! A rose petal… on Mishoo's tail!"
+  ],
+  "missing": [
+   "mishoo's"
+  ],
+  "extra": [
+   "mishu's"
+  ],
+  "light_first": {
+   "L": 130.4,
+   "a": 10.1,
+   "b": 20.8
+  },
+  "light_last": {
+   "L": 126.0,
+   "a": 9.5,
+   "b": 19.9
+  },
+  "cut_diff": 7.1
+ },
+ {
+  "id": "54",
+  "src": "shots_graded/shot54.mp4",
+  "w": 1280,
+  "h": 720,
+  "fps": "24/1",
+  "dur": 5.088,
+  "audio": true,
+  "ar": "32000",
+  "lufs": -20.4,
+  "peak": -8.5,
+  "heard": "And a piece of the vase next to his chair.",
+  "heard_novad": "And a piece of the vase next to his chair.",
+  "expected": [
+   "NADYAH: And a piece of the vase… next to his chair!"
+  ],
+  "missing": [],
+  "extra": [],
+  "light_first": {
+   "L": 127.6,
+   "a": 9.8,
+   "b": 20.2
+  },
+  "light_last": {
+   "L": 129.6,
+   "a": 9.7,
+   "b": 19.8
+  },
+  "cut_diff": 7.5
+ },
+ {
+  "id": "55",
+  "src": "shots_graded/shot55.mp4",
+  "w": 1280,
+  "h": 720,
+  "fps": "24/1",
+  "dur": 5.088,
+  "audio": true,
+  "ar": "32000",
+  "lufs": -21.0,
+  "peak": -7.2,
+  "heard": "Case closed. Miss you. Did it.",
+  "heard_novad": "Case closed! Miss you! Did it!",
+  "expected": [
+   "NOONOO: Case closed! Mishoo did it!"
+  ],
+  "missing": [
+   "mishoo"
+  ],
+  "extra": [
+   "miss",
+   "you"
+  ],
+  "light_first": {
+   "L": 128.9,
+   "a": 9.9,
+   "b": 19.9
+  },
+  "light_last": {
+   "L": 133.0,
+   "a": 9.6,
+   "b": 18.8
+  },
+  "cut_diff": 7.7
+ },
+ {
+  "id": "56",
+  "src": "shots_graded/shot56.mp4",
+  "w": 1280,
+  "h": 720,
+  "fps": "24/1",
+  "dur": 5.088,
+  "audio": true,
+  "ar": "32000",
+  "lufs": -20.3,
+  "peak": -9.4,
+  "heard": "Me? It wasn't me! I'm innocent!",
+  "heard_novad": "Me? It wasn't me! I'm innocent!",
+  "expected": [
+   "MISHOO: Me?! It wasn't me! I'm innocent!"
+  ],
+  "missing": [],
+  "extra": [],
+  "light_first": {
+   "L": 132.6,
+   "a": 9.7,
+   "b": 19.8
+  },
+  "light_last": {
+   "L": 133.2,
+   "a": 9.7,
+   "b": 19.6
+  },
+  "cut_diff": 8.0
+ },
+ {
+  "id": "57",
+  "src": "shots_graded/shot57.mp4",
+  "w": 1280,
+  "h": 720,
+  "fps": "24/1",
+  "dur": 4.096,
+  "audio": true,
+  "ar": "32000",
+  "lufs": -17.3,
+  "peak": -7.0,
+  "heard": "Bad kitty!",
+  "heard_novad": "Bad kitty!",
+  "expected": [
+   "NADYAH: Bad kitty!"
+  ],
+  "missing": [],
+  "extra": [],
+  "light_first": {
+   "L": 132.2,
+   "a": 9.9,
+   "b": 20.1
+  },
+  "light_last": {
+   "L": 131.1,
+   "a": 9.7,
+   "b": 19.9
+  },
+  "cut_diff": 7.9
+ },
+ {
+  "id": "58",
+  "src": "shots_graded/shot58.mp4",
+  "w": 1280,
+  "h": 720,
+  "fps": "24/1",
+  "dur": 7.104,
+  "audio": true,
+  "ar": "32000",
+  "lufs": -20.2,
+  "peak": -10.5,
+  "heard": "Oh, Miss Show, maybe you should sit on your cushion for a while?",
+  "heard_novad": "Oh, Miss Show, maybe you should sit on your cushion for a while?",
+  "expected": [
+   "GRANDMA: Oh, Mishoo… maybe you should sit on your cushion for a while?"
+  ],
+  "missing": [
+   "mishoo"
+  ],
+  "extra": [
+   "miss",
+   "show"
+  ],
+  "light_first": {
+   "L": 130.9,
+   "a": 9.8,
+   "b": 20.1
+  },
+  "light_last": {
+   "L": 130.9,
+   "a": 9.8,
+   "b": 20.2
+  },
+  "cut_diff": 6.8
+ },
+ {
+  "id": "59",
+  "src": "shots_graded/shot59.mp4",
+  "w": 1280,
+  "h": 720,
+  "fps": "24/1",
+  "dur": 4.096,
+  "audio": true,
+  "ar": "32000",
+  "lufs": -20.6,
+  "peak": -11.9,
+  "heard": "Meow",
+  "heard_novad": "Meow.",
+  "expected": [],
+  "missing": [],
+  "extra": [
+   "meow"
+  ],
+  "light_first": {
+   "L": 130.8,
+   "a": 10.0,
+   "b": 20.5
+  },
+  "light_last": {
+   "L": 131.0,
+   "a": 10.0,
+   "b": 20.4
+  },
+  "cut_diff": 6.4
+ },
+ {
+  "id": "60",
+  "src": "shots_graded/shot60.mp4",
+  "w": 1280,
+  "h": 720,
+  "fps": "24/1",
+  "dur": 5.088,
+  "audio": true,
+  "ar": "32000",
+  "lufs": -22.6,
+  "peak": -14.5,
+  "heard": "Me too",
+  "heard_novad": "Me too.",
+  "expected": [
+   "HOOR: Mishoo…"
+  ],
+  "missing": [
+   "mishoo"
+  ],
+  "extra": [
+   "me",
+   "too"
+  ],
+  "light_first": {
+   "L": 153.0,
+   "a": 13.5,
+   "b": 25.0
+  },
+  "light_last": {
+   "L": 151.3,
+   "a": 13.7,
+   "b": 24.8
+  },
+  "cut_diff": 48.1
+ }
+]
