@@ -16,3 +16,4 @@
 | S011 | redo attempt 1 | no-end-frame a | FAIL (door closed, Grandma+Afnan gone at end) | NO | NOT SENDABLE |
 | S011 | redo attempt 1 | no-end-frame b | FAIL (Afnan absent at end, Noonoo points instead of Hoor, ribbon not taut) | NO | NOT SENDABLE |
 | S011 | attempt 1 | b.mp4 | auto-pass | identity signoff: NO | NOT SENDABLE: identity checklist not signed off (--identity-signoff) |
+| S011 | attempt 1 | a.mp4 | FAIL | identity signoff: NO | NOT SENDABLE: automatic FAIL |
