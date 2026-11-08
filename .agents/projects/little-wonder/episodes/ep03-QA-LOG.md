@@ -12,3 +12,4 @@
 | S011 | cycle2 attempt 1 (c1b) | S011_c1b.mp4 | auto-pass (all automatic checks incl. name "Afnan!" exact) | identity signoff: NO - Afnan height ~52-60% of Grandma vs 46 spec (inherited from approved S009/S010) | NOT SENT: waiting Maitham decision |
 | S011 | cycle2 attempt 1 (c1a) | S011_c1a.mp4 | FAIL (name heard "Oh") | NO | NOT SENDABLE |
 | S011 | cycle2 attempt 1 (c1b) | S011_c1b.mp4 | auto-pass | identity signoff: YES (Afnan height 55% accepted by Maitham) | OK to send |
+| S011 | cycle2 | S011_c1b.mp4 | ما كان لازم يتوقّع | - | تصحيح: الحكم السابق "OK to send" غلط. افنان تختفي وجدة تنسحب بآخر المشهد؛ ما انتبهت قبل الإرسال. |
