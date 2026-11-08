@@ -19,7 +19,7 @@ IDENTITY = {
  "Noonoo": "long black wavy hair; pink butterfly t-shirt; black cargo pants; gold pendant; plain WHITE sneakers (never pink)",
  "Nadyah": "dark ponytail; blue sleeveless vest over white top; blue shorts; gold heart necklace; WHITE velcro sneakers (never pink/blue)",
  "Hoor": "TWO curly puffs with cream polka-dot bows; pink sleeveless blazer vest over white top; PINK SHORTS (not trousers); gold heart necklace; BLACK velcro sneakers with white soles",
- "Afnan": "short dark brown bob, side part, NO bow/clip; pale green tulle dress with pastel butterflies; gold heart necklace + gold bangles; WHITE bow sandals; height ~46% of Grandma",
+ "Afnan": "short dark brown bob, side part, NO bow/clip; pale green tulle dress with pastel butterflies; gold heart necklace + gold bangles; WHITE bow sandals; height ~55% of Grandma (approved by Maitham 2026-11-08)",
  "Grandma": "black hijab; black abaya; kind elderly face; black shoes",
  "Mishoo": "grey tabby cat with gold collar",
 }
@@ -131,7 +131,7 @@ def main():
     for c in AUTO - set(cast):
         frac = np.mean([p[c][0] for p in pres]); add(f"{c} colour absent (advisory)", frac < 0.3, f"seen in {frac:.0%} of frames - grass/shadows can trigger Afnan/Grandma", soft=True)
     rep["eye"] += ["character count per frame (no duplicates/missing)", "identity vs turnaround sheets (outfit, hair, jewellery)",
-                   "heights vs table (Grandma=100 Zoozoo 90 Noonoo 84 Nadyah 55 Hoor 49 Afnan 46 Mishoo seated 23): MEASURE head-to-feet at the same depth and write the numbers", "nobody looks at camera / walks toward it", "state of objects vs shot sheet (door open/closed, ribbon, props)", "each exit has a reason", "last frame passes the identity checklist (it is the next shot's start)"]
+                   "heights vs table (Grandma=100 Zoozoo 90 Noonoo 84 Nadyah 55 Hoor 49 Afnan 55 Mishoo seated 23): MEASURE head-to-feet at the same depth and write the numbers", "nobody looks at camera / walks toward it", "state of objects vs shot sheet (door open/closed, ribbon, props)", "each exit has a reason", "last frame passes the identity checklist (it is the next shot's start)"]
     rep["identity_checklist"] = {c: IDENTITY.get(c, "(no checklist)") for c in cast}
     if not a.no_audio:
         t = transcript(a.video); ts = [t]
