@@ -17,3 +17,6 @@
 | S011 | redo attempt 1 | no-end-frame b | FAIL (Afnan absent at end, Noonoo points instead of Hoor, ribbon not taut) | NO | NOT SENDABLE |
 | S011 | attempt 1 | b.mp4 | auto-pass | identity signoff: NO | NOT SENDABLE: identity checklist not signed off (--identity-signoff) |
 | S011 | attempt 1 | a.mp4 | FAIL | identity signoff: NO | NOT SENDABLE: automatic FAIL |
+| S011 | shy attempt 1 | a | FAIL (name Asman) | NO | NOT SENDABLE |
+| S011 | shy attempt 1 | b | auto-pass (name exact in 1 of 2 ASR models), Afnan fully hidden at last frame | NO | HELD |
+| S011 | shy attempt 2 | a+b | FAIL (door closed, Grandma+Afnan gone at last frame) | NO | NOT SENDABLE |
