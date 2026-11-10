@@ -30,3 +30,7 @@
 | S011 | walkdown b | - | رفض من ميثم: البنات والمكان السابق اختفوا | - | REJECTED. خطأ فحصي: cast=Grandma,Afnan فقط |
 | S011 | attempt 1 | a.mp4 | FAIL | identity signoff: NO | NOT SENDABLE: automatic FAIL |
 | S011 | wide fixed attempt 1 | a | auto: join 0.06 + brightness vs S010 (both consequences of the cut Maitham approved; substitutes: vs intended S009 start frame 0.61, brightness vs S009 95 vs 94); line exact x2; cast 6/6 + bucket + ribbon + open door verified by eye on every 0.5s frame | identity: eye-checked | SENT to Maitham with disclosure |
+| S012 | attempt 1 | b.mp4 | auto-pass | identity signoff: NO | NOT SENDABLE: identity checklist not signed off (--identity-signoff) |
+| S012 | attempt 1 | a.mp4 | FAIL | identity signoff: NO | NOT SENDABLE: automatic FAIL |
+| S012 | attempt 1 | a (fixed) | FAIL: name "Afna! Afna!"; also invented metal pole at left holding the ribbon | NO | NOT SENDABLE |
+| S012 | attempt 1 | b (push-in) | auto-pass incl. name "Afnan! Afnan!" exact x2, but invented metal pole (new object not in S011) | NO | NOT SENDABLE (pole) |
