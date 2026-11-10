@@ -39,3 +39,5 @@
 | S012 | attempt 2 | a | audio exact x2; join aligned 0.49; invented red stanchion pole at left | NO | NOT SENDABLE |
 | S012 | attempt 2 | b | audio exact x2; join aligned 0.56; invented wooden post; push-in crops Grandma and Zoozoo | NO | NOT SENDABLE |
 | S012 | attempt 3 | b.mp4 | FAIL | identity signoff: NO | NOT SENDABLE: automatic FAIL |
+| S012 | attempt 3 | b | audio exact in 1 of 2 models; join aligned 0.20; invented wooden post again | NO | NOT SENDABLE |
+| S012 | attempt 3 | a | job b493bdf5 still running after 20+ min | - | PENDING |
