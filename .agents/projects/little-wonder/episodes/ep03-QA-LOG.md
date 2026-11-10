@@ -28,3 +28,5 @@
 | S011 | walkdown attempt 1 | a | FAIL (join 0.08 wide-shot jump, brightness, saturation) | NO | NOT SENDABLE |
 | S011 | walkdown attempt 1 | b | FAIL auto: brightness +23% vs S010 (95 vs 77); pass: join 0.80, line exact x2 | NO | HELD for Maitham decision |
 | S011 | walkdown b | - | رفض من ميثم: البنات والمكان السابق اختفوا | - | REJECTED. خطأ فحصي: cast=Grandma,Afnan فقط |
+| S011 | attempt 1 | a.mp4 | FAIL | identity signoff: NO | NOT SENDABLE: automatic FAIL |
+| S011 | wide fixed attempt 1 | a | auto: join 0.06 + brightness vs S010 (both consequences of the cut Maitham approved; substitutes: vs intended S009 start frame 0.61, brightness vs S009 95 vs 94); line exact x2; cast 6/6 + bucket + ribbon + open door verified by eye on every 0.5s frame | identity: eye-checked | SENT to Maitham with disclosure |
