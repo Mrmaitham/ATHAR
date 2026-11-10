@@ -34,3 +34,7 @@
 | S012 | attempt 1 | a.mp4 | FAIL | identity signoff: NO | NOT SENDABLE: automatic FAIL |
 | S012 | attempt 1 | a (fixed) | FAIL: name "Afna! Afna!"; also invented metal pole at left holding the ribbon | NO | NOT SENDABLE |
 | S012 | attempt 1 | b (push-in) | auto-pass incl. name "Afnan! Afnan!" exact x2, but invented metal pole (new object not in S011) | NO | NOT SENDABLE (pole) |
+| S012 | attempt 2 | a.mp4 | FAIL | identity signoff: NO | NOT SENDABLE: automatic FAIL |
+| S012 | attempt 2 | b.mp4 | FAIL | identity signoff: NO | NOT SENDABLE: automatic FAIL |
+| S012 | attempt 2 | a | audio exact x2; join aligned 0.49; invented red stanchion pole at left | NO | NOT SENDABLE |
+| S012 | attempt 2 | b | audio exact x2; join aligned 0.56; invented wooden post; push-in crops Grandma and Zoozoo | NO | NOT SENDABLE |
