@@ -41,3 +41,6 @@
 | S012 | attempt 3 | b.mp4 | FAIL | identity signoff: NO | NOT SENDABLE: automatic FAIL |
 | S012 | attempt 3 | b | audio exact in 1 of 2 models; join aligned 0.20; invented wooden post again | NO | NOT SENDABLE |
 | S012 | attempt 3 | a | job b493bdf5 still running after 20+ min | - | PENDING |
+| S011 | attempt 1 | b.mp4 | FAIL | identity signoff: NO | NOT SENDABLE: automatic FAIL |
+| S011 | option-A redo | a (Noonoo holds end) | end still hidden behind Noonoo/Hoor at frame edge | NO | REJECTED |
+| S011 | option-A redo | b (Hoor holds end) | end still hidden behind Hoor hair | NO | REJECTED |
