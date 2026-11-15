@@ -54,3 +54,4 @@
 | S013 | attempt 1 | a_matched.mp4 | auto-pass | identity signoff: eye-checked 12 frames | OK to send (only if the eye review above also passed) |
 | S013 | attempt 1 | a + framing match | join raw 0.39 -> 0.62 after 1.5s affine match; audio: "Who/Whoo! You came!"; brightness/saturation pass; eye: hug, ribbon on ground, bucket, cast partly cropped by push-in | signed | SENT with disclosure, PENDING |
 | S013 | attempt 1 | b | join 0.54; extra laughter in audio | NO | not used |
+| S013 | v1a | - | رفض ميثم: "Hoo" قالتها حور وليس افنان. خطأ فحصي: التفريغ الصوتي ما يحدد مين المتكلم، وأنا ما راجعت حركة الفم | - | REJECTED |
