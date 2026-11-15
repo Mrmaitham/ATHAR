@@ -49,3 +49,8 @@
 | S012 | attempt 4 | a_matched.mp4 | FAIL | identity signoff: eye-checked 12 frames: 6/6 cast, bucket, open door, ribbon on ground, no pole | NOT SENDABLE: automatic FAIL |
 | S012 | attempt 4 (approved by Maitham "solve it and generate") | b (ribbon bundled) | audio exact in 1 of 2; join 0.30 | NO | not used |
 | S012 | attempt 4 | a + framing match (v8a) | join 0.59 (limit 0.60) after 1.5s affine match to S011 last frame; audio exact x2; brightness/saturation pass; eye: 6/6 cast, bucket, open door, ribbon on ground, no pole | signed | SENT with disclosure, PENDING |
+| S013 | attempt 1 | a.mp4 | FAIL | identity signoff: NO | NOT SENDABLE: automatic FAIL |
+| S013 | attempt 1 | b.mp4 | FAIL | identity signoff: NO | NOT SENDABLE: automatic FAIL |
+| S013 | attempt 1 | a_matched.mp4 | auto-pass | identity signoff: eye-checked 12 frames | OK to send (only if the eye review above also passed) |
+| S013 | attempt 1 | a + framing match | join raw 0.39 -> 0.62 after 1.5s affine match; audio: "Who/Whoo! You came!"; brightness/saturation pass; eye: hug, ribbon on ground, bucket, cast partly cropped by push-in | signed | SENT with disclosure, PENDING |
+| S013 | attempt 1 | b | join 0.54; extra laughter in audio | NO | not used |
