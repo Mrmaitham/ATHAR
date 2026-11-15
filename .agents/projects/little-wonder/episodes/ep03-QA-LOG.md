@@ -55,3 +55,6 @@
 | S013 | attempt 1 | a + framing match | join raw 0.39 -> 0.62 after 1.5s affine match; audio: "Who/Whoo! You came!"; brightness/saturation pass; eye: hug, ribbon on ground, bucket, cast partly cropped by push-in | signed | SENT with disclosure, PENDING |
 | S013 | attempt 1 | b | join 0.54; extra laughter in audio | NO | not used |
 | S013 | v1a | - | رفض ميثم: "Hoo" قالتها حور وليس افنان. خطأ فحصي: التفريغ الصوتي ما يحدد مين المتكلم، وأنا ما راجعت حركة الفم | - | REJECTED |
+| S013 | attempt 2 | a_matched.mp4 | auto-pass | identity signoff: eye-checked 24 frames at 4fps: one Hoor, Afnan says Hoo (mouth open 0.7-1.4s, Hoor closed), Hoor says You came (2.6-4.0s) | OK to send (only if the eye review above also passed) |
+| S013 | attempt 2 | a + framing match | speakers verified by eye (Afnan mouth open during "Who?" 0-1.46s, Hoor mouth open during "You came!" 2.4-4.36s); one Hoor; audio ok | signed | SENT, PENDING |
+| S013 | attempt 2 | b | duplicated Hoor in first frames | NO | REJECTED |
