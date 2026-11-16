@@ -30,4 +30,4 @@
 | S015 | APPROVED (ميثم 2026-11-16): v5a + مطابقة، ناديه "We're having a race! Can you run fast?" | `ep03-pilot-S015/S015_v5a_matched.mp4` |
 | S016 | APPROVED (ميثم 2026-11-16): v2a + مطابقة + تشبع ×1.1، ميشو "New friend?" وافنان تربّت عليه | `ep03-pilot-S016/S016_v2a_matched_graded.mp4` |
 | S017 | APPROVED (ميثم 2026-11-16): v3a + مطابقة، الجدة "She wants to run with you." وافنان "Run!" | `ep03-pilot-S017/S017_v3a_matched.mp4` |
-| S018a | PENDING (ميثم): v2a + مطابقة، زوزو "Oh! The race place isn't ready yet. Let's race tomorrow!" | `ep03-pilot-S018a/S018a_v2a_matched.mp4` |
+| S018a | APPROVED (ميثم 2026-11-16): v2a + مطابقة، زوزو "Oh! The race place isn't ready yet. Let's race tomorrow!" | `ep03-pilot-S018a/S018a_v2a_matched.mp4` |
