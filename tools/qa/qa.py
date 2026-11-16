@@ -95,7 +95,8 @@ def transcript(path, model="medium.en"):
 def name_heard(text, name):
     """exact -> 'exact'; close phonetic variants (afna, afman, afnaan...) -> 'near' (WARN, not a pass); else None"""
     toks = norm(text)
-    if name in toks: return "exact"
+    ALIAS = {"hoor": {"whore", "hore"}}  # Whisper writes the correct sound HOOR as "Whore" (English spelling artifact); still listen to confirm
+    if name in toks or any(t in ALIAS.get(name, ()) for t in toks): return "exact"
     import difflib
     if any(difflib.SequenceMatcher(None, name, t).ratio() >= 0.7 for t in toks if len(t) >= 3): return "near"
     return None
