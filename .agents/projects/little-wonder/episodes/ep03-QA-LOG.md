@@ -58,3 +58,5 @@
 | S013 | attempt 2 | a_matched.mp4 | auto-pass | identity signoff: eye-checked 24 frames at 4fps: one Hoor, Afnan says Hoo (mouth open 0.7-1.4s, Hoor closed), Hoor says You came (2.6-4.0s) | OK to send (only if the eye review above also passed) |
 | S013 | attempt 2 | a + framing match | speakers verified by eye (Afnan mouth open during "Who?" 0-1.46s, Hoor mouth open during "You came!" 2.4-4.36s); one Hoor; audio ok | signed | SENT, PENDING |
 | S013 | attempt 2 | b | duplicated Hoor in first frames | NO | REJECTED |
+| S013 | attempt 3 | a_matched.mp4 | FAIL | identity signoff: eye-checked 24 frames at 4fps: one Hoor, Afnan mouth open 0.3-1.0s saying Hoor, Hoor mouth open 1.8-2.7s saying You came | NOT SENDABLE: automatic FAIL |
+| S013 | attempt 3 (Afnan says Hoor) | a + framing match | ASR both models: "Whore!" 0-1.06s then "You came!" 1.8-2.7s; speakers verified by mouth frames; one Hoor | signed | SENT, PENDING |
