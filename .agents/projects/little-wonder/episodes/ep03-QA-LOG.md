@@ -60,3 +60,10 @@
 | S013 | attempt 2 | b | duplicated Hoor in first frames | NO | REJECTED |
 | S013 | attempt 3 | a_matched.mp4 | FAIL | identity signoff: eye-checked 24 frames at 4fps: one Hoor, Afnan mouth open 0.3-1.0s saying Hoor, Hoor mouth open 1.8-2.7s saying You came | NOT SENDABLE: automatic FAIL |
 | S013 | attempt 3 (Afnan says Hoor) | a + framing match | ASR both models: "Whore!" 0-1.06s then "You came!" 1.8-2.7s; speakers verified by mouth frames; one Hoor | signed | SENT, PENDING |
+S014 attempt 1 (v1a): REJECTED by director review — invented extra girl (long brown hair, white top) + duplicate Nadyah (two blue-vest girls). Not sent.
+S014 attempt 1 (v1b): REJECTED by director review — extra short-bob girl in pink top (duplicate Noonoo) next to real Noonoo. Not sent.
+| S014 | attempt 2 | S014_v2b.mp4 | FAIL | identity signoff: NO | NOT SENDABLE: automatic FAIL |
+| S014 | attempt 2 | S014_v2b_matched.mp4 | FAIL | identity signoff: NO | NOT SENDABLE: automatic FAIL |
+| S014 | attempt 2 | S014_v2b_matched.mp4 | auto-pass | identity signoff: NO | NOT SENDABLE: identity checklist not signed off (--identity-signoff) |
+| S014 | attempt 2 | S014_v2b_matched.mp4 | auto-pass | identity signoff: eye-checked first/mid/last 2026-11-16: exactly 6 characters no duplicates; Hoor puffs+bows pink vest/shorts; Afnan bob green tulle bangles; Noonoo long wavy hair butterfly tee cargo white sneakers; Nadyah ponytail blue vest; Zoozoo white hijab cream coat (belt not visible, ruffle collar yes); Grandma black; Afnan ~53% of Grandma; door open; bucket+ribbon on grass; speakers verified by mouth frames: Zoozoo 1.9-3.8s, Noonoo 4.3-4.9s; nobody looks at lens | OK to send (only if the eye review above also passed) |
+S014 attempt 2 (v2b + homography framing match, join SSIM 0.84): QA OK, eye review OK, speakers verified by mouth frames. Sent to Maitham, pending approval. Note: Zoozoo coat belt not visible.
