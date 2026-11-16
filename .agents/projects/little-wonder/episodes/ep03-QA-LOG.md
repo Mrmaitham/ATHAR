@@ -76,3 +76,8 @@ S015 v1a: REJECTED by Maitham — Afnan grabbing Nadyah's raised foot looked wro
 S015 attempt 2: v2b REJECTED (unscripted speech before line); v2a clean visually but all 3 ASR hear 'zoozy/zoosy' not 'zoomy' -> held, attempt 3 requested with stronger pronunciation.
 S015 attempt 3: v3a REJECTED (extra woman + cat in start frame, word heard 'Zumimi').
 S015 attempt 3: v3b REJECTED (unscripted speech 'What is castful! My shoes are speedy. I want to be...', start frame lost Grandma/bucket). 3-attempt cap reached; held v2a (clean visuals, join 0.97, speaker OK, but word heard zoozy/zoosy by 3 ASR). Reported to Maitham without video.
+S015 line changed by Maitham to 'My shoes are super fast!' (zoomy mispronounced).
+S015 new line attempt: v4b REJECTED (camera tilts down to feet, extra speech 'Nadia, we are super fast' before line).
+| S015 | attempt 4 | S015_v4a_matched.mp4 | auto-pass | identity signoff: NO | NOT SENDABLE: identity checklist not signed off (--identity-signoff) |
+| S015 | attempt 4 | S015_v4a_matched.mp4 | auto-pass | identity signoff: eye-checked 2026-11-16: first frame=S014 last (join 0.97); others stay in place cropped by push-in (Grandma abaya, Zoozoo coat, Noonoo visible at edges); Nadyah ponytail blue vest speaks 3.7-5.3s verified by mouth frames, 3 ASR models hear exactly 'My shoes are super fast', no extra speech; Afnan bob green tulle smiles at end; no duplicates, no animals, no foot lifting/shoe touching; nobody looks at lens | OK to send (only if the eye review above also passed) |
+S015 v4a (line: My shoes are super fast!): QA OK, eye review OK, speaker Nadyah verified, 3 ASR exact. Sent, pending approval.
