@@ -27,4 +27,4 @@
 
 | S013 | APPROVED (ميثم 2026-11-16): v3a، افنان تقول Hoor! وحور You came! ويتحاضنون | `ep03-pilot-S013/S013_v3a.mp4` |
 | S014 | APPROVED (ميثم 2026-11-16): v2b + مطابقة homography | `ep03-pilot-S014/S014_v2b_matched.mp4` |
-| S015 | REJECTED v1a (لمس الحذاء غير طبيعي) — السكريبت معدّل: بدون لمس/رفع رجل، وجهان فقط | `ep03-pilot-S015/S015_v1a_matched.mp4` (مرفوض) |
+| S015 | HELD: 3 محاولات انتهت. v2a نظيف بصرياً لكن كلمة zoomy تُسمع zoozy — بانتظار قرار ميثم (تغيير الجملة أو قبول v2a) | `ep03-pilot-S015/S015_v2a_matched.mp4` |
