@@ -71,3 +71,4 @@ S015 attempt 1 (v1b): REJECTED — first frame not S014 last frame, other charac
 | S015 | attempt 1 | S015_v1a_matched.mp4 | auto-pass | identity signoff: NO | NOT SENDABLE: identity checklist not signed off (--identity-signoff) |
 | S015 | attempt 1 | S015_v1a_matched.mp4 | auto-pass | identity signoff: eye-checked 2026-11-16: first frame = S014 last (join 0.97), others remain in place cropped by zoom (Grandma abaya, Noonoo visible), Nadyah ponytail blue vest white sneakers speaks 0-2s verified by mouth frames, Afnan bob green tulle bangles smiles at end, no duplicates, nobody looks at lens; Nadyah face leaves frame after ~3s by tight push-in | OK to send (only if the eye review above also passed) |
 S015 attempt 1 (v1a + homography match, join 0.97): QA OK, eye review OK, speaker Nadyah verified. Sent, pending approval.
+S015 v1a: REJECTED by Maitham — Afnan grabbing Nadyah's raised foot looked wrong. Script changed: no shoe touching/leg raising.
