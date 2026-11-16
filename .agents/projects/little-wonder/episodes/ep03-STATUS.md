@@ -27,4 +27,4 @@
 
 | S013 | APPROVED (ميثم 2026-11-16): v3a، افنان تقول Hoor! وحور You came! ويتحاضنون | `ep03-pilot-S013/S013_v3a.mp4` |
 | S014 | APPROVED (ميثم 2026-11-16): v2b + مطابقة homography | `ep03-pilot-S014/S014_v2b_matched.mp4` |
-| S015 | PENDING (ميثم): v4a بجملة "My shoes are super fast!" — الجملة تغيّرت بالمراجعة إلى "We're having a race! Can you run fast?" فلازم تُعاد | `ep03-pilot-S015/S015_v4a_matched.mp4` (قديمة) |
+| S015 | بانتظار إعادة: v4a القديمة بجملة "My shoes are super fast!" مرفوضة بالمراجعة، الجملة الجديدة "We're having a race! Can you run fast?" | `ep03-pilot-S015/S015_v4a_matched.mp4` (قديمة، ما تعتمد) |
