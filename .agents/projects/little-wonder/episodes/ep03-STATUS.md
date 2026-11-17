@@ -31,4 +31,4 @@
 | S016 | APPROVED (ميثم 2026-11-16): v2a + مطابقة + تشبع ×1.1، ميشو "New friend?" وافنان تربّت عليه | `ep03-pilot-S016/S016_v2a_matched_graded.mp4` |
 | S017 | APPROVED (ميثم 2026-11-16): v3a + مطابقة، الجدة "She wants to run with you." وافنان "Run!" | `ep03-pilot-S017/S017_v3a_matched.mp4` |
 | S018a | APPROVED (ميثم 2026-11-16): v2a + مطابقة، زوزو "Oh! The race place isn't ready yet. Let's race tomorrow!" | `ep03-pilot-S018a/S018a_v2a_matched.mp4` |
-| S018b | HELD: 3 محاولات انتهت. v3a سليمة (متحدث/صوت/وجوه) لكن بقع جلد على خد افنان — بانتظار قرار ميثم | `ep03-pilot-S018b/S018b_v3a.mp4` |
+| S018b | APPROVED (ميثم 2026-11-17) بقرار منه رغم العيوب المذكورة (بقع جلد، وجه زوزو يتشوه بآخر ثانيتين): v4a + مطابقة | `ep03-pilot-S018b/S018b_v4a_REJECTED_heavy_skin_blotches_Zoozoo_face_distorted.mp4` |
