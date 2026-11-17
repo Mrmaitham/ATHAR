@@ -106,3 +106,4 @@ S018b attempt 3 (v3a): visually/audio good — tight two-shot, Zoozoo's mouth mo
 S018b v3a sent to Maitham on request despite fails: join SSIM 0.20 (start frame leaked from S014 reference image), saturation 85 vs 101, cheek skin blotches. Proposed attempt 4 without house reference.
 S018b attempt 4 (v4a, no house ref): join fixed (raw 0.63), audio exact, Zoozoo speaks; BUT heavy skin blotches on Afnan cheek/arms and Nadyah arm, Zoozoo's face oversized/distorted at end. REJECTED, not sent. Blotches look cumulative since S016.
 S018b v4a APPROVED by Maitham 2026-11-17 despite disclosed defects (skin blotches, Zoozoo face distortion in last 2s).
+S018c attempt 1 (v1a): REJECTED — pull-back invented a different brick house with gable roof; extra girl (pink headband, pink tank) replaces Hoor; Grandma face changed; ASR heard Zoozoo as 'Zuzu'. Join OK (raw 0.70), line audio OK. Not sent.
