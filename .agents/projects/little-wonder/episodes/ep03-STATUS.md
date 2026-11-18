@@ -32,4 +32,4 @@
 | S017 | APPROVED (ميثم 2026-11-16): v3a + مطابقة، الجدة "She wants to run with you." وافنان "Run!" | `ep03-pilot-S017/S017_v3a_matched.mp4` |
 | S018a | APPROVED (ميثم 2026-11-16): v2a + مطابقة، زوزو "Oh! The race place isn't ready yet. Let's race tomorrow!" | `ep03-pilot-S018a/S018a_v2a_matched.mp4` |
 | S018b | APPROVED (ميثم 2026-11-17) بقرار منه رغم العيوب المذكورة (بقع جلد، وجه زوزو يتشوه بآخر ثانيتين): v4a + مطابقة | `ep03-pilot-S018b/S018b_v4a_REJECTED_heavy_skin_blotches_Zoozoo_face_distorted.mp4` |
-| S018c | PENDING (ميثم): v4a + مطابقة، يبدأ من آخر إطار S018b بطريقة (إطار بداية + إطار نهاية)، الجدة "Good idea, dear. First, breakfast!" | `ep03-pilot-S018c/S018c_v4a_matched.mp4` |
+| S018c | APPROVED (ميثم 2026-11-18): v4a + مطابقة، يبدأ من آخر إطار S018b بطريقة (إطار بداية + إطار نهاية)، الجدة "Good idea, dear. First, breakfast!" | `ep03-pilot-S018c/S018c_v4a_matched.mp4` |
