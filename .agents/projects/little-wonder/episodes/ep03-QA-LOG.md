@@ -118,3 +118,4 @@ S018d attempt 2 (v2a): footwear OK (Hoor black, Nadyah white), ambience quiet no
 S018d attempt 3 (v3a + match, join 0.93): QA OK, eye OK. Deviation: Mishoo stays outside with Zoozoo. Sent merged S018c+S018d, pending approval.
 S018d v3a REJECTED after Maitham's note: from ~4.2s Zoozoo turns her face to the camera and waves at it (after everyone is inside). My earlier eye review missed it. Attempt 4 with Zoozoo's gaze fixed toward doorway + Mishoo goes in.
 S018d attempt 4 (v4a): Zoozoo gaze fixed (watches doorway, never lens), doors stay open, Mishoo goes in, footwear OK, quiet ambience. BUT first frame is not S018c last frame (group already walking away, join 0.32 after match). 4 attempts (cap exceeded). Sent to Maitham with disclosure.
+S018d v4a APPROVED by Maitham 2026-11-18 (cut on action, start mismatch accepted as exception).
