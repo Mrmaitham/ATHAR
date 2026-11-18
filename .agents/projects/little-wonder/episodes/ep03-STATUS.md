@@ -33,4 +33,4 @@
 | S018a | APPROVED (ميثم 2026-11-16): v2a + مطابقة، زوزو "Oh! The race place isn't ready yet. Let's race tomorrow!" | `ep03-pilot-S018a/S018a_v2a_matched.mp4` |
 | S018b | APPROVED (ميثم 2026-11-17) بقرار منه رغم العيوب المذكورة (بقع جلد، وجه زوزو يتشوه بآخر ثانيتين): v4a + مطابقة | `ep03-pilot-S018b/S018b_v4a_REJECTED_heavy_skin_blotches_Zoozoo_face_distorted.mp4` |
 | S018c | APPROVED (ميثم 2026-11-18): v4a + مطابقة، يبدأ من آخر إطار S018b بطريقة (إطار بداية + إطار نهاية)، الجدة "Good idea, dear. First, breakfast!" | `ep03-pilot-S018c/S018c_v4a_matched.mp4` |
-| S018d | PENDING (ميثم): v3a + مطابقة، الكل يدخل البيت وزوزو تلوّح، الباب مفتوح، ميشو يبقى بره مع زوزو | `ep03-pilot-S018d/S018d_v3a_matched.mp4` |
+| S018d | HELD: v4a (زوزو تنظر للباب، الباب مفتوح، ميشو يدخل) لكن أول إطار ما يطابق آخر إطار S018c (البنات ظهورهم للكاميرا من البداية، وصل 0.32) — أُرسلت لميثم للقرار | `ep03-pilot-S018d/S018d_v4a_matched.mp4` |
