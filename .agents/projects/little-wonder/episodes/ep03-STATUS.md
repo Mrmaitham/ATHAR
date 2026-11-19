@@ -34,4 +34,4 @@
 | S018b | APPROVED (ميثم 2026-11-17) بقرار منه رغم العيوب المذكورة (بقع جلد، وجه زوزو يتشوه بآخر ثانيتين): v4a + مطابقة | `ep03-pilot-S018b/S018b_v4a_REJECTED_heavy_skin_blotches_Zoozoo_face_distorted.mp4` |
 | S018c | APPROVED (ميثم 2026-11-18): v4a + مطابقة، يبدأ من آخر إطار S018b بطريقة (إطار بداية + إطار نهاية)، الجدة "Good idea, dear. First, breakfast!" | `ep03-pilot-S018c/S018c_v4a_matched.mp4` |
 | S018d | APPROVED (ميثم 2026-11-18): v4a + مطابقة، قطع على الحركة (استثناء: أول إطار ما يطابق آخر إطار S018c)، زوزو تلوّح للباب والكل يدخل | `ep03-pilot-S018d/S018d_v4a_matched.mp4` |
-| S018e | PENDING (ميثم): v1a + مطابقة، زوزو تلتقط الدلو والشريط وتدخل البيت، "Perfect. Tomorrow will be a great day!" | `ep03-pilot-S018e/S018e_v1a_matched.mp4` |
+| S018e | APPROVED (ميثم 2026-11-19): v1a + مطابقة، زوزو تلتقط الدلو والشريط وتدخل البيت، "Perfect. Tomorrow will be a great day!" | `ep03-pilot-S018e/S018e_v1a_matched.mp4` |
