@@ -153,3 +153,13 @@ Sunny S002 attempt 3: v3a/v3b location now matches reference exactly (blue+red s
 
 ## SUNNY S002 — attempt 9 (user-directed: destination = bottom of steps on the path) — CANDIDATE sent
 - Static camera, door open all along, join SSIM 0.60 (borderline; S001 last frame has no Zoozoo), location per refs, Zoozoo steps out, descends steps (frontal for ~2 s due to stairs facing camera, eyes down), bends, sets bucket with red ribbon at bottom of steps, stands in profile. No audio. Sent to user for approval.
+
+## SUNNY S001 redo v2 (user: Zoozoo must be present at end of S001, not appear from nowhere; S002 must have speech+sound) — attempt 1 REJECTED
+- House matches ref, Zoozoo appears at door with bucket, BUT walks toward camera, looks at lens, giant push-in, last frame crops head. Retry (static camera, she stops in doorway, 3/4 view) submitted. S001 v1a stays the approved fallback.
+
+## SUNNY S001 v2b (Zoozoo visible at door at the end, static camera, birdsong) — CANDIDATE
+- House = ref, door opens ~2.5 s, Zoozoo stands in doorway last ~2.5 s, static wide camera. S002 v10 submitted from its last frame with dialogue "Today is race day!".
+| S002s | attempt 10 | S002s_v10a.mp4 | FAIL | identity signoff: Zoozoo hijab, cream coat ruffle collar+belt, cream trousers, beige flats at first/middle/last | NOT SENDABLE: automatic FAIL |
+
+## SUNNY S002 v10a (from S001 v2b last frame) — CANDIDATE sent
+- join SSIM 0.68, brightness/sat OK, static camera, door open, line "Today is race day!" heard once (~0.2-1.2 s), mouth moves, face 3/4 to the right not at lens, descends steps and sets bucket at bottom of steps. name check FAIL is a false alarm (line has no name).
