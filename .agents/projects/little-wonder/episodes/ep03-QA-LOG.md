@@ -128,3 +128,10 @@ S001 sunny redo (villa, HOUSE_EXTERIOR_SUNNY): v1a + v1b generated, QA by eye: s
 Sunny S002 attempt 1: REJECTED — Zoozoo walks straight toward camera and looks into lens in last 2s; strong push-in plus her approach; join 0.52; humming loud (rms 0.1). Attempt 2: side-on path, camera static.
 | S002 | attempt 2 | S002s_v2a_matched.mp4 | auto-pass | identity signoff: eye-checked 2026-11-21: starts from S001 last frame; Zoozoo (white hijab, cream ruffle coat, belt, cream trousers, beige shoes) exits open door with grey bucket+red ribbon, walks sideways down path, gaze right/forward never at lens (frames 5-12 checked); no speech, humming only; camera tracks/pans (not static); villa kept; sun light | OK to send (only if the eye review above also passed) |
 Sunny S002 attempt 2 (v2a+match, join 0.95): QA OK, eye OK (gaze never at lens). Camera tracks/zooms (not static). Sent merged S001+S002, pending approval.
+Sunny S002 v2a REJECTED by Maitham: swing wrong vs reference (ref: wooden A-frame, BLUE left + RED right swings, green-roof playhouse, blue slide on RIGHT lawn; sofa set LEFT). New rule: locations/characters must not change from references. Attempt 3: A=start+end(ref wide), B=start+ref image.
+Sunny S002 attempt 3: v3a/v3b location now matches reference exactly (blue+red swings, playhouse, slide, sofa, gates, villa) BUT Zoozoo walks toward camera facing front (lens gaze rule), v3a door closes at end. Held, not sent. Attempt 4: gaze to swings, walks to the right.
+
+## SUNNY S002 — attempt 4 (2026-11-21) — both REJECTED (not sent)
+- v4a: location matches reference, but Zoozoo walks facing the camera the whole way -> rejected.
+- v4b: location matches reference (swings, playhouse, sofa, gates), Zoozoo in profile and never at lens, BUT the front door closes by itself at ~4.5 s and she cuts through the shrub bed instead of the path -> rejected.
+- 4 attempts used (cap was 3). Reported to user without video; awaiting direction.
