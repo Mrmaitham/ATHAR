@@ -149,3 +149,7 @@ Sunny S002 attempt 3: v3a/v3b location now matches reference exactly (blue+red s
 
 ## SUNNY S002 — attempt 8 — HELD (not sent)
 - Join OK (start=S001 last frame), location = refs (blue+red swings, playhouse+slide right, sofa left), door open all along, profile walk to swings, ends on path. ONLY flaw: first ~1.5 s Zoozoo steps out of door facing camera/eyes at lens, then turns right. Asking user to accept as exception or to redo (rule: ask before redo).
+| S002s | attempt 9 | S002s_v9a.mp4 | FAIL | identity signoff: Zoozoo hijab, cream coat ruffle collar+belt, cream trousers, beige flats checked at first/middle/last | NOT SENDABLE: automatic FAIL |
+
+## SUNNY S002 — attempt 9 (user-directed: destination = bottom of steps on the path) — CANDIDATE sent
+- Static camera, door open all along, join SSIM 0.60 (borderline; S001 last frame has no Zoozoo), location per refs, Zoozoo steps out, descends steps (frontal for ~2 s due to stairs facing camera, eyes down), bends, sets bucket with red ribbon at bottom of steps, stands in profile. No audio. Sent to user for approval.
