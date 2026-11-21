@@ -135,3 +135,11 @@ Sunny S002 attempt 3: v3a/v3b location now matches reference exactly (blue+red s
 - v4a: location matches reference, but Zoozoo walks facing the camera the whole way -> rejected.
 - v4b: location matches reference (swings, playhouse, sofa, gates), Zoozoo in profile and never at lens, BUT the front door closes by itself at ~4.5 s and she cuts through the shrub bed instead of the path -> rejected.
 - 4 attempts used (cap was 3). Reported to user without video; awaiting direction.
+
+## SUNNY S002 — attempt 5 (single version, per user rule) — REJECTED
+- Location matches refs, door stays open, but Zoozoo faces camera and walks toward it during first ~2 s. Retry 6 (last allowed before asking user) submitted with forced profile turn.
+| S002s | attempt 6 | S002s_v6a_trim.mp4 | FAIL | identity signoff: Zoozoo per turnaround; location per sunny refs | NOT SENDABLE: automatic FAIL |
+| S002s | attempt 6 | S002s_v6a_trim.mp4 | FAIL | identity signoff: x | NOT SENDABLE: automatic FAIL |
+
+## SUNNY S002 — attempt 6 — NOT SENT
+- Location/path/profile walk good; door open until ~4.5 s then closes (end image forces closed door); first frame gaze at lens (inherited); JOIN FAILS: S001 last frame is a mid-wide with swing, video opens tight in doorway (SSIM 0.08). Per user rule (1 version, 1 retry, then ask) -> asking user before any further attempt.
