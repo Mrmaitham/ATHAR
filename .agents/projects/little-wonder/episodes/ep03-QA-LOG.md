@@ -143,3 +143,9 @@ Sunny S002 attempt 3: v3a/v3b location now matches reference exactly (blue+red s
 
 ## SUNNY S002 — attempt 6 — NOT SENT
 - Location/path/profile walk good; door open until ~4.5 s then closes (end image forces closed door); first frame gaze at lens (inherited); JOIN FAILS: S001 last frame is a mid-wide with swing, video opens tight in doorway (SSIM 0.08). Per user rule (1 version, 1 retry, then ask) -> asking user before any further attempt.
+
+## SUNNY S002 — attempt 7 (start image only = S001 last frame) — REJECTED
+- Join OK, location OK, door stays open, but Zoozoo walks toward camera and ends large facing it (last 2 s). Retry 8 (static camera, profile walk across lawn) submitted; if it fails, ask user before any more.
+
+## SUNNY S002 — attempt 8 — HELD (not sent)
+- Join OK (start=S001 last frame), location = refs (blue+red swings, playhouse+slide right, sofa left), door open all along, profile walk to swings, ends on path. ONLY flaw: first ~1.5 s Zoozoo steps out of door facing camera/eyes at lens, then turns right. Asking user to accept as exception or to redo (rule: ask before redo).
