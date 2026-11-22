@@ -163,3 +163,5 @@ Sunny S002 attempt 3: v3a/v3b location now matches reference exactly (blue+red s
 
 ## SUNNY S002 v10a (from S001 v2b last frame) — CANDIDATE sent
 - join SSIM 0.68, brightness/sat OK, static camera, door open, line "Today is race day!" heard once (~0.2-1.2 s), mouth moves, face 3/4 to the right not at lens, descends steps and sets bucket at bottom of steps. name check FAIL is a false alarm (line has no name).
+
+## APPROVED 2026-11-22 (ميثم): sunny S001 v2b (ep03-sunny-S001/S001s_v2b.mp4) + S002 v10a (ep03-sunny-S002/S002s_v10a.mp4). Next: S003 from S002 last frame.
