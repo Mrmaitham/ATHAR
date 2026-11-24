@@ -165,3 +165,11 @@ Sunny S002 attempt 3: v3a/v3b location now matches reference exactly (blue+red s
 - join SSIM 0.68, brightness/sat OK, static camera, door open, line "Today is race day!" heard once (~0.2-1.2 s), mouth moves, face 3/4 to the right not at lens, descends steps and sets bucket at bottom of steps. name check FAIL is a false alarm (line has no name).
 
 ## APPROVED 2026-11-22 (ميثم): sunny S001 v2b (ep03-sunny-S001/S001s_v2b.mp4) + S002 v10a (ep03-sunny-S002/S002s_v10a.mp4). Next: S003 from S002 last frame.
+| S003s | attempt 1 | S003s_v1a.mp4 | FAIL | identity signoff: Zoozoo hijab, cream coat ruffle collar+belt, cream trousers, beige flats first/mid/last | NOT SENDABLE: automatic FAIL |
+
+## SUNNY S003 attempt 1 — REJECTED (not sent)
+- join SSIM 0.04 (model zoomed to a much tighter shot than S002 last frame), Zoozoo faces camera first ~2 s, chalk line barely visible. Dialogue "Every race needs a start line." OK. Retry (locked wide, profile) submitted.
+| S003s | attempt 2 | S003s_v2a.mp4 | FAIL | identity signoff: Zoozoo hijab, cream coat ruffle collar+belt, cream trousers, beige flats first/mid/last | NOT SENDABLE: automatic FAIL |
+
+## SUNNY S003 attempt 2 (v2a) — sent to user WITH disclosure
+- Wide locked camera, profile, chalk line drawn and visible, line "Every race needs a start line." heard once, house/swings/sofa per refs, door open. FLAW: join SSIM 0.06 — S002 last frame is a very wide shot (S002 v10a ends with a pull-back I missed because I cropped), S003 opens tighter (hard cut/zoom jump); first frame faces camera ~0.3 s before she turns to profile.
